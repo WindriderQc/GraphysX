@@ -1,0 +1,22 @@
+The textures are for game projects only. If you want to provide the
+textures with your editor, game development sdk, engine, etc. then
+please contact me (contact@f4ktor.com).
+The textures may be used in any commercial or free game free of charge.
+You may put my name (Sebastian Erben) into your game credits but this
+is not needed. If you release a game that use my textures then you will
+have to write a email to me.
+You may also redistribute the textures as long as you don't delete or
+change this license text.
+
+If you want to support me then you can donate to me via PayPal at
+paypal@f4ktor.com
+If your donation exceeds 7 Euro you will receive a higher resolution
+version of the texture pack.
+Any feedback is welcome, you may want to visit my website at
+http://www.f4ktor.com from time to time (website might not be present
+as you read this) to get more textures.
+
+Thank you for using my textures,
+
+Sebastian Erben a.k.a. f4ktor
+June 28th 2007

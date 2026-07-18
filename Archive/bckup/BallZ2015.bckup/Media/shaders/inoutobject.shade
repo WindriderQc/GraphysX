@@ -1,0 +1,59 @@
+/*
+        IN->OUT Object.
+        Written By Geoff Wilson.
+*/
+
+	float4x4 ViewProj  : WORLDVIEWPROJ;
+	texture  Diffuse   : TEXTURE0;
+	
+	sampler2D DiffuseSample = sampler_state
+	{
+		Texture   = (Diffuse);
+		MIPFILTER = LINEAR;
+		MAGFILTER = LINEAR;
+		MINFILTER = LINEAR;
+	}; 
+
+        struct TV3DtoVERTEX
+        {
+                float4 PosOfVertex: POSITION0;
+		float2 UV         : TEXCOORD0;
+        };
+
+        struct VERTEXtoFRAGMENT
+        {
+                float4 PosOfVertex: POSITION0;
+		float2 UV         : TEXCOORD0;
+        };
+
+        struct FRAGMENTtoSCREEN
+        {
+                float4 Colour: COLOR0;
+        };
+
+        void VertexProgram(in TV3DtoVERTEX IN, out VERTEXtoFRAGMENT OUT)
+        {       
+                OUT.PosOfVertex = mul(IN.PosOfVertex, ViewProj);
+		OUT.UV          = IN.UV;
+        }
+
+        void FragmentProgram(in VERTEXtoFRAGMENT IN, out FRAGMENTtoSCREEN OUT)
+        {
+		float4 Col = tex2D(DiffuseSample, IN.UV);
+                OUT.Colour = Col;
+        }
+        
+        technique render
+	{
+                pass pass0
+                {
+                        vertexshader = compile vs_1_1 VertexProgram();
+                        pixelshader  = compile ps_2_0 FragmentProgram();
+                }
+        }
+        
+        
+        
+        
+        
+        

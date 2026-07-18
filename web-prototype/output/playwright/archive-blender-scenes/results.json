@@ -1,0 +1,3078 @@
+{
+  "url": "http://127.0.0.1:4198/",
+  "assertions": [
+    {
+      "pass": true,
+      "message": "E:/Media/Datalake/blenderModel/Levels/Level1.blend matches its locked SHA-256"
+    },
+    {
+      "pass": true,
+      "message": "public/assets/ballz-blender-level1/level1-best.fbx matches its locked SHA-256"
+    },
+    {
+      "pass": true,
+      "message": "E:/Media/Datalake/blenderModel/Maison/maison.blend matches its locked SHA-256"
+    },
+    {
+      "pass": true,
+      "message": "public/assets/maison-explorer/maison-best.fbx matches its locked SHA-256"
+    },
+    {
+      "pass": true,
+      "message": "E:/Media/Datalake/blenderModel/Maison/Cuisine.blend matches its locked SHA-256"
+    },
+    {
+      "pass": true,
+      "message": "public/assets/maison-explorer/cuisine-best.fbx matches its locked SHA-256"
+    },
+    {
+      "pass": true,
+      "message": "BallZ / Blender Level 1 opens from the canonical main app"
+    },
+    {
+      "pass": true,
+      "message": "Level 1 is complete at its honest authored-geometry scope"
+    },
+    {
+      "pass": true,
+      "message": "Level 1 preserves the best .blend source geometry totals"
+    },
+    {
+      "pass": true,
+      "message": "Level 1 runtime retains its mesh, source camera, and point light"
+    },
+    {
+      "pass": true,
+      "message": "Level 1 opens on the readable disclosed overview"
+    },
+    {
+      "pass": true,
+      "message": "Level 1 visit does not invent a BallZ player or race"
+    },
+    {
+      "pass": true,
+      "message": "Level 1 preserves the authored Blender camera as an evidence view"
+    },
+    {
+      "pass": true,
+      "message": "Level 1 text state identifies the saved source camera"
+    },
+    {
+      "pass": true,
+      "message": "Level 1 returns to the disclosed overview camera"
+    },
+    {
+      "pass": true,
+      "message": "Level 1 overview supports deterministic orbit inspection"
+    },
+    {
+      "pass": true,
+      "message": "Level 1 text state matches the visible overview"
+    },
+    {
+      "pass": true,
+      "message": "Maison Explorer opens from the canonical main app"
+    },
+    {
+      "pass": true,
+      "message": "Maison is complete as one House/Kitchen explorer"
+    },
+    {
+      "pass": true,
+      "message": "House retains all 31 objects, 24 meshes, and six lights"
+    },
+    {
+      "pass": true,
+      "message": "Kitchen retains all 87 objects, 76 meshes, and seven hierarchy empties"
+    },
+    {
+      "pass": true,
+      "message": "Maison opens in House with a readable disclosed overview"
+    },
+    {
+      "pass": true,
+      "message": "Maison remains isolated from BallZ progression"
+    },
+    {
+      "pass": true,
+      "message": "House preserves its saved camera as an evidence view"
+    },
+    {
+      "pass": true,
+      "message": "Maison text state identifies the House source camera"
+    },
+    {
+      "pass": true,
+      "message": "Maison switches to the exact Kitchen subspace"
+    },
+    {
+      "pass": true,
+      "message": "Only Kitchen is visible after subspace selection"
+    },
+    {
+      "pass": true,
+      "message": "Kitchen selection opens on its readable overview"
+    },
+    {
+      "pass": true,
+      "message": "Kitchen exposes the one genuinely absent external image instead of substituting it"
+    },
+    {
+      "pass": true,
+      "message": "Kitchen preserves its saved camera as an evidence view"
+    },
+    {
+      "pass": true,
+      "message": "Kitchen returns to the disclosed overview camera"
+    },
+    {
+      "pass": true,
+      "message": "Kitchen overview supports deterministic orbit inspection"
+    },
+    {
+      "pass": true,
+      "message": "Maison text state matches the visible Kitchen overview"
+    },
+    {
+      "pass": true,
+      "message": "Both restored Blender scenes run without console or page errors"
+    }
+  ],
+  "errors": [],
+  "states": {
+    "levelOverview": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.18-r13",
+      "mode": "ballz-blender-level1",
+      "projectFamily": "ballz-blender-level1",
+      "preview": "ballz-blender-level1",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "ballzBlenderLevel1": {
+        "id": "ballz-blender-level1",
+        "classification": "complete best-surviving authored geometry visit; no invented race",
+        "restorationStatus": "RESTORED",
+        "ready": true,
+        "loadStatus": "ready",
+        "error": null,
+        "source": {
+          "blend": {
+            "path": "E:\\Media\\Datalake\\blenderModel\\Levels\\Level1.blend",
+            "bytes": 490292,
+            "sha256": "0AA62FF04FA06988F7DFF71B429D980B2766A985F1CF6BB13A160278F38B4E9E"
+          },
+          "earlierUnityFbx": {
+            "path": "E:\\Media\\Datalake\\bckup\\Unity Projects\\BallZ\\Assets\\Models\\Level1.fbx",
+            "bytes": 234012,
+            "sha256": "1E398A147CE8B76047544ED09FA5995219C62CAC5CEB631FC5A45F7B157669D6"
+          },
+          "browserFbx": {
+            "path": "/assets/ballz-blender-level1/level1-best.fbx",
+            "bytes": 234476,
+            "sha256": "A7C248041E5E2CCFD0B9455B68535A4F7EF09BD47D9972D3D2BCC718F8C727D6"
+          },
+          "authored": {
+            "objects": 3,
+            "meshes": 1,
+            "cameras": 1,
+            "lights": 1,
+            "materials": 1,
+            "vertices": 356,
+            "polygons": 354,
+            "dimensions": [
+              47.121994,
+              39.944572,
+              8.414539
+            ]
+          }
+        },
+        "runtime": {
+          "meshes": 1,
+          "vertices": 33984,
+          "triangles": 11328,
+          "cameras": 1,
+          "lights": 1,
+          "boundsMin": [
+            -23.560996,
+            0,
+            -19.972288
+          ],
+          "boundsMax": [
+            23.560996,
+            8.414545,
+            19.972288
+          ],
+          "boundsSize": [
+            47.121993,
+            8.414545,
+            39.944576
+          ],
+          "materials": [
+            {
+              "name": "Material",
+              "type": "MeshPhongMaterial",
+              "color": "#cccccc",
+              "opacity": 1,
+              "transparent": false
+            }
+          ]
+        },
+        "camera": {
+          "profile": "overview",
+          "position": [
+            51.424361,
+            30.2,
+            26.824151
+          ],
+          "lookAt": [
+            0,
+            3.2,
+            0
+          ],
+          "orbitAngleRadians": 1.09,
+          "zoom": 1
+        },
+        "evidenceBoundary": "The saved Blender scene contains one authored level mesh, one camera and one point light, but no surviving host scene, BallZ spawn, physics, controls, checkpoints, rules or objective. Completion means an exact geometry/camera/light visit, not a fabricated race.",
+        "presentationAdapters": [
+          "Blender FBX centimeters are inverted by an exact 0.01 scale.",
+          "The source composition is centered and grounded as a parent-only reversible visit transform.",
+          "Double-sided drawing exposes mixed archived face winding without changing geometry or replacing its material.",
+          "Named FBX materials exported at opacity 0 are restored to the verified .blend alpha 1.0.",
+          "The source camera keeps its exported position/lens and uses the inspected Blender world forward/up vectors after the exact (x, z, -y) axis mapping.",
+          "A neutral hemisphere fill makes the gray source material readable without replacing the archived point light or material.",
+          "Overview orbit is optional; Source Camera applies the saved Blender camera."
+        ]
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "input": {
+        "keyboard": false,
+        "touch": false,
+        "gamepad": {
+          "connected": false,
+          "id": null,
+          "forward": 0,
+          "turn": 0
+        }
+      },
+      "camera": {
+        "profile": "overview",
+        "position": [
+          51.424361,
+          30.2,
+          26.824151
+        ],
+        "lookAt": [
+          0,
+          3.2,
+          0
+        ],
+        "orbitAngleRadians": 1.09,
+        "zoom": 1
+      },
+      "controls": "Use Source Camera for the saved Blender view or Overview for A/D, drag and wheel inspection. This complete geometry visit has no invented BallZ spawn, controls or race objective."
+    },
+    "levelSource": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.18-r13",
+      "mode": "ballz-blender-level1",
+      "projectFamily": "ballz-blender-level1",
+      "preview": "ballz-blender-level1",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "ballzBlenderLevel1": {
+        "id": "ballz-blender-level1",
+        "classification": "complete best-surviving authored geometry visit; no invented race",
+        "restorationStatus": "RESTORED",
+        "ready": true,
+        "loadStatus": "ready",
+        "error": null,
+        "source": {
+          "blend": {
+            "path": "E:\\Media\\Datalake\\blenderModel\\Levels\\Level1.blend",
+            "bytes": 490292,
+            "sha256": "0AA62FF04FA06988F7DFF71B429D980B2766A985F1CF6BB13A160278F38B4E9E"
+          },
+          "earlierUnityFbx": {
+            "path": "E:\\Media\\Datalake\\bckup\\Unity Projects\\BallZ\\Assets\\Models\\Level1.fbx",
+            "bytes": 234012,
+            "sha256": "1E398A147CE8B76047544ED09FA5995219C62CAC5CEB631FC5A45F7B157669D6"
+          },
+          "browserFbx": {
+            "path": "/assets/ballz-blender-level1/level1-best.fbx",
+            "bytes": 234476,
+            "sha256": "A7C248041E5E2CCFD0B9455B68535A4F7EF09BD47D9972D3D2BCC718F8C727D6"
+          },
+          "authored": {
+            "objects": 3,
+            "meshes": 1,
+            "cameras": 1,
+            "lights": 1,
+            "materials": 1,
+            "vertices": 356,
+            "polygons": 354,
+            "dimensions": [
+              47.121994,
+              39.944572,
+              8.414539
+            ]
+          }
+        },
+        "runtime": {
+          "meshes": 1,
+          "vertices": 33984,
+          "triangles": 11328,
+          "cameras": 1,
+          "lights": 1,
+          "boundsMin": [
+            -23.560996,
+            0,
+            -19.972288
+          ],
+          "boundsMax": [
+            23.560996,
+            8.414545,
+            19.972288
+          ],
+          "boundsSize": [
+            47.121993,
+            8.414545,
+            39.944576
+          ],
+          "materials": [
+            {
+              "name": "Material",
+              "type": "MeshPhongMaterial",
+              "color": "#cccccc",
+              "opacity": 1,
+              "transparent": false
+            }
+          ]
+        },
+        "camera": {
+          "profile": "source",
+          "position": [
+            -9.034197,
+            11.405911,
+            19.590719
+          ],
+          "lookAt": [
+            0,
+            3.2,
+            0
+          ],
+          "orbitAngleRadians": 0.74,
+          "zoom": 1
+        },
+        "evidenceBoundary": "The saved Blender scene contains one authored level mesh, one camera and one point light, but no surviving host scene, BallZ spawn, physics, controls, checkpoints, rules or objective. Completion means an exact geometry/camera/light visit, not a fabricated race.",
+        "presentationAdapters": [
+          "Blender FBX centimeters are inverted by an exact 0.01 scale.",
+          "The source composition is centered and grounded as a parent-only reversible visit transform.",
+          "Double-sided drawing exposes mixed archived face winding without changing geometry or replacing its material.",
+          "Named FBX materials exported at opacity 0 are restored to the verified .blend alpha 1.0.",
+          "The source camera keeps its exported position/lens and uses the inspected Blender world forward/up vectors after the exact (x, z, -y) axis mapping.",
+          "A neutral hemisphere fill makes the gray source material readable without replacing the archived point light or material.",
+          "Overview orbit is optional; Source Camera applies the saved Blender camera."
+        ]
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "input": {
+        "keyboard": false,
+        "touch": false,
+        "gamepad": {
+          "connected": false,
+          "id": null,
+          "forward": 0,
+          "turn": 0
+        }
+      },
+      "camera": {
+        "profile": "source",
+        "position": [
+          -9.034197,
+          11.405911,
+          19.590719
+        ],
+        "lookAt": [
+          0,
+          3.2,
+          0
+        ],
+        "orbitAngleRadians": 0.74,
+        "zoom": 1
+      },
+      "controls": "Use Source Camera for the saved Blender view or Overview for A/D, drag and wheel inspection. This complete geometry visit has no invented BallZ spawn, controls or race objective."
+    },
+    "house": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.18-r13",
+      "mode": "maison-explorer",
+      "projectFamily": "maison-explorer",
+      "preview": "maison-explorer",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "maisonExplorer": {
+        "id": "maison-explorer",
+        "classification": "complete best-surviving house and kitchen explorer",
+        "restorationStatus": "RESTORED",
+        "ready": true,
+        "loadStatus": "ready",
+        "error": null,
+        "activeSubspace": "house",
+        "subspaces": [
+          {
+            "id": "house",
+            "label": "House",
+            "ready": true,
+            "visible": true,
+            "source": {
+              "label": "House",
+              "blend": {
+                "path": "E:\\Media\\Datalake\\blenderModel\\Maison\\maison.blend",
+                "bytes": 576596,
+                "sha256": "8C9E95FDC5DE981BA451F0C05ACA9B94D347FE0DEE701D557F4CEDA595AC9237"
+              },
+              "browserFbx": {
+                "path": "/assets/maison-explorer/maison-best.fbx",
+                "bytes": 87836,
+                "sha256": "43CB7E5206F56D71ED6BF7986662B3EB504634616FDDA1ED7BFA8875427F8DB7"
+              },
+              "authored": {
+                "objects": 31,
+                "meshes": 24,
+                "cameras": 1,
+                "lights": 6,
+                "materials": 1,
+                "vertices": 216,
+                "polygons": 148
+              },
+              "missingDependencies": []
+            },
+            "runtime": {
+              "meshes": 24,
+              "vertices": 888,
+              "triangles": 296,
+              "cameras": 1,
+              "lights": 6,
+              "boundsMin": [
+                -6.595,
+                0,
+                -8.984358
+              ],
+              "boundsMax": [
+                6.595,
+                4.567447,
+                8.984358
+              ],
+              "boundsSize": [
+                13.19,
+                4.567447,
+                17.968716
+              ],
+              "materials": [
+                {
+                  "name": "Material",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                }
+              ]
+            }
+          },
+          {
+            "id": "kitchen",
+            "label": "Kitchen",
+            "ready": true,
+            "visible": false,
+            "source": {
+              "label": "Kitchen",
+              "blend": {
+                "path": "E:\\Media\\Datalake\\blenderModel\\Maison\\Cuisine.blend",
+                "bytes": 1131088,
+                "sha256": "C0441E2AC52CC05329A569DC31B056314B9EA5535460EFDDFADBB8B86B966855"
+              },
+              "browserFbx": {
+                "path": "/assets/maison-explorer/cuisine-best.fbx",
+                "bytes": 1477852,
+                "sha256": "24846D8EC083477F87E91F46ED31DA952A575B7F7CD3B234B6D11A4603B5B14E"
+              },
+              "authored": {
+                "objects": 87,
+                "meshes": 76,
+                "empties": 7,
+                "cameras": 1,
+                "lights": 3,
+                "materials": 3,
+                "vertices": 4244,
+                "polygons": 3676
+              },
+              "missingDependencies": [
+                "C:\\Users\\Yanik\\Desktop\\Maison\\31768676_10156115872840631_8145769982148476928_n.jpg (unpacked external reference; absent with 0x0 image data)"
+              ]
+            },
+            "runtime": {
+              "meshes": 76,
+              "vertices": 218640,
+              "triangles": 72880,
+              "cameras": 1,
+              "lights": 3,
+              "boundsMin": [
+                -2.1955,
+                0,
+                -4.621465
+              ],
+              "boundsMax": [
+                2.1955,
+                2.523418,
+                4.621465
+              ],
+              "boundsSize": [
+                4.391,
+                2.523418,
+                9.242929
+              ],
+              "materials": [
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "Gris",
+                  "type": "MeshPhongMaterial",
+                  "color": "#242424",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "Blanc",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "Default",
+                  "type": "MeshPhongMaterial",
+                  "color": "#d3d3d3",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                }
+              ]
+            }
+          }
+        ],
+        "camera": {
+          "profile": "overview",
+          "position": [
+            14.296984,
+            7.033868,
+            15.657812
+          ],
+          "lookAt": [
+            0,
+            1.552932,
+            0
+          ],
+          "orbitAngleRadians": 0.74,
+          "zoom": 1
+        },
+        "sourceDependencyBoundary": "Cuisine.blend retains one unpacked Desktop JPG reference with no embedded pixels and no surviving file. Its affected source material remains the saved diffuse-color material; no substitute photograph is invented.",
+        "presentationAdapters": [
+          "Blender FBX centimeters are inverted by an exact 0.01 scale.",
+          "House and Kitchen are centered/grounded independently and selected as subspaces instead of being spatially invented into one floorplan.",
+          "Every exported mesh, empty, camera and light from the best .blend revisions remains in its subspace.",
+          "Double-sided drawing exposes mixed archived face winding without changing geometry or replacing source materials.",
+          "Named FBX materials exported at opacity 0 are restored to the verified .blend alpha 1.0.",
+          "Each source camera keeps its exported position/lens and uses its inspected Blender world forward/up vectors after the exact (x, z, -y) axis mapping.",
+          "A neutral warm hemisphere fill keeps the source materials readable; original lamps remain present.",
+          "Overview orbit is optional; Source Camera applies each saved Blender camera."
+        ]
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "input": {
+        "keyboard": false,
+        "touch": false,
+        "gamepad": {
+          "connected": false,
+          "id": null,
+          "forward": 0,
+          "turn": 0
+        }
+      },
+      "camera": {
+        "profile": "overview",
+        "position": [
+          14.296984,
+          7.033868,
+          15.657812
+        ],
+        "lookAt": [
+          0,
+          1.552932,
+          0
+        ],
+        "orbitAngleRadians": 0.74,
+        "zoom": 1
+      },
+      "controls": "Switch between House and Kitchen, use each saved Source Camera or Overview, then A/D, drag or wheel to inspect. Reset returns to the active subspace's readable overview."
+    },
+    "houseSource": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.18-r13",
+      "mode": "maison-explorer",
+      "projectFamily": "maison-explorer",
+      "preview": "maison-explorer",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "maisonExplorer": {
+        "id": "maison-explorer",
+        "classification": "complete best-surviving house and kitchen explorer",
+        "restorationStatus": "RESTORED",
+        "ready": true,
+        "loadStatus": "ready",
+        "error": null,
+        "activeSubspace": "house",
+        "subspaces": [
+          {
+            "id": "house",
+            "label": "House",
+            "ready": true,
+            "visible": true,
+            "source": {
+              "label": "House",
+              "blend": {
+                "path": "E:\\Media\\Datalake\\blenderModel\\Maison\\maison.blend",
+                "bytes": 576596,
+                "sha256": "8C9E95FDC5DE981BA451F0C05ACA9B94D347FE0DEE701D557F4CEDA595AC9237"
+              },
+              "browserFbx": {
+                "path": "/assets/maison-explorer/maison-best.fbx",
+                "bytes": 87836,
+                "sha256": "43CB7E5206F56D71ED6BF7986662B3EB504634616FDDA1ED7BFA8875427F8DB7"
+              },
+              "authored": {
+                "objects": 31,
+                "meshes": 24,
+                "cameras": 1,
+                "lights": 6,
+                "materials": 1,
+                "vertices": 216,
+                "polygons": 148
+              },
+              "missingDependencies": []
+            },
+            "runtime": {
+              "meshes": 24,
+              "vertices": 888,
+              "triangles": 296,
+              "cameras": 1,
+              "lights": 6,
+              "boundsMin": [
+                -6.595,
+                0,
+                -8.984358
+              ],
+              "boundsMax": [
+                6.595,
+                4.567447,
+                8.984358
+              ],
+              "boundsSize": [
+                13.19,
+                4.567447,
+                17.968716
+              ],
+              "materials": [
+                {
+                  "name": "Material",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                }
+              ]
+            }
+          },
+          {
+            "id": "kitchen",
+            "label": "Kitchen",
+            "ready": true,
+            "visible": false,
+            "source": {
+              "label": "Kitchen",
+              "blend": {
+                "path": "E:\\Media\\Datalake\\blenderModel\\Maison\\Cuisine.blend",
+                "bytes": 1131088,
+                "sha256": "C0441E2AC52CC05329A569DC31B056314B9EA5535460EFDDFADBB8B86B966855"
+              },
+              "browserFbx": {
+                "path": "/assets/maison-explorer/cuisine-best.fbx",
+                "bytes": 1477852,
+                "sha256": "24846D8EC083477F87E91F46ED31DA952A575B7F7CD3B234B6D11A4603B5B14E"
+              },
+              "authored": {
+                "objects": 87,
+                "meshes": 76,
+                "empties": 7,
+                "cameras": 1,
+                "lights": 3,
+                "materials": 3,
+                "vertices": 4244,
+                "polygons": 3676
+              },
+              "missingDependencies": [
+                "C:\\Users\\Yanik\\Desktop\\Maison\\31768676_10156115872840631_8145769982148476928_n.jpg (unpacked external reference; absent with 0x0 image data)"
+              ]
+            },
+            "runtime": {
+              "meshes": 76,
+              "vertices": 218640,
+              "triangles": 72880,
+              "cameras": 1,
+              "lights": 3,
+              "boundsMin": [
+                -2.1955,
+                0,
+                -4.621465
+              ],
+              "boundsMax": [
+                2.1955,
+                2.523418,
+                4.621465
+              ],
+              "boundsSize": [
+                4.391,
+                2.523418,
+                9.242929
+              ],
+              "materials": [
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "Gris",
+                  "type": "MeshPhongMaterial",
+                  "color": "#242424",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "Blanc",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "Default",
+                  "type": "MeshPhongMaterial",
+                  "color": "#d3d3d3",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                }
+              ]
+            }
+          }
+        ],
+        "camera": {
+          "profile": "source",
+          "position": [
+            10.370155,
+            8.794637,
+            7.210702
+          ],
+          "lookAt": [
+            0,
+            1.552932,
+            0
+          ],
+          "orbitAngleRadians": 0.74,
+          "zoom": 1
+        },
+        "sourceDependencyBoundary": "Cuisine.blend retains one unpacked Desktop JPG reference with no embedded pixels and no surviving file. Its affected source material remains the saved diffuse-color material; no substitute photograph is invented.",
+        "presentationAdapters": [
+          "Blender FBX centimeters are inverted by an exact 0.01 scale.",
+          "House and Kitchen are centered/grounded independently and selected as subspaces instead of being spatially invented into one floorplan.",
+          "Every exported mesh, empty, camera and light from the best .blend revisions remains in its subspace.",
+          "Double-sided drawing exposes mixed archived face winding without changing geometry or replacing source materials.",
+          "Named FBX materials exported at opacity 0 are restored to the verified .blend alpha 1.0.",
+          "Each source camera keeps its exported position/lens and uses its inspected Blender world forward/up vectors after the exact (x, z, -y) axis mapping.",
+          "A neutral warm hemisphere fill keeps the source materials readable; original lamps remain present.",
+          "Overview orbit is optional; Source Camera applies each saved Blender camera."
+        ]
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "input": {
+        "keyboard": false,
+        "touch": false,
+        "gamepad": {
+          "connected": false,
+          "id": null,
+          "forward": 0,
+          "turn": 0
+        }
+      },
+      "camera": {
+        "profile": "source",
+        "position": [
+          10.370155,
+          8.794637,
+          7.210702
+        ],
+        "lookAt": [
+          0,
+          1.552932,
+          0
+        ],
+        "orbitAngleRadians": 0.74,
+        "zoom": 1
+      },
+      "controls": "Switch between House and Kitchen, use each saved Source Camera or Overview, then A/D, drag or wheel to inspect. Reset returns to the active subspace's readable overview."
+    },
+    "kitchenOverview": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.18-r13",
+      "mode": "maison-explorer",
+      "projectFamily": "maison-explorer",
+      "preview": "maison-explorer",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "maisonExplorer": {
+        "id": "maison-explorer",
+        "classification": "complete best-surviving house and kitchen explorer",
+        "restorationStatus": "RESTORED",
+        "ready": true,
+        "loadStatus": "ready",
+        "error": null,
+        "activeSubspace": "kitchen",
+        "subspaces": [
+          {
+            "id": "house",
+            "label": "House",
+            "ready": true,
+            "visible": false,
+            "source": {
+              "label": "House",
+              "blend": {
+                "path": "E:\\Media\\Datalake\\blenderModel\\Maison\\maison.blend",
+                "bytes": 576596,
+                "sha256": "8C9E95FDC5DE981BA451F0C05ACA9B94D347FE0DEE701D557F4CEDA595AC9237"
+              },
+              "browserFbx": {
+                "path": "/assets/maison-explorer/maison-best.fbx",
+                "bytes": 87836,
+                "sha256": "43CB7E5206F56D71ED6BF7986662B3EB504634616FDDA1ED7BFA8875427F8DB7"
+              },
+              "authored": {
+                "objects": 31,
+                "meshes": 24,
+                "cameras": 1,
+                "lights": 6,
+                "materials": 1,
+                "vertices": 216,
+                "polygons": 148
+              },
+              "missingDependencies": []
+            },
+            "runtime": {
+              "meshes": 24,
+              "vertices": 888,
+              "triangles": 296,
+              "cameras": 1,
+              "lights": 6,
+              "boundsMin": [
+                -6.595,
+                0,
+                -8.984358
+              ],
+              "boundsMax": [
+                6.595,
+                4.567447,
+                8.984358
+              ],
+              "boundsSize": [
+                13.19,
+                4.567447,
+                17.968716
+              ],
+              "materials": [
+                {
+                  "name": "Material",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                }
+              ]
+            }
+          },
+          {
+            "id": "kitchen",
+            "label": "Kitchen",
+            "ready": true,
+            "visible": true,
+            "source": {
+              "label": "Kitchen",
+              "blend": {
+                "path": "E:\\Media\\Datalake\\blenderModel\\Maison\\Cuisine.blend",
+                "bytes": 1131088,
+                "sha256": "C0441E2AC52CC05329A569DC31B056314B9EA5535460EFDDFADBB8B86B966855"
+              },
+              "browserFbx": {
+                "path": "/assets/maison-explorer/cuisine-best.fbx",
+                "bytes": 1477852,
+                "sha256": "24846D8EC083477F87E91F46ED31DA952A575B7F7CD3B234B6D11A4603B5B14E"
+              },
+              "authored": {
+                "objects": 87,
+                "meshes": 76,
+                "empties": 7,
+                "cameras": 1,
+                "lights": 3,
+                "materials": 3,
+                "vertices": 4244,
+                "polygons": 3676
+              },
+              "missingDependencies": [
+                "C:\\Users\\Yanik\\Desktop\\Maison\\31768676_10156115872840631_8145769982148476928_n.jpg (unpacked external reference; absent with 0x0 image data)"
+              ]
+            },
+            "runtime": {
+              "meshes": 76,
+              "vertices": 218640,
+              "triangles": 72880,
+              "cameras": 1,
+              "lights": 3,
+              "boundsMin": [
+                -2.1955,
+                0,
+                -4.621465
+              ],
+              "boundsMax": [
+                2.1955,
+                2.523418,
+                4.621465
+              ],
+              "boundsSize": [
+                4.391,
+                2.523418,
+                9.242929
+              ],
+              "materials": [
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "Gris",
+                  "type": "MeshPhongMaterial",
+                  "color": "#242424",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "Blanc",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "Default",
+                  "type": "MeshPhongMaterial",
+                  "color": "#d3d3d3",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                }
+              ]
+            }
+          }
+        ],
+        "camera": {
+          "profile": "overview",
+          "position": [
+            4.645575,
+            5.2,
+            9.867815
+          ],
+          "lookAt": [
+            0,
+            1.2,
+            0
+          ],
+          "orbitAngleRadians": 0.44,
+          "zoom": 1
+        },
+        "sourceDependencyBoundary": "Cuisine.blend retains one unpacked Desktop JPG reference with no embedded pixels and no surviving file. Its affected source material remains the saved diffuse-color material; no substitute photograph is invented.",
+        "presentationAdapters": [
+          "Blender FBX centimeters are inverted by an exact 0.01 scale.",
+          "House and Kitchen are centered/grounded independently and selected as subspaces instead of being spatially invented into one floorplan.",
+          "Every exported mesh, empty, camera and light from the best .blend revisions remains in its subspace.",
+          "Double-sided drawing exposes mixed archived face winding without changing geometry or replacing source materials.",
+          "Named FBX materials exported at opacity 0 are restored to the verified .blend alpha 1.0.",
+          "Each source camera keeps its exported position/lens and uses its inspected Blender world forward/up vectors after the exact (x, z, -y) axis mapping.",
+          "A neutral warm hemisphere fill keeps the source materials readable; original lamps remain present.",
+          "Overview orbit is optional; Source Camera applies each saved Blender camera."
+        ]
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "input": {
+        "keyboard": false,
+        "touch": false,
+        "gamepad": {
+          "connected": false,
+          "id": null,
+          "forward": 0,
+          "turn": 0
+        }
+      },
+      "camera": {
+        "profile": "overview",
+        "position": [
+          4.645575,
+          5.2,
+          9.867815
+        ],
+        "lookAt": [
+          0,
+          1.2,
+          0
+        ],
+        "orbitAngleRadians": 0.44,
+        "zoom": 1
+      },
+      "controls": "Switch between House and Kitchen, use each saved Source Camera or Overview, then A/D, drag or wheel to inspect. Reset returns to the active subspace's readable overview."
+    },
+    "kitchenSource": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.18-r13",
+      "mode": "maison-explorer",
+      "projectFamily": "maison-explorer",
+      "preview": "maison-explorer",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "maisonExplorer": {
+        "id": "maison-explorer",
+        "classification": "complete best-surviving house and kitchen explorer",
+        "restorationStatus": "RESTORED",
+        "ready": true,
+        "loadStatus": "ready",
+        "error": null,
+        "activeSubspace": "kitchen",
+        "subspaces": [
+          {
+            "id": "house",
+            "label": "House",
+            "ready": true,
+            "visible": false,
+            "source": {
+              "label": "House",
+              "blend": {
+                "path": "E:\\Media\\Datalake\\blenderModel\\Maison\\maison.blend",
+                "bytes": 576596,
+                "sha256": "8C9E95FDC5DE981BA451F0C05ACA9B94D347FE0DEE701D557F4CEDA595AC9237"
+              },
+              "browserFbx": {
+                "path": "/assets/maison-explorer/maison-best.fbx",
+                "bytes": 87836,
+                "sha256": "43CB7E5206F56D71ED6BF7986662B3EB504634616FDDA1ED7BFA8875427F8DB7"
+              },
+              "authored": {
+                "objects": 31,
+                "meshes": 24,
+                "cameras": 1,
+                "lights": 6,
+                "materials": 1,
+                "vertices": 216,
+                "polygons": 148
+              },
+              "missingDependencies": []
+            },
+            "runtime": {
+              "meshes": 24,
+              "vertices": 888,
+              "triangles": 296,
+              "cameras": 1,
+              "lights": 6,
+              "boundsMin": [
+                -6.595,
+                0,
+                -8.984358
+              ],
+              "boundsMax": [
+                6.595,
+                4.567447,
+                8.984358
+              ],
+              "boundsSize": [
+                13.19,
+                4.567447,
+                17.968716
+              ],
+              "materials": [
+                {
+                  "name": "Material",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                }
+              ]
+            }
+          },
+          {
+            "id": "kitchen",
+            "label": "Kitchen",
+            "ready": true,
+            "visible": true,
+            "source": {
+              "label": "Kitchen",
+              "blend": {
+                "path": "E:\\Media\\Datalake\\blenderModel\\Maison\\Cuisine.blend",
+                "bytes": 1131088,
+                "sha256": "C0441E2AC52CC05329A569DC31B056314B9EA5535460EFDDFADBB8B86B966855"
+              },
+              "browserFbx": {
+                "path": "/assets/maison-explorer/cuisine-best.fbx",
+                "bytes": 1477852,
+                "sha256": "24846D8EC083477F87E91F46ED31DA952A575B7F7CD3B234B6D11A4603B5B14E"
+              },
+              "authored": {
+                "objects": 87,
+                "meshes": 76,
+                "empties": 7,
+                "cameras": 1,
+                "lights": 3,
+                "materials": 3,
+                "vertices": 4244,
+                "polygons": 3676
+              },
+              "missingDependencies": [
+                "C:\\Users\\Yanik\\Desktop\\Maison\\31768676_10156115872840631_8145769982148476928_n.jpg (unpacked external reference; absent with 0x0 image data)"
+              ]
+            },
+            "runtime": {
+              "meshes": 76,
+              "vertices": 218640,
+              "triangles": 72880,
+              "cameras": 1,
+              "lights": 3,
+              "boundsMin": [
+                -2.1955,
+                0,
+                -4.621465
+              ],
+              "boundsMax": [
+                2.1955,
+                2.523418,
+                4.621465
+              ],
+              "boundsSize": [
+                4.391,
+                2.523418,
+                9.242929
+              ],
+              "materials": [
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "Gris",
+                  "type": "MeshPhongMaterial",
+                  "color": "#242424",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "Blanc",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "Default",
+                  "type": "MeshPhongMaterial",
+                  "color": "#d3d3d3",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                },
+                {
+                  "name": "__DEFAULT",
+                  "type": "MeshPhongMaterial",
+                  "color": "#cccccc",
+                  "opacity": 1,
+                  "transparent": false
+                }
+              ]
+            }
+          }
+        ],
+        "camera": {
+          "profile": "source",
+          "position": [
+            -5.193154,
+            1.22552,
+            1.617744
+          ],
+          "lookAt": [
+            0,
+            1.2,
+            0
+          ],
+          "orbitAngleRadians": 0.74,
+          "zoom": 1
+        },
+        "sourceDependencyBoundary": "Cuisine.blend retains one unpacked Desktop JPG reference with no embedded pixels and no surviving file. Its affected source material remains the saved diffuse-color material; no substitute photograph is invented.",
+        "presentationAdapters": [
+          "Blender FBX centimeters are inverted by an exact 0.01 scale.",
+          "House and Kitchen are centered/grounded independently and selected as subspaces instead of being spatially invented into one floorplan.",
+          "Every exported mesh, empty, camera and light from the best .blend revisions remains in its subspace.",
+          "Double-sided drawing exposes mixed archived face winding without changing geometry or replacing source materials.",
+          "Named FBX materials exported at opacity 0 are restored to the verified .blend alpha 1.0.",
+          "Each source camera keeps its exported position/lens and uses its inspected Blender world forward/up vectors after the exact (x, z, -y) axis mapping.",
+          "A neutral warm hemisphere fill keeps the source materials readable; original lamps remain present.",
+          "Overview orbit is optional; Source Camera applies each saved Blender camera."
+        ]
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "input": {
+        "keyboard": false,
+        "touch": false,
+        "gamepad": {
+          "connected": false,
+          "id": null,
+          "forward": 0,
+          "turn": 0
+        }
+      },
+      "camera": {
+        "profile": "source",
+        "position": [
+          -5.193154,
+          1.22552,
+          1.617744
+        ],
+        "lookAt": [
+          0,
+          1.2,
+          0
+        ],
+        "orbitAngleRadians": 0.74,
+        "zoom": 1
+      },
+      "controls": "Switch between House and Kitchen, use each saved Source Camera or Overview, then A/D, drag or wheel to inspect. Reset returns to the active subspace's readable overview."
+    }
+  }
+}

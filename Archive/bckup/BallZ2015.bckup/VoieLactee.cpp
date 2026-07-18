@@ -1,0 +1,46 @@
+#include "stdafx.h"
+#include "VoieLactee.h"
+
+
+CLVoieLactee::CLVoieLactee(NewtonWorld* World)
+{
+	clSceneStaff = new CLSceneStaff();
+	iEarthTex = clSceneStaff->clTV3D->pTVTexturefactory->LoadTexture("media\\Galaxy\\Earth.jpg", "Earth");
+	iEarthNightTex = clSceneStaff->clTV3D->pTVTexturefactory->LoadTexture("media\\Galaxy\\EarthNight.jpg", "EarthNight");
+	iEarthCloudsTex = clSceneStaff->clTV3D->pTVTexturefactory->LoadTexture("media\\Galaxy\\EarthCloudsMapHigh.png", "EarthClouds", -1, -1, cTV_COLORKEY_USE_ALPHA_CHANNEL, true);
+	iMarsTex = clSceneStaff->clTV3D->pTVTexturefactory->LoadTexture("media\\Galaxy\\MarsMap.jpg", "Mars");
+	iMoonTex = clSceneStaff->clTV3D->pTVTexturefactory->LoadTexture("media\\Galaxy\\MoonMap.jpg", "Moon");
+	iVenusTex = clSceneStaff->clTV3D->pTVTexturefactory->LoadTexture("media\\Galaxy\\VenusMap.jpg", "Venus");
+
+	//EARTH
+	clSceneStaff->cl3DObjMgr->VecObjects.push_back(new CL3DObject(SPHERE, "Earth", NULL, iEarthTex, cTV_3DVECTOR(-10, 15, 0), cTV_3DVECTOR(6.0f, 6.0f, 6.0f), true, NULL, NULL, NULL, World));
+	clEarth = clSceneStaff->cl3DObjMgr->VecObjects.back();
+	//clEarth->Mesh->RotateX(23.0f);
+	clSceneStaff->cl3DObjMgr->VecObjects.push_back(new CL3DObject(SPHERE, "EarthClouds", NULL, iEarthCloudsTex, cTV_3DVECTOR(-10, 15, 0), cTV_3DVECTOR(6.1f, 6.1f, 6.1f), true, NULL, NULL, NULL, World));
+	clEarthClouds = clSceneStaff->cl3DObjMgr->VecObjects.back();
+	clEarthClouds->Mesh->SetTexture(iEarthCloudsTex);
+	clEarthClouds->Mesh->SetAlphaTest(true, 0);
+	clEarthClouds->Mesh->SetBlendingMode(cTV_BLEND_ALPHA);
+	//clEarthClouds->Mesh->SetLightingMode(cTV_LIGHTING_NORMAL);
+	//clEarthClouds->SetTranslucentMaterial();
+
+	//MOON
+	clSceneStaff->cl3DObjMgr->VecObjects.push_back(new CL3DObject(SPHERE, "Moon", NULL, iMoonTex, cTV_3DVECTOR(-8, 14, -10), cTV_3DVECTOR(2.0f, 2.0f, 2.0f), true, NULL, NULL, NULL, World));
+	clMoon = clSceneStaff->cl3DObjMgr->VecObjects.back();
+	//MARS
+	clSceneStaff->cl3DObjMgr->VecObjects.push_back(new CL3DObject(SPHERE, "Mars", NULL, iMarsTex, cTV_3DVECTOR(-25, 15, 0), cTV_3DVECTOR(12.0f, 12.0f, 12.0f), true, NULL, NULL, NULL, World));
+	clMars = clSceneStaff->cl3DObjMgr->VecObjects.back();
+	//VENUS
+	clSceneStaff->cl3DObjMgr->VecObjects.push_back(new CL3DObject(SPHERE, "Venus", NULL, iVenusTex, cTV_3DVECTOR(-35, 15, 0), cTV_3DVECTOR(4.0f, 4.0f, 4.0f), true, NULL, NULL, NULL, World));
+	clMars = clSceneStaff->cl3DObjMgr->VecObjects.back();
+}
+CLVoieLactee::~CLVoieLactee()
+{
+	delete(clSceneStaff);
+}
+void CLVoieLactee::Update()
+{
+	clEarth->Rotate(cTV_3DVECTOR(0, 1, 0), 0.02f);
+	clEarthClouds->Rotate(cTV_3DVECTOR(0, 1, 0), 0.06f);
+	clMoon->RotateAround(-0.003f * clSceneStaff->clGlobalVar->fTimeElapsed, &clEarth->Mesh->GetPosition(), 8.0f);
+}

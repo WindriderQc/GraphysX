@@ -1,0 +1,8 @@
+#pragma once
+
+const int SCREEN_INDEX_MAINMENU = 0;
+const int SCREEN_INDEX_GAMEPLAY = 1;
+const int SCREEN_INDEX_EDITOR = 2;
+const int SCREEN_INDEX_AFTERRACE = 3;
+const int SCREEN_INDEX_SELECTRACE = 4;
+const int SCREEN_INDEX_MATHGAME = 5;

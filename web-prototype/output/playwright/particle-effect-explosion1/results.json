@@ -1,0 +1,201 @@
+{
+  "url": "http://127.0.0.1:4173/particle-effect-preview.html",
+  "assertions": [
+    {
+      "ok": true,
+      "message": "Effect is classified as a reusable preset, not a scene"
+    },
+    {
+      "ok": true,
+      "message": "Exact Explosion1 emitter/capacity totals are exposed"
+    },
+    {
+      "ok": true,
+      "message": "Exact per-emitter capacities are exposed"
+    },
+    {
+      "ok": true,
+      "message": "Exact generation intervals are exposed"
+    },
+    {
+      "ok": true,
+      "message": "Exact particle lifetimes are exposed"
+    },
+    {
+      "ok": true,
+      "message": "All 82 one-shot particles are alive after deterministic 700 ms"
+    },
+    {
+      "ok": true,
+      "message": "Restart reproduces identical seeded source-space trajectories"
+    },
+    {
+      "ok": true,
+      "message": "Space pauses the isolated effect"
+    },
+    {
+      "ok": true,
+      "message": "Paused effect ignores deterministic time"
+    },
+    {
+      "ok": true,
+      "message": "Source one-shot reaches an empty finished state"
+    },
+    {
+      "ok": true,
+      "message": "A enables preview replay and R restarts cycle one"
+    },
+    {
+      "ok": true,
+      "message": "Preview-only auto replay starts a second visible cycle"
+    },
+    {
+      "ok": true,
+      "message": "Preview and byte-identical DDS assets load without failed responses"
+    },
+    {
+      "ok": true,
+      "message": "Preview emits no console/page errors"
+    }
+  ],
+  "errors": [],
+  "failedResponses": [],
+  "finalState": {
+    "id": "graphysx-explosion1-tvp",
+    "title": "GraphysX Explosion1 — TV3D particle preset",
+    "classification": "reusable-effect-preset-not-a-scene",
+    "status": "source-config-recovered-runtime-adapter-partial",
+    "loadStatus": "ready",
+    "loadError": null,
+    "ready": true,
+    "visible": true,
+    "disposed": false,
+    "paused": false,
+    "autoReplay": true,
+    "seed": 538183440,
+    "cycle": 2,
+    "cycleElapsedSeconds": 0.09999999999999999,
+    "totalElapsedSeconds": 4.600000000000018,
+    "finished": false,
+    "sourceWorldScale": 0.08,
+    "sourceHostPosition": [
+      -5,
+      0,
+      0
+    ],
+    "emitters": [
+      {
+        "id": 0,
+        "activeParticles": 10,
+        "spawnedParticles": 10,
+        "maxParticles": 10,
+        "texture": "Glow2.dds",
+        "lifetimeSeconds": 2,
+        "generationSpeedMilliseconds": 10,
+        "shape": "point",
+        "blending": "add-alpha",
+        "looping": false,
+        "sampleSourcePositions": [
+          [
+            2.722663126331067,
+            -0.12283893360743417,
+            -2.926636834007068
+          ],
+          [
+            -1.4526167439575197,
+            2.6128234988702594,
+            -1.804838202889691
+          ],
+          [
+            -1.651481800370995,
+            1.0251333011118695,
+            -2.6276998173822674
+          ]
+        ]
+      },
+      {
+        "id": 1,
+        "activeParticles": 11,
+        "spawnedParticles": 11,
+        "maxParticles": 64,
+        "texture": "Glow2.dds",
+        "lifetimeSeconds": 3,
+        "generationSpeedMilliseconds": 10,
+        "shape": "sphere-volume",
+        "blending": "color",
+        "looping": false,
+        "sampleSourcePositions": [
+          [
+            -1.4610745753385115,
+            2.394972914758135,
+            1.8383828818660366
+          ],
+          [
+            -1.0752690960919724,
+            2.441431337458658,
+            -0.9596430187863993
+          ],
+          [
+            0.09281369229543067,
+            -0.9910782768550354,
+            0.5119645996068949
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "activeParticles": 8,
+        "spawnedParticles": 8,
+        "maxParticles": 8,
+        "texture": "smokey.dds",
+        "lifetimeSeconds": 4,
+        "generationSpeedMilliseconds": 10,
+        "shape": "sphere-volume",
+        "blending": "alpha",
+        "looping": false,
+        "sampleSourcePositions": [
+          [
+            1.6676423044824888,
+            0.2143340897942041,
+            1.8694310720580125
+          ],
+          [
+            1.025127548200837,
+            -0.3736149178631429,
+            0.9978074849288001
+          ],
+          [
+            -1.555128967552031,
+            0.5679622997393969,
+            -0.6046014230128075
+          ]
+        ]
+      }
+    ],
+    "counts": {
+      "emitters": 3,
+      "maximumParticles": 82,
+      "activeParticles": 29,
+      "spawnedParticles": 29,
+      "textures": 2
+    },
+    "fidelity": {
+      "exact": [
+        "compiled Explosion1 TVP hash and readable TVPJ fields",
+        "three emitters, capacities, generation intervals, power, lifetime, shape, radius, gravity, blend enum, alpha/depth flags and keyframes",
+        "byte-identical Glow2.dds and smokey.dds textures",
+        "one-shot looping=false behavior and archived CLParticleEngine host position (-5,0,0)"
+      ],
+      "adapted": [
+        "seeded component-random direction sampling and fixed 120 Hz integration because TV3D's private RNG/integrator do not survive",
+        "TV3D billboard COLOR and ADDALPHA modes mapped to Three.js alpha/additive blending because TV3D's internal blend-state recipe is unavailable",
+        "uniform 0.08 display scale plus inspection floor/camera"
+      ],
+      "excluded": [
+        "the wider TVP library is inventoried but not presented as additional scenes",
+        "Explosion.wav is not triggered because the surviving CLParticleEngine host does not bind it",
+        "automatic replay is optional presentation behavior and defaults off"
+      ]
+    }
+  }
+}

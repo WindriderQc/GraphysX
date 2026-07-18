@@ -1,0 +1,23 @@
+#include "SetupGUI.h"
+
+#include "Area.h"
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//		Callback for the "SelectSkybox" button
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+static bool GUI_Callback_SelectSkyboxButtonPressed(const CEGUI::EventArgs& e)
+{
+	//  TROUVER COMMENT ENVOYÉ L'INFO DE CONFIG AU CARSMANAGER
+	CLArea::getInstance()->Load3DScene(SKYBOX_SELECT_SCENE);
+	return true;
+}
+
+
+void CLSetupGUI::Init(void)
+		{
+			using namespace CEGUI;
+			// Set Widgets event
+			PushButton* mLaunchBtn = (PushButton*)WindowManager::getSingleton().getWindow("SetupWnd/SkyboxBtn");
+			mLaunchBtn->subscribeEvent(PushButton::EventClicked, GUI_Callback_SelectSkyboxButtonPressed);	
+		}
+
+

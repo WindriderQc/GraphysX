@@ -1,0 +1,14 @@
+C:\Users\Beayani2\Source\Workspaces\BallZ\BallZ2015\GNet\GfxTester\bin\Debug\GfxTester.exe.config
+C:\Users\Beayani2\Source\Workspaces\BallZ\BallZ2015\GNet\GfxTester\bin\Debug\GfxTester.exe
+C:\Users\Beayani2\Source\Workspaces\BallZ\BallZ2015\GNet\GfxTester\bin\Debug\GfxTester.pdb
+C:\Users\Beayani2\Source\Workspaces\BallZ\BallZ2015\GNet\GfxTester\obj\Debug\GfxTester.csprojResolveAssemblyReference.cache
+C:\Users\Beayani2\Source\Workspaces\BallZ\BallZ2015\GNet\GfxTester\obj\Debug\GfxTester.Properties.Resources.resources
+C:\Users\Beayani2\Source\Workspaces\BallZ\BallZ2015\GNet\GfxTester\obj\Debug\GfxTester.csproj.GenerateResource.Cache
+C:\Users\Beayani2\Source\Workspaces\BallZ\BallZ2015\GNet\GfxTester\obj\Debug\GfxTester.exe
+C:\Users\Beayani2\Source\Workspaces\BallZ\BallZ2015\GNet\GfxTester\obj\Debug\GfxTester.pdb
+C:\Users\Beayani2\Source\Workspaces\BallZ\BallZ2015\GNet\GfxTester\obj\Debug\GfxTester.Form1.resources
+C:\Users\Beayani2\Source\Workspaces\BallZ\BallZ2015\GNet\GfxTester\bin\Debug\GfxNet.dll
+C:\Users\Beayani2\Source\Workspaces\BallZ\BallZ2015\GNet\GfxTester\bin\Debug\GfxNet.pdb
+C:\Users\Beayani2\Source\Workspaces\BallZ\BallZ2015\GNet\Debug\GfxTester.exe.config
+C:\Users\Beayani2\Source\Workspaces\BallZ\BallZ2015\GNet\Debug\GfxTester.exe
+C:\Users\Beayani2\Source\Workspaces\BallZ\BallZ2015\GNet\Debug\GfxTester.pdb

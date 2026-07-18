@@ -1,0 +1,93 @@
+recv_packet.cpp
+
+#include <winsock.h>
+#include <assert.h>
+
+static const int prefix_size = 2;
+static char g_holding_buffer[1000];
+static int g_held_bytes = 0;
+
+// Pass in the socket handle, a pointer to a buffer large enough to hold
+// the packet, and the size of that buffer.  Returns the size of the
+// packet received on success, or 0 on failure.
+
+int recv_packet(SOCKET sd, char* p_out_buffer, int buffer_size)
+{
+    int bytes_read = 0;
+    int packet_size;
+    bool building_prefix = true;
+
+    assert(buffer_size == sizeof(g_holding_buffer));
+
+    // Copy any data remaining from previous call into output buffer.
+    if (g_held_bytes > 0) {
+        assert(buffer_size >= g_held_bytes);
+        memcpy(p_out_buffer, g_holding_buffer, g_held_bytes);
+        bytes_read += g_held_bytes;
+        g_held_bytes = 0;
+    }
+
+    // Read the packet
+    while (1) { 
+        if (building_prefix) {
+            if (bytes_read >= prefix_size) {
+                packet_size = 0;
+                for (int i = 0; i < prefix_size; ++i) {
+                    packet_size <<= 8;
+                    packet_size |= p_out_buffer[i];
+                }
+                building_prefix = false;
+                if (packet_size > buffer_size) {
+                    // Buffer's too small to hold the packet!
+                    // Do error handling here.
+                    return 0;
+                }
+            }
+        }
+
+        if (!building_prefix && (bytes_read >= packet_size)) {
+            break;  // finished building packet
+        }
+
+        int new_bytes_read = recv(sd, p_out_buffer + bytes_read,
+                buffer_size - bytes_read, 0);
+        if ((new_bytes_read == 0) || (new_bytes_read == SOCKET_ERROR)) {
+            return 0;       // do proper error handling here!
+        }
+        bytes_read += new_bytes_read;
+    }
+
+    // If anything is left in the read buffer, keep a copy of it
+    // for the next call.
+    g_held_bytes = bytes_read - packet_size;
+    memcpy(g_holding_buffer, p_out_buffer + packet_size, g_held_bytes);
+    
+    return packet_size;
+}
+
+
+There are several reasons not to use this code as-is in a real program. First, this code has no real error handling. Since every program handles errors differently, I've simply marked the places you need to add error handling code.
+
+The second major problem is the global variables. They prevent you from using recv_packet() with more than one socket or with multiple threads. You can move them into a structure and pass an instance of that structure to recv_packet(). Or, you can wrap the function and all the data it needs up into a class. This would be a good start towards your own socket class library.
+
+Third, notice that the code checks that the holding buffer and the caller's buffer are the same size. If the callers' buffer is larger than the holding buffer, the memcpy() call at the bottom of recv_packet() can overflow the holding buffer. If the holding buffer is larger than the callers' buffer and the recv() call returns enough bytes, the memcpy() call at the top of the function can overflow the callers' buffer. This is a symptom, rather than the problem itself. The actual problem is that the buffering logic is too simple to allow more complex usage patterns. This is good for educational purposes, but bad for efficiency. The key feature of a better buffering mechanism would be giving recv_packet() access to additional memory, so that overflows wouldn't be an issue. One way to do this would simply be to allow recv_packet() to allocate dynamic memory. Another would be to set up a large ring buffer. A related improvement would be if recv_packet() could return more than one packet per call, which would save all the shuffling that goes on in the current code when more than one packet gets read into the holding buffer. When considering new buffering strategies, be sure not to use a design that encourages multiple calls to recv() with small buffers.
+
+The fourth problem is that the code does not scale well beyond 2-byte prefixes. If you use 3-byte prefixes, that demands up to a 16 megabyte buffer, and for 4-byte prefixes you'd need a 4 gigabyte buffer. If you find yourself needing to transmit such large messages and you can't split them up into smaller packets, you'll probably need to use some other buffering area than main memory. The right storage area to use for packet buffering will depend on your program, of course.
+
+The final problem is that recv_packet() only works with blocking sockets.
+
+
+
+
+
+
+
+// Send Structure
+
+  struct foo {
+                    char a;
+                    int b;
+                    char c;
+                } foo_instance;
+
+  send(sd, (char*)&foo_instance, sizeof(foo), 0);

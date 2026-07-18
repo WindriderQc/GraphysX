@@ -1,0 +1,73 @@
+// Depth collector.
+// Written By Geoff Wilson.
+
+/*
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+        float4x4 World   : WORLD;
+        float4x4 ViewProj: VIEWPROJ;
+        float3   LightPos;
+
+        texture Diffuse  : TEXTURE0;
+        
+        sampler2D dSampler = sampler_state
+        {
+                Texture = (Diffuse);
+        };
+
+        struct a2v
+        {
+                float3 Position: POSITION;
+                float2 UV      : TEXCOORD0;
+        };
+
+        struct v2f
+        {
+                float4 Position: POSITION0;
+                float2 UV      : TEXCOORD0;
+                float  Depth   : TEXCOORD1;
+        };
+        
+        struct f2s
+        {
+                float4 Colour  : COLOR0;
+        };
+        
+        void vp(in a2v IN, out v2f OUT)
+        {
+                OUT.Position = mul(float4(IN.Position, 1), World);
+                OUT.Depth    = length(OUT.Position.xyz - LightPos.xyz);
+                OUT.Position = mul(OUT.Position, ViewProj);
+                OUT.UV       = IN.UV;
+        }
+        
+        void fp(in v2f IN, out f2s OUT)
+        {
+                clip(tex2D(dSampler, IN.UV).a - 0.2);
+                
+                OUT.Colour = float4(IN.Depth, 0, 0, 1);
+        }
+        
+        technique
+        {
+                pass Pass0
+                {
+                        AlphaBlendEnable = false;
+        		AlphaTestEnable = false;
+
+                        VertexShader = compile vs_1_1 vp();
+                        PixelShader  = compile ps_2_0 fp();
+                }
+        }

@@ -1,0 +1,66 @@
+{
+  "url": "http://127.0.0.1:4199/",
+  "assertions": [
+    {
+      "pass": true,
+      "message": "Classic Level 1 is selectable for touch QA"
+    },
+    {
+      "pass": true,
+      "message": "Classic Level 1 starts for touch QA"
+    },
+    {
+      "pass": true,
+      "message": "The touch control dock is visible during mobile gameplay"
+    },
+    {
+      "pass": true,
+      "message": "The mobile dock exposes direction, thrust, jump/brake, and camera actions"
+    },
+    {
+      "pass": true,
+      "message": "Virtual touch input reports active while held"
+    },
+    {
+      "pass": true,
+      "message": "Held touch direction produces live BallZ travel"
+    },
+    {
+      "pass": true,
+      "message": "Touch input releases cleanly"
+    },
+    {
+      "pass": true,
+      "message": "Visible/mobile pause freezes the active race"
+    },
+    {
+      "pass": true,
+      "message": "Paused state is explicit in the gameplay snapshot"
+    },
+    {
+      "pass": true,
+      "message": "Pause freezes elapsed time and player simulation"
+    },
+    {
+      "pass": true,
+      "message": "Pause has a visible resume/exit explanation"
+    },
+    {
+      "pass": true,
+      "message": "The same control resumes the race"
+    },
+    {
+      "pass": true,
+      "message": "A connected standard gamepad is detected"
+    },
+    {
+      "pass": true,
+      "message": "Gamepad deadzone mapping preserves analog forward/turn axes"
+    },
+    {
+      "pass": true,
+      "message": "Touch/gamepad input QA produces no browser or page errors"
+    }
+  ],
+  "errors": []
+}

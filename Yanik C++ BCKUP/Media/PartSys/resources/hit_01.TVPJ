@@ -1,0 +1,21 @@
+<particle-system>
+  <emitter type="billboard" max-particles="3" id="0" size="1" location="0/0/0" direction="0/0/0" directional="True" randomdirectionfactor="5/1/5" power="50" lifetime="1" shape="0" texture="\\Storage\Exchange\Particles\Glow2.dds" color="1,1,1,1" speed="10" usegravity="True" gravity="0/-250/0" alphachange="1" alphablending="4" alphatest="True" alpharef="0" alphadepthwrite="False" boxsize="0/0/0" sphereradius="0" looping="True">
+    <particle-keyframes>
+      <keyframe id="0" key="0" size="1/1/1" color="1,1,1,1" />
+      <keyframe id="1" key="0.125" size="2/2/2" color="1,1,0,0" />
+      <keyframe id="2" key="0.5" size="0/0/0" color="0,0,0,1" />
+    </particle-keyframes>
+  </emitter>
+  <emitter type="billboard" max-particles="5" id="1" size="1" location="0/0/0" direction="0/0/0" directional="True" randomdirectionfactor="2/2/2" power="5" lifetime="1" shape="0" texture="\\Storage\Exchange\Particles\smokey.dds" color="1,1,1,1" speed="5" usegravity="True" gravity="0/50/0" alphachange="1" alphablending="0" alphatest="True" alpharef="0" alphadepthwrite="False" boxsize="0/0/0" sphereradius="0" looping="True">
+    <particle-keyframes>
+      <keyframe id="0" key="0" size="4/4/4" color="1,0.85,0.6,0.75" />
+      <keyframe id="1" key="1" size="8/8/8" color="0,0,0,0" />
+    </particle-keyframes>
+  </emitter>
+  <emitter type="billboard" max-particles="1" id="2" size="1" location="0/0/0" direction="0/0/0" directional="False" randomdirectionfactor="0/0/0" power="1" lifetime="1" shape="0" texture="\\Storage\Exchange\Particles\star1.dds" color="1,1,1,1" speed="1" usegravity="True" gravity="0/0/0" alphachange="1" alphablending="1" alphatest="True" alpharef="0" alphadepthwrite="False" boxsize="0/0/0" sphereradius="0" looping="True">
+    <particle-keyframes>
+      <keyframe id="0" key="0" size="8/8/8" color="1,0.9,0.8,1" />
+      <keyframe id="1" key="0.5" size="0/0/0" color="0,0,0,0" />
+    </particle-keyframes>
+  </emitter>
+</particle-system>

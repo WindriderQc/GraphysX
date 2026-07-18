@@ -1,0 +1,865 @@
+{
+  "url": "http://127.0.0.1:4182/",
+  "assertions": [
+    {
+      "pass": true,
+      "message": "Agents discover five ready-to-use recovered complex models"
+    },
+    {
+      "pass": true,
+      "message": "Asset catalog exposes stable semantic ids for a prop and a building"
+    },
+    {
+      "pass": true,
+      "message": "Agent World Studio opens through the public API"
+    },
+    {
+      "pass": true,
+      "message": "One JSON world creates lights, a spline, three complex models, and static/dynamic primitives"
+    },
+    {
+      "pass": true,
+      "message": "World state preserves agent-selected gravity"
+    },
+    {
+      "pass": true,
+      "message": "Recovered complex model payloads load into the authored world"
+    },
+    {
+      "pass": true,
+      "message": "Complex models support static, dynamic, and mesh-controlled kinematic physics"
+    },
+    {
+      "pass": true,
+      "message": "Spline state reports its exact control-point count and topology"
+    },
+    {
+      "pass": true,
+      "message": "Primitive state exposes dynamic mode, mass, material, and velocities"
+    },
+    {
+      "pass": true,
+      "message": "Agent pauses realtime simulation for deterministic editing"
+    },
+    {
+      "pass": true,
+      "message": "Agent explicitly advances physics and spline motion"
+    },
+    {
+      "pass": true,
+      "message": "Kinematic model travels along the referenced spline"
+    },
+    {
+      "pass": true,
+      "message": "Dynamic sphere falls under the world gravity"
+    },
+    {
+      "pass": true,
+      "message": "Dynamic complex model falls and rotates as a live rigid body"
+    },
+    {
+      "pass": true,
+      "message": "Dynamic sphere collides with and bounces above the static plinth"
+    },
+    {
+      "pass": true,
+      "message": "Agent edits a live rigid body's velocity through the ordinary entity update API"
+    },
+    {
+      "pass": true,
+      "message": "Updated rigid body launches upward on the next deterministic step"
+    },
+    {
+      "pass": true,
+      "message": "Invalid light physics fails clearly without mutating the world"
+    },
+    {
+      "pass": true,
+      "message": "Dynamic/spline transform conflicts are rejected with a useful correction"
+    },
+    {
+      "pass": true,
+      "message": "Export preserves stable complex-model asset ids"
+    },
+    {
+      "pass": true,
+      "message": "Export preserves rigid-body intent for save/load and collaboration"
+    },
+    {
+      "pass": true,
+      "message": "Mixed entity world saves through the existing snapshot API"
+    },
+    {
+      "pass": true,
+      "message": "Mixed world clears through the existing API"
+    },
+    {
+      "pass": true,
+      "message": "Mixed entity world reloads from the same snapshot contract"
+    },
+    {
+      "pass": true,
+      "message": "render_game_to_text exposes the same mixed entity world to agents"
+    },
+    {
+      "pass": true,
+      "message": "Agent entity playground has no browser console or page errors"
+    }
+  ],
+  "states": {
+    "final": {
+      "schema": "graphysx.agent-world-state/v2",
+      "apiVersion": "2.0",
+      "world": {
+        "id": "qa-archive-entity-playground",
+        "label": "Archive Entity Playground"
+      },
+      "revision": 4,
+      "elapsedSeconds": 0,
+      "paused": true,
+      "entityCount": 9,
+      "selectedIds": [],
+      "environment": {
+        "background": "#07111d",
+        "ground": {
+          "visible": true,
+          "size": 34,
+          "color": "#13272d",
+          "grid": true,
+          "gridColor": "#4ac6c1"
+        },
+        "physics": {
+          "gravity": [
+            0,
+            -9.81,
+            0
+          ]
+        }
+      },
+      "bounds": {
+        "minimum": [
+          -8,
+          0,
+          -1.5
+        ],
+        "maximum": [
+          3.5,
+          14,
+          10
+        ]
+      },
+      "entities": [
+        {
+          "id": "ambient",
+          "label": "ambient",
+          "type": "ambient-light",
+          "parentId": null,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#9bc7db",
+            "emissive": "#071f23",
+            "emissiveIntensity": 0.3,
+            "roughness": 0.55,
+            "metalness": 0.08,
+            "opacity": 1,
+            "wireframe": false,
+            "texture": null
+          },
+          "geometry": {
+            "width": 1,
+            "height": 1,
+            "depth": 1,
+            "radius": 0.5,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 0.9,
+          "distance": 0,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [],
+          "behaviors": [],
+          "interactions": [],
+          "physics": null,
+          "path": null,
+          "asset": null,
+          "agent": null
+        },
+        {
+          "id": "sun",
+          "label": "sun",
+          "type": "directional-light",
+          "parentId": null,
+          "position": [
+            -8,
+            14,
+            10
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#ffe6b5",
+            "emissive": "#071f23",
+            "emissiveIntensity": 0.3,
+            "roughness": 0.55,
+            "metalness": 0.08,
+            "opacity": 1,
+            "wireframe": false,
+            "texture": null
+          },
+          "geometry": {
+            "width": 1,
+            "height": 1,
+            "depth": 1,
+            "radius": 0.5,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 3.4,
+          "distance": 0,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [],
+          "behaviors": [],
+          "interactions": [],
+          "physics": null,
+          "path": null,
+          "asset": null,
+          "agent": null
+        },
+        {
+          "id": "archive-path",
+          "label": "Recovered Spline",
+          "type": "spline",
+          "parentId": null,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#55e9ff",
+            "emissive": "#157b90",
+            "emissiveIntensity": 0.3,
+            "roughness": 0.55,
+            "metalness": 0.08,
+            "opacity": 0.85,
+            "wireframe": false,
+            "texture": null
+          },
+          "geometry": {
+            "width": 1,
+            "height": 1,
+            "depth": 1,
+            "radius": 0.5,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 1,
+          "distance": 0,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [
+            "path",
+            "archive-contract"
+          ],
+          "behaviors": [],
+          "interactions": [],
+          "physics": null,
+          "path": {
+            "pointCount": 6,
+            "closed": true
+          },
+          "asset": null,
+          "agent": null
+        },
+        {
+          "id": "spline-sword",
+          "label": "Spline-Controlled Zok Sword",
+          "type": "model",
+          "parentId": null,
+          "position": [
+            -7,
+            1.3,
+            4
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            15
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#7de6c3",
+            "emissive": "#071f23",
+            "emissiveIntensity": 0.3,
+            "roughness": 0.55,
+            "metalness": 0.08,
+            "opacity": 1,
+            "wireframe": false,
+            "texture": null
+          },
+          "geometry": {
+            "width": 2.2,
+            "height": 0.45,
+            "depth": 0.65,
+            "radius": 0.5,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 1,
+          "distance": 0,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [
+            "model",
+            "kinematic",
+            "archive-contract"
+          ],
+          "behaviors": [
+            {
+              "id": "ride-path",
+              "type": "follow-spline"
+            }
+          ],
+          "interactions": [],
+          "physics": {
+            "mode": "kinematic",
+            "mass": 0,
+            "material": "wall",
+            "linearVelocity": [
+              0,
+              0,
+              0
+            ],
+            "angularVelocity": [
+              0,
+              0,
+              0
+            ],
+            "sleeping": false
+          },
+          "path": null,
+          "asset": {
+            "id": "zoksword",
+            "url": "/assets/dominus-gallery/meshes/zoksword.json",
+            "format": "graphysx-mesh-json",
+            "fitSize": 2.2,
+            "status": "ready"
+          },
+          "agent": null
+        },
+        {
+          "id": "archive-cottage",
+          "label": "Static Archive Cottage",
+          "type": "model",
+          "parentId": null,
+          "position": [
+            -5.5,
+            2,
+            -1.5
+          ],
+          "rotationDegrees": [
+            0,
+            28,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#7de6c3",
+            "emissive": "#071f23",
+            "emissiveIntensity": 0.3,
+            "roughness": 0.55,
+            "metalness": 0.08,
+            "opacity": 1,
+            "wireframe": false,
+            "texture": null
+          },
+          "geometry": {
+            "width": 5.2,
+            "height": 4,
+            "depth": 4.4,
+            "radius": 0.5,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 1,
+          "distance": 0,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [
+            "model",
+            "static",
+            "archive-contract"
+          ],
+          "behaviors": [],
+          "interactions": [],
+          "physics": {
+            "mode": "static",
+            "mass": 0,
+            "material": "wall",
+            "linearVelocity": [
+              0,
+              0,
+              0
+            ],
+            "angularVelocity": [
+              0,
+              0,
+              0
+            ],
+            "sleeping": false
+          },
+          "path": null,
+          "asset": {
+            "id": "port-cottage",
+            "url": "/assets/dominus-gallery/meshes/port_cottage1.json",
+            "format": "graphysx-mesh-json",
+            "fitSize": 5.6,
+            "status": "ready"
+          },
+          "agent": null
+        },
+        {
+          "id": "dynamic-orb",
+          "label": "Dynamic Archive Orb",
+          "type": "sphere",
+          "parentId": null,
+          "position": [
+            3.5,
+            8,
+            0
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#ff794f",
+            "emissive": "#8d2412",
+            "emissiveIntensity": 0.8,
+            "roughness": 0.55,
+            "metalness": 0.25,
+            "opacity": 1,
+            "wireframe": false,
+            "texture": null
+          },
+          "geometry": {
+            "width": 1,
+            "height": 1,
+            "depth": 1,
+            "radius": 0.62,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 1,
+          "distance": 0,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [
+            "primitive",
+            "dynamic",
+            "archive-contract"
+          ],
+          "behaviors": [],
+          "interactions": [],
+          "physics": {
+            "mode": "dynamic",
+            "mass": 1.4,
+            "material": "ball",
+            "linearVelocity": [
+              0,
+              7.5,
+              0
+            ],
+            "angularVelocity": [
+              0,
+              0,
+              0
+            ],
+            "sleeping": false
+          },
+          "path": null,
+          "asset": null,
+          "agent": null
+        },
+        {
+          "id": "dynamic-shield",
+          "label": "Dynamic Zok Shield",
+          "type": "model",
+          "parentId": null,
+          "position": [
+            0.5,
+            6.5,
+            2.2
+          ],
+          "rotationDegrees": [
+            8,
+            0,
+            18
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#7de6c3",
+            "emissive": "#071f23",
+            "emissiveIntensity": 0.3,
+            "roughness": 0.55,
+            "metalness": 0.08,
+            "opacity": 1,
+            "wireframe": false,
+            "texture": null
+          },
+          "geometry": {
+            "width": 1.3,
+            "height": 1.8,
+            "depth": 0.45,
+            "radius": 0.5,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 1,
+          "distance": 0,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [
+            "model",
+            "dynamic",
+            "archive-contract"
+          ],
+          "behaviors": [],
+          "interactions": [],
+          "physics": {
+            "mode": "dynamic",
+            "mass": 0.8,
+            "material": "ball",
+            "linearVelocity": [
+              0,
+              0,
+              0
+            ],
+            "angularVelocity": [
+              0,
+              1.2,
+              0.4
+            ],
+            "sleeping": false
+          },
+          "path": null,
+          "asset": {
+            "id": "zokshield",
+            "url": "/assets/dominus-gallery/meshes/zokshield.json",
+            "format": "graphysx-mesh-json",
+            "fitSize": 1.8,
+            "status": "ready"
+          },
+          "agent": null
+        },
+        {
+          "id": "static-plinth",
+          "label": "Static Physics Plinth",
+          "type": "box",
+          "parentId": null,
+          "position": [
+            3.5,
+            0.4,
+            0
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#31586a",
+            "emissive": "#071f23",
+            "emissiveIntensity": 0.3,
+            "roughness": 0.55,
+            "metalness": 0.3,
+            "opacity": 1,
+            "wireframe": false,
+            "texture": null
+          },
+          "geometry": {
+            "width": 4.2,
+            "height": 0.8,
+            "depth": 4.2,
+            "radius": 0.5,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 1,
+          "distance": 0,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [
+            "primitive",
+            "static"
+          ],
+          "behaviors": [],
+          "interactions": [],
+          "physics": {
+            "mode": "static",
+            "mass": 0,
+            "material": "ground",
+            "linearVelocity": [
+              0,
+              0,
+              0
+            ],
+            "angularVelocity": [
+              0,
+              0,
+              0
+            ],
+            "sleeping": false
+          },
+          "path": null,
+          "asset": null,
+          "agent": null
+        },
+        {
+          "id": "orb-light",
+          "label": "orb-light",
+          "type": "point-light",
+          "parentId": null,
+          "position": [
+            3.5,
+            5,
+            0
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#ff8b60",
+            "emissive": "#ff4b2f",
+            "emissiveIntensity": 0.3,
+            "roughness": 0.55,
+            "metalness": 0.08,
+            "opacity": 1,
+            "wireframe": false,
+            "texture": null
+          },
+          "geometry": {
+            "width": 1,
+            "height": 1,
+            "depth": 1,
+            "radius": 0.5,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 5,
+          "distance": 16,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [],
+          "behaviors": [],
+          "interactions": [],
+          "physics": null,
+          "path": null,
+          "asset": null,
+          "agent": null
+        }
+      ],
+      "recentEvents": [
+        {
+          "revision": 2,
+          "timeSeconds": 3.186,
+          "type": "transaction.committed",
+          "message": "1 command"
+        },
+        {
+          "revision": 2,
+          "timeSeconds": 3.536,
+          "type": "time.stepped",
+          "message": "Advanced 0.350 seconds"
+        },
+        {
+          "revision": 2,
+          "timeSeconds": 0,
+          "type": "transaction.rejected",
+          "message": "Entity type cannot have physics: point-light"
+        },
+        {
+          "revision": 2,
+          "timeSeconds": 0,
+          "type": "transaction.rejected",
+          "message": "Transform behaviors require kinematic physics"
+        },
+        {
+          "revision": 2,
+          "timeSeconds": 0,
+          "type": "snapshot.saved",
+          "message": "qa-archive-entities"
+        },
+        {
+          "revision": 2,
+          "timeSeconds": 0,
+          "type": "asset.ready",
+          "message": "dynamic-shield: zokshield"
+        },
+        {
+          "revision": 3,
+          "timeSeconds": 0,
+          "type": "world.created",
+          "message": "Created QA Empty"
+        },
+        {
+          "revision": 4,
+          "timeSeconds": 0,
+          "type": "world.created",
+          "message": "Created Archive Entity Playground"
+        },
+        {
+          "revision": 4,
+          "timeSeconds": 0,
+          "type": "snapshot.loaded",
+          "message": "qa-archive-entities"
+        },
+        {
+          "revision": 4,
+          "timeSeconds": 0,
+          "type": "asset.ready",
+          "message": "archive-cottage: port-cottage"
+        },
+        {
+          "revision": 4,
+          "timeSeconds": 0,
+          "type": "asset.ready",
+          "message": "dynamic-shield: zokshield"
+        },
+        {
+          "revision": 4,
+          "timeSeconds": 0,
+          "type": "asset.ready",
+          "message": "spline-sword: zoksword"
+        }
+      ],
+      "recentCommits": [],
+      "savedWorlds": [
+        "qa-archive-entities"
+      ],
+      "capabilities": [
+        "world.create",
+        "world.clear",
+        "entity.spawn",
+        "entity.update",
+        "entity.remove",
+        "entity.model",
+        "entity.agent-avatar",
+        "asset.list",
+        "material.texture",
+        "texture.list",
+        "physics.rigid-body",
+        "spline.path",
+        "behavior.follow-spline",
+        "behavior.attach",
+        "behavior.detach",
+        "interaction.trigger",
+        "interaction.impulse",
+        "prefab.list",
+        "prefab.spawn",
+        "starter.list",
+        "starter.load",
+        "scene.query",
+        "scene.observe",
+        "scene.select",
+        "transaction.atomic",
+        "transaction.undo",
+        "collaboration.commit",
+        "collaboration.history",
+        "time.pause",
+        "time.step",
+        "snapshot.export",
+        "snapshot.save",
+        "snapshot.load",
+        "level.tiles",
+        "level.list",
+        "level.create",
+        "level.remove",
+        "level.open",
+        "level.query-region",
+        "level.patch",
+        "level.fill",
+        "level.resize",
+        "level.transaction",
+        "level.undo",
+        "level.ascii.import",
+        "level.ascii.export",
+        "level.play"
+      ]
+    }
+  },
+  "errors": []
+}

@@ -1,0 +1,10 @@
+//Loaded l'oval comme terrain.  
+//  Setter le CarsManager pour que ce soit lui qui load les char
+// Cela devra etre fait lorsque l'on pese sur launch du GUI
+// Loader le GUI quand on Start Carx
+
+//  Creer une facon de loader / Deloader une scene...  et mettre un render vide noir en arriere....  avec le GUI par dessus
+
+//creer une classe de base pour les scene....    dans un area, il y aura un tableau de scene... ce sera plus facile de passer d'un tableau a un autre...
+
+// Vreer une classe COMM qui va établir les connection, fournil'info au GUI et ensuite recevoir/envoyé les coordonnées position.

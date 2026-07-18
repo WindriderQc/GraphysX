@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GraphysX · Three.js Playground Restoration</title>
+    <style>
+      :root { color-scheme: dark; font-family: Inter, ui-sans-serif, system-ui, sans-serif; color: #f4f7fa; background: #000; }
+      * { box-sizing: border-box; }
+      html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+      button { color: inherit; font: inherit; }
+      #viewport { position: fixed; inset: 0; width: 100%; height: 100%; display: block; outline: none; }
+      .chrome { position: fixed; inset: 0; display: grid; grid-template-rows: auto 1fr auto; padding: 16px; pointer-events: none; }
+      header { display: flex; align-items: center; gap: 12px; justify-self: start; padding: 10px 12px; border: 1px solid rgba(150, 210, 255, .22); border-radius: 9px; background: rgba(3, 8, 14, .78); box-shadow: 0 16px 50px rgba(0, 0, 0, .35); backdrop-filter: blur(12px); }
+      .mark { width: 42px; height: 42px; display: grid; place-items: center; border: 1px solid #e14a4a; border-radius: 50%; color: #ff7777; background: #1b090b; font: 900 11px ui-monospace, monospace; }
+      h1 { margin: 0; font: 600 clamp(19px, 2vw, 27px) Georgia, serif; }
+      .subtitle { margin: 3px 0 0; color: #89a4b8; font: 750 9px ui-monospace, monospace; letter-spacing: .12em; text-transform: uppercase; }
+      .telemetry { align-self: center; justify-self: end; width: min(300px, 31vw); padding: 12px; border: 1px solid rgba(150, 210, 255, .18); border-radius: 9px; background: rgba(3, 8, 14, .8); box-shadow: 0 16px 50px rgba(0, 0, 0, .35); backdrop-filter: blur(12px); pointer-events: auto; }
+      .telemetry h2 { margin: 0 0 10px; color: #ff7979; font: 800 9px ui-monospace, monospace; letter-spacing: .14em; text-transform: uppercase; }
+      dl { display: grid; grid-template-columns: 75px 1fr; gap: 8px 9px; margin: 0; font: 700 10px/1.3 ui-monospace, monospace; }
+      dt { color: #6e8799; text-transform: uppercase; } dd { margin: 0; color: #b7cad6; overflow-wrap: anywhere; }
+      dd.hit { color: #73e3aa; }
+      .adapter { margin: 12px 0 0; padding: 9px; border-left: 2px solid #e14a4a; color: #8199a9; background: rgba(225, 74, 74, .06); font-size: 9px; line-height: 1.45; }
+      .controls { align-self: end; justify-self: center; display: flex; align-items: center; gap: 6px; padding: 7px 9px; border: 1px solid rgba(150, 210, 255, .18); border-radius: 8px; background: rgba(3, 8, 14, .82); pointer-events: auto; }
+      .key { min-width: 23px; padding: 4px 6px; border: 1px solid #365268; border-bottom-color: #7893a6; border-radius: 4px; background: #0d1821; font: 750 9px ui-monospace, monospace; text-align: center; }
+      .help { margin-right: 5px; color: #7891a3; font-size: 9px; }
+      #reset-view { padding: 4px 8px; border: 1px solid #9c3e45; border-radius: 4px; background: #2a1115; cursor: pointer; font: 750 9px ui-monospace, monospace; }
+      #load-line { position: fixed; top: 18px; right: 18px; color: #8ba4b5; font: 750 9px ui-monospace, monospace; letter-spacing: .08em; text-transform: uppercase; pointer-events: none; }
+      #load-line.error { color: #ff6e6e; }
+      .gui-panel { position: fixed; left: 16px; top: 92px; bottom: 60px; width: min(265px, 30vw); overflow: auto; padding: 10px; border: 1px solid rgba(150, 210, 255, .18); border-radius: 9px; background: rgba(3, 8, 14, .82); pointer-events: auto; }
+      .gui-panel h2 { margin: 0 0 7px; color: #ff7979; font: 800 9px ui-monospace, monospace; letter-spacing: .14em; text-transform: uppercase; }
+      .gui-panel details { border-top: 1px solid #263b4b; padding: 5px 0; }
+      .gui-panel summary { cursor: pointer; color: #9db5c5; font: 750 9px ui-monospace, monospace; text-transform: uppercase; }
+      .gui-panel label { display: grid; grid-template-columns: 55px 1fr 36px; align-items: center; gap: 5px; margin-top: 5px; color: #7891a3; font: 700 8px ui-monospace, monospace; }
+      .gui-panel input { accent-color: #69ddc7; min-width: 0; width: 100%; }
+      .gui-panel output { color: #d9e7ed; text-align: right; }
+      @media (max-width: 720px) { .chrome { padding: 9px; } .telemetry { width: min(280px, 76vw); } #load-line { top: auto; right: 10px; bottom: 10px; } .controls { justify-self: start; } .controls .optional { display: none; } }
+      @media (max-width: 720px) { .gui-panel { display: none; } }
+    </style>
+  </head>
+  <body>
+    <canvas id="viewport" tabindex="0" aria-label="Restored Three.js Playground viewport"></canvas>
+    <div class="chrome">
+      <header>
+        <div class="mark">3D</div>
+        <div><h1>Three.js Playground</h1><p class="subtitle">SBQC archive · exact-asset restoration</p></div>
+      </header>
+      <aside class="telemetry" aria-label="Restoration telemetry">
+        <h2>Authored systems online</h2>
+        <dl>
+          <dt>Airplane</dt><dd id="airplane-value">loading GLB</dd>
+          <dt>Terrain</dt><dd id="terrain-value">121 vertices</dd>
+          <dt>Raycast</dt><dd id="raycast-value">move over terrain</dd>
+          <dt>Spotlight</dt><dd id="light-value">0</dd>
+          <dt>FPS</dt><dd><span id="fps-value">0</span> <progress id="fps-progress" value="0" min="0" max="100"></progress></dd>
+          <dt>Orbit</dt><dd id="camera-value">0.72 rad · 1.00×</dd>
+          <dt>World</dt><dd>3 morphs · 3 earths · cube · line</dd>
+        </dl>
+        <p class="adapter">The archive had no usable initial camera. This preview adds orbit framing and deterministic terrain/time adapters; exact assets and archived scene formulas remain identified in structured state.</p>
+      </aside>
+      <aside class="gui-panel" aria-label="Restored dat.GUI controls">
+        <h2>World · 16 restored controls</h2>
+        <details open><summary>Camera</summary>
+          <label>x<input data-playground-param="camera.x" type="range" min="-1000" max="1000" step="1"><output></output></label><label>y<input data-playground-param="camera.y" type="range" min="-1000" max="1000" step="1"><output></output></label><label>z<input data-playground-param="camera.z" type="range" min="-1000" max="1000" step="1"><output></output></label>
+        </details>
+        <details open><summary>Cube</summary>
+          <label>speedX<input data-playground-param="cube.speedX" type="range" min="1" max="3600" step="1"><output></output></label><label>speedY<input data-playground-param="cube.speedY" type="range" min="1" max="3600" step="1"><output></output></label>
+        </details>
+        <details open><summary>Plane</summary>
+          <label>width<input data-playground-param="plane.width" type="range" min="1" max="100" step="1"><output></output></label><label>height<input data-playground-param="plane.height" type="range" min="1" max="100" step="1"><output></output></label><label>x<input data-playground-param="plane.x" type="range" min="-100" max="100" step="1"><output></output></label><label>y<input data-playground-param="plane.y" type="range" min="-100" max="100" step="1"><output></output></label><label>z<input data-playground-param="plane.z" type="range" min="-100" max="100" step="1"><output></output></label>
+        </details>
+        <details><summary>Planets</summary>
+          <label>E speedX<input data-playground-param="earth.speedX" type="range" min="1" max="3600" step="1"><output></output></label><label>E speedY<input data-playground-param="earth.speedY" type="range" min="1" max="3600" step="1"><output></output></label><label>M speedX<input data-playground-param="mars.speedX" type="range" min="1" max="3600" step="1"><output></output></label><label>M speedY<input data-playground-param="mars.speedY" type="range" min="1" max="3600" step="1"><output></output></label><label>Mo speedX<input data-playground-param="moon.speedX" type="range" min="1" max="3600" step="1"><output></output></label><label>Mo speedY<input data-playground-param="moon.speedY" type="range" min="1" max="3600" step="1"><output></output></label>
+        </details>
+      </aside>
+      <footer class="controls">
+        <span class="key">drag</span><span class="help">orbit</span>
+        <span class="key">wheel</span><span class="help">zoom</span>
+        <span class="key optional">A/D</span><span class="help optional">orbit</span>
+        <span class="key optional">F</span><span class="help optional">fullscreen</span>
+        <button id="reset-view" type="button">R · reset</button>
+      </footer>
+    </div>
+    <div id="load-line">Loading nine exact archive assets…</div>
+    <script type="module" src="/src/threejs-playground-preview.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+[
+  {
+    "type": "console.error",
+    "text": "Failed to load resource: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "type": "console.error",
+    "text": "WebSocket connection to 'ws://127.0.0.1:4189/?token=FF_gEo7BROAj' failed: Error in connection establishment: net::ERR_CONNECTION_TIMED_OUT"
+  }
+]

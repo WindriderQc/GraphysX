@@ -1,0 +1,97 @@
+- generic [ref=f12e6]:
+  - heading "BALLZ TOUR" [level=1] [ref=f12e43]
+  - paragraph [ref=f12e8]: Pick any recovered challenge. The numbered order is a recommended learning path, not a lock; medals and completions build your career score.
+  - generic [ref=f12e9]:
+    - button "Start Archive Level 1" [active] [ref=f12e44] [cursor=pointer]
+    - button "Back Home" [ref=f12e45] [cursor=pointer]
+  - generic [ref=f12e12]:
+    - generic [ref=f12e46]:
+      - generic [ref=f12e47]:
+        - generic [ref=f12e48]: Challenge 1 of 9
+        - generic [ref=f12e49]: Intro
+      - heading "Archive Level 1" [level=2] [ref=f12e50]
+      - paragraph [ref=f12e51]: Collect the full ring route, cross the amber halfway gate, then return through the finish.
+      - generic [ref=f12e52]:
+        - generic [ref=f12e53]:
+          - generic [ref=f12e54]: Chapter
+          - strong [ref=f12e55]: BallZ Foundations
+        - generic [ref=f12e56]:
+          - generic [ref=f12e57]: Target
+          - strong [ref=f12e58]: 58.00s
+        - generic [ref=f12e59]:
+          - generic [ref=f12e60]: Status
+          - strong [ref=f12e61]: Unplayed
+        - generic [ref=f12e62]:
+          - generic [ref=f12e63]: Record
+          - strong [ref=f12e64]: 41.00s
+    - generic [ref=f12e65]:
+      - generic [ref=f12e66]:
+        - generic [ref=f12e67]:
+          - generic [ref=f12e68]: Tour Progress
+          - strong [ref=f12e69]: 0 / 9 complete
+        - generic [ref=f12e70]:
+          - generic [ref=f12e71]: Career Score
+          - strong [ref=f12e72]: 0 pts
+      - generic "0% complete" [ref=f12e73]
+    - generic [ref=f12e75]:
+      - generic [ref=f12e76]: All Challenges — No Locks
+      - generic [ref=f12e77]:
+        - button "Challenge 1 Archive Level 1 Intro · BallZ Foundations Ready to play Learn camera-relative rolling, jumping, and the two-gate lap." [ref=f12e78] [cursor=pointer]:
+          - generic [ref=f12e79]: Challenge 1
+          - generic [ref=f12e80]: Archive Level 1
+          - generic [ref=f12e81]: Intro · BallZ Foundations
+          - strong [ref=f12e82]: Ready to play
+          - generic [ref=f12e83]: Learn camera-relative rolling, jumping, and the two-gate lap.
+        - button "Challenge 2 Archive Level 2 Easy · Maze Reading Ready to play Route planning and controlled speed." [ref=f12e84] [cursor=pointer]:
+          - generic [ref=f12e85]: Challenge 2
+          - generic [ref=f12e86]: Archive Level 2
+          - generic [ref=f12e87]: Easy · Maze Reading
+          - strong [ref=f12e88]: Ready to play
+          - generic [ref=f12e89]: Route planning and controlled speed.
+        - button "Challenge 3 Archive Level 3 Medium · Moving Hazards Ready to play Jump timing and recovery." [ref=f12e90] [cursor=pointer]:
+          - generic [ref=f12e91]: Challenge 3
+          - generic [ref=f12e92]: Archive Level 3
+          - generic [ref=f12e93]: Medium · Moving Hazards
+          - strong [ref=f12e94]: Ready to play
+          - generic [ref=f12e95]: Jump timing and recovery.
+        - button "Challenge 4 Skybox Spiral Medium · Open Sky Ready to play Camera orbit, momentum, and long sightlines." [ref=f12e96] [cursor=pointer]:
+          - generic [ref=f12e97]: Challenge 4
+          - generic [ref=f12e98]: Skybox Spiral
+          - generic [ref=f12e99]: Medium · Open Sky
+          - strong [ref=f12e100]: Ready to play
+          - generic [ref=f12e101]: Camera orbit, momentum, and long sightlines.
+        - button "Challenge 5 Suzanne 1 — Classic Hard · Recovered Classic Ready to play Legacy level mastery." [ref=f12e102] [cursor=pointer]:
+          - generic [ref=f12e103]: Challenge 5
+          - generic [ref=f12e104]: Suzanne 1 — Classic
+          - generic [ref=f12e105]: Hard · Recovered Classic
+          - strong [ref=f12e106]: Ready to play
+          - generic [ref=f12e107]: Legacy level mastery.
+        - button "Challenge 6 World 1 — Recovered Hard · Lost World Ready to play Exploration and fall recovery." [ref=f12e108] [cursor=pointer]:
+          - generic [ref=f12e109]: Challenge 6
+          - generic [ref=f12e110]: World 1 — Recovered
+          - generic [ref=f12e111]: Hard · Lost World
+          - strong [ref=f12e112]: Ready to play
+          - generic [ref=f12e113]: Exploration and fall recovery.
+        - button "Challenge 7 Map 1 — BallZ 2011 Expert · 2011 Descent Ready to play Precision on a tall legacy map." [ref=f12e114] [cursor=pointer]:
+          - generic [ref=f12e115]: Challenge 7
+          - generic [ref=f12e116]: Map 1 — BallZ 2011
+          - generic [ref=f12e117]: Expert · 2011 Descent
+          - strong [ref=f12e118]: Ready to play
+          - generic [ref=f12e119]: Precision on a tall legacy map.
+        - button "Challenge 8 Piste Ovale — Impreza Medium · Impreza Detour Ready to play Vehicle steering replaces BallZ rolling." [ref=f12e120] [cursor=pointer]:
+          - generic [ref=f12e121]: Challenge 8
+          - generic [ref=f12e122]: Piste Ovale — Impreza
+          - generic [ref=f12e123]: Medium · Impreza Detour
+          - strong [ref=f12e124]: Ready to play
+          - generic [ref=f12e125]: Vehicle steering replaces BallZ rolling.
+        - button "Challenge 9 ZombieKiller Arena Hard · ZombieKiller Ready to play Free-roam hunting instead of rings and gates." [ref=f12e126] [cursor=pointer]:
+          - generic [ref=f12e127]: Challenge 9
+          - generic [ref=f12e128]: ZombieKiller Arena
+          - generic [ref=f12e129]: Hard · ZombieKiller
+          - strong [ref=f12e130]: Ready to play
+          - generic [ref=f12e131]: Free-roam hunting instead of rings and gates.
+    - article [ref=f12e132]:
+      - generic [ref=f12e133]: In-Race Controls
+      - strong [ref=f12e134]:
+        - text: WASD / arrows move relative to the camera
+        - generic [ref=f12e135]: drag to orbit · wheel zoom · C reset camera · Space jump · Shift boost · R restart · Esc exit

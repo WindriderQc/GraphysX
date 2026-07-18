@@ -1,0 +1,7 @@
+<particle-system>
+  <emitter type="billboard" max-particles="64" id="0" size="32" location="0/0/0" direction="0/0/1" directional="True" randomdirectionfactor="0/0/0" power="100" lifetime="1" shape="0" texture="D:\Prog Shit\AtmelCubx\textures n else\effects\auto2.jpg" color="0,1,0,1" speed="100" usegravity="False" gravity="0/-0.5/0" alphachange="1" alphablending="3" alphatest="True" alpharef="0" alphadepthwrite="False" boxsize="0/0/0" sphereradius="0" looping="True">
+    <emitter-keyframes>
+      <keyframe id="0" key="1" location="0/0/0" direction="0/0/0" power="0" lifetime="1" color="1,0,0,1" speed="0" boxsize="0/0/0" sphereradius="0" />
+    </emitter-keyframes>
+  </emitter>
+</particle-system>

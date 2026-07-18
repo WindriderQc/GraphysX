@@ -1,0 +1,23 @@
+This is a low Poly Cobra model that can be used for most 
+any application.
+
+When you import this model into your 3D program, you'll 
+need to re-weld most of the Vertex's for the smoothing 
+groups to work correctly. Then Apply the Textures.
+
+There are multiple colors included; Black, Gray, Blue, Green, Orange, and Red.
+
+You have any questions or issues please email me at: work@gamester.ws
+
+ENJOY!
+
+------------------------------------------------------------
+
+
+Vertices: 1886
+Faces: 3247
+
+------------------------------------------------------------
+
+You may not resell or repackage this item into a model collection, or resell
+on another model web site.

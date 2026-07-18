@@ -1,0 +1,94 @@
+- generic [ref=e6]:
+  - generic [ref=e7]:
+    - generic [ref=e8]: GraphysX Web Revival
+    - strong [ref=e9]: v0.1.0
+    - generic [ref=e10]: revival-2026.07.16-r3
+  - heading "ARCHIVE CONCEPTS & WORLDS" [level=1] [ref=e434]
+  - paragraph [ref=e12]: "This hub currently holds playable recovery trials, but their provenance is separated below: BallZ slide/level/world concepts, standalone 3D environments to explore, and vehicle experiments are different archive families."
+  - generic [ref=e13]:
+    - button "Visit The Great Slide — Level0" [ref=e435] [cursor=pointer]
+    - button "Back Home" [active] [ref=e436] [cursor=pointer]
+  - generic [ref=e16]:
+    - generic [ref=e437]:
+      - generic [ref=e438]:
+        - generic [ref=e439]: World recovery trial 3 of 5
+        - generic [ref=e440]: Medium
+      - heading "The Great Slide — Level0" [level=2] [ref=e441]
+      - paragraph [ref=e442]: SlideLarge.TVM — the giant 2011 Level0 slide, 116 units long, 25 units of descent. Ride it down, thread the rings, survive to the runout.
+      - generic [ref=e443]:
+        - generic [ref=e444]:
+          - generic [ref=e445]: Chapter
+          - strong [ref=e446]: Custom Challenge
+        - generic [ref=e447]:
+          - generic [ref=e448]: Target
+          - strong [ref=e449]: 1:10.00
+        - generic [ref=e450]:
+          - generic [ref=e451]: Status
+          - strong [ref=e452]: Unplayed
+        - generic [ref=e453]:
+          - generic [ref=e454]: Record
+          - strong [ref=e455]: 42.00s
+    - generic [ref=e456]:
+      - generic [ref=e457]:
+        - generic [ref=e458]:
+          - generic [ref=e459]: Playable Archive Trials
+          - strong [ref=e460]: 0 / 5 complete
+        - generic [ref=e461]:
+          - generic [ref=e462]: Career Score
+          - strong [ref=e463]: 0 pts
+      - generic "0% complete" [ref=e464]
+    - generic [ref=e466]:
+      - generic [ref=e467]: Playable Recoveries
+      - generic [ref=e468]:
+        - button "Challenge 1 World 1 — Recovered Hard · Lost World Ready to play Exploration and fall recovery." [ref=e469] [cursor=pointer]:
+          - generic [ref=e470]: Challenge 1
+          - generic [ref=e471]: World 1 — Recovered
+          - generic [ref=e472]: Hard · Lost World
+          - strong [ref=e473]: Ready to play
+          - generic [ref=e474]: Exploration and fall recovery.
+        - button "Challenge 2 Map 1 — BallZ 2011 Expert · 2011 Descent Ready to play Precision on a tall legacy map." [ref=e475] [cursor=pointer]:
+          - generic [ref=e476]: Challenge 2
+          - generic [ref=e477]: Map 1 — BallZ 2011
+          - generic [ref=e478]: Expert · 2011 Descent
+          - strong [ref=e479]: Ready to play
+          - generic [ref=e480]: Precision on a tall legacy map.
+        - button "Challenge 3 The Great Slide — Level0 Medium · Custom Challenge Ready to play Explore the route and complete its objective." [ref=e481] [cursor=pointer]:
+          - generic [ref=e482]: Challenge 3
+          - generic [ref=e483]: The Great Slide — Level0
+          - generic [ref=e484]: Medium · Custom Challenge
+          - strong [ref=e485]: Ready to play
+          - generic [ref=e486]: Explore the route and complete its objective.
+        - button "Challenge 4 FlightX — Pipe Loop Medium · Custom Challenge Ready to play Explore the route and complete its objective." [ref=e487] [cursor=pointer]:
+          - generic [ref=e488]: Challenge 4
+          - generic [ref=e489]: FlightX — Pipe Loop
+          - generic [ref=e490]: Medium · Custom Challenge
+          - strong [ref=e491]: Ready to play
+          - generic [ref=e492]: Explore the route and complete its objective.
+        - button "Challenge 5 Piste Ovale — Impreza Medium · Impreza Detour Ready to play Vehicle steering replaces BallZ rolling." [ref=e493] [cursor=pointer]:
+          - generic [ref=e494]: Challenge 5
+          - generic [ref=e495]: Piste Ovale — Impreza
+          - generic [ref=e496]: Medium · Impreza Detour
+          - strong [ref=e497]: Ready to play
+          - generic [ref=e498]: Vehicle steering replaces BallZ rolling.
+    - generic [ref=e499]:
+      - generic [ref=e500]: BallZ Concept Queue
+      - list [ref=e501]:
+        - listitem [ref=e502]:
+          - strong [ref=e503]: World 1 / Map 1 / BallZ 2011 Level0 + Level1
+          - text: — BallZ level/world experiments needing materials, original rules, and authored navigation.
+        - listitem [ref=e504]:
+          - strong [ref=e505]: Slide / pipe / corridor / track set
+          - text: — other BallZ concepts, not generic recovered environments.
+      - generic [ref=e506]: Standalone 3D Environment Queue
+      - list [ref=e507]:
+        - listitem [ref=e508]:
+          - strong [ref=e509]: Common rooms
+          - text: — room.tvm, room2.tvm, sky.tvm, grass and ballcube spaces intended for discovery.
+        - listitem [ref=e510]:
+          - strong [ref=e511]: Dominus village
+          - text: — roughly 60 town, dock, cottage, lighthouse, foliage, prop, and character meshes for an explorable environment.
+    - article [ref=e512]:
+      - generic [ref=e513]: Category Note
+      - strong [ref=e514]:
+        - text: World 1 and Map 1 are BallZ-era concepts
+        - generic [ref=e515]: Piste Ovale is an Atmel/CubX vehicle experiment. Rooms, terrain scenes, and Dominus belong to standalone 3D environments. Current ring objectives remain prototype trials.

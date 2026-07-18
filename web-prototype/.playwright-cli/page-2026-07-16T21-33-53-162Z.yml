@@ -1,0 +1,77 @@
+- generic [ref=e6]:
+  - heading "RECOVERED WORLDS" [level=1] [ref=e59]
+  - paragraph [ref=e8]: Visit playable recovery trials built from worlds and experiments found across BallZ-era and Atmel folders. These are preserved beside BallZ, not relabeled as BallZ races.
+  - generic [ref=e9]:
+    - button "Loading World 1 — Recovered…" [disabled] [ref=e60]
+    - button "Back Home" [ref=e61] [cursor=pointer]
+  - generic [ref=e12]:
+    - generic [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]: World recovery trial 1 of 3
+        - generic [ref=e65]: Hard
+      - heading "World 1 — Recovered" [level=2] [ref=e66]
+      - paragraph [ref=e67]: Navigate the recovered World 1 assembly and find a safe line through its vertical spaces.
+      - paragraph [ref=e68]: Preparing recovered level geometry…
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - generic [ref=e71]: Chapter
+          - strong [ref=e72]: Lost World
+        - generic [ref=e73]:
+          - generic [ref=e74]: Target
+          - strong [ref=e75]: 1:35.00
+        - generic [ref=e76]:
+          - generic [ref=e77]: Status
+          - strong [ref=e78]: Unplayed
+        - generic [ref=e79]:
+          - generic [ref=e80]: Record
+          - strong [ref=e81]: 1:05.00
+    - generic [ref=e82]:
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - generic [ref=e85]: Recovered Worlds
+          - strong [ref=e86]: 0 / 3 complete
+        - generic [ref=e87]:
+          - generic [ref=e88]: Career Score
+          - strong [ref=e89]: 0 pts
+      - generic "0% complete" [ref=e90]
+    - generic [ref=e92]:
+      - generic [ref=e93]: Playable Recoveries
+      - generic [ref=e94]:
+        - button "Challenge 1 World 1 — Recovered Hard · Lost World Ready to play Exploration and fall recovery." [ref=e95] [cursor=pointer]:
+          - generic [ref=e96]: Challenge 1
+          - generic [ref=e97]: World 1 — Recovered
+          - generic [ref=e98]: Hard · Lost World
+          - strong [ref=e99]: Ready to play
+          - generic [ref=e100]: Exploration and fall recovery.
+        - button "Challenge 2 Map 1 — BallZ 2011 Expert · 2011 Descent Ready to play Precision on a tall legacy map." [ref=e101] [cursor=pointer]:
+          - generic [ref=e102]: Challenge 2
+          - generic [ref=e103]: Map 1 — BallZ 2011
+          - generic [ref=e104]: Expert · 2011 Descent
+          - strong [ref=e105]: Ready to play
+          - generic [ref=e106]: Precision on a tall legacy map.
+        - button "Challenge 3 Piste Ovale — Impreza Medium · Impreza Detour Ready to play Vehicle steering replaces BallZ rolling." [ref=e107] [cursor=pointer]:
+          - generic [ref=e108]: Challenge 3
+          - generic [ref=e109]: Piste Ovale — Impreza
+          - generic [ref=e110]: Medium · Impreza Detour
+          - strong [ref=e111]: Ready to play
+          - generic [ref=e112]: Vehicle steering replaces BallZ rolling.
+    - generic [ref=e113]:
+      - generic [ref=e114]: Recovered World Queue
+      - list [ref=e115]:
+        - listitem [ref=e116]:
+          - strong [ref=e117]: BallZ 2011 Level0 + Level1
+          - text: — existing geometry, still needs splitting, materials, and visit-mode assembly.
+        - listitem [ref=e118]:
+          - strong [ref=e119]: Slide / pipe / corridor / track set
+          - text: — convertible obstacle-world pieces, not yet organized into a navigable archive.
+        - listitem [ref=e120]:
+          - strong [ref=e121]: Common rooms
+          - text: — room.tvm, room2.tvm, sky.tvm, grass and ballcube environment pieces.
+        - listitem [ref=e122]:
+          - strong [ref=e123]: Dominus village
+          - text: — roughly 60 text-X town, dock, cottage, lighthouse, foliage, prop, and character meshes.
+    - article [ref=e124]:
+      - generic [ref=e125]: Category Note
+      - strong [ref=e126]:
+        - text: World 1 and Map 1 are recovered spaces
+        - generic [ref=e127]: Piste Ovale is an Atmel/CubX vehicle experiment; their current ring objectives are prototype visit trials, not claims about the original project design.

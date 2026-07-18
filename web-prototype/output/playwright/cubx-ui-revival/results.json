@@ -1,0 +1,4771 @@
+{
+  "url": "http://127.0.0.1:4174",
+  "assertions": [
+    {
+      "pass": true,
+      "message": "CubX menu opens through the player-facing archive mode"
+    },
+    {
+      "pass": true,
+      "message": "Live CubZ menu identifies decoded CubeRot/CubeOpen TVA playback"
+    },
+    {
+      "pass": true,
+      "message": "All seven recovered CubZ selection ranges are available"
+    },
+    {
+      "pass": true,
+      "message": "CubZ open uses the decoded 0-50 source range"
+    },
+    {
+      "pass": true,
+      "message": "Idle rotation uses the recovered 20/20/20 degrees-per-second constant"
+    },
+    {
+      "pass": true,
+      "message": "Recovered CubX camera fly reaches its clamped source target"
+    },
+    {
+      "pass": true,
+      "message": "Camera fly reports the recovered (-75,725,-350) clamp"
+    },
+    {
+      "pass": true,
+      "message": "Recovered MenuManager limits and wildcard tags are live"
+    },
+    {
+      "pass": true,
+      "message": "The level-0 System/Tools/Earth/Grid shell plus always-visible Arrow/Sun is live"
+    },
+    {
+      "pass": true,
+      "message": "Arrow uses decoded Fleche.tvm geometry"
+    },
+    {
+      "pass": true,
+      "message": "System preserves its recovered source coordinate"
+    },
+    {
+      "pass": true,
+      "message": "Tools preserves its recovered source coordinate"
+    },
+    {
+      "pass": true,
+      "message": "Earth preserves its recovered source coordinate"
+    },
+    {
+      "pass": true,
+      "message": "Arrow preserves its recovered source coordinate"
+    },
+    {
+      "pass": true,
+      "message": "Sun preserves its recovered source coordinate"
+    },
+    {
+      "pass": true,
+      "message": "Cube 1 follows the source's direct open path"
+    },
+    {
+      "pass": true,
+      "message": "CubX remains in the open phase at the diagnostic midpoint"
+    },
+    {
+      "pass": true,
+      "message": "Open progress samples continuously inside the decoded 0-50 range"
+    },
+    {
+      "pass": true,
+      "message": "CubZ reaches decoded frame 50 at the fully open pose"
+    },
+    {
+      "pass": true,
+      "message": "CubX close starts from the decoded open endpoint"
+    },
+    {
+      "pass": true,
+      "message": "CubX remains in the close phase at the diagnostic midpoint"
+    },
+    {
+      "pass": true,
+      "message": "Close samples the same CubZ source interval in reverse"
+    },
+    {
+      "pass": true,
+      "message": "CubX returns to its idle bind layout after reverse playback"
+    },
+    {
+      "pass": true,
+      "message": "BallZ cube starts its recovered snap/open chain"
+    },
+    {
+      "pass": true,
+      "message": "BallZ cube reaches its dedicated selector screen"
+    },
+    {
+      "pass": true,
+      "message": "Ball selector exposes Fire, Classic, and Revival in source-facing order"
+    },
+    {
+      "pass": true,
+      "message": "BallFire and BallShell recovered meshes are loaded"
+    },
+    {
+      "pass": true,
+      "message": "fire selector updates both CubX and live race state"
+    },
+    {
+      "pass": true,
+      "message": "classic2015 selector updates both CubX and live race state"
+    },
+    {
+      "pass": true,
+      "message": "revival selector updates both CubX and live race state"
+    },
+    {
+      "pass": true,
+      "message": "CubX menu can be reopened for satellite interaction QA"
+    },
+    {
+      "pass": true,
+      "message": "System satellite accepts its evidence-bounded inspect action"
+    },
+    {
+      "pass": true,
+      "message": "System stays in CubX because its recovered explosion destination is unavailable"
+    },
+    {
+      "pass": true,
+      "message": "Earth satellite accepts its recovered no-op inspect action"
+    },
+    {
+      "pass": true,
+      "message": "Earth remains inspect-only because the recovered click handler is empty"
+    },
+    {
+      "pass": true,
+      "message": "Tools satellite activates its recovered Car Scene destination"
+    },
+    {
+      "pass": true,
+      "message": "Tools opens the recovered Impreza Car Scene"
+    },
+    {
+      "pass": true,
+      "message": "Tools destination finishes loading the recovered terrain and car catalog"
+    },
+    {
+      "pass": true,
+      "message": "Recovered Impreza begins its archived gravity drop after Tools opens Car Scene"
+    },
+    {
+      "pass": true,
+      "message": "CubX menu can be reopened for Arrow semantics"
+    },
+    {
+      "pass": true,
+      "message": "CubZ opens before testing the ALLMENU Arrow"
+    },
+    {
+      "pass": true,
+      "message": "CubZ reaches open state before Arrow activation"
+    },
+    {
+      "pass": true,
+      "message": "Arrow remains actionable while CubZ is open"
+    },
+    {
+      "pass": true,
+      "message": "ALLMENU Arrow restores menu level 0 and begins closing CubZ"
+    },
+    {
+      "pass": true,
+      "message": "Arrow returns the CubZ shell to idle level 0"
+    },
+    {
+      "pass": true,
+      "message": "CubX menu can be reopened before the sun raycast check"
+    },
+    {
+      "pass": true,
+      "message": "Rendered SUN control is discoverable as the strong red WebGL target"
+    },
+    {
+      "pass": true,
+      "message": "CubX WebGL canvas has a clickable layout box"
+    },
+    {
+      "pass": true,
+      "message": "Clicking the rendered 3D sun launches the flightx-pipe race"
+    },
+    {
+      "pass": true,
+      "message": "CubX UI revival has no browser console or page errors"
+    }
+  ],
+  "states": {
+    "idle": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.17-r7",
+      "mode": "cubx-lab",
+      "projectFamily": "cubx-lab",
+      "race": "Archive Level 1 — ASCII Restoration",
+      "preview": "cubx-lab",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "cubx": {
+        "phase": "idle",
+        "selectedCube": null,
+        "selectedLabel": null,
+        "actions": [],
+        "selectedAction": null,
+        "ballSelector": {
+          "selected": "revival",
+          "options": [
+            "fire",
+            "classic2015",
+            "revival"
+          ],
+          "recoveredMeshesReady": true,
+          "meshSource": "src/legacy/tvm-catalog.json#ball",
+          "firePhysics": "revival"
+        },
+        "sunLaunch": {
+          "raceId": "flightx-pipe",
+          "source": "AtmelCubx/CubXScene.cpp red sun box",
+          "interactive": true
+        },
+        "satellites": {
+          "activeMenuLevel": 0,
+          "selected": null,
+          "menuRules": {
+            "maxButtons": 48,
+            "maxLevels": 16,
+            "allMenu": 666,
+            "allMenuExceptMain": 777
+          },
+          "displayScale": 0.005,
+          "items": [
+            {
+              "id": "system",
+              "label": "SYSTEM",
+              "sourceAsset": "Box.tvm",
+              "sourceTexture": "SystemIcon.jpg",
+              "sourcePosition": [
+                -800,
+                300,
+                -250
+              ],
+              "sourceScale": 10,
+              "menuTag": 0,
+              "action": "system-reference",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                -5.7,
+                1.45,
+                1
+              ]
+            },
+            {
+              "id": "tools",
+              "label": "TOOLS",
+              "sourceAsset": "Box.tvm",
+              "sourceTexture": "ToolsIcon.png",
+              "sourcePosition": [
+                -1100,
+                300,
+                -500
+              ],
+              "sourceScale": 10,
+              "menuTag": 0,
+              "action": "car-scene",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                -7.2,
+                1.45,
+                2.25
+              ]
+            },
+            {
+              "id": "earth",
+              "label": "EARTH",
+              "sourceAsset": "Earth.tvm",
+              "sourceTexture": "Earth.jpg",
+              "sourcePosition": [
+                800,
+                500,
+                350
+              ],
+              "sourceScale": 10,
+              "menuTag": 0,
+              "action": "none",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                2.3,
+                2.45,
+                -2
+              ]
+            },
+            {
+              "id": "earth-grid",
+              "label": "EARTH GRID",
+              "sourceAsset": "Sphere.tvm",
+              "sourceTexture": "EarthGridXL.bmp",
+              "sourcePosition": [
+                800,
+                500,
+                350
+              ],
+              "sourceScale": 1.2,
+              "menuTag": 0,
+              "action": "none",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                2.3,
+                2.45,
+                -2
+              ]
+            },
+            {
+              "id": "arrow",
+              "label": "MAIN MENU",
+              "sourceAsset": "Fleche.tvm",
+              "sourceTexture": "marble10.jpg",
+              "sourcePosition": [
+                1000,
+                600,
+                300
+              ],
+              "sourceScale": 1,
+              "sourceRotationDegrees": [
+                0,
+                180,
+                0
+              ],
+              "menuTag": 666,
+              "action": "return-main",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                3.3,
+                2.95,
+                -1.75
+              ]
+            },
+            {
+              "id": "sun",
+              "label": "FLIGHTX",
+              "sourceAsset": "procedural box",
+              "sourceTexture": null,
+              "sourcePosition": [
+                0,
+                500,
+                0
+              ],
+              "sourceScale": 20,
+              "menuTag": "always",
+              "action": "flightx-pipe",
+              "evidence": "recovery-ledger",
+              "visible": true,
+              "displayPosition": [
+                -1.7,
+                2.45,
+                -0.25
+              ]
+            }
+          ],
+          "visualAdapter": {
+            "sourceCoordinatesExact": true,
+            "recoveredArrowGeometryReady": true,
+            "pending": "Box.tvm, Earth.tvm, Sphere.tvm and their original CubX textures are not yet present in the browser converter output",
+            "presentation": "Uniform constellation scale plus procedural box/earth shells; Earth-grid spin has no recovered source rate"
+          }
+        },
+        "sourceLayout": {
+          "modelScale": 8,
+          "cubeSize": 58,
+          "centers": [
+            [
+              0,
+              25,
+              0
+            ],
+            [
+              0,
+              25,
+              100
+            ],
+            [
+              -95,
+              25,
+              100
+            ],
+            [
+              -95,
+              25,
+              0
+            ],
+            [
+              0,
+              -70,
+              0
+            ],
+            [
+              0,
+              -70,
+              100
+            ],
+            [
+              -95,
+              -70,
+              100
+            ],
+            [
+              -95,
+              -70,
+              0
+            ]
+          ],
+          "displayScale": 0.02689655172413793,
+          "displayCenters": [
+            [
+              1.2776,
+              1.2776,
+              1.3448
+            ],
+            [
+              1.2776,
+              1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              1.2776,
+              1.3448
+            ],
+            [
+              1.2776,
+              -1.2776,
+              1.3448
+            ],
+            [
+              1.2776,
+              -1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              -1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              -1.2776,
+              1.3448
+            ]
+          ],
+          "exactHitLayout": true
+        },
+        "sourceAnimation": {
+          "decoded": true,
+          "activeSample": null,
+          "rotationClips": [
+            {
+              "selection": 1,
+              "animationId": 1,
+              "name": "Animation1",
+              "startFrame": 0,
+              "endFrame": 28,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 2,
+              "animationId": 2,
+              "name": "Animation2",
+              "startFrame": 30,
+              "endFrame": 58,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 3,
+              "animationId": 3,
+              "name": "Animation3",
+              "startFrame": 60,
+              "endFrame": 88,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 4,
+              "animationId": 4,
+              "name": "Animation4",
+              "startFrame": 90,
+              "endFrame": 118,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 5,
+              "animationId": 5,
+              "name": "Animation5",
+              "startFrame": 120,
+              "endFrame": 148,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 6,
+              "animationId": 6,
+              "name": "Animation6",
+              "startFrame": 150,
+              "endFrame": 178,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 7,
+              "animationId": 7,
+              "name": "Animation7",
+              "startFrame": 180,
+              "endFrame": 208,
+              "durationSeconds": 0.9333333333333333
+            }
+          ],
+          "openClip": {
+            "animationId": 0,
+            "name": "",
+            "startFrame": 0,
+            "endFrame": 50,
+            "durationSeconds": 1.6666666666666667,
+            "panels": [
+              "Right08",
+              "Top08",
+              "Left08"
+            ]
+          },
+          "selectionZeroSkipsRotation": true,
+          "reverseRepair": {
+            "status": "intentional-source-defect-repair",
+            "archivedExpression": "iSelectedCube+1",
+            "archivedValidIds": [
+              0,
+              7
+            ],
+            "archivedResultingReverseIds": [
+              2,
+              8
+            ],
+            "implementedBehavior": "Reverse traverses the same animation ID/range used by forward playback, from its decoded end frame to its decoded start frame.",
+            "reason": "For selections 1-6 the reverse ID is a different range than the forward ID; selection 7 requests ID 8 although CubeRot contains only IDs 0-7. This is a source/binary inconsistency, not behavior to reproduce as intended design."
+          },
+          "choreography": {
+            "idleSpinDegreesPerSecond": [
+              20,
+              20,
+              20
+            ],
+            "rotationRangeDurationSeconds": 0.9333333333333333,
+            "openRangeDurationSeconds": 1.6666666666666667,
+            "cameraFly": {
+              "sourceStart": [
+                400,
+                250,
+                -2000
+              ],
+              "stepPerFrame": [
+                -10,
+                5,
+                10
+              ],
+              "sourceTarget": [
+                -75,
+                725,
+                -350
+              ],
+              "current": [
+                -75,
+                725,
+                -350
+              ],
+              "complete": true
+            },
+            "screensaverOwnedByGlobalMenuCamera": true
+          },
+          "visualAdapter": {
+            "status": "decoded-cubz-tva-tracks-on-procedural-cubz-geometry",
+            "exact": "CubeRot GlobalCube and CubeOpen Right08/Top08/Left08 stored quaternion tracks, source ranges, 30 fps timing and same-range reverse playback",
+            "pending": "Original CubZ actor/button geometry/material conversion and a verified TV3D-to-Three handedness transform"
+          }
+        },
+        "animationFidelity": "decoded-cuberot-and-cubeopen-visual-adapter"
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "player": {
+        "x": -6.5,
+        "y": 0.35,
+        "z": 7.5,
+        "radius": 0.3
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "inputAxis": {
+        "forward": 0,
+        "turn": 0
+      },
+      "ballPreset": "revival",
+      "ghost": {
+        "hasBest": false,
+        "bestTimeMs": null,
+        "recordingSamples": 0,
+        "playbackVisible": false,
+        "lastLapVisible": false
+      },
+      "flight": null,
+      "suzanne": null,
+      "rings": "0/20",
+      "laps": {
+        "completed": 0,
+        "total": 3,
+        "current": 1
+      },
+      "halfway": false,
+      "raceActive": false,
+      "raceFinished": false,
+      "loadState": {
+        "ready": true,
+        "loading": false,
+        "requiredKeys": []
+      },
+      "remainingRings": [
+        {
+          "x": 2.5,
+          "y": 0.8,
+          "z": -6.5
+        },
+        {
+          "x": -1.5,
+          "y": 0.8,
+          "z": -5.5
+        },
+        {
+          "x": 1.5,
+          "y": 0.8,
+          "z": -5.5
+        },
+        {
+          "x": -0.5,
+          "y": 0.8,
+          "z": -4.5
+        },
+        {
+          "x": 0.5,
+          "y": 0.8,
+          "z": -4.5
+        },
+        {
+          "x": -5.5,
+          "y": 0.8,
+          "z": -2.5
+        },
+        {
+          "x": -4.5,
+          "y": 0.8,
+          "z": -1.5
+        },
+        {
+          "x": 4.5,
+          "y": 0.8,
+          "z": -1.5
+        },
+        {
+          "x": -3.5,
+          "y": 0.8,
+          "z": -0.5
+        },
+        {
+          "x": 3.5,
+          "y": 0.8,
+          "z": -0.5
+        },
+        {
+          "x": -3.5,
+          "y": 0.8,
+          "z": 0.5
+        },
+        {
+          "x": 3.5,
+          "y": 0.8,
+          "z": 0.5
+        },
+        {
+          "x": -4.5,
+          "y": 0.8,
+          "z": 1.5
+        },
+        {
+          "x": 4.5,
+          "y": 0.8,
+          "z": 1.5
+        },
+        {
+          "x": 5.5,
+          "y": 0.8,
+          "z": 2.5
+        },
+        {
+          "x": -0.5,
+          "y": 0.8,
+          "z": 4.5
+        },
+        {
+          "x": 0.5,
+          "y": 0.8,
+          "z": 4.5
+        },
+        {
+          "x": -1.5,
+          "y": 0.8,
+          "z": 5.5
+        },
+        {
+          "x": 1.5,
+          "y": 0.8,
+          "z": 5.5
+        },
+        {
+          "x": -2.5,
+          "y": 0.8,
+          "z": 6.5
+        }
+      ],
+      "activeZombies": [],
+      "nextObjective": "Bonus checkpoint nearby",
+      "objectiveDistance": 4.12,
+      "camera": {
+        "yaw": 0.748,
+        "pitch": 0.44,
+        "distance": 14,
+        "collision": {
+          "active": false,
+          "hitBodyId": null,
+          "desiredDistance": 14,
+          "resolvedDistance": 14
+        }
+      },
+      "controls": "Click one of the eight 3D cubes; choose one of four unfolded panels; Close reverses the open and rotation sequence.",
+      "shellWireRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "arrowHeading": 3.142
+    },
+    "openMidpoint": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.17-r7",
+      "mode": "cubx-lab",
+      "projectFamily": "cubx-lab",
+      "race": "Archive Level 1 — ASCII Restoration",
+      "preview": "cubx-lab",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "cubx": {
+        "phase": "opening",
+        "selectedCube": 0,
+        "selectedLabel": "Atmel Control",
+        "actions": [
+          "Digital I/O",
+          "Light Timer",
+          "Fan Timer",
+          "Serial Link"
+        ],
+        "selectedAction": null,
+        "ballSelector": {
+          "selected": "revival",
+          "options": [
+            "fire",
+            "classic2015",
+            "revival"
+          ],
+          "recoveredMeshesReady": true,
+          "meshSource": "src/legacy/tvm-catalog.json#ball",
+          "firePhysics": "revival"
+        },
+        "sunLaunch": {
+          "raceId": "flightx-pipe",
+          "source": "AtmelCubx/CubXScene.cpp red sun box",
+          "interactive": true
+        },
+        "satellites": {
+          "activeMenuLevel": 0,
+          "selected": null,
+          "menuRules": {
+            "maxButtons": 48,
+            "maxLevels": 16,
+            "allMenu": 666,
+            "allMenuExceptMain": 777
+          },
+          "displayScale": 0.005,
+          "items": [
+            {
+              "id": "system",
+              "label": "SYSTEM",
+              "sourceAsset": "Box.tvm",
+              "sourceTexture": "SystemIcon.jpg",
+              "sourcePosition": [
+                -800,
+                300,
+                -250
+              ],
+              "sourceScale": 10,
+              "menuTag": 0,
+              "action": "system-reference",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                -5.7,
+                1.45,
+                1
+              ]
+            },
+            {
+              "id": "tools",
+              "label": "TOOLS",
+              "sourceAsset": "Box.tvm",
+              "sourceTexture": "ToolsIcon.png",
+              "sourcePosition": [
+                -1100,
+                300,
+                -500
+              ],
+              "sourceScale": 10,
+              "menuTag": 0,
+              "action": "car-scene",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                -7.2,
+                1.45,
+                2.25
+              ]
+            },
+            {
+              "id": "earth",
+              "label": "EARTH",
+              "sourceAsset": "Earth.tvm",
+              "sourceTexture": "Earth.jpg",
+              "sourcePosition": [
+                800,
+                500,
+                350
+              ],
+              "sourceScale": 10,
+              "menuTag": 0,
+              "action": "none",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                2.3,
+                2.45,
+                -2
+              ]
+            },
+            {
+              "id": "earth-grid",
+              "label": "EARTH GRID",
+              "sourceAsset": "Sphere.tvm",
+              "sourceTexture": "EarthGridXL.bmp",
+              "sourcePosition": [
+                800,
+                500,
+                350
+              ],
+              "sourceScale": 1.2,
+              "menuTag": 0,
+              "action": "none",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                2.3,
+                2.45,
+                -2
+              ]
+            },
+            {
+              "id": "arrow",
+              "label": "MAIN MENU",
+              "sourceAsset": "Fleche.tvm",
+              "sourceTexture": "marble10.jpg",
+              "sourcePosition": [
+                1000,
+                600,
+                300
+              ],
+              "sourceScale": 1,
+              "sourceRotationDegrees": [
+                0,
+                180,
+                0
+              ],
+              "menuTag": 666,
+              "action": "return-main",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                3.3,
+                2.95,
+                -1.75
+              ]
+            },
+            {
+              "id": "sun",
+              "label": "FLIGHTX",
+              "sourceAsset": "procedural box",
+              "sourceTexture": null,
+              "sourcePosition": [
+                0,
+                500,
+                0
+              ],
+              "sourceScale": 20,
+              "menuTag": "always",
+              "action": "flightx-pipe",
+              "evidence": "recovery-ledger",
+              "visible": true,
+              "displayPosition": [
+                -1.7,
+                2.45,
+                -0.25
+              ]
+            }
+          ],
+          "visualAdapter": {
+            "sourceCoordinatesExact": true,
+            "recoveredArrowGeometryReady": true,
+            "pending": "Box.tvm, Earth.tvm, Sphere.tvm and their original CubX textures are not yet present in the browser converter output",
+            "presentation": "Uniform constellation scale plus procedural box/earth shells; Earth-grid spin has no recovered source rate"
+          }
+        },
+        "sourceLayout": {
+          "modelScale": 8,
+          "cubeSize": 58,
+          "centers": [
+            [
+              0,
+              25,
+              0
+            ],
+            [
+              0,
+              25,
+              100
+            ],
+            [
+              -95,
+              25,
+              100
+            ],
+            [
+              -95,
+              25,
+              0
+            ],
+            [
+              0,
+              -70,
+              0
+            ],
+            [
+              0,
+              -70,
+              100
+            ],
+            [
+              -95,
+              -70,
+              100
+            ],
+            [
+              -95,
+              -70,
+              0
+            ]
+          ],
+          "displayScale": 0.02689655172413793,
+          "displayCenters": [
+            [
+              1.2776,
+              1.2776,
+              1.3448
+            ],
+            [
+              1.2776,
+              1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              1.2776,
+              1.3448
+            ],
+            [
+              1.2776,
+              -1.2776,
+              1.3448
+            ],
+            [
+              1.2776,
+              -1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              -1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              -1.2776,
+              1.3448
+            ]
+          ],
+          "exactHitLayout": true
+        },
+        "sourceAnimation": {
+          "decoded": true,
+          "activeSample": {
+            "schema": "graphysx.cubz-tva-playback/v1",
+            "kind": "cube-open",
+            "animationId": 0,
+            "rangeName": "",
+            "cursor": {
+              "direction": "forward",
+              "elapsedSeconds": 0.869966666663687,
+              "durationSeconds": 1.6666666666666667,
+              "progress": 0.5219799999982122,
+              "sourceFrame": 26.09899999991061,
+              "startFrame": 0,
+              "endFrame": 50,
+              "framesPerSecond": 30,
+              "finished": false
+            },
+            "panels": {
+              "Right08": {
+                "nodeId": 34,
+                "nodeName": "Right08",
+                "fixedPosition": [
+                  22.499998092651367,
+                  5,
+                  22.37502098083496
+                ],
+                "fixedScale": [
+                  1,
+                  1,
+                  1
+                ],
+                "quaternion": [
+                  0,
+                  0.4074773159631223,
+                  0,
+                  0.9132153289205617
+                ],
+                "exactStoredKey": false,
+                "lowerFrame": 26,
+                "upperFrame": 27,
+                "interpolationAlpha": 0.09899999991061037,
+                "interpolation": "shortest-arc-slerp"
+              },
+              "Top08": {
+                "nodeId": 36,
+                "nodeName": "Top08",
+                "fixedPosition": [
+                  -22.07537841796875,
+                  44.999996185302734,
+                  22.026580810546875
+                ],
+                "fixedScale": [
+                  1,
+                  1,
+                  1
+                ],
+                "quaternion": [
+                  -0.289973948215514,
+                  0.06548847785585935,
+                  -0.22850651710655706,
+                  0.9270443032909806
+                ],
+                "exactStoredKey": false,
+                "lowerFrame": 26,
+                "upperFrame": 27,
+                "interpolationAlpha": 0.09899999991061037,
+                "interpolation": "shortest-arc-slerp"
+              },
+              "Left08": {
+                "nodeId": 38,
+                "nodeName": "Left08",
+                "fixedPosition": [
+                  -22.869407653808594,
+                  5,
+                  -22.499998092651367
+                ],
+                "fixedScale": [
+                  1,
+                  1,
+                  1
+                ],
+                "quaternion": [
+                  0,
+                  -0.40704651871705955,
+                  0,
+                  0.9134074291357184
+                ],
+                "exactStoredKey": false,
+                "lowerFrame": 26,
+                "upperFrame": 27,
+                "interpolationAlpha": 0.09899999991061037,
+                "interpolation": "shortest-arc-slerp"
+              }
+            },
+            "fidelity": {
+              "schema": "graphysx.cubz-tva-fidelity/v1",
+              "dataSchema": "graphysx.cubz-tva-audit/v1",
+              "sourceIdentity": {
+                "cubeRotation": {
+                  "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeRot.tva",
+                  "filename": "CubeRot.tva",
+                  "bytes": 700768,
+                  "sha256": "8ADBA22A2103A6EDAC9B173474B1A4599DB04B21C7DF4418412EA35903AE7B4B"
+                },
+                "cubeOpen": {
+                  "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeOpen.tva",
+                  "filename": "CubeOpen.tva",
+                  "bytes": 222564,
+                  "sha256": "CCB1ED3BB77919509E2B501663FB34BFD7E64C34E95F01E003E6D553160CA27B"
+                }
+              },
+              "decodedExact": {
+                "timing": "MANS source ranges and 30 fps are decoded exactly.",
+                "storedKeys": "Stored MANI quaternion keys are returned in original float32 source order at exact source frames.",
+                "rotationTrack": "CubeRot materially changes only GlobalCube.",
+                "openTracks": "CubeOpen materially changes only Right08, Top08 and Left08."
+              },
+              "interpolation": {
+                "status": "deterministic-inference-engine-routine-not-recovered",
+                "method": "normalized shortest-arc quaternion SLERP between the two surrounding decoded keys",
+                "rationale": "Quaternion interpolation is the narrowest transform-preserving interpolation supported by the decoded unit-quaternion evidence; no authored easing curve is invented."
+              },
+              "coordinateSpace": {
+                "status": "raw-tv3d-source-order-no-web-conversion",
+                "rotationInterpretation": "The four stored rotation floats are emitted in source order and labeled x,y,z,w because every decoded key is unit length within 1e-6 and identity keys are [0,0,0,~1].",
+                "boundary": "No TV3D-to-Three.js handedness conversion, Euler conversion, interpolation mode, or procedural easing is asserted here."
+              },
+              "reverseRepair": {
+                "status": "intentional-source-defect-repair",
+                "archivedExpression": "iSelectedCube+1",
+                "archivedValidIds": [
+                  0,
+                  7
+                ],
+                "archivedResultingReverseIds": [
+                  2,
+                  8
+                ],
+                "implementedBehavior": "Reverse traverses the same animation ID/range used by forward playback, from its decoded end frame to its decoded start frame.",
+                "reason": "For selections 1-6 the reverse ID is a different range than the forward ID; selection 7 requests ID 8 although CubeRot contains only IDs 0-7. This is a source/binary inconsistency, not behavior to reproduce as intended design."
+              }
+            }
+          },
+          "rotationClips": [
+            {
+              "selection": 1,
+              "animationId": 1,
+              "name": "Animation1",
+              "startFrame": 0,
+              "endFrame": 28,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 2,
+              "animationId": 2,
+              "name": "Animation2",
+              "startFrame": 30,
+              "endFrame": 58,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 3,
+              "animationId": 3,
+              "name": "Animation3",
+              "startFrame": 60,
+              "endFrame": 88,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 4,
+              "animationId": 4,
+              "name": "Animation4",
+              "startFrame": 90,
+              "endFrame": 118,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 5,
+              "animationId": 5,
+              "name": "Animation5",
+              "startFrame": 120,
+              "endFrame": 148,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 6,
+              "animationId": 6,
+              "name": "Animation6",
+              "startFrame": 150,
+              "endFrame": 178,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 7,
+              "animationId": 7,
+              "name": "Animation7",
+              "startFrame": 180,
+              "endFrame": 208,
+              "durationSeconds": 0.9333333333333333
+            }
+          ],
+          "openClip": {
+            "animationId": 0,
+            "name": "",
+            "startFrame": 0,
+            "endFrame": 50,
+            "durationSeconds": 1.6666666666666667,
+            "panels": [
+              "Right08",
+              "Top08",
+              "Left08"
+            ]
+          },
+          "selectionZeroSkipsRotation": true,
+          "reverseRepair": {
+            "status": "intentional-source-defect-repair",
+            "archivedExpression": "iSelectedCube+1",
+            "archivedValidIds": [
+              0,
+              7
+            ],
+            "archivedResultingReverseIds": [
+              2,
+              8
+            ],
+            "implementedBehavior": "Reverse traverses the same animation ID/range used by forward playback, from its decoded end frame to its decoded start frame.",
+            "reason": "For selections 1-6 the reverse ID is a different range than the forward ID; selection 7 requests ID 8 although CubeRot contains only IDs 0-7. This is a source/binary inconsistency, not behavior to reproduce as intended design."
+          },
+          "choreography": {
+            "idleSpinDegreesPerSecond": [
+              20,
+              20,
+              20
+            ],
+            "rotationRangeDurationSeconds": 0.9333333333333333,
+            "openRangeDurationSeconds": 1.6666666666666667,
+            "cameraFly": {
+              "sourceStart": [
+                400,
+                250,
+                -2000
+              ],
+              "stepPerFrame": [
+                -10,
+                5,
+                10
+              ],
+              "sourceTarget": [
+                -75,
+                725,
+                -350
+              ],
+              "current": [
+                -75,
+                725,
+                -350
+              ],
+              "complete": true
+            },
+            "screensaverOwnedByGlobalMenuCamera": true
+          },
+          "visualAdapter": {
+            "status": "decoded-cubz-tva-tracks-on-procedural-cubz-geometry",
+            "exact": "CubeRot GlobalCube and CubeOpen Right08/Top08/Left08 stored quaternion tracks, source ranges, 30 fps timing and same-range reverse playback",
+            "pending": "Original CubZ actor/button geometry/material conversion and a verified TV3D-to-Three handedness transform"
+          }
+        },
+        "animationFidelity": "decoded-cuberot-and-cubeopen-visual-adapter"
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "player": {
+        "x": -6.5,
+        "y": 0.35,
+        "z": 7.5,
+        "radius": 0.3
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "inputAxis": {
+        "forward": 0,
+        "turn": 0
+      },
+      "ballPreset": "revival",
+      "ghost": {
+        "hasBest": false,
+        "bestTimeMs": null,
+        "recordingSamples": 0,
+        "playbackVisible": false,
+        "lastLapVisible": false
+      },
+      "flight": null,
+      "suzanne": null,
+      "rings": "0/20",
+      "laps": {
+        "completed": 0,
+        "total": 3,
+        "current": 1
+      },
+      "halfway": false,
+      "raceActive": false,
+      "raceFinished": false,
+      "loadState": {
+        "ready": true,
+        "loading": false,
+        "requiredKeys": []
+      },
+      "remainingRings": [
+        {
+          "x": 2.5,
+          "y": 0.8,
+          "z": -6.5
+        },
+        {
+          "x": -1.5,
+          "y": 0.8,
+          "z": -5.5
+        },
+        {
+          "x": 1.5,
+          "y": 0.8,
+          "z": -5.5
+        },
+        {
+          "x": -0.5,
+          "y": 0.8,
+          "z": -4.5
+        },
+        {
+          "x": 0.5,
+          "y": 0.8,
+          "z": -4.5
+        },
+        {
+          "x": -5.5,
+          "y": 0.8,
+          "z": -2.5
+        },
+        {
+          "x": -4.5,
+          "y": 0.8,
+          "z": -1.5
+        },
+        {
+          "x": 4.5,
+          "y": 0.8,
+          "z": -1.5
+        },
+        {
+          "x": -3.5,
+          "y": 0.8,
+          "z": -0.5
+        },
+        {
+          "x": 3.5,
+          "y": 0.8,
+          "z": -0.5
+        },
+        {
+          "x": -3.5,
+          "y": 0.8,
+          "z": 0.5
+        },
+        {
+          "x": 3.5,
+          "y": 0.8,
+          "z": 0.5
+        },
+        {
+          "x": -4.5,
+          "y": 0.8,
+          "z": 1.5
+        },
+        {
+          "x": 4.5,
+          "y": 0.8,
+          "z": 1.5
+        },
+        {
+          "x": 5.5,
+          "y": 0.8,
+          "z": 2.5
+        },
+        {
+          "x": -0.5,
+          "y": 0.8,
+          "z": 4.5
+        },
+        {
+          "x": 0.5,
+          "y": 0.8,
+          "z": 4.5
+        },
+        {
+          "x": -1.5,
+          "y": 0.8,
+          "z": 5.5
+        },
+        {
+          "x": 1.5,
+          "y": 0.8,
+          "z": 5.5
+        },
+        {
+          "x": -2.5,
+          "y": 0.8,
+          "z": 6.5
+        }
+      ],
+      "activeZombies": [],
+      "nextObjective": "Bonus checkpoint nearby",
+      "objectiveDistance": 4.12,
+      "camera": {
+        "yaw": 0.748,
+        "pitch": 0.44,
+        "distance": 14,
+        "collision": {
+          "active": false,
+          "hitBodyId": null,
+          "desiredDistance": 14,
+          "resolvedDistance": 14
+        }
+      },
+      "controls": "Click one of the eight 3D cubes; choose one of four unfolded panels; Close reverses the open and rotation sequence.",
+      "shellWireRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "arrowHeading": 3.142
+    },
+    "closeMidpoint": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.17-r7",
+      "mode": "cubx-lab",
+      "projectFamily": "cubx-lab",
+      "race": "Archive Level 1 — ASCII Restoration",
+      "preview": "cubx-lab",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "cubx": {
+        "phase": "closing",
+        "selectedCube": 0,
+        "selectedLabel": "Atmel Control",
+        "actions": [
+          "Digital I/O",
+          "Light Timer",
+          "Fan Timer",
+          "Serial Link"
+        ],
+        "selectedAction": null,
+        "ballSelector": {
+          "selected": "revival",
+          "options": [
+            "fire",
+            "classic2015",
+            "revival"
+          ],
+          "recoveredMeshesReady": true,
+          "meshSource": "src/legacy/tvm-catalog.json#ball",
+          "firePhysics": "revival"
+        },
+        "sunLaunch": {
+          "raceId": "flightx-pipe",
+          "source": "AtmelCubx/CubXScene.cpp red sun box",
+          "interactive": true
+        },
+        "satellites": {
+          "activeMenuLevel": 0,
+          "selected": null,
+          "menuRules": {
+            "maxButtons": 48,
+            "maxLevels": 16,
+            "allMenu": 666,
+            "allMenuExceptMain": 777
+          },
+          "displayScale": 0.005,
+          "items": [
+            {
+              "id": "system",
+              "label": "SYSTEM",
+              "sourceAsset": "Box.tvm",
+              "sourceTexture": "SystemIcon.jpg",
+              "sourcePosition": [
+                -800,
+                300,
+                -250
+              ],
+              "sourceScale": 10,
+              "menuTag": 0,
+              "action": "system-reference",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                -5.7,
+                1.45,
+                1
+              ]
+            },
+            {
+              "id": "tools",
+              "label": "TOOLS",
+              "sourceAsset": "Box.tvm",
+              "sourceTexture": "ToolsIcon.png",
+              "sourcePosition": [
+                -1100,
+                300,
+                -500
+              ],
+              "sourceScale": 10,
+              "menuTag": 0,
+              "action": "car-scene",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                -7.2,
+                1.45,
+                2.25
+              ]
+            },
+            {
+              "id": "earth",
+              "label": "EARTH",
+              "sourceAsset": "Earth.tvm",
+              "sourceTexture": "Earth.jpg",
+              "sourcePosition": [
+                800,
+                500,
+                350
+              ],
+              "sourceScale": 10,
+              "menuTag": 0,
+              "action": "none",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                2.3,
+                2.45,
+                -2
+              ]
+            },
+            {
+              "id": "earth-grid",
+              "label": "EARTH GRID",
+              "sourceAsset": "Sphere.tvm",
+              "sourceTexture": "EarthGridXL.bmp",
+              "sourcePosition": [
+                800,
+                500,
+                350
+              ],
+              "sourceScale": 1.2,
+              "menuTag": 0,
+              "action": "none",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                2.3,
+                2.45,
+                -2
+              ]
+            },
+            {
+              "id": "arrow",
+              "label": "MAIN MENU",
+              "sourceAsset": "Fleche.tvm",
+              "sourceTexture": "marble10.jpg",
+              "sourcePosition": [
+                1000,
+                600,
+                300
+              ],
+              "sourceScale": 1,
+              "sourceRotationDegrees": [
+                0,
+                180,
+                0
+              ],
+              "menuTag": 666,
+              "action": "return-main",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                3.3,
+                2.95,
+                -1.75
+              ]
+            },
+            {
+              "id": "sun",
+              "label": "FLIGHTX",
+              "sourceAsset": "procedural box",
+              "sourceTexture": null,
+              "sourcePosition": [
+                0,
+                500,
+                0
+              ],
+              "sourceScale": 20,
+              "menuTag": "always",
+              "action": "flightx-pipe",
+              "evidence": "recovery-ledger",
+              "visible": true,
+              "displayPosition": [
+                -1.7,
+                2.45,
+                -0.25
+              ]
+            }
+          ],
+          "visualAdapter": {
+            "sourceCoordinatesExact": true,
+            "recoveredArrowGeometryReady": true,
+            "pending": "Box.tvm, Earth.tvm, Sphere.tvm and their original CubX textures are not yet present in the browser converter output",
+            "presentation": "Uniform constellation scale plus procedural box/earth shells; Earth-grid spin has no recovered source rate"
+          }
+        },
+        "sourceLayout": {
+          "modelScale": 8,
+          "cubeSize": 58,
+          "centers": [
+            [
+              0,
+              25,
+              0
+            ],
+            [
+              0,
+              25,
+              100
+            ],
+            [
+              -95,
+              25,
+              100
+            ],
+            [
+              -95,
+              25,
+              0
+            ],
+            [
+              0,
+              -70,
+              0
+            ],
+            [
+              0,
+              -70,
+              100
+            ],
+            [
+              -95,
+              -70,
+              100
+            ],
+            [
+              -95,
+              -70,
+              0
+            ]
+          ],
+          "displayScale": 0.02689655172413793,
+          "displayCenters": [
+            [
+              1.2776,
+              1.2776,
+              1.3448
+            ],
+            [
+              1.2776,
+              1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              1.2776,
+              1.3448
+            ],
+            [
+              1.2776,
+              -1.2776,
+              1.3448
+            ],
+            [
+              1.2776,
+              -1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              -1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              -1.2776,
+              1.3448
+            ]
+          ],
+          "exactHitLayout": true
+        },
+        "sourceAnimation": {
+          "decoded": true,
+          "activeSample": {
+            "schema": "graphysx.cubz-tva-playback/v1",
+            "kind": "cube-open",
+            "animationId": 0,
+            "rangeName": "",
+            "cursor": {
+              "direction": "reverse",
+              "elapsedSeconds": 0.832666666666667,
+              "durationSeconds": 1.6666666666666667,
+              "progress": 0.49960000000000016,
+              "sourceFrame": 25.019999999999992,
+              "startFrame": 0,
+              "endFrame": 50,
+              "framesPerSecond": 30,
+              "finished": false
+            },
+            "panels": {
+              "Right08": {
+                "nodeId": 34,
+                "nodeName": "Right08",
+                "fixedPosition": [
+                  22.499998092651367,
+                  5,
+                  22.37502098083496
+                ],
+                "fixedScale": [
+                  1,
+                  1,
+                  1
+                ],
+                "quaternion": [
+                  0,
+                  0.38408806546336344,
+                  0,
+                  0.9232964626644092
+                ],
+                "exactStoredKey": false,
+                "lowerFrame": 25,
+                "upperFrame": 26,
+                "interpolationAlpha": 0.019999999999992468,
+                "interpolation": "shortest-arc-slerp"
+              },
+              "Top08": {
+                "nodeId": 36,
+                "nodeName": "Top08",
+                "fixedPosition": [
+                  -22.07537841796875,
+                  44.999996185302734,
+                  22.026580810546875
+                ],
+                "fixedScale": [
+                  1,
+                  1,
+                  1
+                ],
+                "quaternion": [
+                  -0.2753608377450727,
+                  0.06605649243264083,
+                  -0.2137981124627471,
+                  0.9349349260516451
+                ],
+                "exactStoredKey": false,
+                "lowerFrame": 25,
+                "upperFrame": 26,
+                "interpolationAlpha": 0.019999999999992468,
+                "interpolation": "shortest-arc-slerp"
+              },
+              "Left08": {
+                "nodeId": 38,
+                "nodeName": "Left08",
+                "fixedPosition": [
+                  -22.869407653808594,
+                  5,
+                  -22.499998092651367
+                ],
+                "fixedScale": [
+                  1,
+                  1,
+                  1
+                ],
+                "quaternion": [
+                  0,
+                  -0.3836789448315909,
+                  0,
+                  0.9234665490925575
+                ],
+                "exactStoredKey": false,
+                "lowerFrame": 25,
+                "upperFrame": 26,
+                "interpolationAlpha": 0.019999999999992468,
+                "interpolation": "shortest-arc-slerp"
+              }
+            },
+            "fidelity": {
+              "schema": "graphysx.cubz-tva-fidelity/v1",
+              "dataSchema": "graphysx.cubz-tva-audit/v1",
+              "sourceIdentity": {
+                "cubeRotation": {
+                  "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeRot.tva",
+                  "filename": "CubeRot.tva",
+                  "bytes": 700768,
+                  "sha256": "8ADBA22A2103A6EDAC9B173474B1A4599DB04B21C7DF4418412EA35903AE7B4B"
+                },
+                "cubeOpen": {
+                  "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeOpen.tva",
+                  "filename": "CubeOpen.tva",
+                  "bytes": 222564,
+                  "sha256": "CCB1ED3BB77919509E2B501663FB34BFD7E64C34E95F01E003E6D553160CA27B"
+                }
+              },
+              "decodedExact": {
+                "timing": "MANS source ranges and 30 fps are decoded exactly.",
+                "storedKeys": "Stored MANI quaternion keys are returned in original float32 source order at exact source frames.",
+                "rotationTrack": "CubeRot materially changes only GlobalCube.",
+                "openTracks": "CubeOpen materially changes only Right08, Top08 and Left08."
+              },
+              "interpolation": {
+                "status": "deterministic-inference-engine-routine-not-recovered",
+                "method": "normalized shortest-arc quaternion SLERP between the two surrounding decoded keys",
+                "rationale": "Quaternion interpolation is the narrowest transform-preserving interpolation supported by the decoded unit-quaternion evidence; no authored easing curve is invented."
+              },
+              "coordinateSpace": {
+                "status": "raw-tv3d-source-order-no-web-conversion",
+                "rotationInterpretation": "The four stored rotation floats are emitted in source order and labeled x,y,z,w because every decoded key is unit length within 1e-6 and identity keys are [0,0,0,~1].",
+                "boundary": "No TV3D-to-Three.js handedness conversion, Euler conversion, interpolation mode, or procedural easing is asserted here."
+              },
+              "reverseRepair": {
+                "status": "intentional-source-defect-repair",
+                "archivedExpression": "iSelectedCube+1",
+                "archivedValidIds": [
+                  0,
+                  7
+                ],
+                "archivedResultingReverseIds": [
+                  2,
+                  8
+                ],
+                "implementedBehavior": "Reverse traverses the same animation ID/range used by forward playback, from its decoded end frame to its decoded start frame.",
+                "reason": "For selections 1-6 the reverse ID is a different range than the forward ID; selection 7 requests ID 8 although CubeRot contains only IDs 0-7. This is a source/binary inconsistency, not behavior to reproduce as intended design."
+              }
+            }
+          },
+          "rotationClips": [
+            {
+              "selection": 1,
+              "animationId": 1,
+              "name": "Animation1",
+              "startFrame": 0,
+              "endFrame": 28,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 2,
+              "animationId": 2,
+              "name": "Animation2",
+              "startFrame": 30,
+              "endFrame": 58,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 3,
+              "animationId": 3,
+              "name": "Animation3",
+              "startFrame": 60,
+              "endFrame": 88,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 4,
+              "animationId": 4,
+              "name": "Animation4",
+              "startFrame": 90,
+              "endFrame": 118,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 5,
+              "animationId": 5,
+              "name": "Animation5",
+              "startFrame": 120,
+              "endFrame": 148,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 6,
+              "animationId": 6,
+              "name": "Animation6",
+              "startFrame": 150,
+              "endFrame": 178,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 7,
+              "animationId": 7,
+              "name": "Animation7",
+              "startFrame": 180,
+              "endFrame": 208,
+              "durationSeconds": 0.9333333333333333
+            }
+          ],
+          "openClip": {
+            "animationId": 0,
+            "name": "",
+            "startFrame": 0,
+            "endFrame": 50,
+            "durationSeconds": 1.6666666666666667,
+            "panels": [
+              "Right08",
+              "Top08",
+              "Left08"
+            ]
+          },
+          "selectionZeroSkipsRotation": true,
+          "reverseRepair": {
+            "status": "intentional-source-defect-repair",
+            "archivedExpression": "iSelectedCube+1",
+            "archivedValidIds": [
+              0,
+              7
+            ],
+            "archivedResultingReverseIds": [
+              2,
+              8
+            ],
+            "implementedBehavior": "Reverse traverses the same animation ID/range used by forward playback, from its decoded end frame to its decoded start frame.",
+            "reason": "For selections 1-6 the reverse ID is a different range than the forward ID; selection 7 requests ID 8 although CubeRot contains only IDs 0-7. This is a source/binary inconsistency, not behavior to reproduce as intended design."
+          },
+          "choreography": {
+            "idleSpinDegreesPerSecond": [
+              20,
+              20,
+              20
+            ],
+            "rotationRangeDurationSeconds": 0.9333333333333333,
+            "openRangeDurationSeconds": 1.6666666666666667,
+            "cameraFly": {
+              "sourceStart": [
+                400,
+                250,
+                -2000
+              ],
+              "stepPerFrame": [
+                -10,
+                5,
+                10
+              ],
+              "sourceTarget": [
+                -75,
+                725,
+                -350
+              ],
+              "current": [
+                -75,
+                725,
+                -350
+              ],
+              "complete": true
+            },
+            "screensaverOwnedByGlobalMenuCamera": true
+          },
+          "visualAdapter": {
+            "status": "decoded-cubz-tva-tracks-on-procedural-cubz-geometry",
+            "exact": "CubeRot GlobalCube and CubeOpen Right08/Top08/Left08 stored quaternion tracks, source ranges, 30 fps timing and same-range reverse playback",
+            "pending": "Original CubZ actor/button geometry/material conversion and a verified TV3D-to-Three handedness transform"
+          }
+        },
+        "animationFidelity": "decoded-cuberot-and-cubeopen-visual-adapter"
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "player": {
+        "x": -6.5,
+        "y": 0.35,
+        "z": 7.5,
+        "radius": 0.3
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "inputAxis": {
+        "forward": 0,
+        "turn": 0
+      },
+      "ballPreset": "revival",
+      "ghost": {
+        "hasBest": false,
+        "bestTimeMs": null,
+        "recordingSamples": 0,
+        "playbackVisible": false,
+        "lastLapVisible": false
+      },
+      "flight": null,
+      "suzanne": null,
+      "rings": "0/20",
+      "laps": {
+        "completed": 0,
+        "total": 3,
+        "current": 1
+      },
+      "halfway": false,
+      "raceActive": false,
+      "raceFinished": false,
+      "loadState": {
+        "ready": true,
+        "loading": false,
+        "requiredKeys": []
+      },
+      "remainingRings": [
+        {
+          "x": 2.5,
+          "y": 0.8,
+          "z": -6.5
+        },
+        {
+          "x": -1.5,
+          "y": 0.8,
+          "z": -5.5
+        },
+        {
+          "x": 1.5,
+          "y": 0.8,
+          "z": -5.5
+        },
+        {
+          "x": -0.5,
+          "y": 0.8,
+          "z": -4.5
+        },
+        {
+          "x": 0.5,
+          "y": 0.8,
+          "z": -4.5
+        },
+        {
+          "x": -5.5,
+          "y": 0.8,
+          "z": -2.5
+        },
+        {
+          "x": -4.5,
+          "y": 0.8,
+          "z": -1.5
+        },
+        {
+          "x": 4.5,
+          "y": 0.8,
+          "z": -1.5
+        },
+        {
+          "x": -3.5,
+          "y": 0.8,
+          "z": -0.5
+        },
+        {
+          "x": 3.5,
+          "y": 0.8,
+          "z": -0.5
+        },
+        {
+          "x": -3.5,
+          "y": 0.8,
+          "z": 0.5
+        },
+        {
+          "x": 3.5,
+          "y": 0.8,
+          "z": 0.5
+        },
+        {
+          "x": -4.5,
+          "y": 0.8,
+          "z": 1.5
+        },
+        {
+          "x": 4.5,
+          "y": 0.8,
+          "z": 1.5
+        },
+        {
+          "x": 5.5,
+          "y": 0.8,
+          "z": 2.5
+        },
+        {
+          "x": -0.5,
+          "y": 0.8,
+          "z": 4.5
+        },
+        {
+          "x": 0.5,
+          "y": 0.8,
+          "z": 4.5
+        },
+        {
+          "x": -1.5,
+          "y": 0.8,
+          "z": 5.5
+        },
+        {
+          "x": 1.5,
+          "y": 0.8,
+          "z": 5.5
+        },
+        {
+          "x": -2.5,
+          "y": 0.8,
+          "z": 6.5
+        }
+      ],
+      "activeZombies": [],
+      "nextObjective": "Bonus checkpoint nearby",
+      "objectiveDistance": 4.12,
+      "camera": {
+        "yaw": 0.748,
+        "pitch": 0.44,
+        "distance": 14,
+        "collision": {
+          "active": false,
+          "hitBodyId": null,
+          "desiredDistance": 14,
+          "resolvedDistance": 14
+        }
+      },
+      "controls": "Click one of the eight 3D cubes; choose one of four unfolded panels; Close reverses the open and rotation sequence.",
+      "shellWireRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "arrowHeading": 3.142
+    },
+    "ball-fire": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.17-r7",
+      "mode": "cubx-lab",
+      "projectFamily": "cubx-lab",
+      "race": "Archive Level 1 — ASCII Restoration",
+      "preview": "cubx-lab",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "cubx": {
+        "phase": "open",
+        "selectedCube": 4,
+        "selectedLabel": "BallZ",
+        "actions": [
+          "Fire",
+          "Classic",
+          "Revival",
+          "BallZ Tour"
+        ],
+        "selectedAction": "Fire",
+        "ballSelector": {
+          "selected": "fire",
+          "options": [
+            "fire",
+            "classic2015",
+            "revival"
+          ],
+          "recoveredMeshesReady": true,
+          "meshSource": "src/legacy/tvm-catalog.json#ball",
+          "firePhysics": "revival"
+        },
+        "sunLaunch": {
+          "raceId": "flightx-pipe",
+          "source": "AtmelCubx/CubXScene.cpp red sun box",
+          "interactive": true
+        },
+        "satellites": {
+          "activeMenuLevel": 0,
+          "selected": null,
+          "menuRules": {
+            "maxButtons": 48,
+            "maxLevels": 16,
+            "allMenu": 666,
+            "allMenuExceptMain": 777
+          },
+          "displayScale": 0.005,
+          "items": [
+            {
+              "id": "system",
+              "label": "SYSTEM",
+              "sourceAsset": "Box.tvm",
+              "sourceTexture": "SystemIcon.jpg",
+              "sourcePosition": [
+                -800,
+                300,
+                -250
+              ],
+              "sourceScale": 10,
+              "menuTag": 0,
+              "action": "system-reference",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                -5.7,
+                1.45,
+                1
+              ]
+            },
+            {
+              "id": "tools",
+              "label": "TOOLS",
+              "sourceAsset": "Box.tvm",
+              "sourceTexture": "ToolsIcon.png",
+              "sourcePosition": [
+                -1100,
+                300,
+                -500
+              ],
+              "sourceScale": 10,
+              "menuTag": 0,
+              "action": "car-scene",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                -7.2,
+                1.45,
+                2.25
+              ]
+            },
+            {
+              "id": "earth",
+              "label": "EARTH",
+              "sourceAsset": "Earth.tvm",
+              "sourceTexture": "Earth.jpg",
+              "sourcePosition": [
+                800,
+                500,
+                350
+              ],
+              "sourceScale": 10,
+              "menuTag": 0,
+              "action": "none",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                2.3,
+                2.45,
+                -2
+              ]
+            },
+            {
+              "id": "earth-grid",
+              "label": "EARTH GRID",
+              "sourceAsset": "Sphere.tvm",
+              "sourceTexture": "EarthGridXL.bmp",
+              "sourcePosition": [
+                800,
+                500,
+                350
+              ],
+              "sourceScale": 1.2,
+              "menuTag": 0,
+              "action": "none",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                2.3,
+                2.45,
+                -2
+              ]
+            },
+            {
+              "id": "arrow",
+              "label": "MAIN MENU",
+              "sourceAsset": "Fleche.tvm",
+              "sourceTexture": "marble10.jpg",
+              "sourcePosition": [
+                1000,
+                600,
+                300
+              ],
+              "sourceScale": 1,
+              "sourceRotationDegrees": [
+                0,
+                180,
+                0
+              ],
+              "menuTag": 666,
+              "action": "return-main",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                3.3,
+                2.95,
+                -1.75
+              ]
+            },
+            {
+              "id": "sun",
+              "label": "FLIGHTX",
+              "sourceAsset": "procedural box",
+              "sourceTexture": null,
+              "sourcePosition": [
+                0,
+                500,
+                0
+              ],
+              "sourceScale": 20,
+              "menuTag": "always",
+              "action": "flightx-pipe",
+              "evidence": "recovery-ledger",
+              "visible": true,
+              "displayPosition": [
+                -1.7,
+                2.45,
+                -0.25
+              ]
+            }
+          ],
+          "visualAdapter": {
+            "sourceCoordinatesExact": true,
+            "recoveredArrowGeometryReady": true,
+            "pending": "Box.tvm, Earth.tvm, Sphere.tvm and their original CubX textures are not yet present in the browser converter output",
+            "presentation": "Uniform constellation scale plus procedural box/earth shells; Earth-grid spin has no recovered source rate"
+          }
+        },
+        "sourceLayout": {
+          "modelScale": 8,
+          "cubeSize": 58,
+          "centers": [
+            [
+              0,
+              25,
+              0
+            ],
+            [
+              0,
+              25,
+              100
+            ],
+            [
+              -95,
+              25,
+              100
+            ],
+            [
+              -95,
+              25,
+              0
+            ],
+            [
+              0,
+              -70,
+              0
+            ],
+            [
+              0,
+              -70,
+              100
+            ],
+            [
+              -95,
+              -70,
+              100
+            ],
+            [
+              -95,
+              -70,
+              0
+            ]
+          ],
+          "displayScale": 0.02689655172413793,
+          "displayCenters": [
+            [
+              1.2776,
+              1.2776,
+              1.3448
+            ],
+            [
+              1.2776,
+              1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              1.2776,
+              1.3448
+            ],
+            [
+              1.2776,
+              -1.2776,
+              1.3448
+            ],
+            [
+              1.2776,
+              -1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              -1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              -1.2776,
+              1.3448
+            ]
+          ],
+          "exactHitLayout": true
+        },
+        "sourceAnimation": {
+          "decoded": true,
+          "activeSample": {
+            "schema": "graphysx.cubz-tva-playback/v1",
+            "kind": "cube-open",
+            "animationId": 0,
+            "rangeName": "",
+            "cursor": {
+              "direction": "forward",
+              "elapsedSeconds": 1.6666666666666667,
+              "durationSeconds": 1.6666666666666667,
+              "progress": 1,
+              "sourceFrame": 50,
+              "startFrame": 0,
+              "endFrame": 50,
+              "framesPerSecond": 30,
+              "finished": true
+            },
+            "panels": {
+              "Right08": {
+                "nodeId": 34,
+                "nodeName": "Right08",
+                "fixedPosition": [
+                  22.499998092651367,
+                  5,
+                  22.37502098083496
+                ],
+                "fixedScale": [
+                  1,
+                  1,
+                  1
+                ],
+                "quaternion": [
+                  0,
+                  0.7085883021354675,
+                  0,
+                  0.705622136592865
+                ],
+                "exactStoredKey": true,
+                "lowerFrame": 50,
+                "upperFrame": 50,
+                "interpolationAlpha": 0,
+                "interpolation": "exact-key"
+              },
+              "Top08": {
+                "nodeId": 36,
+                "nodeName": "Top08",
+                "fixedPosition": [
+                  -22.07537841796875,
+                  44.999996185302734,
+                  22.026580810546875
+                ],
+                "fixedScale": [
+                  1,
+                  1,
+                  1
+                ],
+                "quaternion": [
+                  -0.4478757381439209,
+                  -0.008264008909463882,
+                  -0.42539727687835693,
+                  0.7863689661026001
+                ],
+                "exactStoredKey": true,
+                "lowerFrame": 50,
+                "upperFrame": 50,
+                "interpolationAlpha": 0,
+                "interpolation": "exact-key"
+              },
+              "Left08": {
+                "nodeId": 38,
+                "nodeName": "Left08",
+                "fixedPosition": [
+                  -22.869407653808594,
+                  5,
+                  -22.499998092651367
+                ],
+                "fixedScale": [
+                  1,
+                  1,
+                  1
+                ],
+                "quaternion": [
+                  0,
+                  -0.7079634666442871,
+                  0,
+                  0.7062490582466125
+                ],
+                "exactStoredKey": true,
+                "lowerFrame": 50,
+                "upperFrame": 50,
+                "interpolationAlpha": 0,
+                "interpolation": "exact-key"
+              }
+            },
+            "fidelity": {
+              "schema": "graphysx.cubz-tva-fidelity/v1",
+              "dataSchema": "graphysx.cubz-tva-audit/v1",
+              "sourceIdentity": {
+                "cubeRotation": {
+                  "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeRot.tva",
+                  "filename": "CubeRot.tva",
+                  "bytes": 700768,
+                  "sha256": "8ADBA22A2103A6EDAC9B173474B1A4599DB04B21C7DF4418412EA35903AE7B4B"
+                },
+                "cubeOpen": {
+                  "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeOpen.tva",
+                  "filename": "CubeOpen.tva",
+                  "bytes": 222564,
+                  "sha256": "CCB1ED3BB77919509E2B501663FB34BFD7E64C34E95F01E003E6D553160CA27B"
+                }
+              },
+              "decodedExact": {
+                "timing": "MANS source ranges and 30 fps are decoded exactly.",
+                "storedKeys": "Stored MANI quaternion keys are returned in original float32 source order at exact source frames.",
+                "rotationTrack": "CubeRot materially changes only GlobalCube.",
+                "openTracks": "CubeOpen materially changes only Right08, Top08 and Left08."
+              },
+              "interpolation": {
+                "status": "deterministic-inference-engine-routine-not-recovered",
+                "method": "normalized shortest-arc quaternion SLERP between the two surrounding decoded keys",
+                "rationale": "Quaternion interpolation is the narrowest transform-preserving interpolation supported by the decoded unit-quaternion evidence; no authored easing curve is invented."
+              },
+              "coordinateSpace": {
+                "status": "raw-tv3d-source-order-no-web-conversion",
+                "rotationInterpretation": "The four stored rotation floats are emitted in source order and labeled x,y,z,w because every decoded key is unit length within 1e-6 and identity keys are [0,0,0,~1].",
+                "boundary": "No TV3D-to-Three.js handedness conversion, Euler conversion, interpolation mode, or procedural easing is asserted here."
+              },
+              "reverseRepair": {
+                "status": "intentional-source-defect-repair",
+                "archivedExpression": "iSelectedCube+1",
+                "archivedValidIds": [
+                  0,
+                  7
+                ],
+                "archivedResultingReverseIds": [
+                  2,
+                  8
+                ],
+                "implementedBehavior": "Reverse traverses the same animation ID/range used by forward playback, from its decoded end frame to its decoded start frame.",
+                "reason": "For selections 1-6 the reverse ID is a different range than the forward ID; selection 7 requests ID 8 although CubeRot contains only IDs 0-7. This is a source/binary inconsistency, not behavior to reproduce as intended design."
+              }
+            }
+          },
+          "rotationClips": [
+            {
+              "selection": 1,
+              "animationId": 1,
+              "name": "Animation1",
+              "startFrame": 0,
+              "endFrame": 28,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 2,
+              "animationId": 2,
+              "name": "Animation2",
+              "startFrame": 30,
+              "endFrame": 58,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 3,
+              "animationId": 3,
+              "name": "Animation3",
+              "startFrame": 60,
+              "endFrame": 88,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 4,
+              "animationId": 4,
+              "name": "Animation4",
+              "startFrame": 90,
+              "endFrame": 118,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 5,
+              "animationId": 5,
+              "name": "Animation5",
+              "startFrame": 120,
+              "endFrame": 148,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 6,
+              "animationId": 6,
+              "name": "Animation6",
+              "startFrame": 150,
+              "endFrame": 178,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 7,
+              "animationId": 7,
+              "name": "Animation7",
+              "startFrame": 180,
+              "endFrame": 208,
+              "durationSeconds": 0.9333333333333333
+            }
+          ],
+          "openClip": {
+            "animationId": 0,
+            "name": "",
+            "startFrame": 0,
+            "endFrame": 50,
+            "durationSeconds": 1.6666666666666667,
+            "panels": [
+              "Right08",
+              "Top08",
+              "Left08"
+            ]
+          },
+          "selectionZeroSkipsRotation": true,
+          "reverseRepair": {
+            "status": "intentional-source-defect-repair",
+            "archivedExpression": "iSelectedCube+1",
+            "archivedValidIds": [
+              0,
+              7
+            ],
+            "archivedResultingReverseIds": [
+              2,
+              8
+            ],
+            "implementedBehavior": "Reverse traverses the same animation ID/range used by forward playback, from its decoded end frame to its decoded start frame.",
+            "reason": "For selections 1-6 the reverse ID is a different range than the forward ID; selection 7 requests ID 8 although CubeRot contains only IDs 0-7. This is a source/binary inconsistency, not behavior to reproduce as intended design."
+          },
+          "choreography": {
+            "idleSpinDegreesPerSecond": [
+              20,
+              20,
+              20
+            ],
+            "rotationRangeDurationSeconds": 0.9333333333333333,
+            "openRangeDurationSeconds": 1.6666666666666667,
+            "cameraFly": {
+              "sourceStart": [
+                400,
+                250,
+                -2000
+              ],
+              "stepPerFrame": [
+                -10,
+                5,
+                10
+              ],
+              "sourceTarget": [
+                -75,
+                725,
+                -350
+              ],
+              "current": [
+                -75,
+                725,
+                -350
+              ],
+              "complete": true
+            },
+            "screensaverOwnedByGlobalMenuCamera": true
+          },
+          "visualAdapter": {
+            "status": "decoded-cubz-tva-tracks-on-procedural-cubz-geometry",
+            "exact": "CubeRot GlobalCube and CubeOpen Right08/Top08/Left08 stored quaternion tracks, source ranges, 30 fps timing and same-range reverse playback",
+            "pending": "Original CubZ actor/button geometry/material conversion and a verified TV3D-to-Three handedness transform"
+          }
+        },
+        "animationFidelity": "decoded-cuberot-and-cubeopen-visual-adapter"
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "player": {
+        "x": -6.5,
+        "y": 0.35,
+        "z": 7.5,
+        "radius": 0.3
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "inputAxis": {
+        "forward": 0,
+        "turn": 0
+      },
+      "ballPreset": "fire",
+      "ghost": {
+        "hasBest": false,
+        "bestTimeMs": null,
+        "recordingSamples": 0,
+        "playbackVisible": false,
+        "lastLapVisible": false
+      },
+      "flight": null,
+      "suzanne": null,
+      "rings": "0/20",
+      "laps": {
+        "completed": 0,
+        "total": 3,
+        "current": 1
+      },
+      "halfway": false,
+      "raceActive": false,
+      "raceFinished": false,
+      "loadState": {
+        "ready": true,
+        "loading": false,
+        "requiredKeys": []
+      },
+      "remainingRings": [
+        {
+          "x": 2.5,
+          "y": 0.8,
+          "z": -6.5
+        },
+        {
+          "x": -1.5,
+          "y": 0.8,
+          "z": -5.5
+        },
+        {
+          "x": 1.5,
+          "y": 0.8,
+          "z": -5.5
+        },
+        {
+          "x": -0.5,
+          "y": 0.8,
+          "z": -4.5
+        },
+        {
+          "x": 0.5,
+          "y": 0.8,
+          "z": -4.5
+        },
+        {
+          "x": -5.5,
+          "y": 0.8,
+          "z": -2.5
+        },
+        {
+          "x": -4.5,
+          "y": 0.8,
+          "z": -1.5
+        },
+        {
+          "x": 4.5,
+          "y": 0.8,
+          "z": -1.5
+        },
+        {
+          "x": -3.5,
+          "y": 0.8,
+          "z": -0.5
+        },
+        {
+          "x": 3.5,
+          "y": 0.8,
+          "z": -0.5
+        },
+        {
+          "x": -3.5,
+          "y": 0.8,
+          "z": 0.5
+        },
+        {
+          "x": 3.5,
+          "y": 0.8,
+          "z": 0.5
+        },
+        {
+          "x": -4.5,
+          "y": 0.8,
+          "z": 1.5
+        },
+        {
+          "x": 4.5,
+          "y": 0.8,
+          "z": 1.5
+        },
+        {
+          "x": 5.5,
+          "y": 0.8,
+          "z": 2.5
+        },
+        {
+          "x": -0.5,
+          "y": 0.8,
+          "z": 4.5
+        },
+        {
+          "x": 0.5,
+          "y": 0.8,
+          "z": 4.5
+        },
+        {
+          "x": -1.5,
+          "y": 0.8,
+          "z": 5.5
+        },
+        {
+          "x": 1.5,
+          "y": 0.8,
+          "z": 5.5
+        },
+        {
+          "x": -2.5,
+          "y": 0.8,
+          "z": 6.5
+        }
+      ],
+      "activeZombies": [],
+      "nextObjective": "Bonus checkpoint nearby",
+      "objectiveDistance": 4.12,
+      "camera": {
+        "yaw": 0.748,
+        "pitch": 0.44,
+        "distance": 14,
+        "collision": {
+          "active": false,
+          "hitBodyId": null,
+          "desiredDistance": 14,
+          "resolvedDistance": 14
+        }
+      },
+      "controls": "Click one of the eight 3D cubes; choose one of four unfolded panels; Close reverses the open and rotation sequence.",
+      "shellWireRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "arrowHeading": 3.142
+    },
+    "ball-classic2015": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.17-r7",
+      "mode": "cubx-lab",
+      "projectFamily": "cubx-lab",
+      "race": "Archive Level 1 — ASCII Restoration",
+      "preview": "cubx-lab",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "cubx": {
+        "phase": "open",
+        "selectedCube": 4,
+        "selectedLabel": "BallZ",
+        "actions": [
+          "Fire",
+          "Classic",
+          "Revival",
+          "BallZ Tour"
+        ],
+        "selectedAction": "Classic",
+        "ballSelector": {
+          "selected": "classic2015",
+          "options": [
+            "fire",
+            "classic2015",
+            "revival"
+          ],
+          "recoveredMeshesReady": true,
+          "meshSource": "src/legacy/tvm-catalog.json#ball",
+          "firePhysics": "revival"
+        },
+        "sunLaunch": {
+          "raceId": "flightx-pipe",
+          "source": "AtmelCubx/CubXScene.cpp red sun box",
+          "interactive": true
+        },
+        "satellites": {
+          "activeMenuLevel": 0,
+          "selected": null,
+          "menuRules": {
+            "maxButtons": 48,
+            "maxLevels": 16,
+            "allMenu": 666,
+            "allMenuExceptMain": 777
+          },
+          "displayScale": 0.005,
+          "items": [
+            {
+              "id": "system",
+              "label": "SYSTEM",
+              "sourceAsset": "Box.tvm",
+              "sourceTexture": "SystemIcon.jpg",
+              "sourcePosition": [
+                -800,
+                300,
+                -250
+              ],
+              "sourceScale": 10,
+              "menuTag": 0,
+              "action": "system-reference",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                -5.7,
+                1.45,
+                1
+              ]
+            },
+            {
+              "id": "tools",
+              "label": "TOOLS",
+              "sourceAsset": "Box.tvm",
+              "sourceTexture": "ToolsIcon.png",
+              "sourcePosition": [
+                -1100,
+                300,
+                -500
+              ],
+              "sourceScale": 10,
+              "menuTag": 0,
+              "action": "car-scene",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                -7.2,
+                1.45,
+                2.25
+              ]
+            },
+            {
+              "id": "earth",
+              "label": "EARTH",
+              "sourceAsset": "Earth.tvm",
+              "sourceTexture": "Earth.jpg",
+              "sourcePosition": [
+                800,
+                500,
+                350
+              ],
+              "sourceScale": 10,
+              "menuTag": 0,
+              "action": "none",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                2.3,
+                2.45,
+                -2
+              ]
+            },
+            {
+              "id": "earth-grid",
+              "label": "EARTH GRID",
+              "sourceAsset": "Sphere.tvm",
+              "sourceTexture": "EarthGridXL.bmp",
+              "sourcePosition": [
+                800,
+                500,
+                350
+              ],
+              "sourceScale": 1.2,
+              "menuTag": 0,
+              "action": "none",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                2.3,
+                2.45,
+                -2
+              ]
+            },
+            {
+              "id": "arrow",
+              "label": "MAIN MENU",
+              "sourceAsset": "Fleche.tvm",
+              "sourceTexture": "marble10.jpg",
+              "sourcePosition": [
+                1000,
+                600,
+                300
+              ],
+              "sourceScale": 1,
+              "sourceRotationDegrees": [
+                0,
+                180,
+                0
+              ],
+              "menuTag": 666,
+              "action": "return-main",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                3.3,
+                2.95,
+                -1.75
+              ]
+            },
+            {
+              "id": "sun",
+              "label": "FLIGHTX",
+              "sourceAsset": "procedural box",
+              "sourceTexture": null,
+              "sourcePosition": [
+                0,
+                500,
+                0
+              ],
+              "sourceScale": 20,
+              "menuTag": "always",
+              "action": "flightx-pipe",
+              "evidence": "recovery-ledger",
+              "visible": true,
+              "displayPosition": [
+                -1.7,
+                2.45,
+                -0.25
+              ]
+            }
+          ],
+          "visualAdapter": {
+            "sourceCoordinatesExact": true,
+            "recoveredArrowGeometryReady": true,
+            "pending": "Box.tvm, Earth.tvm, Sphere.tvm and their original CubX textures are not yet present in the browser converter output",
+            "presentation": "Uniform constellation scale plus procedural box/earth shells; Earth-grid spin has no recovered source rate"
+          }
+        },
+        "sourceLayout": {
+          "modelScale": 8,
+          "cubeSize": 58,
+          "centers": [
+            [
+              0,
+              25,
+              0
+            ],
+            [
+              0,
+              25,
+              100
+            ],
+            [
+              -95,
+              25,
+              100
+            ],
+            [
+              -95,
+              25,
+              0
+            ],
+            [
+              0,
+              -70,
+              0
+            ],
+            [
+              0,
+              -70,
+              100
+            ],
+            [
+              -95,
+              -70,
+              100
+            ],
+            [
+              -95,
+              -70,
+              0
+            ]
+          ],
+          "displayScale": 0.02689655172413793,
+          "displayCenters": [
+            [
+              1.2776,
+              1.2776,
+              1.3448
+            ],
+            [
+              1.2776,
+              1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              1.2776,
+              1.3448
+            ],
+            [
+              1.2776,
+              -1.2776,
+              1.3448
+            ],
+            [
+              1.2776,
+              -1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              -1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              -1.2776,
+              1.3448
+            ]
+          ],
+          "exactHitLayout": true
+        },
+        "sourceAnimation": {
+          "decoded": true,
+          "activeSample": {
+            "schema": "graphysx.cubz-tva-playback/v1",
+            "kind": "cube-open",
+            "animationId": 0,
+            "rangeName": "",
+            "cursor": {
+              "direction": "forward",
+              "elapsedSeconds": 1.6666666666666667,
+              "durationSeconds": 1.6666666666666667,
+              "progress": 1,
+              "sourceFrame": 50,
+              "startFrame": 0,
+              "endFrame": 50,
+              "framesPerSecond": 30,
+              "finished": true
+            },
+            "panels": {
+              "Right08": {
+                "nodeId": 34,
+                "nodeName": "Right08",
+                "fixedPosition": [
+                  22.499998092651367,
+                  5,
+                  22.37502098083496
+                ],
+                "fixedScale": [
+                  1,
+                  1,
+                  1
+                ],
+                "quaternion": [
+                  0,
+                  0.7085883021354675,
+                  0,
+                  0.705622136592865
+                ],
+                "exactStoredKey": true,
+                "lowerFrame": 50,
+                "upperFrame": 50,
+                "interpolationAlpha": 0,
+                "interpolation": "exact-key"
+              },
+              "Top08": {
+                "nodeId": 36,
+                "nodeName": "Top08",
+                "fixedPosition": [
+                  -22.07537841796875,
+                  44.999996185302734,
+                  22.026580810546875
+                ],
+                "fixedScale": [
+                  1,
+                  1,
+                  1
+                ],
+                "quaternion": [
+                  -0.4478757381439209,
+                  -0.008264008909463882,
+                  -0.42539727687835693,
+                  0.7863689661026001
+                ],
+                "exactStoredKey": true,
+                "lowerFrame": 50,
+                "upperFrame": 50,
+                "interpolationAlpha": 0,
+                "interpolation": "exact-key"
+              },
+              "Left08": {
+                "nodeId": 38,
+                "nodeName": "Left08",
+                "fixedPosition": [
+                  -22.869407653808594,
+                  5,
+                  -22.499998092651367
+                ],
+                "fixedScale": [
+                  1,
+                  1,
+                  1
+                ],
+                "quaternion": [
+                  0,
+                  -0.7079634666442871,
+                  0,
+                  0.7062490582466125
+                ],
+                "exactStoredKey": true,
+                "lowerFrame": 50,
+                "upperFrame": 50,
+                "interpolationAlpha": 0,
+                "interpolation": "exact-key"
+              }
+            },
+            "fidelity": {
+              "schema": "graphysx.cubz-tva-fidelity/v1",
+              "dataSchema": "graphysx.cubz-tva-audit/v1",
+              "sourceIdentity": {
+                "cubeRotation": {
+                  "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeRot.tva",
+                  "filename": "CubeRot.tva",
+                  "bytes": 700768,
+                  "sha256": "8ADBA22A2103A6EDAC9B173474B1A4599DB04B21C7DF4418412EA35903AE7B4B"
+                },
+                "cubeOpen": {
+                  "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeOpen.tva",
+                  "filename": "CubeOpen.tva",
+                  "bytes": 222564,
+                  "sha256": "CCB1ED3BB77919509E2B501663FB34BFD7E64C34E95F01E003E6D553160CA27B"
+                }
+              },
+              "decodedExact": {
+                "timing": "MANS source ranges and 30 fps are decoded exactly.",
+                "storedKeys": "Stored MANI quaternion keys are returned in original float32 source order at exact source frames.",
+                "rotationTrack": "CubeRot materially changes only GlobalCube.",
+                "openTracks": "CubeOpen materially changes only Right08, Top08 and Left08."
+              },
+              "interpolation": {
+                "status": "deterministic-inference-engine-routine-not-recovered",
+                "method": "normalized shortest-arc quaternion SLERP between the two surrounding decoded keys",
+                "rationale": "Quaternion interpolation is the narrowest transform-preserving interpolation supported by the decoded unit-quaternion evidence; no authored easing curve is invented."
+              },
+              "coordinateSpace": {
+                "status": "raw-tv3d-source-order-no-web-conversion",
+                "rotationInterpretation": "The four stored rotation floats are emitted in source order and labeled x,y,z,w because every decoded key is unit length within 1e-6 and identity keys are [0,0,0,~1].",
+                "boundary": "No TV3D-to-Three.js handedness conversion, Euler conversion, interpolation mode, or procedural easing is asserted here."
+              },
+              "reverseRepair": {
+                "status": "intentional-source-defect-repair",
+                "archivedExpression": "iSelectedCube+1",
+                "archivedValidIds": [
+                  0,
+                  7
+                ],
+                "archivedResultingReverseIds": [
+                  2,
+                  8
+                ],
+                "implementedBehavior": "Reverse traverses the same animation ID/range used by forward playback, from its decoded end frame to its decoded start frame.",
+                "reason": "For selections 1-6 the reverse ID is a different range than the forward ID; selection 7 requests ID 8 although CubeRot contains only IDs 0-7. This is a source/binary inconsistency, not behavior to reproduce as intended design."
+              }
+            }
+          },
+          "rotationClips": [
+            {
+              "selection": 1,
+              "animationId": 1,
+              "name": "Animation1",
+              "startFrame": 0,
+              "endFrame": 28,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 2,
+              "animationId": 2,
+              "name": "Animation2",
+              "startFrame": 30,
+              "endFrame": 58,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 3,
+              "animationId": 3,
+              "name": "Animation3",
+              "startFrame": 60,
+              "endFrame": 88,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 4,
+              "animationId": 4,
+              "name": "Animation4",
+              "startFrame": 90,
+              "endFrame": 118,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 5,
+              "animationId": 5,
+              "name": "Animation5",
+              "startFrame": 120,
+              "endFrame": 148,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 6,
+              "animationId": 6,
+              "name": "Animation6",
+              "startFrame": 150,
+              "endFrame": 178,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 7,
+              "animationId": 7,
+              "name": "Animation7",
+              "startFrame": 180,
+              "endFrame": 208,
+              "durationSeconds": 0.9333333333333333
+            }
+          ],
+          "openClip": {
+            "animationId": 0,
+            "name": "",
+            "startFrame": 0,
+            "endFrame": 50,
+            "durationSeconds": 1.6666666666666667,
+            "panels": [
+              "Right08",
+              "Top08",
+              "Left08"
+            ]
+          },
+          "selectionZeroSkipsRotation": true,
+          "reverseRepair": {
+            "status": "intentional-source-defect-repair",
+            "archivedExpression": "iSelectedCube+1",
+            "archivedValidIds": [
+              0,
+              7
+            ],
+            "archivedResultingReverseIds": [
+              2,
+              8
+            ],
+            "implementedBehavior": "Reverse traverses the same animation ID/range used by forward playback, from its decoded end frame to its decoded start frame.",
+            "reason": "For selections 1-6 the reverse ID is a different range than the forward ID; selection 7 requests ID 8 although CubeRot contains only IDs 0-7. This is a source/binary inconsistency, not behavior to reproduce as intended design."
+          },
+          "choreography": {
+            "idleSpinDegreesPerSecond": [
+              20,
+              20,
+              20
+            ],
+            "rotationRangeDurationSeconds": 0.9333333333333333,
+            "openRangeDurationSeconds": 1.6666666666666667,
+            "cameraFly": {
+              "sourceStart": [
+                400,
+                250,
+                -2000
+              ],
+              "stepPerFrame": [
+                -10,
+                5,
+                10
+              ],
+              "sourceTarget": [
+                -75,
+                725,
+                -350
+              ],
+              "current": [
+                -75,
+                725,
+                -350
+              ],
+              "complete": true
+            },
+            "screensaverOwnedByGlobalMenuCamera": true
+          },
+          "visualAdapter": {
+            "status": "decoded-cubz-tva-tracks-on-procedural-cubz-geometry",
+            "exact": "CubeRot GlobalCube and CubeOpen Right08/Top08/Left08 stored quaternion tracks, source ranges, 30 fps timing and same-range reverse playback",
+            "pending": "Original CubZ actor/button geometry/material conversion and a verified TV3D-to-Three handedness transform"
+          }
+        },
+        "animationFidelity": "decoded-cuberot-and-cubeopen-visual-adapter"
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "player": {
+        "x": -6.5,
+        "y": 0.35,
+        "z": 7.5,
+        "radius": 0.3
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "inputAxis": {
+        "forward": 0,
+        "turn": 0
+      },
+      "ballPreset": "classic2015",
+      "ghost": {
+        "hasBest": false,
+        "bestTimeMs": null,
+        "recordingSamples": 0,
+        "playbackVisible": false,
+        "lastLapVisible": false
+      },
+      "flight": null,
+      "suzanne": null,
+      "rings": "0/20",
+      "laps": {
+        "completed": 0,
+        "total": 3,
+        "current": 1
+      },
+      "halfway": false,
+      "raceActive": false,
+      "raceFinished": false,
+      "loadState": {
+        "ready": true,
+        "loading": false,
+        "requiredKeys": []
+      },
+      "remainingRings": [
+        {
+          "x": 2.5,
+          "y": 0.8,
+          "z": -6.5
+        },
+        {
+          "x": -1.5,
+          "y": 0.8,
+          "z": -5.5
+        },
+        {
+          "x": 1.5,
+          "y": 0.8,
+          "z": -5.5
+        },
+        {
+          "x": -0.5,
+          "y": 0.8,
+          "z": -4.5
+        },
+        {
+          "x": 0.5,
+          "y": 0.8,
+          "z": -4.5
+        },
+        {
+          "x": -5.5,
+          "y": 0.8,
+          "z": -2.5
+        },
+        {
+          "x": -4.5,
+          "y": 0.8,
+          "z": -1.5
+        },
+        {
+          "x": 4.5,
+          "y": 0.8,
+          "z": -1.5
+        },
+        {
+          "x": -3.5,
+          "y": 0.8,
+          "z": -0.5
+        },
+        {
+          "x": 3.5,
+          "y": 0.8,
+          "z": -0.5
+        },
+        {
+          "x": -3.5,
+          "y": 0.8,
+          "z": 0.5
+        },
+        {
+          "x": 3.5,
+          "y": 0.8,
+          "z": 0.5
+        },
+        {
+          "x": -4.5,
+          "y": 0.8,
+          "z": 1.5
+        },
+        {
+          "x": 4.5,
+          "y": 0.8,
+          "z": 1.5
+        },
+        {
+          "x": 5.5,
+          "y": 0.8,
+          "z": 2.5
+        },
+        {
+          "x": -0.5,
+          "y": 0.8,
+          "z": 4.5
+        },
+        {
+          "x": 0.5,
+          "y": 0.8,
+          "z": 4.5
+        },
+        {
+          "x": -1.5,
+          "y": 0.8,
+          "z": 5.5
+        },
+        {
+          "x": 1.5,
+          "y": 0.8,
+          "z": 5.5
+        },
+        {
+          "x": -2.5,
+          "y": 0.8,
+          "z": 6.5
+        }
+      ],
+      "activeZombies": [],
+      "nextObjective": "Bonus checkpoint nearby",
+      "objectiveDistance": 4.12,
+      "camera": {
+        "yaw": 0.748,
+        "pitch": 0.44,
+        "distance": 14,
+        "collision": {
+          "active": false,
+          "hitBodyId": null,
+          "desiredDistance": 14,
+          "resolvedDistance": 14
+        }
+      },
+      "controls": "Click one of the eight 3D cubes; choose one of four unfolded panels; Close reverses the open and rotation sequence.",
+      "shellWireRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "arrowHeading": 3.142
+    },
+    "ball-revival": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.17-r7",
+      "mode": "cubx-lab",
+      "projectFamily": "cubx-lab",
+      "race": "Archive Level 1 — ASCII Restoration",
+      "preview": "cubx-lab",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "cubx": {
+        "phase": "open",
+        "selectedCube": 4,
+        "selectedLabel": "BallZ",
+        "actions": [
+          "Fire",
+          "Classic",
+          "Revival",
+          "BallZ Tour"
+        ],
+        "selectedAction": "Revival",
+        "ballSelector": {
+          "selected": "revival",
+          "options": [
+            "fire",
+            "classic2015",
+            "revival"
+          ],
+          "recoveredMeshesReady": true,
+          "meshSource": "src/legacy/tvm-catalog.json#ball",
+          "firePhysics": "revival"
+        },
+        "sunLaunch": {
+          "raceId": "flightx-pipe",
+          "source": "AtmelCubx/CubXScene.cpp red sun box",
+          "interactive": true
+        },
+        "satellites": {
+          "activeMenuLevel": 0,
+          "selected": null,
+          "menuRules": {
+            "maxButtons": 48,
+            "maxLevels": 16,
+            "allMenu": 666,
+            "allMenuExceptMain": 777
+          },
+          "displayScale": 0.005,
+          "items": [
+            {
+              "id": "system",
+              "label": "SYSTEM",
+              "sourceAsset": "Box.tvm",
+              "sourceTexture": "SystemIcon.jpg",
+              "sourcePosition": [
+                -800,
+                300,
+                -250
+              ],
+              "sourceScale": 10,
+              "menuTag": 0,
+              "action": "system-reference",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                -5.7,
+                1.45,
+                1
+              ]
+            },
+            {
+              "id": "tools",
+              "label": "TOOLS",
+              "sourceAsset": "Box.tvm",
+              "sourceTexture": "ToolsIcon.png",
+              "sourcePosition": [
+                -1100,
+                300,
+                -500
+              ],
+              "sourceScale": 10,
+              "menuTag": 0,
+              "action": "car-scene",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                -7.2,
+                1.45,
+                2.25
+              ]
+            },
+            {
+              "id": "earth",
+              "label": "EARTH",
+              "sourceAsset": "Earth.tvm",
+              "sourceTexture": "Earth.jpg",
+              "sourcePosition": [
+                800,
+                500,
+                350
+              ],
+              "sourceScale": 10,
+              "menuTag": 0,
+              "action": "none",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                2.3,
+                2.45,
+                -2
+              ]
+            },
+            {
+              "id": "earth-grid",
+              "label": "EARTH GRID",
+              "sourceAsset": "Sphere.tvm",
+              "sourceTexture": "EarthGridXL.bmp",
+              "sourcePosition": [
+                800,
+                500,
+                350
+              ],
+              "sourceScale": 1.2,
+              "menuTag": 0,
+              "action": "none",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                2.3,
+                2.45,
+                -2
+              ]
+            },
+            {
+              "id": "arrow",
+              "label": "MAIN MENU",
+              "sourceAsset": "Fleche.tvm",
+              "sourceTexture": "marble10.jpg",
+              "sourcePosition": [
+                1000,
+                600,
+                300
+              ],
+              "sourceScale": 1,
+              "sourceRotationDegrees": [
+                0,
+                180,
+                0
+              ],
+              "menuTag": 666,
+              "action": "return-main",
+              "evidence": "recovered-source",
+              "visible": true,
+              "displayPosition": [
+                3.3,
+                2.95,
+                -1.75
+              ]
+            },
+            {
+              "id": "sun",
+              "label": "FLIGHTX",
+              "sourceAsset": "procedural box",
+              "sourceTexture": null,
+              "sourcePosition": [
+                0,
+                500,
+                0
+              ],
+              "sourceScale": 20,
+              "menuTag": "always",
+              "action": "flightx-pipe",
+              "evidence": "recovery-ledger",
+              "visible": true,
+              "displayPosition": [
+                -1.7,
+                2.45,
+                -0.25
+              ]
+            }
+          ],
+          "visualAdapter": {
+            "sourceCoordinatesExact": true,
+            "recoveredArrowGeometryReady": true,
+            "pending": "Box.tvm, Earth.tvm, Sphere.tvm and their original CubX textures are not yet present in the browser converter output",
+            "presentation": "Uniform constellation scale plus procedural box/earth shells; Earth-grid spin has no recovered source rate"
+          }
+        },
+        "sourceLayout": {
+          "modelScale": 8,
+          "cubeSize": 58,
+          "centers": [
+            [
+              0,
+              25,
+              0
+            ],
+            [
+              0,
+              25,
+              100
+            ],
+            [
+              -95,
+              25,
+              100
+            ],
+            [
+              -95,
+              25,
+              0
+            ],
+            [
+              0,
+              -70,
+              0
+            ],
+            [
+              0,
+              -70,
+              100
+            ],
+            [
+              -95,
+              -70,
+              100
+            ],
+            [
+              -95,
+              -70,
+              0
+            ]
+          ],
+          "displayScale": 0.02689655172413793,
+          "displayCenters": [
+            [
+              1.2776,
+              1.2776,
+              1.3448
+            ],
+            [
+              1.2776,
+              1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              1.2776,
+              1.3448
+            ],
+            [
+              1.2776,
+              -1.2776,
+              1.3448
+            ],
+            [
+              1.2776,
+              -1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              -1.2776,
+              -1.3448
+            ],
+            [
+              -1.2776,
+              -1.2776,
+              1.3448
+            ]
+          ],
+          "exactHitLayout": true
+        },
+        "sourceAnimation": {
+          "decoded": true,
+          "activeSample": {
+            "schema": "graphysx.cubz-tva-playback/v1",
+            "kind": "cube-open",
+            "animationId": 0,
+            "rangeName": "",
+            "cursor": {
+              "direction": "forward",
+              "elapsedSeconds": 1.6666666666666667,
+              "durationSeconds": 1.6666666666666667,
+              "progress": 1,
+              "sourceFrame": 50,
+              "startFrame": 0,
+              "endFrame": 50,
+              "framesPerSecond": 30,
+              "finished": true
+            },
+            "panels": {
+              "Right08": {
+                "nodeId": 34,
+                "nodeName": "Right08",
+                "fixedPosition": [
+                  22.499998092651367,
+                  5,
+                  22.37502098083496
+                ],
+                "fixedScale": [
+                  1,
+                  1,
+                  1
+                ],
+                "quaternion": [
+                  0,
+                  0.7085883021354675,
+                  0,
+                  0.705622136592865
+                ],
+                "exactStoredKey": true,
+                "lowerFrame": 50,
+                "upperFrame": 50,
+                "interpolationAlpha": 0,
+                "interpolation": "exact-key"
+              },
+              "Top08": {
+                "nodeId": 36,
+                "nodeName": "Top08",
+                "fixedPosition": [
+                  -22.07537841796875,
+                  44.999996185302734,
+                  22.026580810546875
+                ],
+                "fixedScale": [
+                  1,
+                  1,
+                  1
+                ],
+                "quaternion": [
+                  -0.4478757381439209,
+                  -0.008264008909463882,
+                  -0.42539727687835693,
+                  0.7863689661026001
+                ],
+                "exactStoredKey": true,
+                "lowerFrame": 50,
+                "upperFrame": 50,
+                "interpolationAlpha": 0,
+                "interpolation": "exact-key"
+              },
+              "Left08": {
+                "nodeId": 38,
+                "nodeName": "Left08",
+                "fixedPosition": [
+                  -22.869407653808594,
+                  5,
+                  -22.499998092651367
+                ],
+                "fixedScale": [
+                  1,
+                  1,
+                  1
+                ],
+                "quaternion": [
+                  0,
+                  -0.7079634666442871,
+                  0,
+                  0.7062490582466125
+                ],
+                "exactStoredKey": true,
+                "lowerFrame": 50,
+                "upperFrame": 50,
+                "interpolationAlpha": 0,
+                "interpolation": "exact-key"
+              }
+            },
+            "fidelity": {
+              "schema": "graphysx.cubz-tva-fidelity/v1",
+              "dataSchema": "graphysx.cubz-tva-audit/v1",
+              "sourceIdentity": {
+                "cubeRotation": {
+                  "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeRot.tva",
+                  "filename": "CubeRot.tva",
+                  "bytes": 700768,
+                  "sha256": "8ADBA22A2103A6EDAC9B173474B1A4599DB04B21C7DF4418412EA35903AE7B4B"
+                },
+                "cubeOpen": {
+                  "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeOpen.tva",
+                  "filename": "CubeOpen.tva",
+                  "bytes": 222564,
+                  "sha256": "CCB1ED3BB77919509E2B501663FB34BFD7E64C34E95F01E003E6D553160CA27B"
+                }
+              },
+              "decodedExact": {
+                "timing": "MANS source ranges and 30 fps are decoded exactly.",
+                "storedKeys": "Stored MANI quaternion keys are returned in original float32 source order at exact source frames.",
+                "rotationTrack": "CubeRot materially changes only GlobalCube.",
+                "openTracks": "CubeOpen materially changes only Right08, Top08 and Left08."
+              },
+              "interpolation": {
+                "status": "deterministic-inference-engine-routine-not-recovered",
+                "method": "normalized shortest-arc quaternion SLERP between the two surrounding decoded keys",
+                "rationale": "Quaternion interpolation is the narrowest transform-preserving interpolation supported by the decoded unit-quaternion evidence; no authored easing curve is invented."
+              },
+              "coordinateSpace": {
+                "status": "raw-tv3d-source-order-no-web-conversion",
+                "rotationInterpretation": "The four stored rotation floats are emitted in source order and labeled x,y,z,w because every decoded key is unit length within 1e-6 and identity keys are [0,0,0,~1].",
+                "boundary": "No TV3D-to-Three.js handedness conversion, Euler conversion, interpolation mode, or procedural easing is asserted here."
+              },
+              "reverseRepair": {
+                "status": "intentional-source-defect-repair",
+                "archivedExpression": "iSelectedCube+1",
+                "archivedValidIds": [
+                  0,
+                  7
+                ],
+                "archivedResultingReverseIds": [
+                  2,
+                  8
+                ],
+                "implementedBehavior": "Reverse traverses the same animation ID/range used by forward playback, from its decoded end frame to its decoded start frame.",
+                "reason": "For selections 1-6 the reverse ID is a different range than the forward ID; selection 7 requests ID 8 although CubeRot contains only IDs 0-7. This is a source/binary inconsistency, not behavior to reproduce as intended design."
+              }
+            }
+          },
+          "rotationClips": [
+            {
+              "selection": 1,
+              "animationId": 1,
+              "name": "Animation1",
+              "startFrame": 0,
+              "endFrame": 28,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 2,
+              "animationId": 2,
+              "name": "Animation2",
+              "startFrame": 30,
+              "endFrame": 58,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 3,
+              "animationId": 3,
+              "name": "Animation3",
+              "startFrame": 60,
+              "endFrame": 88,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 4,
+              "animationId": 4,
+              "name": "Animation4",
+              "startFrame": 90,
+              "endFrame": 118,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 5,
+              "animationId": 5,
+              "name": "Animation5",
+              "startFrame": 120,
+              "endFrame": 148,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 6,
+              "animationId": 6,
+              "name": "Animation6",
+              "startFrame": 150,
+              "endFrame": 178,
+              "durationSeconds": 0.9333333333333333
+            },
+            {
+              "selection": 7,
+              "animationId": 7,
+              "name": "Animation7",
+              "startFrame": 180,
+              "endFrame": 208,
+              "durationSeconds": 0.9333333333333333
+            }
+          ],
+          "openClip": {
+            "animationId": 0,
+            "name": "",
+            "startFrame": 0,
+            "endFrame": 50,
+            "durationSeconds": 1.6666666666666667,
+            "panels": [
+              "Right08",
+              "Top08",
+              "Left08"
+            ]
+          },
+          "selectionZeroSkipsRotation": true,
+          "reverseRepair": {
+            "status": "intentional-source-defect-repair",
+            "archivedExpression": "iSelectedCube+1",
+            "archivedValidIds": [
+              0,
+              7
+            ],
+            "archivedResultingReverseIds": [
+              2,
+              8
+            ],
+            "implementedBehavior": "Reverse traverses the same animation ID/range used by forward playback, from its decoded end frame to its decoded start frame.",
+            "reason": "For selections 1-6 the reverse ID is a different range than the forward ID; selection 7 requests ID 8 although CubeRot contains only IDs 0-7. This is a source/binary inconsistency, not behavior to reproduce as intended design."
+          },
+          "choreography": {
+            "idleSpinDegreesPerSecond": [
+              20,
+              20,
+              20
+            ],
+            "rotationRangeDurationSeconds": 0.9333333333333333,
+            "openRangeDurationSeconds": 1.6666666666666667,
+            "cameraFly": {
+              "sourceStart": [
+                400,
+                250,
+                -2000
+              ],
+              "stepPerFrame": [
+                -10,
+                5,
+                10
+              ],
+              "sourceTarget": [
+                -75,
+                725,
+                -350
+              ],
+              "current": [
+                -75,
+                725,
+                -350
+              ],
+              "complete": true
+            },
+            "screensaverOwnedByGlobalMenuCamera": true
+          },
+          "visualAdapter": {
+            "status": "decoded-cubz-tva-tracks-on-procedural-cubz-geometry",
+            "exact": "CubeRot GlobalCube and CubeOpen Right08/Top08/Left08 stored quaternion tracks, source ranges, 30 fps timing and same-range reverse playback",
+            "pending": "Original CubZ actor/button geometry/material conversion and a verified TV3D-to-Three handedness transform"
+          }
+        },
+        "animationFidelity": "decoded-cuberot-and-cubeopen-visual-adapter"
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "player": {
+        "x": -6.5,
+        "y": 0.35,
+        "z": 7.5,
+        "radius": 0.3
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "inputAxis": {
+        "forward": 0,
+        "turn": 0
+      },
+      "ballPreset": "revival",
+      "ghost": {
+        "hasBest": false,
+        "bestTimeMs": null,
+        "recordingSamples": 0,
+        "playbackVisible": false,
+        "lastLapVisible": false
+      },
+      "flight": null,
+      "suzanne": null,
+      "rings": "0/20",
+      "laps": {
+        "completed": 0,
+        "total": 3,
+        "current": 1
+      },
+      "halfway": false,
+      "raceActive": false,
+      "raceFinished": false,
+      "loadState": {
+        "ready": true,
+        "loading": false,
+        "requiredKeys": []
+      },
+      "remainingRings": [
+        {
+          "x": 2.5,
+          "y": 0.8,
+          "z": -6.5
+        },
+        {
+          "x": -1.5,
+          "y": 0.8,
+          "z": -5.5
+        },
+        {
+          "x": 1.5,
+          "y": 0.8,
+          "z": -5.5
+        },
+        {
+          "x": -0.5,
+          "y": 0.8,
+          "z": -4.5
+        },
+        {
+          "x": 0.5,
+          "y": 0.8,
+          "z": -4.5
+        },
+        {
+          "x": -5.5,
+          "y": 0.8,
+          "z": -2.5
+        },
+        {
+          "x": -4.5,
+          "y": 0.8,
+          "z": -1.5
+        },
+        {
+          "x": 4.5,
+          "y": 0.8,
+          "z": -1.5
+        },
+        {
+          "x": -3.5,
+          "y": 0.8,
+          "z": -0.5
+        },
+        {
+          "x": 3.5,
+          "y": 0.8,
+          "z": -0.5
+        },
+        {
+          "x": -3.5,
+          "y": 0.8,
+          "z": 0.5
+        },
+        {
+          "x": 3.5,
+          "y": 0.8,
+          "z": 0.5
+        },
+        {
+          "x": -4.5,
+          "y": 0.8,
+          "z": 1.5
+        },
+        {
+          "x": 4.5,
+          "y": 0.8,
+          "z": 1.5
+        },
+        {
+          "x": 5.5,
+          "y": 0.8,
+          "z": 2.5
+        },
+        {
+          "x": -0.5,
+          "y": 0.8,
+          "z": 4.5
+        },
+        {
+          "x": 0.5,
+          "y": 0.8,
+          "z": 4.5
+        },
+        {
+          "x": -1.5,
+          "y": 0.8,
+          "z": 5.5
+        },
+        {
+          "x": 1.5,
+          "y": 0.8,
+          "z": 5.5
+        },
+        {
+          "x": -2.5,
+          "y": 0.8,
+          "z": 6.5
+        }
+      ],
+      "activeZombies": [],
+      "nextObjective": "Bonus checkpoint nearby",
+      "objectiveDistance": 4.12,
+      "camera": {
+        "yaw": 0.748,
+        "pitch": 0.44,
+        "distance": 14,
+        "collision": {
+          "active": false,
+          "hitBodyId": null,
+          "desiredDistance": 14,
+          "resolvedDistance": 14
+        }
+      },
+      "controls": "Click one of the eight 3D cubes; choose one of four unfolded panels; Close reverses the open and rotation sequence.",
+      "shellWireRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "arrowHeading": 3.142
+    },
+    "toolsDestination": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.17-r7",
+      "mode": "car-selector",
+      "projectFamily": "car-selector",
+      "preview": "car-selector",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "selector": {
+        "id": "archive-car-selector",
+        "source": "Yanik C++ BCKUP/CubXSolution/3DScenes.cpp + 3DScenes.h + Vehicule.cpp",
+        "visible": true,
+        "loadStatus": "ready",
+        "loadError": null,
+        "entries": [
+          {
+            "id": "impreza",
+            "archiveName": "Impreza",
+            "label": "Subaru Impreza",
+            "position": [
+              30,
+              33.12269191254282,
+              0
+            ]
+          }
+        ],
+        "selectionImplementedInArchive": false,
+        "selectedId": null,
+        "inspectedId": null,
+        "car": {
+          "spawnPosition": [
+            30,
+            100,
+            0
+          ],
+          "currentPosition": [
+            30,
+            33.12269191254282,
+            0
+          ],
+          "fallingUnderArchiveGravity": true,
+          "wheelCount": 4,
+          "materialSlots": [
+            "ChassisSTI",
+            "Windows",
+            "UnderCarriage"
+          ]
+        },
+        "terrain": {
+          "ready": true,
+          "source": "Media/Heightmaps/height.jpg",
+          "size": [
+            100,
+            100
+          ],
+          "heightScaleFidelity": "estimated"
+        },
+        "water": {
+          "height": 2,
+          "distortionSource": "Media/distortiontexture.dds"
+        },
+        "camera": {
+          "position": [
+            75,
+            100,
+            50
+          ],
+          "lookAt": [
+            74.44291398546885,
+            99.2572186472918,
+            49.6286093236459
+          ],
+          "fovDegrees": 45
+        },
+        "controls": "Archive free camera: walk / strafe / raise + mouse deltas; car click callback was empty"
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "camera": {
+        "position": [
+          75,
+          100,
+          50
+        ],
+        "lookAt": [
+          74.44291398546885,
+          99.2572186472918,
+          49.6286093236459
+        ],
+        "fovDegrees": 45
+      },
+      "controls": "W/S walk; A/D strafe; Q/E raise; drag to turn; click the Impreza to inspect; Reset Preview restores the archive camera; Esc exits."
+    },
+    "sunPixelTarget": {
+      "count": 3687,
+      "x": 491.36615134255493,
+      "y": 403.73772714944397,
+      "width": 820,
+      "height": 720
+    },
+    "sunLaunch": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.17-r7",
+      "mode": "gameplay",
+      "projectFamily": "flightx",
+      "recoveryCategory": "Atmel/CubX flight mode",
+      "race": "FlightX — Pipe Loop",
+      "preview": "race-preview",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "player": {
+        "x": 23.3,
+        "y": 14,
+        "z": 8,
+        "radius": 0.88
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "inputAxis": {
+        "forward": 0,
+        "turn": 0
+      },
+      "ballPreset": "revival",
+      "ghost": {
+        "hasBest": false,
+        "bestTimeMs": null,
+        "recordingSamples": 3,
+        "playbackVisible": false,
+        "lastLapVisible": false
+      },
+      "flight": {
+        "speed": 0,
+        "thrust": 0,
+        "roll": 0,
+        "pitch": 0,
+        "airbrake": false,
+        "orientation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "forward": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "controls": "Left/Right roll; Up/Down pitch; W/S forward/reverse thrust; Space strengthens pitch-down; R resets orientation.",
+        "objective": "Collect nearest ring"
+      },
+      "suzanne": null,
+      "rings": "0/14",
+      "laps": {
+        "completed": 0,
+        "total": 1,
+        "current": 1
+      },
+      "halfway": false,
+      "raceActive": true,
+      "raceFinished": false,
+      "loadState": {
+        "ready": true,
+        "loading": false,
+        "requiredKeys": [
+          "assets",
+          "tvm"
+        ]
+      },
+      "remainingRings": [
+        {
+          "x": 23.3,
+          "y": 14,
+          "z": 1
+        },
+        {
+          "x": 23.3,
+          "y": 14,
+          "z": -10
+        },
+        {
+          "x": 20,
+          "y": 14,
+          "z": -20
+        },
+        {
+          "x": 12,
+          "y": 14,
+          "z": -26
+        },
+        {
+          "x": 1,
+          "y": 14,
+          "z": -27
+        },
+        {
+          "x": -11,
+          "y": 14,
+          "z": -26
+        },
+        {
+          "x": -20,
+          "y": 14,
+          "z": -20
+        },
+        {
+          "x": -24,
+          "y": 14,
+          "z": -10
+        },
+        {
+          "x": -24,
+          "y": 14,
+          "z": 2
+        },
+        {
+          "x": -21,
+          "y": 14,
+          "z": 13
+        },
+        {
+          "x": -14,
+          "y": 14,
+          "z": 22
+        },
+        {
+          "x": -3,
+          "y": 14,
+          "z": 26
+        },
+        {
+          "x": 9,
+          "y": 14,
+          "z": 25
+        },
+        {
+          "x": 19,
+          "y": 14,
+          "z": 20
+        }
+      ],
+      "activeZombies": [],
+      "nextObjective": "Collect nearest ring",
+      "objectiveDistance": 7,
+      "camera": {
+        "yaw": 0,
+        "pitch": 0.66,
+        "distance": 18,
+        "collision": {
+          "active": false,
+          "hitBodyId": null,
+          "desiredDistance": 18,
+          "resolvedDistance": 18
+        }
+      },
+      "controls": "Left/Right roll; Up/Down pitch; W/S forward/reverse thrust; Space strengthens pitch-down; R resets orientation. Esc exits; use the visible Restart button to restart the flight.",
+      "shellWireRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "arrowHeading": 3.142
+    },
+    "final": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.17-r7",
+      "mode": "gameplay",
+      "projectFamily": "flightx",
+      "recoveryCategory": "Atmel/CubX flight mode",
+      "race": "FlightX — Pipe Loop",
+      "preview": "race-preview",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "player": {
+        "x": 23.3,
+        "y": 14,
+        "z": 8,
+        "radius": 0.88
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "inputAxis": {
+        "forward": 0,
+        "turn": 0
+      },
+      "ballPreset": "revival",
+      "ghost": {
+        "hasBest": false,
+        "bestTimeMs": null,
+        "recordingSamples": 6,
+        "playbackVisible": false,
+        "lastLapVisible": false
+      },
+      "flight": {
+        "speed": 0,
+        "thrust": 0,
+        "roll": 0,
+        "pitch": 0,
+        "airbrake": false,
+        "orientation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "forward": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "controls": "Left/Right roll; Up/Down pitch; W/S forward/reverse thrust; Space strengthens pitch-down; R resets orientation.",
+        "objective": "Collect nearest ring"
+      },
+      "suzanne": null,
+      "rings": "0/14",
+      "laps": {
+        "completed": 0,
+        "total": 1,
+        "current": 1
+      },
+      "halfway": false,
+      "raceActive": true,
+      "raceFinished": false,
+      "loadState": {
+        "ready": true,
+        "loading": false,
+        "requiredKeys": [
+          "assets",
+          "tvm"
+        ]
+      },
+      "remainingRings": [
+        {
+          "x": 23.3,
+          "y": 14,
+          "z": 1
+        },
+        {
+          "x": 23.3,
+          "y": 14,
+          "z": -10
+        },
+        {
+          "x": 20,
+          "y": 14,
+          "z": -20
+        },
+        {
+          "x": 12,
+          "y": 14,
+          "z": -26
+        },
+        {
+          "x": 1,
+          "y": 14,
+          "z": -27
+        },
+        {
+          "x": -11,
+          "y": 14,
+          "z": -26
+        },
+        {
+          "x": -20,
+          "y": 14,
+          "z": -20
+        },
+        {
+          "x": -24,
+          "y": 14,
+          "z": -10
+        },
+        {
+          "x": -24,
+          "y": 14,
+          "z": 2
+        },
+        {
+          "x": -21,
+          "y": 14,
+          "z": 13
+        },
+        {
+          "x": -14,
+          "y": 14,
+          "z": 22
+        },
+        {
+          "x": -3,
+          "y": 14,
+          "z": 26
+        },
+        {
+          "x": 9,
+          "y": 14,
+          "z": 25
+        },
+        {
+          "x": 19,
+          "y": 14,
+          "z": 20
+        }
+      ],
+      "activeZombies": [],
+      "nextObjective": "Collect nearest ring",
+      "objectiveDistance": 7,
+      "camera": {
+        "yaw": 0,
+        "pitch": 0.66,
+        "distance": 18,
+        "collision": {
+          "active": false,
+          "hitBodyId": null,
+          "desiredDistance": 18,
+          "resolvedDistance": 18
+        }
+      },
+      "controls": "Left/Right roll; Up/Down pitch; W/S forward/reverse thrust; Space strengthens pitch-down; R resets orientation. Esc exits; use the visible Restart button to restart the flight.",
+      "shellWireRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "arrowHeading": 3.142
+    }
+  },
+  "browserProblems": []
+}

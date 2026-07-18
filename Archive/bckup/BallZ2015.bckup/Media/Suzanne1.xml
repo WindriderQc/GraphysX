@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CScene3D xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Actions>  0=CUBE  1=SPHERE  2=CYLINDER  3=CONE  4=BILLBOARD  5=FLOOR  6=CUSTOM  7=PHYSICCUBE  8=PHYSICSPHERE  9=PHYSICSCYLINDER  10=PHYSICCONE  11=PHYSICCUSTOM  12=XMESH  13=PHYSICXMESH  14=PHYSICXSTATIC  15=DUPLICATE  16=V1_0</Actions>
+  <ObjList>
+    <Object3D Type="7" Name="TestGravity" Enabled="true" masse="1" MeshControlled="false" NewtonMat="0">
+      <Pos x="2" y="6" z="3" />
+      <Scale x="1" y="1" z="1" />
+      <PathToMesh></PathToMesh>
+      <TextureName />
+    </Object3D>	  
+	<!--><-->
+    <Object3D Type="13" Name="Suzanne1.Piston" Enabled="true" masse="0" MeshControlled="false" NewtonMat="1">
+      <Pos x="0" y="0" z="0" />
+      <Scale x="1" y="1" z="1" />
+      <PathToMesh>..\\BallZ2015\\Media\\Suzanne1.Piston.x</PathToMesh>
+      <TextureName />
+    </Object3D>
+   <Object3D Type="13" Name="Suzanne1.RotatorCube" Enabled="true" masse="0" MeshControlled="true" NewtonMat="0">
+      <Pos x="0" y="0" z="0" />
+      <Scale x="1" y="1" z="1" />
+      <PathToMesh>..\\BallZ2015\\Media\\Suzanne1.RotatorCube.x</PathToMesh>
+      <TextureName />
+    </Object3D>
+   
+	<Object3D Type="14" Name="Suzanne1.PistonStand" Enabled="true" masse="0" MeshControlled="false" NewtonMat="2">
+      <Pos x="0" y="0" z="0" />
+      <Scale x="1" y="1" z="1" />
+      <PathToMesh>..\\BallZ2015\\Media\\Suzanne1.PistonStand.x</PathToMesh>
+      <TextureName />
+    </Object3D>
+	  <Object3D Type="14" Name="Suzanne1.PistonTrigger" Enabled="true" masse="0" MeshControlled="false" NewtonMat="1">
+      <Pos x="0" y="0" z="0" />
+      <Scale x="1" y="1" z="1" />
+      <PathToMesh>..\\BallZ2015\\Media\\Suzanne1.PistonTrigger.x</PathToMesh>
+      <TextureName />
+    </Object3D>
+    <Object3D Type="13" Name="Airplane" Enabled="true" masse="1" MeshControlled="true" NewtonMat="-1">
+      <Pos x="36.47217" y="5.928505" z="17.6749439" />
+      <Scale x="1" y="1" z="1" />
+      <PathToMesh>..\\BallZ2015\\Media\\Airplane\\Airplane.x</PathToMesh>
+      <TextureName />
+    </Object3D>
+    <Object3D Type="14" Name="Suzanne1" Enabled="true" masse="0" MeshControlled="false" NewtonMat="2">
+      <Pos x="0" y="0" z="0" />
+      <Scale x="1" y="1" z="1" />
+      <PathToMesh>..\\BallZ2015\\Media\\Suzanne1.blend.x</PathToMesh>
+      <TextureName />
+    </Object3D>
+	<Object3D Type="14" Name="Suzanne1.FinishLine" Enabled="true" masse="0" MeshControlled="false" NewtonMat="1">
+      <Pos x="0" y="0" z="0" />
+      <Scale x="1" y="1" z="1" />
+      <PathToMesh>..\\BallZ2015\\Media\\Suzanne1.FinishLine.x</PathToMesh>
+      <TextureName />
+    </Object3D>
+  </ObjList>
+</CScene3D>

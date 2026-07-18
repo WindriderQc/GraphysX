@@ -1,0 +1,85 @@
+- generic [ref=e6]:
+  - generic [ref=e7]:
+    - generic [ref=e8]: GraphysX Web Revival
+    - strong [ref=e9]: v0.1.0
+    - generic [ref=e10]: revival-2026.07.16-r2
+  - heading "BALLZ TOUR" [level=1] [ref=e789]
+  - paragraph [ref=e12]: Core BallZ races and the ZombieKiller branch live here. Recovered 3D worlds and the Impreza experiment now have their own menu instead of masquerading as BallZ Tour chapters.
+  - generic [ref=e13]:
+    - button "Start Archive Level 1 — Study" [ref=e790] [cursor=pointer]
+    - button "Back Home" [ref=e791] [cursor=pointer]
+  - generic [ref=e16]:
+    - generic [ref=e792]:
+      - generic [ref=e793]:
+        - generic [ref=e794]: BallZ challenge 1 of 6
+        - generic [ref=e795]: Intro
+      - heading "Archive Level 1 — Study" [level=2] [ref=e796]
+      - paragraph [ref=e797]: Collect the full ring route, cross the amber halfway gate, then return through the finish.
+      - figure "Archive reference target — not a screenshot of the current build" [ref=e798]:
+        - img "Archive reference for Archive Level 1 — Study" [ref=e799]
+      - generic [ref=e801]:
+        - generic [ref=e802]:
+          - generic [ref=e803]: Chapter
+          - strong [ref=e804]: BallZ Foundations
+        - generic [ref=e805]:
+          - generic [ref=e806]: Target
+          - strong [ref=e807]: 58.00s
+        - generic [ref=e808]:
+          - generic [ref=e809]: Status
+          - strong [ref=e810]: Unplayed
+        - generic [ref=e811]:
+          - generic [ref=e812]: Record
+          - strong [ref=e813]: 41.00s
+    - generic [ref=e814]:
+      - generic [ref=e815]:
+        - generic [ref=e816]:
+          - generic [ref=e817]: BallZ Tour
+          - strong [ref=e818]: 0 / 6 complete
+        - generic [ref=e819]:
+          - generic [ref=e820]: Career Score
+          - strong [ref=e821]: 0 pts
+      - generic "0% complete" [ref=e822]
+    - generic [ref=e824]:
+      - generic [ref=e825]: BallZ Races — No Locks
+      - generic [ref=e826]:
+        - button "Challenge 1 Archive Level 1 — Study Intro · BallZ Foundations Ready to play Learn camera-relative rolling, jumping, and the two-gate lap." [ref=e827] [cursor=pointer]:
+          - generic [ref=e828]: Challenge 1
+          - generic [ref=e829]: Archive Level 1 — Study
+          - generic [ref=e830]: Intro · BallZ Foundations
+          - strong [ref=e831]: Ready to play
+          - generic [ref=e832]: Learn camera-relative rolling, jumping, and the two-gate lap.
+        - button "Challenge 2 Archive Level 2 — Study Easy · Maze Reading Ready to play Route planning and controlled speed." [ref=e833] [cursor=pointer]:
+          - generic [ref=e834]: Challenge 2
+          - generic [ref=e835]: Archive Level 2 — Study
+          - generic [ref=e836]: Easy · Maze Reading
+          - strong [ref=e837]: Ready to play
+          - generic [ref=e838]: Route planning and controlled speed.
+        - button "Challenge 3 Archive Level 3 — Study Medium · Moving Hazards Ready to play Jump timing and recovery." [ref=e839] [cursor=pointer]:
+          - generic [ref=e840]: Challenge 3
+          - generic [ref=e841]: Archive Level 3 — Study
+          - generic [ref=e842]: Medium · Moving Hazards
+          - strong [ref=e843]: Ready to play
+          - generic [ref=e844]: Jump timing and recovery.
+        - button "Challenge 4 Skybox Spiral Medium · Open Sky Ready to play Camera orbit, momentum, and long sightlines." [ref=e845] [cursor=pointer]:
+          - generic [ref=e846]: Challenge 4
+          - generic [ref=e847]: Skybox Spiral
+          - generic [ref=e848]: Medium · Open Sky
+          - strong [ref=e849]: Ready to play
+          - generic [ref=e850]: Camera orbit, momentum, and long sightlines.
+        - button "Challenge 5 Suzanne 1 — Geometry Study Hard · Recovered Classic Ready to play Legacy level mastery." [ref=e851] [cursor=pointer]:
+          - generic [ref=e852]: Challenge 5
+          - generic [ref=e853]: Suzanne 1 — Geometry Study
+          - generic [ref=e854]: Hard · Recovered Classic
+          - strong [ref=e855]: Ready to play
+          - generic [ref=e856]: Legacy level mastery.
+        - button "Challenge 6 ZombieKiller Arena Hard · ZombieKiller Ready to play Free-roam hunting instead of rings and gates." [ref=e857] [cursor=pointer]:
+          - generic [ref=e858]: Challenge 6
+          - generic [ref=e859]: ZombieKiller Arena
+          - generic [ref=e860]: Hard · ZombieKiller
+          - strong [ref=e861]: Ready to play
+          - generic [ref=e862]: Free-roam hunting instead of rings and gates.
+    - article [ref=e863]:
+      - generic [ref=e864]: In-Race Controls
+      - strong [ref=e865]:
+        - text: WASD / arrows move relative to the camera
+        - generic [ref=e866]: drag to orbit · wheel zoom · C reset camera · Space jump · Shift boost · R restart · Esc exit

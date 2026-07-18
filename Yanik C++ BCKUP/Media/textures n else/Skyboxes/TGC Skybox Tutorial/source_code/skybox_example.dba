@@ -1,0 +1,514 @@
+Rem Program: Tutorial SkyBox Example
+Rem Created: 5/07/2003 4:01:36 PM
+Rem File: Tut03.dba
+` **************************************************
+` PROGRAM INITIALIZATION
+` Use <?> key to toggle user help display
+` Globals - Use GB.nnnn in front to reference
+` **************************************************
+TYPE GlobalVariables
+   X# as FLOAT
+   Y# as FLOAT
+   Z# as FLOAT
+   CameraAngleX# as FLOAT
+   CameraAngleY# as FLOAT
+   CameraAngleZ# as FLOAT
+   MatrixSize# as FLOAT
+   Horizon# as FLOAT
+   WallSize# as FLOAT
+   Enlarge# as FLOAT
+   BaseObj as INTEGER
+   CopyObj as INTEGER
+   LimbNbr as INTEGER
+   FogColor as INTEGER
+   Scenery as INTEGER
+   AmbientLevel as INTEGER
+   ClearMessages as BOOLEAN
+   UsingFog as BOOLEAN
+ENDTYPE
+GB as GlobalVariables
+` Initialize Global Variables
+GB.X#=0.0
+GB.Y#=0.0
+GB.Z#=0.0
+GB.CameraAngleX#=0.0
+GB.CameraAngleY#=0.0
+GB.CameraAngleZ#=0.0
+GB.MatrixSize#=3000.0
+GB.BaseObj = 10
+GB.CopyObj = 11
+GB.LimbNbr = 0
+` Following is scaling factor for skybox wall enlargement (101%)
+GB.Enlarge# = 101
+GB.WallSize# = 600.0
+` ClearMessages=0 to display messages at startup
+GB.ClearMessages=1
+GB.UsingFog=0
+GB.FogColor=1
+GB.Scenery=9
+GB.AmbientLevel=100
+`
+`set display mode 1024,768,32
+set text font "courier"
+set text size 24
+set text to bold
+set text transparent
+`
+While (GB.Scenery < 1 OR GB.Scenery > 3)
+   Set Cursor 0,0
+   Print "Skybox Tutorial"
+   Print "-------------------------------------------------"
+   Print "Enter skybox scenery number:"
+   Print " 1 = Grassy field, green mountains, blue sky"
+   Print " 2 = Mars yellow sand, brown mountains, red sky"
+   Print " 3 = Twilight at sea, rainbow, dark sky"
+   Print " 4 = SkyMATTER sample"
+   Input ">",msg$
+   GB.Scenery=val(msg$)
+EndWhile
+Print "-------------------------------------------------"
+`
+msg$="Loading Skybox Tutorial Program and Images..."
+Center Text Screen Width()/2,Screen Height()/2,msg$
+SYNC
+`
+fun_initial_settings()
+fun_Check_GraphicsCards()
+fun_load_media()
+fun_Setup_Objects()
+`
+` *************************************************
+` MAIN PROGRAM LOOP
+` *************************************************
+WHILE ESCAPEKEY()=0
+   `
+   fun_key_controls()
+   fun_print_text()
+   fun_FX()
+   SYNC
+   `
+ENDWHILE
+`
+` End Program
+`
+END
+`
+` *********************************************************
+` FUNCTIONS AND SUBROUTINES
+` *********************************************************
+`
+FUNCTION fun_initial_settings()
+` =========================================================
+` Initial Program Setup
+` =========================================================
+`   sync on
+   sync rate 0
+   hide mouse
+   autocam off
+   ` ------------------------------------------------------
+   ` Setup Camera 0
+   ` ------------------------------------------------------
+   set camera range 0, 1.0, 10000.0
+   GB.X#=GB.MatrixSize#/2
+   GB.Y#=10.0
+   GB.Z#=GB.MatrixSize#/2
+   position camera 0,GB.X#,GB.Y#,GB.Z#
+   YRotate Camera 0, 0.0
+   ` ------------------------------------------------------
+   ` Inset Camera 1 Setup
+   ` ------------------------------------------------------
+   Make Camera 1
+   Position Camera 1,GB.MatrixSize#/2,150.0,-1800.0
+   YRotate Camera 1, 0.0
+   Point Camera 1,GB.MatrixSize#/2,10.0,GB.MatrixSize#/2
+   Set Camera View 1, Screen Width()-200,10,Screen Width()-10,200
+   Set Camera Range 1,1.0,GB.MatrixSize# * 4
+   ` ------------------------------------------------------
+   ` Set base lighting
+   ` ------------------------------------------------------
+   Set Ambient Light GB.AmbientLevel
+   Fog Distance (GB.WallSize#-20)
+   `
+
+   print "Initial Settings"
+   sync
+
+ENDFUNCTION
+`
+FUNCTION fun_load_media()
+` =========================================================
+` place loads for all images, textures, and sounds here
+` =========================================================
+   Select GB.Scenery
+      Case 1
+         load image "media/happybluetop.jpg",1
+         load image "media/happybluefront.jpg",2
+         load image "media/happyblueright.jpg",3
+         load image "media/happyblueback.jpg",4
+         load image "media/happyblueleft.jpg",5
+         load image "media/grass1.bmp",6
+         GB.FogColor=3
+         set text transparent
+      endcase
+      `
+      Case 2
+         load image "media/marsreduxboxtop.jpg",1
+         load image "media/marsreduxboxfront.jpg",2
+         load image "media/marsreduxboxright.jpg",3
+         load image "media/marsreduxboxback.jpg",4
+         load image "media/marsreduxboxleft.jpg",5
+         load image "media/yellowsand1.jpg",6
+         GB.FogColor=1
+         set text opaque
+      endcase
+      `
+      Case 3
+         load image "media/seaofdreamsbox3top.jpg",1
+         load image "media/seaofdreamsbox3front.jpg",2
+         load image "media/seaofdreamsbox3right.jpg",3
+         load image "media/seaofdreamsbox3back.jpg",4
+         load image "media/seaofdreamsbox3left.jpg",5
+         load image "media/water07.bmp",6
+         GB.FogColor=5
+         set text transparent
+      endcase
+      `
+   EndSelect
+
+   print "Media Loaded"
+   sync
+
+   `
+ENDFUNCTION
+`
+FUNCTION fun_setup_objects()
+` =========================================================
+` Setup Matrix and Skybox
+` =========================================================
+   Make Matrix 1, GB.MatrixSize#, GB.MatrixSize#, 10, 10
+   Prepare Matrix Texture 1, 6, 1, 1
+   fun_Create_SkyBox()
+   fun_Texture_SkyBox(2,1.0,1.0)
+   GB.Horizon# = (GB.WallSize#/2) - 300.0
+   Position Object GB.BaseObj, GB.MatrixSize#/2, GB.Horizon#, GB.MatrixSize#/2
+   Delete Object GB.CopyObj
+   `
+
+   print "Objects Created"
+   sync
+
+ENDFUNCTION
+   `
+FUNCTION fun_Create_SkyBox()
+` =========================================================
+` Create SkyBox
+` =========================================================
+   if Object Exist(GB.BaseObj) then Delete Object GB.BaseObj
+   if Object Exist(GB.CopyObj) then Delete Object GB.CopyObj
+   ` Work objects
+   Make Object Plain GB.BaseObj, 0, 0
+   Make Object Plain GB.CopyObj, GB.WallSize#, GB.WallSize#
+   Make Mesh From Object GB.CopyObj, GB.CopyObj
+   ` Top
+   Add Limb GB.BaseObj, 1, GB.CopyObj
+   Offset Limb GB.BaseObj, 1, 0, (GB.WallSize#/2), 0
+   Rotate Limb GB.BaseObj, 1, 270, 0, 0
+   Scale Limb GB.BaseObj, 1, GB.Enlarge#, GB.Enlarge#, GB.Enlarge#
+   ` Front
+   Add Limb GB.BaseObj, 2, GB.CopyObj
+   Offset Limb GB.BaseObj, 2, 0, 0, (GB.WallSize#/2)
+   Scale Limb GB.BaseObj, 2, GB.Enlarge#, GB.Enlarge#, GB.Enlarge#
+   ` Right
+   Add Limb GB.BaseObj, 3, GB.CopyObj
+   Offset Limb GB.BaseObj, 3, GB.WallSize#/2, 0, 0
+   Rotate Limb GB.BaseObj, 3, 0, 90, 0
+   Scale Limb GB.BaseObj, 3, GB.Enlarge#, GB.Enlarge#, GB.Enlarge#
+   ` Back
+   Add Limb GB.BaseObj, 4, GB.CopyObj
+   Offset Limb GB.BaseObj, 4, 0, 0, (GB.WallSize#/2-GB.WallSize#)
+   Rotate Limb GB.BaseObj, 4, 0, 180, 0
+   Scale Limb GB.BaseObj, 4, GB.Enlarge#, GB.Enlarge#, GB.Enlarge#
+   ` left
+   Add Limb GB.BaseObj, 5, GB.CopyObj
+   Offset Limb GB.BaseObj, 5, (GB.WallSize#/2-GB.WallSize#), 0, 0
+   Rotate Limb GB.BaseObj, 5, 0, 270, 0
+   Scale Limb GB.BaseObj, 5, GB.Enlarge#, GB.Enlarge#, GB.Enlarge#
+   `
+
+   print "Skybox Created"
+   sync
+
+ENDFUNCTION
+   `
+FUNCTION fun_Texture_SkyBox(ImageNbr,UNbr#,VNbr#)
+` =========================================================
+` Apply Texture to the SkyBox Object limbs
+` =========================================================
+   `
+   Texture Limb GB.BaseObj, 1, 1
+   Texture Limb GB.BaseObj, 2, 2
+   Texture Limb GB.BaseObj, 3, 3
+   Texture Limb GB.BaseObj, 4, 4
+   Texture Limb GB.BaseObj, 5, 5
+   `
+
+   print "Skybox Textured"
+   sync
+
+ENDFUNCTION
+`
+FUNCTION fun_FX()
+` =========================================================
+` FOG Effects
+` Toggle on and off plus set color to one of (6) presets
+` =========================================================
+   if GB.UsingFog=1
+      Fog On
+   else
+      Fog Off
+   endif
+   `
+   Select GB.FogColor
+      Case 1
+         ` Red
+         Fog Color RGB(245,98,10) : EndCase
+      Case 2
+         ` Green
+         Fog Color RGB(0,185,0) : EndCase
+      Case 3
+         ` Blue
+         Fog Color RGB(17,200,238) : EndCase
+      Case 4
+         ` Yellow
+         Fog Color RGB(231,202,3) : EndCase
+      Case 5
+         ` Gray
+         Fog Color RGB(128,128,128) : EndCase
+      Case 6
+         ` Black
+         Fog Color RGB(0,0,0) : EndCase
+   EndSelect
+   `
+ENDFUNCTION
+`
+FUNCTION fun_Check_GraphicsCards()
+` =========================================================
+` Check for Graphics Cards
+` Display names of those found
+` Select only graphics card available, or
+` permit user to select from checklist.
+` =========================================================
+   perform checklist for graphics cards
+   if checklist quantity() > 1
+      print "Found Graphics Cards:"
+      for c=1 to checklist quantity()
+         name$=checklist string$(c)
+         lastcard=c
+         print str$(c) + "." + space$(1) + name$
+      next c
+      d=0
+      while (d < 1) or (d > lastcard)
+         input "Enter item number of desired graphics card: ",d
+      endwhile
+      name$ = checklist string$(d)
+      set graphics card name$
+      print "Using Graphics Card:";current graphics card$()
+      print "Press any key to continue..."
+      wait key
+      sync
+   else
+      set graphics card checklist string$(1)
+      print "Using Graphics Card:";current graphics card$()
+      sync
+   endif
+   SYNC
+   cls
+   `
+ENDFUNCTION
+   `
+FUNCTION fun_key_controls()
+` ======================================================
+` Control camera 0 movement
+` Can move at one of two speeds:
+` ======================================================
+   Wait# = 250
+   ` ------------------------------------------------------
+   ` <?> key toggles Clear/Display on-screen messages
+   ` ------------------------------------------------------
+   if InKey$()="?"
+      if (GB.ClearMessages=0)
+         GB.ClearMessages=1
+         wait Wait#
+      else
+         GB.ClearMessages=0
+         wait Wait#
+      endif
+   endif
+   ` ------------------------------------------------------
+   ` <f> key toggles Fog On/Off
+   ` 1-5 selects red,yellow,gray,or black fog
+   ` ------------------------------------------------------
+   if InKey$()="f" OR InKey$()="F"
+      if (GB.UsingFog=0)
+         GB.UsingFog=1
+         wait Wait#
+      else
+         GB.UsingFog=0
+         wait Wait#
+      endif
+   endif
+   if (InKey$() >= "1" AND InKey$() <= "6")
+      GB.FogColor=Val(InKey$())
+   endif
+   ` ------------------------------------------------------
+   ` <+>,<-> Raise and lower ambient light (steps 10)
+   ` Wraps around from 100->10->100
+   ` ------------------------------------------------------
+   if InKey$()="-"
+      GB.AmbientLevel = GB.AmbientLevel - 10
+      if GB.AmbientLevel < 10 then GB.AmbientLevel = 100
+      wait Wait#
+   endif
+   if InKey$()="+"
+      GB.AmbientLevel = GB.AmbientLevel + 10
+      if GB.AmbientLevel > 100 then GB.AmbientLevel = 10
+      wait Wait#
+   endif
+   Set Ambient Light GB.AmbientLevel
+   ` ------------------------------------------------------
+   ` Move Camera based on UP,DOWN,RIGHT,LEFT arrow keys
+   ` Check for edge of matrix,
+   ` Move skybox with camera/player
+   ` ------------------------------------------------------
+   if UpKey()=1
+      XRotate Camera 0,0
+      Move Camera 0, 3
+      PassedEdge = fun_edge_detect()
+      if PassedEdge=1 then Move Camera 0, -3
+   endif
+   if DownKey()=1
+      XRotate Camera 0,0
+      Move Camera 0, -3
+      PassedEdge = fun_edge_detect()
+      if PassedEdge=1 then Move Camera 0, 3
+   endif
+   if LeftKey()=1
+      CameraAngleY# = wrapvalue(Camera Angle Y(0) - 2)
+      YRotate Camera 0,CameraAngleY#
+      PassedEdge = fun_edge_detect()
+      if PassedEdge=1
+         CameraAngleY# = wrapvalue(Camera Angle Y(0) + 2)
+         YRotate Camera 0,CameraAngleY#
+      endif
+   endif
+   if RightKey()=1
+      CameraAngleY# = wrapvalue(Camera Angle Y(0) + 2)
+      YRotate Camera 0,CameraAngleY#
+      PassedEdge = fun_edge_detect()
+      if PassedEdge=1
+         CameraAngleY# = wrapvalue(Camera Angle Y(0) - 2)
+         YRotate Camera 0,CameraAngleY#
+      endif
+   endif
+   ` ------------------------------------------------------
+   ` Ability to look upwards
+   ` can look from 0-degees (level) to
+   `              90-degrees (directly overhead)
+   ` If arrow keys used to move then reset to level
+   ` ------------------------------------------------------
+   if InKey$()="u" OR InKey$()="U"
+      if (Camera Angle X(0) >= 272 OR Camera Angle X(0) = 0)
+         CameraAngleX# = wrapvalue(Camera Angle X(0) - 2)
+         XRotate Camera 0,CameraAngleX#
+      endif
+   endif
+   if InKey$()="j" OR InKey$()="J"
+      if (Camera Angle X(0) >= 2)
+         CameraAngleX# = wrapvalue(Camera Angle X(0) + 2)
+         XRotate Camera 0,CameraAngleX#
+      endif
+   endif
+   `
+   Position Object GB.BaseObj, Camera Position X(0),Camera Position Y(0),Camera Position Z(0)
+   ` ------------------------------------------------------
+   ` Pivot Left or Right (YRotate)
+   ` ------------------------------------------------------
+   `
+ENDFUNCTION
+`
+FUNCTION fun_edge_detect()
+` =========================================================
+` Check for camera near the matrix edge
+` Can be at 0,1 or 2 edges
+` Returns: AtEdge=1 skybox is at any edge of matrix
+` =========================================================
+   LimitHi# = (GB.MatrixSize# - GB.WallSize#/2)
+   LimitLo# = (GB.WallSize#/2)
+   `-------------------------------------------------------
+   ` High-Check is matrix size less 1/2 skybox - move amt.
+   ` Low-Check is 1/2 skybox size + move amount
+   ` 1=at an edge, 0=Not at an edge
+   `-------------------------------------------------------
+   XHicheck = (Camera Position X(0) > LimitHi#)
+   XLocheck = (Camera Position X(0) < LimitLo#)
+   ZHicheck = (Camera Position Z(0) > LimitHi#)
+   ZLocheck = (Camera Position Z(0) < LimitLo#)
+   `-------------------------------------------------------
+   ` Ability to move depends on attempted direction, and
+   ` which directions are blocked (at an edge)
+   ` Based on camera direction:
+   `-------------------------------------------------------
+   if XHicheck=1 OR XLocheck=1 OR ZHicheck=1 OR ZLocheck=1
+      AtEdge = 1
+   else
+      AtEdge = 0
+   endif
+   `
+ENDFUNCTION AtEdge
+`
+FUNCTION fun_Print_Text()
+` =========================================================
+` Display on-screen messages
+` <?> key to toggle user info display
+` =========================================================
+   if GB.ClearMessages=0
+      msg$ = "To move camera use the arrow keys:"
+      Set Cursor 10,(16*Text Height(msg$))
+      print msg$
+      print ""
+      print " UP    Move Forward    DOWN   Move Backward"
+      print " LEFT  Turn Left       RIGHT  Turn Right"
+      print " <U>   Look Upward     <J>    Look Downward"
+      print ""
+      print "Use these keys to toggle features ON or OFF:"
+      print " <?> On-Screen HELP"
+      if GB.UsingFog=1
+         msg$="ON"
+      else
+         msg$="OFF"
+      endif
+      print " <F> FOG   (Fog is " + msg$ + ")"
+      print ""
+      print " <1> Red Fog     <4> Yellow Fog  "
+      print " <2> Green Fog   <5> Gray Fog    "
+      print " <3> Blue Fog    <6> Black Fog   "
+      print " (Currently selected color=" + str$(GB.FogColor) + ")"
+      print ""
+      print " <-> Lower Ambient Light (each step - 10 %) "
+      print " <+> Raise Ambient Light (each step + 10 %) "
+      print " Current Ambient Level: " + str$(GB.AmbientLevel)
+      print ""
+      msg$ = " Camera:"
+      msg$ = msg$ + " X=" + str$(INT(Camera Position X(0)))
+      msg$ = msg$ + " Z=" + str$(INT(Camera Position Z(0)))
+      msg$ = msg$ + " Pan=" + str$(INT(Camera Angle Y(0)))
+      msg$ = msg$ + " Pitch=" + str$(INT(Camera Angle X(0)))
+      msg$ = msg$ + " FPS=" + str$(screen fps())
+      print msg$
+   endif
+   `
+ENDFUNCTION
+   `
+` **************************************************
+` END OF SOURCE LISTING
+` ******************************

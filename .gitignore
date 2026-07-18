@@ -12,8 +12,34 @@ Thumbs.db
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
 # Editors
 .vscode/
 .idea/
 *.swp
+
+# Visual Studio browsing/precompiled-header caches from archived native projects
+*.sdf
+*.ipch
+ipch/
+.vs/
+*.VC.db
+*.opendb
+
+# JavaScript / TypeScript
+node_modules/
+dist/
+coverage/
+
+# Generated browser captures, QA reports, and temporary production builds.
+# A small historical subset is already tracked; keep new runs local by default.
+web-prototype/output/
+
+# Generated one-off Vite fidelity builds (QA source captures live under output/playwright/)
+web-prototype/output/classic-main-build/
+web-prototype/output/suzanne-fidelity-build/
+
+# Transient diagnostics from intentionally failed/interrupted browser probes
+web-prototype/output/**/errors-*.json
+web-prototype/output/**/failure.png

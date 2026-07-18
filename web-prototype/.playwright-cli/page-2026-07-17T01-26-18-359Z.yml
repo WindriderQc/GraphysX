@@ -1,0 +1,66 @@
+- generic [ref=f1e6]:
+  - generic [ref=f1e7]:
+    - generic [ref=f1e8]: GraphysX Web Revival
+    - strong [ref=f1e9]: v0.1.0
+    - generic [ref=f1e10]: revival-2026.07.16-r4
+  - heading "GRAPHYSX" [level=1] [ref=f1e11]
+  - paragraph [ref=f1e12]: Choose a project family. Classic BallZ arenas, later BallZ concepts, standalone 3D environments, vehicles, CubZ, engine labs, Math Game, and editors are tracked by their original intent—not merely by which archive folder held them.
+  - generic [ref=f1e13]:
+    - button "Play BallZ" [ref=f1e14] [cursor=pointer]
+    - button "Engine & Scene Labs" [ref=f1e15] [cursor=pointer]
+  - generic [ref=f1e16]:
+    - generic [ref=f1e17]:
+      - generic [ref=f1e18]: Choose A Project Family
+      - generic [ref=f1e19]:
+        - button "Play BallZ Tour BallZ shell/controller races, Suzanne machinery, ZombieKiller, medals, and records." [ref=f1e20] [cursor=pointer]:
+          - generic [ref=f1e21]: Play BallZ Tour
+          - generic [ref=f1e22]: BallZ shell/controller races, Suzanne machinery, ZombieKiller, medals, and records.
+        - button "Archive Concepts, Flight & Worlds BallZ concept trials, FlightX, and the Piste vehicle experiment—each labeled by its original family." [ref=f1e23] [cursor=pointer]:
+          - generic [ref=f1e24]: Archive Concepts, Flight & Worlds
+          - generic [ref=f1e25]: BallZ concept trials, FlightX, and the Piste vehicle experiment—each labeled by its original family.
+        - button "Visit Room 2 Shadow Lab Standalone decoded room2.tvm environment with its archived bump maps, teapot, point light, cube shadow, and A/D orbit." [ref=f1e26] [cursor=pointer]:
+          - generic [ref=f1e27]: Visit Room 2 Shadow Lab
+          - generic [ref=f1e28]: Standalone decoded room2.tvm environment with its archived bump maps, teapot, point light, cube shadow, and A/D orbit.
+        - button "Open Complete Scene Index Every distinct archived screen, scene class, authored level, environment, vehicle scene, and demo—with live restoration status." [ref=f1e29] [cursor=pointer]:
+          - generic [ref=f1e30]: Open Complete Scene Index
+          - generic [ref=f1e31]: Every distinct archived screen, scene class, authored level, environment, vehicle scene, and demo—with live restoration status.
+        - button "Open CubZ Animated Menu Eight selectable cubes rotate forward, unfold into four internal panels, and reverse back to the main cube." [ref=f1e32] [cursor=pointer]:
+          - generic [ref=f1e33]: Open CubZ Animated Menu
+          - generic [ref=f1e34]: Eight selectable cubes rotate forward, unfold into four internal panels, and reverse back to the main cube.
+        - button "Engine & FX Labs Visible particles, projectiles, physics, shaders, sky, water, lighting, and scene experiments." [ref=f1e35] [cursor=pointer]:
+          - generic [ref=f1e36]: Engine & FX Labs
+          - generic [ref=f1e37]: Visible particles, projectiles, physics, shaders, sky, water, lighting, and scene experiments.
+        - button "Open Math Game Formula presets and live A/B/C/M/X controls driving the 10,000-molecule field." [ref=f1e38] [cursor=pointer]:
+          - generic [ref=f1e39]: Open Math Game
+          - generic [ref=f1e40]: Formula presets and live A/B/C/M/X controls driving the 10,000-molecule field.
+        - button "Editors & Archive Tools Start with the BallZ tile editor, then continue toward the full scene/editor recovery." [ref=f1e41] [cursor=pointer]:
+          - generic [ref=f1e42]: Editors & Archive Tools
+          - generic [ref=f1e43]: Start with the BallZ tile editor, then continue toward the full scene/editor recovery.
+    - generic [ref=f1e44]:
+      - generic [ref=f1e45]:
+        - generic [ref=f1e46]:
+          - generic [ref=f1e47]: BallZ Tour
+          - strong [ref=f1e48]: 5 / 6 complete
+        - generic [ref=f1e49]:
+          - generic [ref=f1e50]: Career Score
+          - strong [ref=f1e51]: 500 pts
+      - generic "83% complete" [ref=f1e52]
+    - generic [ref=f1e54]:
+      - generic [ref=f1e55]:
+        - generic [ref=f1e56]:
+          - generic [ref=f1e57]: Archive Concepts & Worlds
+          - strong [ref=f1e58]: 5 / 5 complete
+        - generic [ref=f1e59]:
+          - generic [ref=f1e60]: Career Score
+          - strong [ref=f1e61]: 500 pts
+      - generic "100% complete" [ref=f1e62]
+    - article [ref=f1e64]:
+      - generic [ref=f1e65]: BallZ Next
+      - strong [ref=f1e66]:
+        - text: Suzanne 1 — Geometry Study
+        - generic [ref=f1e67]: Legacy level mastery.
+    - article [ref=f1e68]:
+      - generic [ref=f1e69]: BallZ Controls
+      - strong [ref=f1e70]:
+        - text: WASD / arrows
+        - generic [ref=f1e71]: camera-relative roll · drag to orbit · wheel zoom · Space jump

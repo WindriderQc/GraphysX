@@ -1,0 +1,98 @@
+- generic [ref=f6e6]:
+  - heading "Math Game" [level=1] [ref=f6e59]
+  - paragraph [ref=f6e8]: Shape the 10,000-molecule field with the recovered formula controls. Presets make the old A/B/C/M/X experiment readable immediately, while every control remains live.
+  - generic [ref=f6e9]:
+    - button "Next Lab" [ref=f6e60] [cursor=pointer]
+    - button "Back Home" [ref=f6e61] [cursor=pointer]
+  - generic [ref=f6e12]:
+    - generic [ref=f6e62]:
+      - generic [ref=f6e63]:
+        - generic [ref=f6e64]:
+          - generic [ref=f6e65]: Live Formula
+          - strong [ref=f6e66]:
+            - text: y = 1.50x² + -1.00x + 0.00
+            - generic [ref=f6e67]: y = ax² + bx + c — set A to 0 and the parabola becomes a slope :)
+        - generic [ref=f6e68]: 10,000 molecules · live
+      - generic [ref=f6e69]:
+        - button "Parabola y = ax² + bx + c" [ref=f6e70] [cursor=pointer]:
+          - generic [ref=f6e71]: Parabola
+          - generic [ref=f6e72]: y = ax² + bx + c
+        - button "Slope y = mx + b" [ref=f6e73] [cursor=pointer]:
+          - generic [ref=f6e74]: Slope
+          - generic [ref=f6e75]: y = mx + b
+      - generic [ref=f6e76]:
+        - button "Classic Bowl load values" [ref=f6e77] [cursor=pointer]:
+          - generic [ref=f6e78]: Classic Bowl
+          - generic [ref=f6e79]: load values
+        - button "Wide Arch load values" [ref=f6e80] [cursor=pointer]:
+          - generic [ref=f6e81]: Wide Arch
+          - generic [ref=f6e82]: load values
+        - button "Offset Curve load values" [ref=f6e83] [cursor=pointer]:
+          - generic [ref=f6e84]: Offset Curve
+          - generic [ref=f6e85]: load values
+        - button "Rising Ramp load values" [ref=f6e86] [cursor=pointer]:
+          - generic [ref=f6e87]: Rising Ramp
+          - generic [ref=f6e88]: load values
+        - button "Falling Ramp load values" [ref=f6e89] [cursor=pointer]:
+          - generic [ref=f6e90]: Falling Ramp
+          - generic [ref=f6e91]: load values
+      - generic [ref=f6e92]:
+        - generic [ref=f6e93]: A curve
+        - generic [ref=f6e94]: B tilt/intercept
+        - generic [ref=f6e95]: C height
+        - generic [ref=f6e96]: M slope
+        - generic [ref=f6e97]: X horizontal offset
+      - generic [ref=f6e98]:
+        - generic [ref=f6e99]:
+          - generic [ref=f6e100]:
+            - generic [ref=f6e101]: A
+            - strong [ref=f6e102]: "1.50"
+          - slider "A 1.50" [ref=f6e103]: "1.5"
+        - generic [ref=f6e104]:
+          - generic [ref=f6e105]:
+            - generic [ref=f6e106]: B
+            - strong [ref=f6e107]: "-1.00"
+          - slider "B -1.00" [ref=f6e108]: "-1"
+        - generic [ref=f6e109]:
+          - generic [ref=f6e110]:
+            - generic [ref=f6e111]: C
+            - strong [ref=f6e112]: "0.00"
+          - slider "C 0.00" [ref=f6e113]: "0"
+        - generic [ref=f6e114]:
+          - generic [ref=f6e115]:
+            - generic [ref=f6e116]: M
+            - strong [ref=f6e117]: "1.25"
+          - slider "M 1.25" [ref=f6e118]: "1.25"
+        - generic [ref=f6e119]:
+          - generic [ref=f6e120]:
+            - generic [ref=f6e121]: X
+            - strong [ref=f6e122]: "0.00"
+          - slider "X 0.00" [ref=f6e123]: "0"
+    - generic [ref=f6e124]:
+      - generic [ref=f6e125]: Project Modes
+      - generic [ref=f6e126]:
+        - button "Recovered Worlds" [ref=f6e127] [cursor=pointer]
+        - button "BallZ Race" [ref=f6e129] [cursor=pointer]
+        - button "Scene Lab" [ref=f6e131] [cursor=pointer]
+        - button "Engine & FX" [ref=f6e133] [cursor=pointer]
+        - button "Physics Lab" [ref=f6e135] [cursor=pointer]
+        - button "BallZ Map Editor" [ref=f6e137] [cursor=pointer]
+        - button "Math Game The formula/molecule screen rebuilt as a visible workbench with presets, live A/B/C/M/X controls, and a 3D field." [ref=f6e139] [cursor=pointer]:
+          - generic [ref=f6e140]: Math Game
+          - generic [ref=f6e141]: The formula/molecule screen rebuilt as a visible workbench with presets, live A/B/C/M/X controls, and a 3D field.
+        - button "Editor Lab" [ref=f6e142] [cursor=pointer]
+        - button "CubX Lab" [ref=f6e144] [cursor=pointer]
+        - button "Asset Catalog" [ref=f6e146] [cursor=pointer]
+    - generic [ref=f6e148]:
+      - generic [ref=f6e149]: Recovery Map
+      - generic [ref=f6e150]:
+        - article [ref=f6e151]:
+          - generic [ref=f6e152]: Ported
+          - strong [ref=f6e153]: Formula Sliders
+          - generic [ref=f6e154]: Scene3D/MathGameScreen.cpp
+          - paragraph [ref=f6e155]: A/B/C/M/X controls update the preview immediately.
+        - article [ref=f6e156]:
+          - generic [ref=f6e157]: Preview
+          - strong [ref=f6e158]: Molecules
+          - generic [ref=f6e159]: Formulas::moleculesCreate / moleculesUpdate
+          - paragraph [ref=f6e160]: Spheres ride the generated surface until the original formula module is fully translated.

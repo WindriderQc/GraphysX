@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'/>" />
+    <title>BallZ slide and track archive gallery</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: #edf8ff;
+        background: #08131a;
+      }
+      * { box-sizing: border-box; }
+      html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+      body { background: #08131a; }
+      canvas { display: block; width: 100%; height: 100%; touch-action: none; }
+      .hud {
+        position: fixed;
+        inset: 18px auto auto 18px;
+        width: min(440px, calc(100vw - 36px));
+        max-height: calc(100vh - 36px);
+        overflow: auto;
+        padding: 18px;
+        border: 1px solid rgba(125, 207, 255, 0.22);
+        border-radius: 18px;
+        background: rgba(5, 16, 23, 0.9);
+        box-shadow: 0 24px 72px rgba(0, 0, 0, 0.38);
+        backdrop-filter: blur(15px);
+      }
+      .eyebrow {
+        margin: 0 0 7px;
+        color: #6fe4c1;
+        font: 700 11px/1.2 ui-monospace, SFMono-Regular, Consolas, monospace;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+      }
+      h1 { margin: 0; font-size: 19px; letter-spacing: 0.01em; }
+      .boundary { margin: 7px 0 14px; color: #ffca75; font-size: 12px; line-height: 1.45; }
+      .assets { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; }
+      .tools { display: grid; grid-template-columns: repeat(5, 1fr); gap: 7px; margin-top: 8px; }
+      button {
+        min-height: 36px;
+        padding: 7px 8px;
+        border: 1px solid rgba(125, 207, 255, 0.2);
+        border-radius: 9px;
+        background: #112735;
+        color: #bad7e6;
+        font: 700 11px/1.15 ui-monospace, SFMono-Regular, Consolas, monospace;
+        cursor: pointer;
+      }
+      button:hover, button:focus-visible { border-color: #65dcff; color: #fff; outline: none; }
+      button[aria-pressed="true"] { background: #17627b; border-color: #66dbff; color: #fff; }
+      .readout {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 7px 13px;
+        margin: 14px 0 0;
+        padding: 13px;
+        border-radius: 12px;
+        background: rgba(17, 39, 53, 0.82);
+        font: 12px/1.35 ui-monospace, SFMono-Regular, Consolas, monospace;
+      }
+      dt { color: #7fa7bb; }
+      dd { margin: 0; text-align: right; color: #f0f9ff; overflow-wrap: anywhere; }
+      .good { color: #6fe4c1; }
+      .warn { color: #ffd17f; }
+      .facts {
+        margin-top: 11px;
+        padding: 11px 12px;
+        border-left: 3px solid #65dcff;
+        border-radius: 0 10px 10px 0;
+        background: rgba(12, 29, 39, 0.92);
+        color: #aac7d7;
+        font-size: 12px;
+        line-height: 1.45;
+      }
+      .facts strong { color: #fff; }
+      .hint { margin: 11px 0 0; color: #779bad; font: 11px/1.45 ui-monospace, SFMono-Regular, Consolas, monospace; }
+      @media (max-width: 720px) {
+        .hud { inset: 10px auto auto 10px; width: calc(100vw - 20px); max-height: 58vh; padding: 14px; }
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="ballz-track-gallery-canvas" aria-label="Three-dimensional BallZ slide and track archive gallery"></canvas>
+    <aside class="hud" aria-label="BallZ gallery controls">
+      <p class="eyebrow">Exact TVM archive visits</p>
+      <h1>BallZ slide &amp; track gallery</h1>
+      <p class="boundary">Six distinct meshes, kept non-playable. SlideLong1 and pipe1 aliases stay excluded; no missing spawn, collision, camera, or objective is invented.</p>
+      <div class="assets" role="group" aria-label="Gallery asset">
+        <button type="button" data-asset="slide1a-legacy-active">1 · Slide1A legacy</button>
+        <button type="button" data-asset="level-slides">2 · Level.Slides</button>
+        <button type="button" data-asset="level-steps">3 · Level.Steps</button>
+        <button type="button" data-asset="slide-bump">4 · SlideBump</button>
+        <button type="button" data-asset="slide-bump-gridtex">5 · Bump GridTex</button>
+        <button type="button" data-asset="ballz-track1">6 · BallZTrack1</button>
+      </div>
+      <div class="tools" role="group" aria-label="Inspection tools">
+        <button type="button" data-action="materials" title="Source evidence or diagnostic groups (M)">Source</button>
+        <button type="button" data-action="edges" title="Toggle edges (E)">Edges</button>
+        <button type="button" data-action="bounds" title="Toggle bounds (B)">Bounds</button>
+        <button type="button" data-action="camera" title="Overview or top camera (C)">View</button>
+        <button type="button" data-action="orbit" title="Toggle auto orbit (A)">Orbit</button>
+      </div>
+      <dl class="readout">
+        <dt>asset</dt><dd id="asset-value">—</dd>
+        <dt>geometry</dt><dd id="geometry-value">—</dd>
+        <dt>materials</dt><dd id="material-value">—</dd>
+        <dt>host</dt><dd id="host-value">—</dd>
+        <dt>status</dt><dd id="status-value">—</dd>
+      </dl>
+      <div class="facts" id="facts-value">Loading exact archive evidence…</div>
+      <p class="hint">1–6 select · M materials · E edges · B bounds · C camera · A orbit · drag/wheel inspect · F fullscreen</p>
+    </aside>
+    <script type="module" src="/src/ballz-track-gallery-preview.ts"></script>
+  </body>
+</html>
+

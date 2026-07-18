@@ -1,0 +1,134 @@
+01-13-2017 18:17:50 | --------------------------------------------
+01-13-2017 18:17:50 | Truevision3D Debug/Log File
+01-13-2017 18:17:50 | --------------------------------------------
+01-13-2017 18:17:50 | Engine Version : 6.5
+01-13-2017 18:17:50 | ENGINE INFO : DLL Compilation time Nov 11 2009 23:25:48
+01-13-2017 18:17:50 | DEVICE INIT : Initialize Depth
+01-13-2017 18:17:50 | DEVICE INIT : Initializing the device in windowed mode, with a render surface size of 1280x720, format 22, depthbuffer 75
+01-13-2017 18:17:50 | VIEWPORT MANAGER : Main viewport initialization
+01-13-2017 18:17:50 | VIEWPORT MANAGER : Main viewport initialized (1280x720)
+01-13-2017 18:17:50 | DEVICE INIT : Initialization successful !
+01-13-2017 18:17:50 | DEVICE INFO :  3D Card : Intel(R) HD Graphics 4600  | Card ID : 1046 | Driver ID : 658632
+01-13-2017 18:17:50 | DEVICE INFO : Available texture memory : 1684 MB
+01-13-2017 18:17:50 | DEVICE INFO : Vertex Shaders 3.0 supported in hardware.
+01-13-2017 18:17:50 | DEVICE INFO : Pixel Shaders 3.0 supported in hardware.
+01-13-2017 18:17:50 | DEVICE INFO : Driver used is a DirectX9-level driver 'igdumdim32.dll'. Excellent
+01-13-2017 18:17:50 | DEVICE INFO : Card Type Geforce6xxx/7xxx/8xxx/ATIRadeonX1xxx  Level card, third generation of programmable card
+01-13-2017 18:17:50 | DEVICE INIT : Using Antialiasing with 2 samples
+01-13-2017 18:17:50 | TV3DMoteur init completed.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Sky\LostValley\up.bmp'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Sky\LostValley\up.bmp.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Sky\LostValley\down.bmp'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Sky\LostValley\down.bmp.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Sky\LostValley\left.bmp'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Sky\LostValley\left.bmp.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Sky\LostValley\right.bmp'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Sky\LostValley\right.bmp.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Sky\LostValley\front.bmp'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Sky\LostValley\front.bmp.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Sky\LostValley\back.bmp'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Sky\LostValley\back.bmp.
+01-13-2017 18:17:50 | LANDSCAPE : Landscape object #0 has been initialized
+01-13-2017 18:17:50 | LANDSCAPE : heightmap filename is a NULL ! Creating a empty terrain #0
+01-13-2017 18:17:50 | LANDSCAPE : 8x8 Landscape successfully generated with 5184 vertices and 31104 indices in 0 milliseconds.
+01-13-2017 18:17:50 | LANDSCAPE : Quadtree created for the landscape in 0 milliseconds.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 01.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 01.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 02.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 02.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 03.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 03.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 04.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 04.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 05.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 05.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 06.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 06.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 07.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 07.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 08.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 08.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 09.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 09.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 10.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 10.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 11.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 11.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 12.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 12.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 13.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 13.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 14.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 14.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 15.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 15.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 16.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 16.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 17.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 17.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 18.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 18.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 19.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 19.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 20.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 20.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 21.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 21.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 22.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 22.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 23.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 23.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 24.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 24.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 25.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 25.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 26.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 26.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 27.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 27.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 28.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 28.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 29.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 29.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 30.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 30.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 31.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 31.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 32.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 32.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 33.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 33.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 34.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 34.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 35.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 35.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 36.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 36.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 37.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 37.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 38.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 38.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 39.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 39.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 40.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 40.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 41.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 41.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 42.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 42.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 43.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 43.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 44.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 44.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 45.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 45.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 46.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 46.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 47.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 47.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 48.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 48.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 49.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 49.png.
+01-13-2017 18:17:50 | STREAM MANAGER : Couldn't open file '..\StockRoom\Flames\256X256\50 frames\fire1_ 50.png'
+01-13-2017 18:17:50 | TEXTURE MANAGER : Couldn't find the texture file ..\StockRoom\Flames\256X256\50 frames\fire1_ 50.png.

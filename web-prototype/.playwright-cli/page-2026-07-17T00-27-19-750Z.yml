@@ -1,0 +1,85 @@
+- generic [ref=e6]:
+  - generic [ref=e7]:
+    - generic [ref=e8]: GraphysX Web Revival
+    - strong [ref=e9]: v0.1.0
+    - generic [ref=e10]: revival-2026.07.16-r3
+  - heading "BALLZ TOUR" [level=1] [ref=e69]
+  - paragraph [ref=e12]: Core BallZ races and the ZombieKiller branch live here. Recovered 3D worlds and the Impreza experiment now have their own menu instead of masquerading as BallZ Tour chapters.
+  - generic [ref=e13]:
+    - button "Start Archive Level 3 — ASCII Restoration" [ref=e223] [cursor=pointer]
+    - button "Back Home" [ref=e71] [cursor=pointer]
+  - generic [ref=e16]:
+    - generic [ref=e224]:
+      - generic [ref=e225]:
+        - generic [ref=e226]: BallZ challenge 3 of 6
+        - generic [ref=e227]: Medium
+      - heading "Archive Level 3 — ASCII Restoration" [level=2] [ref=e228]
+      - paragraph [ref=e229]: Traverse the recovered isolated platforms and collect the clustered Level 3 checkpoints.
+      - figure "Archive reference target — not a screenshot of the current build" [ref=e230]:
+        - img "Archive reference for Archive Level 3 — ASCII Restoration" [ref=e231]
+      - generic [ref=e233]:
+        - generic [ref=e234]:
+          - generic [ref=e235]: Chapter
+          - strong [ref=e236]: Moving Hazards
+        - generic [ref=e237]:
+          - generic [ref=e238]: Target
+          - strong [ref=e239]: 1:16.00
+        - generic [ref=e240]:
+          - generic [ref=e241]: Status
+          - strong [ref=e242]: Unplayed
+        - generic [ref=e243]:
+          - generic [ref=e244]: Record
+          - strong [ref=e245]: 1:02.00
+    - generic [ref=e246]:
+      - generic [ref=e247]:
+        - generic [ref=e248]:
+          - generic [ref=e249]: BallZ Tour
+          - strong [ref=e250]: 0 / 6 complete
+        - generic [ref=e251]:
+          - generic [ref=e252]: Career Score
+          - strong [ref=e253]: 0 pts
+      - generic "0% complete" [ref=e254]
+    - generic [ref=e256]:
+      - generic [ref=e257]: BallZ Races — No Locks
+      - generic [ref=e258]:
+        - button "Challenge 1 Archive Level 1 — ASCII Restoration Intro · BallZ Foundations Ready to play Learn the authored Level 1 tile maze and its original checkpoint pattern." [ref=e259] [cursor=pointer]:
+          - generic [ref=e260]: Challenge 1
+          - generic [ref=e261]: Archive Level 1 — ASCII Restoration
+          - generic [ref=e262]: Intro · BallZ Foundations
+          - strong [ref=e263]: Ready to play
+          - generic [ref=e264]: Learn the authored Level 1 tile maze and its original checkpoint pattern.
+        - button "Challenge 2 Archive Level 2 — ASCII Restoration Easy · Maze Reading Ready to play Route planning through the original Level 2 ASCII geometry." [ref=e265] [cursor=pointer]:
+          - generic [ref=e266]: Challenge 2
+          - generic [ref=e267]: Archive Level 2 — ASCII Restoration
+          - generic [ref=e268]: Easy · Maze Reading
+          - strong [ref=e269]: Ready to play
+          - generic [ref=e270]: Route planning through the original Level 2 ASCII geometry.
+        - button "Challenge 3 Archive Level 3 — ASCII Restoration Medium · Moving Hazards Ready to play Platform navigation and recovery on the authored map footprint." [ref=e271] [cursor=pointer]:
+          - generic [ref=e272]: Challenge 3
+          - generic [ref=e273]: Archive Level 3 — ASCII Restoration
+          - generic [ref=e274]: Medium · Moving Hazards
+          - strong [ref=e275]: Ready to play
+          - generic [ref=e276]: Platform navigation and recovery on the authored map footprint.
+        - button "Challenge 4 Skybox Spiral Medium · Open Sky Ready to play Camera orbit, momentum, and long sightlines." [ref=e277] [cursor=pointer]:
+          - generic [ref=e278]: Challenge 4
+          - generic [ref=e279]: Skybox Spiral
+          - generic [ref=e280]: Medium · Open Sky
+          - strong [ref=e281]: Ready to play
+          - generic [ref=e282]: Camera orbit, momentum, and long sightlines.
+        - button "Challenge 5 Suzanne 1 — Geometry Study Hard · Recovered Classic Ready to play Legacy level mastery." [ref=e283] [cursor=pointer]:
+          - generic [ref=e284]: Challenge 5
+          - generic [ref=e285]: Suzanne 1 — Geometry Study
+          - generic [ref=e286]: Hard · Recovered Classic
+          - strong [ref=e287]: Ready to play
+          - generic [ref=e288]: Legacy level mastery.
+        - button "Challenge 6 ZombieKiller Arena Hard · ZombieKiller Ready to play Free-roam hunting instead of rings and gates." [ref=e289] [cursor=pointer]:
+          - generic [ref=e290]: Challenge 6
+          - generic [ref=e291]: ZombieKiller Arena
+          - generic [ref=e292]: Hard · ZombieKiller
+          - strong [ref=e293]: Ready to play
+          - generic [ref=e294]: Free-roam hunting instead of rings and gates.
+    - article [ref=e295]:
+      - generic [ref=e296]: In-Race Controls
+      - strong [ref=e297]:
+        - text: WASD / arrows move relative to the camera
+        - generic [ref=e298]: drag to orbit · wheel zoom · C reset camera · Space jump · Shift boost · R restart · Esc exit

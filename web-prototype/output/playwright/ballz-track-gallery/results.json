@@ -1,0 +1,4330 @@
+{
+  "url": "http://127.0.0.1:4192/ballz-track-gallery-preview.html",
+  "assertions": [
+    {
+      "pass": true,
+      "message": "Gallery starts as an explicitly non-playable evidence visit"
+    },
+    {
+      "pass": true,
+      "message": "All four exact gallery textures load successfully"
+    },
+    {
+      "pass": true,
+      "message": "SlideLong1 and pipe1 aliases stay excluded"
+    },
+    {
+      "pass": true,
+      "message": "render_game_to_text exposes concise visible gallery state"
+    },
+    {
+      "pass": true,
+      "message": "slide1a-legacy-active selects as non-playable"
+    },
+    {
+      "pass": true,
+      "message": "slide1a-legacy-active exact vertex/triangle totals match"
+    },
+    {
+      "pass": true,
+      "message": "slide1a-legacy-active exact material-group count matches"
+    },
+    {
+      "pass": true,
+      "message": "slide1a-legacy-active exact connected-component count matches"
+    },
+    {
+      "pass": true,
+      "message": "slide1a-legacy-active exact topology diagnostics match"
+    },
+    {
+      "pass": true,
+      "message": "slide1a-legacy-active exact UV cardinality matches"
+    },
+    {
+      "pass": true,
+      "message": "slide1a-legacy-active source-normal/display-adapter boundary matches"
+    },
+    {
+      "pass": true,
+      "message": "slide1a-legacy-active host evidence status remains bounded"
+    },
+    {
+      "pass": true,
+      "message": "slide1a-legacy-active recommends PARTIAL rather than false restoration"
+    },
+    {
+      "pass": true,
+      "message": "slide1a-legacy-active discloses reversible display normalization"
+    },
+    {
+      "pass": true,
+      "message": "slide1a-legacy-active display conversion round-trips to source coordinates"
+    },
+    {
+      "pass": true,
+      "message": "level-slides selects as non-playable"
+    },
+    {
+      "pass": true,
+      "message": "level-slides exact vertex/triangle totals match"
+    },
+    {
+      "pass": true,
+      "message": "level-slides exact material-group count matches"
+    },
+    {
+      "pass": true,
+      "message": "level-slides exact connected-component count matches"
+    },
+    {
+      "pass": true,
+      "message": "level-slides exact topology diagnostics match"
+    },
+    {
+      "pass": true,
+      "message": "level-slides exact UV cardinality matches"
+    },
+    {
+      "pass": true,
+      "message": "level-slides source-normal/display-adapter boundary matches"
+    },
+    {
+      "pass": true,
+      "message": "level-slides host evidence status remains bounded"
+    },
+    {
+      "pass": true,
+      "message": "level-slides recommends PARTIAL rather than false restoration"
+    },
+    {
+      "pass": true,
+      "message": "level-slides discloses reversible display normalization"
+    },
+    {
+      "pass": true,
+      "message": "level-slides display conversion round-trips to source coordinates"
+    },
+    {
+      "pass": true,
+      "message": "level-steps selects as non-playable"
+    },
+    {
+      "pass": true,
+      "message": "level-steps exact vertex/triangle totals match"
+    },
+    {
+      "pass": true,
+      "message": "level-steps exact material-group count matches"
+    },
+    {
+      "pass": true,
+      "message": "level-steps exact connected-component count matches"
+    },
+    {
+      "pass": true,
+      "message": "level-steps exact topology diagnostics match"
+    },
+    {
+      "pass": true,
+      "message": "level-steps exact UV cardinality matches"
+    },
+    {
+      "pass": true,
+      "message": "level-steps source-normal/display-adapter boundary matches"
+    },
+    {
+      "pass": true,
+      "message": "level-steps host evidence status remains bounded"
+    },
+    {
+      "pass": true,
+      "message": "level-steps recommends PARTIAL rather than false restoration"
+    },
+    {
+      "pass": true,
+      "message": "level-steps discloses reversible display normalization"
+    },
+    {
+      "pass": true,
+      "message": "level-steps display conversion round-trips to source coordinates"
+    },
+    {
+      "pass": true,
+      "message": "slide-bump selects as non-playable"
+    },
+    {
+      "pass": true,
+      "message": "slide-bump exact vertex/triangle totals match"
+    },
+    {
+      "pass": true,
+      "message": "slide-bump exact material-group count matches"
+    },
+    {
+      "pass": true,
+      "message": "slide-bump exact connected-component count matches"
+    },
+    {
+      "pass": true,
+      "message": "slide-bump exact topology diagnostics match"
+    },
+    {
+      "pass": true,
+      "message": "slide-bump exact UV cardinality matches"
+    },
+    {
+      "pass": true,
+      "message": "slide-bump source-normal/display-adapter boundary matches"
+    },
+    {
+      "pass": true,
+      "message": "slide-bump host evidence status remains bounded"
+    },
+    {
+      "pass": true,
+      "message": "slide-bump recommends PARTIAL rather than false restoration"
+    },
+    {
+      "pass": true,
+      "message": "slide-bump discloses reversible display normalization"
+    },
+    {
+      "pass": true,
+      "message": "slide-bump display conversion round-trips to source coordinates"
+    },
+    {
+      "pass": true,
+      "message": "slide-bump-gridtex selects as non-playable"
+    },
+    {
+      "pass": true,
+      "message": "slide-bump-gridtex exact vertex/triangle totals match"
+    },
+    {
+      "pass": true,
+      "message": "slide-bump-gridtex exact material-group count matches"
+    },
+    {
+      "pass": true,
+      "message": "slide-bump-gridtex exact connected-component count matches"
+    },
+    {
+      "pass": true,
+      "message": "slide-bump-gridtex exact topology diagnostics match"
+    },
+    {
+      "pass": true,
+      "message": "slide-bump-gridtex exact UV cardinality matches"
+    },
+    {
+      "pass": true,
+      "message": "slide-bump-gridtex source-normal/display-adapter boundary matches"
+    },
+    {
+      "pass": true,
+      "message": "slide-bump-gridtex host evidence status remains bounded"
+    },
+    {
+      "pass": true,
+      "message": "slide-bump-gridtex recommends PARTIAL rather than false restoration"
+    },
+    {
+      "pass": true,
+      "message": "slide-bump-gridtex discloses reversible display normalization"
+    },
+    {
+      "pass": true,
+      "message": "slide-bump-gridtex display conversion round-trips to source coordinates"
+    },
+    {
+      "pass": true,
+      "message": "ballz-track1 selects as non-playable"
+    },
+    {
+      "pass": true,
+      "message": "ballz-track1 exact vertex/triangle totals match"
+    },
+    {
+      "pass": true,
+      "message": "ballz-track1 exact material-group count matches"
+    },
+    {
+      "pass": true,
+      "message": "ballz-track1 exact connected-component count matches"
+    },
+    {
+      "pass": true,
+      "message": "ballz-track1 exact topology diagnostics match"
+    },
+    {
+      "pass": true,
+      "message": "ballz-track1 exact UV cardinality matches"
+    },
+    {
+      "pass": true,
+      "message": "ballz-track1 source-normal/display-adapter boundary matches"
+    },
+    {
+      "pass": true,
+      "message": "ballz-track1 host evidence status remains bounded"
+    },
+    {
+      "pass": true,
+      "message": "ballz-track1 recommends PARTIAL rather than false restoration"
+    },
+    {
+      "pass": true,
+      "message": "ballz-track1 discloses reversible display normalization"
+    },
+    {
+      "pass": true,
+      "message": "ballz-track1 display conversion round-trips to source coordinates"
+    },
+    {
+      "pass": true,
+      "message": "Slide1A preserves exact older host position (0,-5000,0)"
+    },
+    {
+      "pass": true,
+      "message": "Slide1A preserves the exact host StdMat override"
+    },
+    {
+      "pass": true,
+      "message": "Level.Slides preserves three embedded color groups without invented textures"
+    },
+    {
+      "pass": true,
+      "message": "Level.Steps preserves exact group-to-texture bindings"
+    },
+    {
+      "pass": true,
+      "message": "Level.Steps exact texture bindings are hash-backed browser assets"
+    },
+    {
+      "pass": true,
+      "message": "SlideBump exposes its zeroed material through a disclosed neutral fallback"
+    },
+    {
+      "pass": true,
+      "message": "GridTex preserves its exact EarthGri material binding"
+    },
+    {
+      "pass": true,
+      "message": "Bump revisions remain distinct binaries/geometry"
+    },
+    {
+      "pass": true,
+      "message": "Bump revisions retain identical bounds/triangle evidence without deduplication"
+    },
+    {
+      "pass": true,
+      "message": "BallZTrack1 preserves exact source ball spawn evidence"
+    },
+    {
+      "pass": true,
+      "message": "BallZTrack1 preserves exact source chase offset evidence"
+    },
+    {
+      "pass": true,
+      "message": "BallZTrack1 keeps empty update/input and placeholder-ring boundary visible"
+    },
+    {
+      "pass": true,
+      "message": "Material-group diagnostic mode is selectable"
+    },
+    {
+      "pass": true,
+      "message": "Edge and bounds diagnostics toggle independently"
+    },
+    {
+      "pass": true,
+      "message": "Top camera profile is reflected in structured state"
+    },
+    {
+      "pass": true,
+      "message": "advanceTime deterministically advances auto-orbit camera state"
+    },
+    {
+      "pass": true,
+      "message": "Harness rejects excluded aliases instead of duplicating them"
+    },
+    {
+      "pass": true,
+      "message": "BallZ track gallery has no browser console or page errors"
+    }
+  ],
+  "states": {
+    "assets": {
+      "slide1a-legacy-active": {
+        "schema": "graphysx.ballz-track-gallery-inspector/v1",
+        "mode": "evidence-bounded-non-gameplay-gallery",
+        "selectedAssetId": "slide1a-legacy-active",
+        "assetsReady": true,
+        "textureLoadErrors": [],
+        "playable": false,
+        "asset": {
+          "label": "Slide 1A — legacy active revision",
+          "role": "source-loaded-older-candidate",
+          "source": "Yanik C++ BCKUP/Media/Models/Slide1a.tvm",
+          "sha256": "2F64F07B76FD9FC7A79C9BD1D0771A6A1914E6C7DED6AA48A70D9BA7D892D9EA",
+          "geometrySha256": "2EB5880C2F3C935DD8E41BF0CF92452FC8019E05B21393E0A9E21C9B11AB38F8",
+          "vertexCount": 2271,
+          "triangleCount": 2849,
+          "exactMaterialIndices": [
+            0
+          ],
+          "exactGroupCount": 1,
+          "exactBounds": {
+            "min": [
+              -65.659554,
+              -190.403061,
+              4.234336
+            ],
+            "max": [
+              429.258759,
+              13.369099,
+              150.619308
+            ],
+            "size": [
+              494.918313,
+              203.77216,
+              146.384972
+            ]
+          },
+          "topology": {
+            "edgeCount": 5067,
+            "edgeUseCounts": {
+              "1": 1587,
+              "2": 3480
+            },
+            "boundaryEdgeCount": 1587,
+            "nonManifoldEdgeCount": 0,
+            "connectedComponents": [
+              {
+                "vertexCount": 311,
+                "bounds": {
+                  "min": [
+                    64.00544,
+                    -73.172356,
+                    7.077161
+                  ],
+                  "max": [
+                    108.116493,
+                    -34.143177,
+                    52.28801
+                  ],
+                  "size": [
+                    44.111053,
+                    39.029179,
+                    45.210849
+                  ]
+                }
+              },
+              {
+                "vertexCount": 212,
+                "bounds": {
+                  "min": [
+                    -65.659554,
+                    -26.373444,
+                    4.234386
+                  ],
+                  "max": [
+                    -31.228651,
+                    13.369099,
+                    58.781509
+                  ],
+                  "size": [
+                    34.430903,
+                    39.742543,
+                    54.547123
+                  ]
+                }
+              },
+              {
+                "vertexCount": 207,
+                "bounds": {
+                  "min": [
+                    69.071159,
+                    -73.262566,
+                    4.234336
+                  ],
+                  "max": [
+                    110.117805,
+                    -37.90675,
+                    45.257099
+                  ],
+                  "size": [
+                    41.046646,
+                    35.355816,
+                    41.022763
+                  ]
+                }
+              },
+              {
+                "vertexCount": 190,
+                "bounds": {
+                  "min": [
+                    300.096344,
+                    -156.678391,
+                    108.620949
+                  ],
+                  "max": [
+                    336.762604,
+                    -123.340721,
+                    150.619308
+                  ],
+                  "size": [
+                    36.66626,
+                    33.33767,
+                    41.998359
+                  ]
+                }
+              },
+              {
+                "vertexCount": 160,
+                "bounds": {
+                  "min": [
+                    166.283829,
+                    -109.893463,
+                    107.621162
+                  ],
+                  "max": [
+                    195.429596,
+                    -71.768288,
+                    150.619308
+                  ],
+                  "size": [
+                    29.145767,
+                    38.125175,
+                    42.998146
+                  ]
+                }
+              },
+              {
+                "vertexCount": 142,
+                "bounds": {
+                  "min": [
+                    183.42868,
+                    -152.792313,
+                    96.173592
+                  ],
+                  "max": [
+                    311.300232,
+                    -80.934456,
+                    149.434616
+                  ],
+                  "size": [
+                    127.871552,
+                    71.857857,
+                    53.261024
+                  ]
+                }
+              },
+              {
+                "vertexCount": 137,
+                "bounds": {
+                  "min": [
+                    70.979691,
+                    -107.300003,
+                    14.279309
+                  ],
+                  "max": [
+                    196.962967,
+                    -46.536758,
+                    141.389877
+                  ],
+                  "size": [
+                    125.983276,
+                    60.763245,
+                    127.110568
+                  ]
+                }
+              },
+              {
+                "vertexCount": 132,
+                "bounds": {
+                  "min": [
+                    -46.793861,
+                    -65.472572,
+                    8.205205
+                  ],
+                  "max": [
+                    77.875603,
+                    2.156497,
+                    56.122181
+                  ],
+                  "size": [
+                    124.669464,
+                    67.629069,
+                    47.916976
+                  ]
+                }
+              },
+              {
+                "vertexCount": 124,
+                "bounds": {
+                  "min": [
+                    183.93541,
+                    -150.404724,
+                    98.721626
+                  ],
+                  "max": [
+                    311.845947,
+                    -80.734703,
+                    146.657471
+                  ],
+                  "size": [
+                    127.910537,
+                    69.670021,
+                    47.935845
+                  ]
+                }
+              },
+              {
+                "vertexCount": 113,
+                "bounds": {
+                  "min": [
+                    72.627983,
+                    -104.702095,
+                    16.401535
+                  ],
+                  "max": [
+                    195.72728,
+                    -45.173626,
+                    139.503708
+                  ],
+                  "size": [
+                    123.099297,
+                    59.528469,
+                    123.102173
+                  ]
+                }
+              },
+              {
+                "vertexCount": 107,
+                "bounds": {
+                  "min": [
+                    302.563141,
+                    -190.403061,
+                    13.450416
+                  ],
+                  "max": [
+                    429.258759,
+                    -122.064819,
+                    140.347641
+                  ],
+                  "size": [
+                    126.695618,
+                    68.338242,
+                    126.897225
+                  ]
+                }
+              },
+              {
+                "vertexCount": 100,
+                "bounds": {
+                  "min": [
+                    303.891541,
+                    -187.791931,
+                    15.392922
+                  ],
+                  "max": [
+                    427.561493,
+                    -122.409859,
+                    138.53949
+                  ],
+                  "size": [
+                    123.669952,
+                    65.382072,
+                    123.146568
+                  ]
+                }
+              },
+              {
+                "vertexCount": 40,
+                "bounds": {
+                  "min": [
+                    -47.783421,
+                    -26.081476,
+                    31.507948
+                  ],
+                  "max": [
+                    -36.93047,
+                    4.133486,
+                    58.781509
+                  ],
+                  "size": [
+                    10.852951,
+                    30.214962,
+                    27.273561
+                  ]
+                }
+              },
+              {
+                "vertexCount": 29,
+                "bounds": {
+                  "min": [
+                    -39.884552,
+                    -46.162811,
+                    56.058815
+                  ],
+                  "max": [
+                    78.314301,
+                    4.104527,
+                    56.122181
+                  ],
+                  "size": [
+                    118.198853,
+                    50.267338,
+                    0.063366
+                  ]
+                }
+              },
+              {
+                "vertexCount": 29,
+                "bounds": {
+                  "min": [
+                    72.707619,
+                    -80.136414,
+                    50.125744
+                  ],
+                  "max": [
+                    171.226791,
+                    -37.11396,
+                    139.503708
+                  ],
+                  "size": [
+                    98.519172,
+                    43.022454,
+                    89.377964
+                  ]
+                }
+              },
+              {
+                "vertexCount": 26,
+                "bounds": {
+                  "min": [
+                    167.301712,
+                    -104.521469,
+                    120.609512
+                  ],
+                  "max": [
+                    176.984436,
+                    -72.076736,
+                    139.503708
+                  ],
+                  "size": [
+                    9.682724,
+                    32.444733,
+                    18.894196
+                  ]
+                }
+              },
+              {
+                "vertexCount": 24,
+                "bounds": {
+                  "min": [
+                    392.134766,
+                    -190.403061,
+                    13.450416
+                  ],
+                  "max": [
+                    429.258759,
+                    -154.436264,
+                    53.473972
+                  ],
+                  "size": [
+                    37.123993,
+                    35.966797,
+                    40.023556
+                  ]
+                }
+              },
+              {
+                "vertexCount": 18,
+                "bounds": {
+                  "min": [
+                    165.386551,
+                    -105.484207,
+                    124.265923
+                  ],
+                  "max": [
+                    173.106064,
+                    -71.460945,
+                    141.389877
+                  ],
+                  "size": [
+                    7.719513,
+                    34.023262,
+                    17.123954
+                  ]
+                }
+              },
+              {
+                "vertexCount": 14,
+                "bounds": {
+                  "min": [
+                    79.075829,
+                    -72.066772,
+                    31.530161
+                  ],
+                  "max": [
+                    80.185898,
+                    -71.575462,
+                    32.909454
+                  ],
+                  "size": [
+                    1.110069,
+                    0.49131,
+                    1.379293
+                  ]
+                }
+              },
+              {
+                "vertexCount": 14,
+                "bounds": {
+                  "min": [
+                    175.702209,
+                    -108.535515,
+                    114.539261
+                  ],
+                  "max": [
+                    179.391556,
+                    -106.786766,
+                    123.407906
+                  ],
+                  "size": [
+                    3.689347,
+                    1.748749,
+                    8.868645
+                  ]
+                }
+              },
+              {
+                "vertexCount": 12,
+                "bounds": {
+                  "min": [
+                    75.066467,
+                    -52.003262,
+                    55.951332
+                  ],
+                  "max": [
+                    93.118523,
+                    -38.07024,
+                    69.91951
+                  ],
+                  "size": [
+                    18.052056,
+                    13.933022,
+                    13.968178
+                  ]
+                }
+              },
+              {
+                "vertexCount": 9,
+                "bounds": {
+                  "min": [
+                    -45.339664,
+                    -18.872694,
+                    45.271805
+                  ],
+                  "max": [
+                    -38.467175,
+                    -0.094355,
+                    56.122181
+                  ],
+                  "size": [
+                    6.872489,
+                    18.778339,
+                    10.850376
+                  ]
+                }
+              },
+              {
+                "vertexCount": 8,
+                "bounds": {
+                  "min": [
+                    71.688965,
+                    -60.862949,
+                    46.841244
+                  ],
+                  "max": [
+                    72.374596,
+                    -60.033642,
+                    48.05545
+                  ],
+                  "size": [
+                    0.685631,
+                    0.829307,
+                    1.214206
+                  ]
+                }
+              },
+              {
+                "vertexCount": 7,
+                "bounds": {
+                  "min": [
+                    79.515343,
+                    -72.020226,
+                    31.507895
+                  ],
+                  "max": [
+                    80.022438,
+                    -71.893639,
+                    31.806887
+                  ],
+                  "size": [
+                    0.507095,
+                    0.126587,
+                    0.298992
+                  ]
+                }
+              },
+              {
+                "vertexCount": 6,
+                "bounds": {
+                  "min": [
+                    174.366806,
+                    -107.056564,
+                    120.536751
+                  ],
+                  "max": [
+                    176.018021,
+                    -106.369034,
+                    122.571518
+                  ],
+                  "size": [
+                    1.651215,
+                    0.68753,
+                    2.034767
+                  ]
+                }
+              },
+              {
+                "vertexCount": 6,
+                "bounds": {
+                  "min": [
+                    -46.793861,
+                    -22.84613,
+                    31.675323
+                  ],
+                  "max": [
+                    -46.690815,
+                    -22.564568,
+                    33.864098
+                  ],
+                  "size": [
+                    0.103046,
+                    0.281562,
+                    2.188775
+                  ]
+                }
+              },
+              {
+                "vertexCount": 5,
+                "bounds": {
+                  "min": [
+                    -46.442593,
+                    -21.88633,
+                    37.960079
+                  ],
+                  "max": [
+                    -45.339664,
+                    -18.872694,
+                    45.271805
+                  ],
+                  "size": [
+                    1.102929,
+                    3.013636,
+                    7.311726
+                  ]
+                }
+              },
+              {
+                "vertexCount": 5,
+                "bounds": {
+                  "min": [
+                    365.35791,
+                    -155.087509,
+                    15.392922
+                  ],
+                  "max": [
+                    397.883148,
+                    -143.12471,
+                    45.793045
+                  ],
+                  "size": [
+                    32.525238,
+                    11.962799,
+                    30.400123
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    70.979691,
+                    -63.500584,
+                    43.780735
+                  ],
+                  "max": [
+                    71.864685,
+                    -61.232342,
+                    45.614773
+                  ],
+                  "size": [
+                    0.884994,
+                    2.268242,
+                    1.834038
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    79.613617,
+                    -71.62513,
+                    34.411026
+                  ],
+                  "max": [
+                    80.291985,
+                    -71.264458,
+                    37.309795
+                  ],
+                  "size": [
+                    0.678368,
+                    0.360672,
+                    2.898769
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    -38.194351,
+                    0.651105,
+                    55.759983
+                  ],
+                  "max": [
+                    -36.93047,
+                    4.104527,
+                    56.122181
+                  ],
+                  "size": [
+                    1.263881,
+                    3.453422,
+                    0.362198
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    75.091522,
+                    -38.65984,
+                    50.055717
+                  ],
+                  "max": [
+                    75.752449,
+                    -37.11396,
+                    50.165745
+                  ],
+                  "size": [
+                    0.660927,
+                    1.54588,
+                    0.110028
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    90.003105,
+                    -58.995823,
+                    69.91951
+                  ],
+                  "max": [
+                    112.224953,
+                    -43.490719,
+                    87.787109
+                  ],
+                  "size": [
+                    22.221848,
+                    15.505104,
+                    17.867599
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    109.109535,
+                    -65.98838,
+                    87.787109
+                  ],
+                  "max": [
+                    131.331375,
+                    -50.48328,
+                    105.654701
+                  ],
+                  "size": [
+                    22.22184,
+                    15.5051,
+                    17.867592
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    128.215958,
+                    -72.980934,
+                    105.654701
+                  ],
+                  "max": [
+                    150.43779,
+                    -57.475834,
+                    123.522301
+                  ],
+                  "size": [
+                    22.221832,
+                    15.5051,
+                    17.8676
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    147.322372,
+                    -79.973503,
+                    123.522301
+                  ],
+                  "max": [
+                    169.54422,
+                    -64.468384,
+                    141.389877
+                  ],
+                  "size": [
+                    22.221848,
+                    15.505119,
+                    17.867576
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    175.62709,
+                    -108.535515,
+                    120.063431
+                  ],
+                  "max": [
+                    178.848892,
+                    -106.91011,
+                    123.407906
+                  ],
+                  "size": [
+                    3.221802,
+                    1.625405,
+                    3.344475
+                  ]
+                }
+              },
+              {
+                "vertexCount": 3,
+                "bounds": {
+                  "min": [
+                    -45.127945,
+                    -25.764887,
+                    36.496689
+                  ],
+                  "max": [
+                    -44.402218,
+                    -25.262426,
+                    37.75816
+                  ],
+                  "size": [
+                    0.725727,
+                    0.502461,
+                    1.261471
+                  ]
+                }
+              },
+              {
+                "vertexCount": 3,
+                "bounds": {
+                  "min": [
+                    -47.783421,
+                    -25.319967,
+                    31.507948
+                  ],
+                  "max": [
+                    -47.694092,
+                    -25.304844,
+                    31.711357
+                  ],
+                  "size": [
+                    0.089329,
+                    0.015123,
+                    0.203409
+                  ]
+                }
+              },
+              {
+                "vertexCount": 3,
+                "bounds": {
+                  "min": [
+                    -47.783421,
+                    -25.313438,
+                    31.507948
+                  ],
+                  "max": [
+                    -47.689678,
+                    -25.293858,
+                    31.931528
+                  ],
+                  "size": [
+                    0.093743,
+                    0.01958,
+                    0.42358
+                  ]
+                }
+              },
+              {
+                "vertexCount": 3,
+                "bounds": {
+                  "min": [
+                    -47.783421,
+                    -25.462959,
+                    31.381834
+                  ],
+                  "max": [
+                    -47.166142,
+                    -25.304844,
+                    31.507948
+                  ],
+                  "size": [
+                    0.617279,
+                    0.158115,
+                    0.126114
+                  ]
+                }
+              },
+              {
+                "vertexCount": 3,
+                "bounds": {
+                  "min": [
+                    -47.783421,
+                    -25.381102,
+                    31.507948
+                  ],
+                  "max": [
+                    -47.485714,
+                    -25.304844,
+                    31.603479
+                  ],
+                  "size": [
+                    0.297707,
+                    0.076258,
+                    0.095531
+                  ]
+                }
+              },
+              {
+                "vertexCount": 3,
+                "bounds": {
+                  "min": [
+                    -47.783421,
+                    -25.345604,
+                    31.507948
+                  ],
+                  "max": [
+                    -47.611607,
+                    -25.304844,
+                    31.639219
+                  ],
+                  "size": [
+                    0.171814,
+                    0.04076,
+                    0.131271
+                  ]
+                }
+              },
+              {
+                "vertexCount": 3,
+                "bounds": {
+                  "min": [
+                    74.18705,
+                    -69.109222,
+                    37.632282
+                  ],
+                  "max": [
+                    75.561829,
+                    -67.740051,
+                    39.638191
+                  ],
+                  "size": [
+                    1.374779,
+                    1.369171,
+                    2.005909
+                  ]
+                }
+              },
+              {
+                "vertexCount": 3,
+                "bounds": {
+                  "min": [
+                    85.648613,
+                    -72.590271,
+                    24.916151
+                  ],
+                  "max": [
+                    86.208183,
+                    -72.511879,
+                    25.502262
+                  ],
+                  "size": [
+                    0.55957,
+                    0.078392,
+                    0.586111
+                  ]
+                }
+              },
+              {
+                "vertexCount": 3,
+                "bounds": {
+                  "min": [
+                    79.515343,
+                    -72.044121,
+                    31.507895
+                  ],
+                  "max": [
+                    80.102806,
+                    -71.893639,
+                    31.723171
+                  ],
+                  "size": [
+                    0.587463,
+                    0.150482,
+                    0.215276
+                  ]
+                }
+              },
+              {
+                "vertexCount": 3,
+                "bounds": {
+                  "min": [
+                    175.084061,
+                    -108.535515,
+                    121.012077
+                  ],
+                  "max": [
+                    178.848892,
+                    -106.688438,
+                    123.407906
+                  ],
+                  "size": [
+                    3.764831,
+                    1.847077,
+                    2.395829
+                  ]
+                }
+              },
+              {
+                "vertexCount": 3,
+                "bounds": {
+                  "min": [
+                    72.627983,
+                    -45.862293,
+                    49.981396
+                  ],
+                  "max": [
+                    73.43129,
+                    -43.19627,
+                    50.165745
+                  ],
+                  "size": [
+                    0.803307,
+                    2.666023,
+                    0.184349
+                  ]
+                }
+              },
+              {
+                "vertexCount": 3,
+                "bounds": {
+                  "min": [
+                    -47.783421,
+                    -25.33279,
+                    31.507948
+                  ],
+                  "max": [
+                    -47.653858,
+                    -25.304844,
+                    31.649347
+                  ],
+                  "size": [
+                    0.129563,
+                    0.027946,
+                    0.141399
+                  ]
+                }
+              },
+              {
+                "vertexCount": 3,
+                "bounds": {
+                  "min": [
+                    -47.783421,
+                    -25.605467,
+                    30.996723
+                  ],
+                  "max": [
+                    -46.57917,
+                    -25.304844,
+                    31.507948
+                  ],
+                  "size": [
+                    1.204251,
+                    0.300623,
+                    0.511225
+                  ]
+                }
+              },
+              {
+                "vertexCount": 3,
+                "bounds": {
+                  "min": [
+                    -47.783421,
+                    -25.410513,
+                    31.507948
+                  ],
+                  "max": [
+                    -47.374146,
+                    -25.304844,
+                    31.568771
+                  ],
+                  "size": [
+                    0.409275,
+                    0.105669,
+                    0.060823
+                  ]
+                }
+              },
+              {
+                "vertexCount": 3,
+                "bounds": {
+                  "min": [
+                    -47.783421,
+                    -25.361021,
+                    31.507948
+                  ],
+                  "max": [
+                    -47.558388,
+                    -25.304844,
+                    31.625116
+                  ],
+                  "size": [
+                    0.225033,
+                    0.056177,
+                    0.117168
+                  ]
+                }
+              },
+              {
+                "vertexCount": 3,
+                "bounds": {
+                  "min": [
+                    174.468658,
+                    -108.535515,
+                    121.679497
+                  ],
+                  "max": [
+                    178.848892,
+                    -106.417061,
+                    123.407906
+                  ],
+                  "size": [
+                    4.380234,
+                    2.118454,
+                    1.728409
+                  ]
+                }
+              }
+            ]
+          },
+          "uv": {
+            "present": true,
+            "uniquePairCount": 1601,
+            "allIdentical": false,
+            "finite": true
+          },
+          "sourceNormals": "valid-unit-vectors",
+          "displayNormalAdapter": "none"
+        },
+        "hostEvidence": {
+          "status": "source-hosted-static-level",
+          "position": [
+            0,
+            -5000,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "materialMode": "host-overrides-all-groups-with-StdMat",
+          "staticMeshBody": true,
+          "gameplayBoundary": "The older host loads this slide and placeholder rings, but the later complete Ball spawn/physics assembly belongs to a different Slide1 revision."
+        },
+        "normalization": {
+          "status": "inferred-reversible-display-only",
+          "basis": "exact-source-world-transform",
+          "sourceWorldBounds": {
+            "min": [
+              -65.659554,
+              -5190.403061,
+              4.234336
+            ],
+            "max": [
+              429.258759,
+              -4986.630901,
+              150.619308
+            ],
+            "size": [
+              494.918313,
+              203.77216,
+              146.384972
+            ]
+          },
+          "anchor": [
+            181.799603,
+            -5190.403061,
+            77.426822
+          ],
+          "displayScale": 0.145479,
+          "displayBounds": {
+            "min": [
+              -36.000111,
+              0,
+              -10.64797
+            ],
+            "max": [
+              36.000111,
+              29.64457,
+              10.64797
+            ],
+            "size": [
+              72.000222,
+              29.64457,
+              21.29594
+            ]
+          },
+          "inverse": "sourceWorldPosition = displayPosition / displayScale + anchor",
+          "preservesAspectAndOrientation": true
+        },
+        "material": {
+          "mode": "source-evidence",
+          "embeddedRecords": [],
+          "legacyRecords": [
+            {
+              "format": "MGR4-172",
+              "materialIndex": 0,
+              "rgbaSlots": [
+                [
+                  0.691406,
+                  0.109375,
+                  0.582031,
+                  1
+                ],
+                [
+                  0.691406,
+                  0.109375,
+                  0.582031,
+                  1
+                ]
+              ],
+              "rawRecordSha256": "B526CA6FB6E811733ABAC59E15EBE1AB561FBE33BE71D4A4EEBB08697BEB7C08"
+            }
+          ],
+          "resolvedTextures": [],
+          "neutralFallback": false,
+          "policy": "Use exact host StdMat overrides where source exists; otherwise use exact MGRP group colors/textures when valid. A zeroed source material is shown with a disclosed neutral inspection fallback."
+        },
+        "diagnostics": {
+          "edgesVisible": true,
+          "boundsVisible": false
+        },
+        "statusRecommendation": {
+          "status": "PARTIAL",
+          "reason": "Exact geometry and older static host transform are visitable; the complete later Ball assembly cannot be borrowed from the distinct Slide1 revision."
+        },
+        "exclusions": [
+          {
+            "id": "slide-long1",
+            "reason": "Byte-identical to the recovered BallZ 2011 Level1 visit."
+          },
+          {
+            "id": "pipe1",
+            "reason": "Already classified as a FlightX component, not a distinct BallZ scene."
+          }
+        ]
+      },
+      "level-slides": {
+        "schema": "graphysx.ballz-track-gallery-inspector/v1",
+        "mode": "evidence-bounded-non-gameplay-gallery",
+        "selectedAssetId": "level-slides",
+        "assetsReady": true,
+        "textureLoadErrors": [],
+        "playable": false,
+        "asset": {
+          "label": "Level.Slides",
+          "role": "unhosted-stockroom-experiment",
+          "source": "E:/Media/Datalake/Tech/StockRoom/Level.Slides.TVM",
+          "sha256": "BFB6BAD803BAC7C53221D5F20B86CD66E6ECA4D47DD5766BB58B8EE594FC8F42",
+          "geometrySha256": "9A82FB4A9D4B553F78C9B6AC7EAD083C26B5F9A8EE55793771742DAC4422A190",
+          "vertexCount": 792,
+          "triangleCount": 1524,
+          "exactMaterialIndices": [
+            0,
+            1,
+            2
+          ],
+          "exactGroupCount": 3,
+          "exactBounds": {
+            "min": [
+              -15.343631,
+              -6.030302,
+              -9.990703
+            ],
+            "max": [
+              10.535905,
+              1.316926,
+              14.257111
+            ],
+            "size": [
+              25.879536,
+              7.347228,
+              24.247814
+            ]
+          },
+          "topology": {
+            "edgeCount": 2286,
+            "edgeUseCounts": {
+              "2": 2286
+            },
+            "boundaryEdgeCount": 0,
+            "nonManifoldEdgeCount": 0,
+            "connectedComponents": [
+              {
+                "vertexCount": 120,
+                "bounds": {
+                  "min": [
+                    -6.379768,
+                    -1.160743,
+                    -1.339197
+                  ],
+                  "max": [
+                    -4.57673,
+                    0.345518,
+                    0.843251
+                  ],
+                  "size": [
+                    1.803038,
+                    1.506261,
+                    2.182448
+                  ]
+                }
+              },
+              {
+                "vertexCount": 120,
+                "bounds": {
+                  "min": [
+                    -2.638084,
+                    -3.034734,
+                    1.690208
+                  ],
+                  "max": [
+                    -0.455636,
+                    -1.528473,
+                    3.493246
+                  ],
+                  "size": [
+                    2.182448,
+                    1.506261,
+                    1.803038
+                  ]
+                }
+              },
+              {
+                "vertexCount": 120,
+                "bounds": {
+                  "min": [
+                    -6.379768,
+                    -4.319143,
+                    3.963403
+                  ],
+                  "max": [
+                    -4.57673,
+                    -2.812882,
+                    6.14585
+                  ],
+                  "size": [
+                    1.803038,
+                    1.506261,
+                    2.182447
+                  ]
+                }
+              },
+              {
+                "vertexCount": 64,
+                "bounds": {
+                  "min": [
+                    -15.27308,
+                    -5.982659,
+                    5.711068
+                  ],
+                  "max": [
+                    -14.834811,
+                    -3.09225,
+                    6.149337
+                  ],
+                  "size": [
+                    0.438269,
+                    2.890409,
+                    0.438269
+                  ]
+                }
+              },
+              {
+                "vertexCount": 64,
+                "bounds": {
+                  "min": [
+                    -11.989035,
+                    -5.982659,
+                    4.001773
+                  ],
+                  "max": [
+                    -11.550766,
+                    -3.09225,
+                    4.440042
+                  ],
+                  "size": [
+                    0.438269,
+                    2.890409,
+                    0.438269
+                  ]
+                }
+              },
+              {
+                "vertexCount": 64,
+                "bounds": {
+                  "min": [
+                    -13.63635,
+                    -5.982659,
+                    4.001773
+                  ],
+                  "max": [
+                    -13.198081,
+                    -3.09225,
+                    4.440042
+                  ],
+                  "size": [
+                    0.438269,
+                    2.890409,
+                    0.438269
+                  ]
+                }
+              },
+              {
+                "vertexCount": 64,
+                "bounds": {
+                  "min": [
+                    -3.884893,
+                    -5.982659,
+                    4.001773
+                  ],
+                  "max": [
+                    -3.446624,
+                    -3.09225,
+                    4.440042
+                  ],
+                  "size": [
+                    0.438269,
+                    2.890409,
+                    0.438269
+                  ]
+                }
+              },
+              {
+                "vertexCount": 64,
+                "bounds": {
+                  "min": [
+                    -11.989035,
+                    -5.982659,
+                    5.711068
+                  ],
+                  "max": [
+                    -11.550766,
+                    -3.09225,
+                    6.149337
+                  ],
+                  "size": [
+                    0.438269,
+                    2.890409,
+                    0.438269
+                  ]
+                }
+              },
+              {
+                "vertexCount": 64,
+                "bounds": {
+                  "min": [
+                    -13.63635,
+                    -5.982659,
+                    5.711068
+                  ],
+                  "max": [
+                    -13.198081,
+                    -3.09225,
+                    6.149337
+                  ],
+                  "size": [
+                    0.438269,
+                    2.890409,
+                    0.438269
+                  ]
+                }
+              },
+              {
+                "vertexCount": 8,
+                "bounds": {
+                  "min": [
+                    -2.582968,
+                    0.123409,
+                    -4.295644
+                  ],
+                  "max": [
+                    -0.543171,
+                    1.298911,
+                    -1.839585
+                  ],
+                  "size": [
+                    2.039797,
+                    1.175502,
+                    2.456059
+                  ]
+                }
+              },
+              {
+                "vertexCount": 8,
+                "bounds": {
+                  "min": [
+                    -9.433983,
+                    -1.901739,
+                    -4.617682
+                  ],
+                  "max": [
+                    0.509504,
+                    -1.765586,
+                    1.71304
+                  ],
+                  "size": [
+                    9.943487,
+                    0.136153,
+                    6.330722
+                  ]
+                }
+              },
+              {
+                "vertexCount": 8,
+                "bounds": {
+                  "min": [
+                    -4.589344,
+                    -3.188715,
+                    3.294678
+                  ],
+                  "max": [
+                    0.509504,
+                    -3.052561,
+                    7.209307
+                  ],
+                  "size": [
+                    5.098848,
+                    0.136154,
+                    3.914629
+                  ]
+                }
+              },
+              {
+                "vertexCount": 8,
+                "bounds": {
+                  "min": [
+                    -15.343631,
+                    -6.030302,
+                    -9.990703
+                  ],
+                  "max": [
+                    10.535905,
+                    -5.909919,
+                    14.257111
+                  ],
+                  "size": [
+                    25.879536,
+                    0.120383,
+                    24.247814
+                  ]
+                }
+              },
+              {
+                "vertexCount": 8,
+                "bounds": {
+                  "min": [
+                    -4.589344,
+                    -0.030315,
+                    -2.007922
+                  ],
+                  "max": [
+                    0.509504,
+                    0.105839,
+                    1.906707
+                  ],
+                  "size": [
+                    5.098848,
+                    0.136154,
+                    3.914629
+                  ]
+                }
+              },
+              {
+                "vertexCount": 8,
+                "bounds": {
+                  "min": [
+                    -4.589344,
+                    1.180772,
+                    -7.940341
+                  ],
+                  "max": [
+                    0.509504,
+                    1.316926,
+                    -4.025713
+                  ],
+                  "size": [
+                    5.098848,
+                    0.136154,
+                    3.914628
+                  ]
+                }
+              }
+            ]
+          },
+          "uv": {
+            "present": true,
+            "uniquePairCount": 1,
+            "allIdentical": true,
+            "finite": true
+          },
+          "sourceNormals": "all-zero",
+          "displayNormalAdapter": "computed-for-inspection"
+        },
+        "hostEvidence": {
+          "status": "no-located-host",
+          "position": null,
+          "scale": null,
+          "materialMode": "embedded-MGRP-colors-no-textures",
+          "staticMeshBody": null,
+          "gameplayBoundary": "No transform, spawn, collision setup, camera or objective was located."
+        },
+        "normalization": {
+          "status": "inferred-reversible-display-only",
+          "basis": "unhosted-local-mesh-coordinates",
+          "sourceWorldBounds": {
+            "min": [
+              -15.343631,
+              -6.030302,
+              -9.990703
+            ],
+            "max": [
+              10.535905,
+              1.316926,
+              14.257111
+            ],
+            "size": [
+              25.879536,
+              7.347228,
+              24.247814
+            ]
+          },
+          "anchor": [
+            -2.403863,
+            -6.030302,
+            2.133204
+          ],
+          "displayScale": 2.782121,
+          "displayBounds": {
+            "min": [
+              -36,
+              0,
+              -33.730176
+            ],
+            "max": [
+              36,
+              20.440877,
+              33.730176
+            ],
+            "size": [
+              72,
+              20.440877,
+              67.460352
+            ]
+          },
+          "inverse": "sourceWorldPosition = displayPosition / displayScale + anchor",
+          "preservesAspectAndOrientation": true
+        },
+        "material": {
+          "mode": "source-evidence",
+          "embeddedRecords": [
+            {
+              "format": "MGRP-416",
+              "materialIndex": 0,
+              "name": "Material",
+              "textureName": null,
+              "rgbaSlots": [
+                [
+                  0.007843,
+                  0.035294,
+                  0.94902,
+                  1
+                ],
+                [
+                  0.007843,
+                  0.035294,
+                  0.94902,
+                  1
+                ],
+                [
+                  0.309804,
+                  0.372549,
+                  1,
+                  1
+                ]
+              ],
+              "rawRecordSha256": "C55496258FEABBB5439FEDF8C77603115C099C08C82DFD5B538686124BF57F48"
+            },
+            {
+              "format": "MGRP-416",
+              "materialIndex": 1,
+              "name": "Material.001",
+              "textureName": null,
+              "rgbaSlots": [
+                [
+                  0.121569,
+                  0.8,
+                  0.031373,
+                  1
+                ],
+                [
+                  0.121569,
+                  0.8,
+                  0.031373,
+                  1
+                ],
+                [
+                  0.47451,
+                  1,
+                  0.392157,
+                  1
+                ]
+              ],
+              "rawRecordSha256": "3A996A87B1A68F86AD6A4B1A8806C506F99D1DAE47111F0BEE2505D8C721ED6F"
+            },
+            {
+              "format": "MGRP-416",
+              "materialIndex": 2,
+              "name": "Material.002",
+              "textureName": null,
+              "rgbaSlots": [
+                [
+                  0.121569,
+                  0.8,
+                  0.031373,
+                  1
+                ],
+                [
+                  0.121569,
+                  0.8,
+                  0.031373,
+                  1
+                ],
+                [
+                  0.47451,
+                  1,
+                  0.392157,
+                  1
+                ]
+              ],
+              "rawRecordSha256": "8B78DD5661DCC61368FA971D2E477E8A3F2A33EDC04A6A18ABDCFBAC745BDAF9"
+            }
+          ],
+          "legacyRecords": [],
+          "resolvedTextures": [],
+          "neutralFallback": false,
+          "policy": "Use exact host StdMat overrides where source exists; otherwise use exact MGRP group colors/textures when valid. A zeroed source material is shown with a disclosed neutral inspection fallback."
+        },
+        "diagnostics": {
+          "edgesVisible": true,
+          "boundsVisible": false
+        },
+        "statusRecommendation": {
+          "status": "PARTIAL",
+          "reason": "Exact three-group geometry/colors are visitable, but no host transform, camera, collision, spawn or objective survives."
+        },
+        "exclusions": [
+          {
+            "id": "slide-long1",
+            "reason": "Byte-identical to the recovered BallZ 2011 Level1 visit."
+          },
+          {
+            "id": "pipe1",
+            "reason": "Already classified as a FlightX component, not a distinct BallZ scene."
+          }
+        ]
+      },
+      "level-steps": {
+        "schema": "graphysx.ballz-track-gallery-inspector/v1",
+        "mode": "evidence-bounded-non-gameplay-gallery",
+        "selectedAssetId": "level-steps",
+        "assetsReady": true,
+        "textureLoadErrors": [],
+        "playable": false,
+        "asset": {
+          "label": "Level.Steps",
+          "role": "unhosted-stockroom-experiment",
+          "source": "E:/Media/Datalake/Tech/StockRoom/Level.Steps.TVM",
+          "sha256": "2DA7C1B3CA4D0BDB9F2925B9F65BFE2DC8E59DC45466A557052A57C71333BAFD",
+          "geometrySha256": "AABD7D7D98E4D54F7B932E6C8BDEF149FACB8C717A24EFA7CCFA6DB3B8849FD1",
+          "vertexCount": 200,
+          "triangleCount": 120,
+          "exactMaterialIndices": [
+            0,
+            1,
+            2
+          ],
+          "exactGroupCount": 3,
+          "exactBounds": {
+            "min": [
+              -1.158002,
+              -1.192016,
+              -0.13215
+            ],
+            "max": [
+              0.145165,
+              0.00081,
+              1.131276
+            ],
+            "size": [
+              1.303167,
+              1.192826,
+              1.263426
+            ]
+          },
+          "topology": {
+            "edgeCount": 300,
+            "edgeUseCounts": {
+              "1": 240,
+              "2": 60
+            },
+            "boundaryEdgeCount": 240,
+            "nonManifoldEdgeCount": 0,
+            "connectedComponents": [
+              {
+                "vertexCount": 12,
+                "bounds": {
+                  "min": [
+                    -1.128138,
+                    -0.968948,
+                    0.847244
+                  ],
+                  "max": [
+                    -0.878887,
+                    -0.960394,
+                    1.096495
+                  ],
+                  "size": [
+                    0.249251,
+                    0.008554,
+                    0.249251
+                  ]
+                }
+              },
+              {
+                "vertexCount": 12,
+                "bounds": {
+                  "min": [
+                    -0.119162,
+                    -0.023109,
+                    -0.13215
+                  ],
+                  "max": [
+                    0.138541,
+                    0.00081,
+                    0.125553
+                  ],
+                  "size": [
+                    0.257703,
+                    0.023919,
+                    0.257703
+                  ]
+                }
+              },
+              {
+                "vertexCount": 12,
+                "bounds": {
+                  "min": [
+                    -0.328516,
+                    -0.239474,
+                    0.116703
+                  ],
+                  "max": [
+                    -0.070814,
+                    -0.215555,
+                    0.374405
+                  ],
+                  "size": [
+                    0.257702,
+                    0.023919,
+                    0.257702
+                  ]
+                }
+              },
+              {
+                "vertexCount": 12,
+                "bounds": {
+                  "min": [
+                    -1.012542,
+                    -0.631251,
+                    0.297207
+                  ],
+                  "max": [
+                    -0.747255,
+                    -0.607332,
+                    0.562494
+                  ],
+                  "size": [
+                    0.265287,
+                    0.023919,
+                    0.265287
+                  ]
+                }
+              },
+              {
+                "vertexCount": 12,
+                "bounds": {
+                  "min": [
+                    -0.787875,
+                    -0.462007,
+                    0.087438
+                  ],
+                  "max": [
+                    -0.530173,
+                    -0.438088,
+                    0.34514
+                  ],
+                  "size": [
+                    0.257702,
+                    0.023919,
+                    0.257702
+                  ]
+                }
+              },
+              {
+                "vertexCount": 12,
+                "bounds": {
+                  "min": [
+                    -1.02134,
+                    -0.567575,
+                    0.065589
+                  ],
+                  "max": [
+                    -0.763638,
+                    -0.54172,
+                    0.323292
+                  ],
+                  "size": [
+                    0.257702,
+                    0.025855,
+                    0.257703
+                  ]
+                }
+              },
+              {
+                "vertexCount": 12,
+                "bounds": {
+                  "min": [
+                    -0.561981,
+                    -0.345042,
+                    0.094854
+                  ],
+                  "max": [
+                    -0.304278,
+                    -0.319187,
+                    0.352557
+                  ],
+                  "size": [
+                    0.257703,
+                    0.025855,
+                    0.257703
+                  ]
+                }
+              },
+              {
+                "vertexCount": 12,
+                "bounds": {
+                  "min": [
+                    -1.041357,
+                    -0.736819,
+                    0.529914
+                  ],
+                  "max": [
+                    -0.77607,
+                    -0.710965,
+                    0.795202
+                  ],
+                  "size": [
+                    0.265287,
+                    0.025854,
+                    0.265288
+                  ]
+                }
+              },
+              {
+                "vertexCount": 12,
+                "bounds": {
+                  "min": [
+                    -0.112538,
+                    -0.135203,
+                    0.090312
+                  ],
+                  "max": [
+                    0.145165,
+                    -0.109348,
+                    0.348015
+                  ],
+                  "size": [
+                    0.257703,
+                    0.025855,
+                    0.257703
+                  ]
+                }
+              },
+              {
+                "vertexCount": 12,
+                "bounds": {
+                  "min": [
+                    -1.158002,
+                    -1.192016,
+                    0.810804
+                  ],
+                  "max": [
+                    -0.83822,
+                    -0.969748,
+                    1.131276
+                  ],
+                  "size": [
+                    0.319782,
+                    0.222268,
+                    0.320472
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    -0.878887,
+                    -0.968948,
+                    0.847244
+                  ],
+                  "max": [
+                    -0.878887,
+                    -0.960394,
+                    1.096495
+                  ],
+                  "size": [
+                    0,
+                    0.008554,
+                    0.249251
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    -1.128138,
+                    -0.968948,
+                    0.847244
+                  ],
+                  "max": [
+                    -1.128138,
+                    -0.960394,
+                    1.096495
+                  ],
+                  "size": [
+                    0,
+                    0.008554,
+                    0.249251
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    0.138541,
+                    -0.023109,
+                    -0.13215
+                  ],
+                  "max": [
+                    0.138541,
+                    0.00081,
+                    0.125553
+                  ],
+                  "size": [
+                    0,
+                    0.023919,
+                    0.257703
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    -0.119162,
+                    -0.023109,
+                    -0.13215
+                  ],
+                  "max": [
+                    -0.119162,
+                    0.00081,
+                    0.125553
+                  ],
+                  "size": [
+                    0,
+                    0.023919,
+                    0.257703
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    -0.328516,
+                    -0.239474,
+                    0.116703
+                  ],
+                  "max": [
+                    -0.328516,
+                    -0.215555,
+                    0.374405
+                  ],
+                  "size": [
+                    0,
+                    0.023919,
+                    0.257702
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    -0.070814,
+                    -0.239474,
+                    0.116703
+                  ],
+                  "max": [
+                    -0.070814,
+                    -0.215555,
+                    0.374405
+                  ],
+                  "size": [
+                    0,
+                    0.023919,
+                    0.257702
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    -1.004842,
+                    -0.631251,
+                    0.297207
+                  ],
+                  "max": [
+                    -0.747255,
+                    -0.607332,
+                    0.304907
+                  ],
+                  "size": [
+                    0.257587,
+                    0.023919,
+                    0.0077
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    -1.012542,
+                    -0.631251,
+                    0.554794
+                  ],
+                  "max": [
+                    -0.754955,
+                    -0.607332,
+                    0.562494
+                  ],
+                  "size": [
+                    0.257587,
+                    0.023919,
+                    0.0077
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    -0.530173,
+                    -0.462007,
+                    0.087438
+                  ],
+                  "max": [
+                    -0.530173,
+                    -0.438088,
+                    0.34514
+                  ],
+                  "size": [
+                    0,
+                    0.023919,
+                    0.257702
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    -0.787875,
+                    -0.462007,
+                    0.087438
+                  ],
+                  "max": [
+                    -0.787875,
+                    -0.438088,
+                    0.34514
+                  ],
+                  "size": [
+                    0,
+                    0.023919,
+                    0.257702
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    -0.763638,
+                    -0.567575,
+                    0.065589
+                  ],
+                  "max": [
+                    -0.763638,
+                    -0.54172,
+                    0.323292
+                  ],
+                  "size": [
+                    0,
+                    0.025855,
+                    0.257703
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    -1.02134,
+                    -0.567575,
+                    0.065589
+                  ],
+                  "max": [
+                    -1.02134,
+                    -0.54172,
+                    0.323292
+                  ],
+                  "size": [
+                    0,
+                    0.025855,
+                    0.257703
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    -0.304278,
+                    -0.345042,
+                    0.094854
+                  ],
+                  "max": [
+                    -0.304278,
+                    -0.319187,
+                    0.352557
+                  ],
+                  "size": [
+                    0,
+                    0.025855,
+                    0.257703
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    -0.561981,
+                    -0.345042,
+                    0.094854
+                  ],
+                  "max": [
+                    -0.561981,
+                    -0.319187,
+                    0.352557
+                  ],
+                  "size": [
+                    0,
+                    0.025855,
+                    0.257703
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    -1.041357,
+                    -0.736819,
+                    0.787502
+                  ],
+                  "max": [
+                    -0.783769,
+                    -0.710965,
+                    0.795202
+                  ],
+                  "size": [
+                    0.257588,
+                    0.025854,
+                    0.0077
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    -1.033657,
+                    -0.736819,
+                    0.529914
+                  ],
+                  "max": [
+                    -0.77607,
+                    -0.710965,
+                    0.537614
+                  ],
+                  "size": [
+                    0.257587,
+                    0.025854,
+                    0.0077
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    0.145165,
+                    -0.135203,
+                    0.090312
+                  ],
+                  "max": [
+                    0.145165,
+                    -0.109348,
+                    0.348015
+                  ],
+                  "size": [
+                    0,
+                    0.025855,
+                    0.257703
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    -0.112538,
+                    -0.135203,
+                    0.090312
+                  ],
+                  "max": [
+                    -0.112538,
+                    -0.109348,
+                    0.348015
+                  ],
+                  "size": [
+                    0,
+                    0.025855,
+                    0.257703
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    -1.155622,
+                    -1.190365,
+                    1.127751
+                  ],
+                  "max": [
+                    -0.83822,
+                    -0.969748,
+                    1.131276
+                  ],
+                  "size": [
+                    0.317402,
+                    0.220617,
+                    0.003525
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    -1.158002,
+                    -1.192016,
+                    0.810804
+                  ],
+                  "max": [
+                    -0.8406,
+                    -0.971399,
+                    0.81433
+                  ],
+                  "size": [
+                    0.317402,
+                    0.220617,
+                    0.003526
+                  ]
+                }
+              }
+            ]
+          },
+          "uv": {
+            "present": true,
+            "uniquePairCount": 4,
+            "allIdentical": false,
+            "finite": true
+          },
+          "sourceNormals": "all-zero",
+          "displayNormalAdapter": "computed-for-inspection"
+        },
+        "hostEvidence": {
+          "status": "no-located-host",
+          "position": null,
+          "scale": null,
+          "materialMode": "embedded-MGRP-texture-bindings",
+          "staticMeshBody": null,
+          "gameplayBoundary": "No transform, spawn, collision setup, camera or objective was located."
+        },
+        "normalization": {
+          "status": "inferred-reversible-display-only",
+          "basis": "unhosted-local-mesh-coordinates",
+          "sourceWorldBounds": {
+            "min": [
+              -1.158002,
+              -1.192016,
+              -0.13215
+            ],
+            "max": [
+              0.145165,
+              0.00081,
+              1.131276
+            ],
+            "size": [
+              1.303167,
+              1.192826,
+              1.263426
+            ]
+          },
+          "anchor": [
+            -0.506418,
+            -1.192016,
+            0.499563
+          ],
+          "displayScale": 55.250018,
+          "displayBounds": {
+            "min": [
+              -36.000028,
+              0,
+              -34.902155
+            ],
+            "max": [
+              35.999972,
+              65.903658,
+              34.902155
+            ],
+            "size": [
+              72,
+              65.903658,
+              69.80431
+            ]
+          },
+          "inverse": "sourceWorldPosition = displayPosition / displayScale + anchor",
+          "preservesAspectAndOrientation": true
+        },
+        "material": {
+          "mode": "source-evidence",
+          "embeddedRecords": [
+            {
+              "format": "MGRP-416",
+              "materialIndex": 0,
+              "name": "Material.002",
+              "textureName": "grass.jpg",
+              "rgbaSlots": [
+                [
+                  0.8,
+                  0.8,
+                  0.8,
+                  1
+                ],
+                [
+                  0.8,
+                  0.8,
+                  0.8,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  1
+                ]
+              ],
+              "rawRecordSha256": "BF3E3D42180922D79D39DCBA92747F1DF835AA9A3DEA171F1311F6631BC1069C"
+            },
+            {
+              "format": "MGRP-416",
+              "materialIndex": 1,
+              "name": "Materialconc",
+              "textureName": "concrete.png",
+              "rgbaSlots": [
+                [
+                  0.8,
+                  0.8,
+                  0.8,
+                  1
+                ],
+                [
+                  0.8,
+                  0.8,
+                  0.8,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  1
+                ]
+              ],
+              "rawRecordSha256": "566BC06EF811D853DCB2E65D409731B3DFBE18F5CCDBF4D5DA81BBA23D63F404"
+            },
+            {
+              "format": "MGRP-416",
+              "materialIndex": 2,
+              "name": "mat1wood.jpg",
+              "textureName": "wood.jpg",
+              "rgbaSlots": [
+                [
+                  0.8,
+                  0.8,
+                  0.8,
+                  1
+                ],
+                [
+                  0.8,
+                  0.8,
+                  0.8,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  1
+                ]
+              ],
+              "rawRecordSha256": "25174580D40A2CDB38244B4264653C145B72671767AE45F802076851A05744B2"
+            }
+          ],
+          "legacyRecords": [],
+          "resolvedTextures": [
+            {
+              "materialIndex": 0,
+              "textureName": "grass.jpg",
+              "browserPath": "/assets/ballz-track-gallery/grass.jpg",
+              "sha256": "0414F5569DC82831518A4185F5E7D75DFD309E06DCD64E5BB2092A4442E42872"
+            },
+            {
+              "materialIndex": 1,
+              "textureName": "concrete.png",
+              "browserPath": "/assets/ballz-track-gallery/concrete.png",
+              "sha256": "929B29AB141462B0D52CC3EC89976E60E734187DA61365C4F7C4BC5129E11DE5"
+            },
+            {
+              "materialIndex": 2,
+              "textureName": "wood.jpg",
+              "browserPath": "/assets/ballz-track-gallery/wood.jpg",
+              "sha256": "1572F866CAD697E5DCC1166DADE2F54DBC669522E380DD7303BBA18035ACCB82"
+            }
+          ],
+          "neutralFallback": false,
+          "policy": "Use exact host StdMat overrides where source exists; otherwise use exact MGRP group colors/textures when valid. A zeroed source material is shown with a disclosed neutral inspection fallback."
+        },
+        "diagnostics": {
+          "edgesVisible": true,
+          "boundsVisible": false
+        },
+        "statusRecommendation": {
+          "status": "PARTIAL",
+          "reason": "Exact three-group geometry and grass/concrete/wood bindings are visitable, but no host behavior survives."
+        },
+        "exclusions": [
+          {
+            "id": "slide-long1",
+            "reason": "Byte-identical to the recovered BallZ 2011 Level1 visit."
+          },
+          {
+            "id": "pipe1",
+            "reason": "Already classified as a FlightX component, not a distinct BallZ scene."
+          }
+        ]
+      },
+      "slide-bump": {
+        "schema": "graphysx.ballz-track-gallery-inspector/v1",
+        "mode": "evidence-bounded-non-gameplay-gallery",
+        "selectedAssetId": "slide-bump",
+        "assetsReady": true,
+        "textureLoadErrors": [],
+        "playable": false,
+        "asset": {
+          "label": "Slide Bump",
+          "role": "unhosted-experiment",
+          "source": "Archive/bckup/BallZ2015.bckup/Media/SlideBump.TVM",
+          "sha256": "D7D15343028C8FAB476BA6F43F8EA4E86EC1C9F57C55CCBB8DCCFDA5F3F0DD69",
+          "geometrySha256": "853BC62ACFDA395E59A13186691F17E4ACC65FB4BC435A55D13E9465AD351406",
+          "vertexCount": 699,
+          "triangleCount": 1456,
+          "exactMaterialIndices": [
+            0
+          ],
+          "exactGroupCount": 1,
+          "exactBounds": {
+            "min": [
+              -16.967451,
+              -13.25,
+              -15.957781
+            ],
+            "max": [
+              63.86116,
+              45.045929,
+              103.758934
+            ],
+            "size": [
+              80.828611,
+              58.295929,
+              119.716715
+            ]
+          },
+          "topology": {
+            "edgeCount": 2102,
+            "edgeUseCounts": {
+              "1": 44,
+              "2": 1997,
+              "4": 30,
+              "6": 30,
+              "30": 1
+            },
+            "boundaryEdgeCount": 44,
+            "nonManifoldEdgeCount": 61,
+            "connectedComponents": [
+              {
+                "vertexCount": 699,
+                "bounds": {
+                  "min": [
+                    -16.967451,
+                    -13.25,
+                    -15.957781
+                  ],
+                  "max": [
+                    63.86116,
+                    45.045929,
+                    103.758934
+                  ],
+                  "size": [
+                    80.828611,
+                    58.295929,
+                    119.716715
+                  ]
+                }
+              }
+            ]
+          },
+          "uv": {
+            "present": true,
+            "uniquePairCount": 4,
+            "allIdentical": false,
+            "finite": true
+          },
+          "sourceNormals": "all-zero",
+          "displayNormalAdapter": "computed-for-inspection"
+        },
+        "hostEvidence": {
+          "status": "no-located-host",
+          "position": null,
+          "scale": null,
+          "materialMode": "embedded-MGRP-record-is-zeroed",
+          "staticMeshBody": null,
+          "gameplayBoundary": "No host was located; open/non-manifold topology and a zero material record are preserved as evidence."
+        },
+        "normalization": {
+          "status": "inferred-reversible-display-only",
+          "basis": "unhosted-local-mesh-coordinates",
+          "sourceWorldBounds": {
+            "min": [
+              -16.967451,
+              -13.25,
+              -15.957781
+            ],
+            "max": [
+              63.86116,
+              45.045929,
+              103.758934
+            ],
+            "size": [
+              80.828611,
+              58.295929,
+              119.716715
+            ]
+          },
+          "anchor": [
+            23.446855,
+            -13.25,
+            43.900577
+          ],
+          "displayScale": 0.60142,
+          "displayBounds": {
+            "min": [
+              -24.305972,
+              0,
+              -36.000014
+            ],
+            "max": [
+              24.305971,
+              35.060338,
+              36.000013
+            ],
+            "size": [
+              48.611943,
+              35.060338,
+              72.000027
+            ]
+          },
+          "inverse": "sourceWorldPosition = displayPosition / displayScale + anchor",
+          "preservesAspectAndOrientation": true
+        },
+        "material": {
+          "mode": "source-evidence",
+          "embeddedRecords": [
+            {
+              "format": "MGRP-416",
+              "materialIndex": 0,
+              "name": "Duplicate0",
+              "textureName": null,
+              "rgbaSlots": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "rawRecordSha256": "1EF93D1E426383B6ABD786E0FBA80CB9190F8003420ADF14579F1F652D332E70"
+            }
+          ],
+          "legacyRecords": [],
+          "resolvedTextures": [],
+          "neutralFallback": true,
+          "policy": "Use exact host StdMat overrides where source exists; otherwise use exact MGRP group colors/textures when valid. A zeroed source material is shown with a disclosed neutral inspection fallback."
+        },
+        "diagnostics": {
+          "edgesVisible": true,
+          "boundsVisible": false
+        },
+        "statusRecommendation": {
+          "status": "PARTIAL",
+          "reason": "Exact geometry/topology is visitable; no host survives and the embedded material record is zeroed."
+        },
+        "exclusions": [
+          {
+            "id": "slide-long1",
+            "reason": "Byte-identical to the recovered BallZ 2011 Level1 visit."
+          },
+          {
+            "id": "pipe1",
+            "reason": "Already classified as a FlightX component, not a distinct BallZ scene."
+          }
+        ]
+      },
+      "slide-bump-gridtex": {
+        "schema": "graphysx.ballz-track-gallery-inspector/v1",
+        "mode": "evidence-bounded-non-gameplay-gallery",
+        "selectedAssetId": "slide-bump-gridtex",
+        "assetsReady": true,
+        "textureLoadErrors": [],
+        "playable": false,
+        "asset": {
+          "label": "Slide Bump GridTex",
+          "role": "unhosted-texture-variant",
+          "source": "Archive/bckup/BallZ2015.bckup/Media/SlideBumpGridTex.TVM",
+          "sha256": "894C5D07ACCE5463C9102EBA50992DA2C11A20B5215E693516ECAA947A9EA98B",
+          "geometrySha256": "8F79A8AAA7F6C85925AA7BDACBCDC337188773688B9CE4429ABB63CCD31D6D84",
+          "vertexCount": 685,
+          "triangleCount": 1456,
+          "exactMaterialIndices": [
+            0
+          ],
+          "exactGroupCount": 1,
+          "exactBounds": {
+            "min": [
+              -16.967451,
+              -13.25,
+              -15.957781
+            ],
+            "max": [
+              63.86116,
+              45.045929,
+              103.758934
+            ],
+            "size": [
+              80.828611,
+              58.295929,
+              119.716715
+            ]
+          },
+          "topology": {
+            "edgeCount": 2084,
+            "edgeUseCounts": {
+              "1": 8,
+              "2": 2015,
+              "4": 30,
+              "6": 30,
+              "30": 1
+            },
+            "boundaryEdgeCount": 8,
+            "nonManifoldEdgeCount": 61,
+            "connectedComponents": [
+              {
+                "vertexCount": 685,
+                "bounds": {
+                  "min": [
+                    -16.967451,
+                    -13.25,
+                    -15.957781
+                  ],
+                  "max": [
+                    63.86116,
+                    45.045929,
+                    103.758934
+                  ],
+                  "size": [
+                    80.828611,
+                    58.295929,
+                    119.716715
+                  ]
+                }
+              }
+            ]
+          },
+          "uv": {
+            "present": true,
+            "uniquePairCount": 528,
+            "allIdentical": false,
+            "finite": true
+          },
+          "sourceNormals": "all-zero",
+          "displayNormalAdapter": "computed-for-inspection"
+        },
+        "hostEvidence": {
+          "status": "no-located-host",
+          "position": null,
+          "scale": null,
+          "materialMode": "embedded-MGRP-EarthGri.bmp-binding",
+          "staticMeshBody": null,
+          "gameplayBoundary": "No host was located; this is a distinct UV/vertex re-export of the same bump form."
+        },
+        "normalization": {
+          "status": "inferred-reversible-display-only",
+          "basis": "unhosted-local-mesh-coordinates",
+          "sourceWorldBounds": {
+            "min": [
+              -16.967451,
+              -13.25,
+              -15.957781
+            ],
+            "max": [
+              63.86116,
+              45.045929,
+              103.758934
+            ],
+            "size": [
+              80.828611,
+              58.295929,
+              119.716715
+            ]
+          },
+          "anchor": [
+            23.446855,
+            -13.25,
+            43.900577
+          ],
+          "displayScale": 0.60142,
+          "displayBounds": {
+            "min": [
+              -24.305972,
+              0,
+              -36.000014
+            ],
+            "max": [
+              24.305971,
+              35.060338,
+              36.000013
+            ],
+            "size": [
+              48.611943,
+              35.060338,
+              72.000027
+            ]
+          },
+          "inverse": "sourceWorldPosition = displayPosition / displayScale + anchor",
+          "preservesAspectAndOrientation": true
+        },
+        "material": {
+          "mode": "source-evidence",
+          "embeddedRecords": [
+            {
+              "format": "MGRP-416",
+              "materialIndex": 0,
+              "name": "Duplicate0",
+              "textureName": "EarthGri.bmp",
+              "rgbaSlots": [
+                [
+                  0.8,
+                  0.8,
+                  0.8,
+                  1
+                ],
+                [
+                  0.2,
+                  0.2,
+                  0.2,
+                  1
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "rawRecordSha256": "C054DF737B95216A544CF09551E859D5307D22031B37C4CE90952518F33DE8B2"
+            }
+          ],
+          "legacyRecords": [],
+          "resolvedTextures": [
+            {
+              "materialIndex": 0,
+              "textureName": "EarthGri.bmp",
+              "browserPath": "/assets/ballz-track-gallery/earthgri.bmp",
+              "sha256": "5EC880CF13902EA9F06FBF629F6025D6A3C5A96E8B3DE86E4EB5CF3D29D8A6D2"
+            }
+          ],
+          "neutralFallback": false,
+          "policy": "Use exact host StdMat overrides where source exists; otherwise use exact MGRP group colors/textures when valid. A zeroed source material is shown with a disclosed neutral inspection fallback."
+        },
+        "diagnostics": {
+          "edgesVisible": true,
+          "boundsVisible": false
+        },
+        "statusRecommendation": {
+          "status": "PARTIAL",
+          "reason": "Exact distinct UV/vertex revision and EarthGri binding are visitable; no host behavior survives."
+        },
+        "exclusions": [
+          {
+            "id": "slide-long1",
+            "reason": "Byte-identical to the recovered BallZ 2011 Level1 visit."
+          },
+          {
+            "id": "pipe1",
+            "reason": "Already classified as a FlightX component, not a distinct BallZ scene."
+          }
+        ]
+      },
+      "ballz-track1": {
+        "schema": "graphysx.ballz-track-gallery-inspector/v1",
+        "mode": "evidence-bounded-non-gameplay-gallery",
+        "selectedAssetId": "ballz-track1",
+        "assetsReady": true,
+        "textureLoadErrors": [],
+        "playable": false,
+        "asset": {
+          "label": "BallZ Track 1",
+          "role": "source-hosted-static-scene",
+          "source": "Archive/bckup/BallZ2015.bckup/Media/BallZTrack1.tvm",
+          "sha256": "6FABD80A7733EEB97417B81B74E294A77F90073C59A251A6400053920B079685",
+          "geometrySha256": "899197695F66F5B61017553F3A29961524477780DEA7EF10EC6B97E02D2FCF3B",
+          "vertexCount": 385,
+          "triangleCount": 447,
+          "exactMaterialIndices": [
+            0
+          ],
+          "exactGroupCount": 1,
+          "exactBounds": {
+            "min": [
+              -131.797455,
+              0,
+              -182.581802
+            ],
+            "max": [
+              131.797455,
+              425.621155,
+              254.623123
+            ],
+            "size": [
+              263.59491,
+              425.621155,
+              437.204925
+            ]
+          },
+          "topology": {
+            "edgeCount": 817,
+            "edgeUseCounts": {
+              "1": 293,
+              "2": 524
+            },
+            "boundaryEdgeCount": 293,
+            "nonManifoldEdgeCount": 0,
+            "connectedComponents": [
+              {
+                "vertexCount": 117,
+                "bounds": {
+                  "min": [
+                    -36.807777,
+                    0,
+                    -182.581802
+                  ],
+                  "max": [
+                    10.575178,
+                    336.150238,
+                    182.581802
+                  ],
+                  "size": [
+                    47.382955,
+                    336.150238,
+                    365.163604
+                  ]
+                }
+              },
+              {
+                "vertexCount": 62,
+                "bounds": {
+                  "min": [
+                    -36.807774,
+                    336.150238,
+                    -182.581802
+                  ],
+                  "max": [
+                    10.575174,
+                    425.621155,
+                    -49.282543
+                  ],
+                  "size": [
+                    47.382948,
+                    89.470917,
+                    133.299259
+                  ]
+                }
+              },
+              {
+                "vertexCount": 43,
+                "bounds": {
+                  "min": [
+                    -131.797455,
+                    0,
+                    182.581802
+                  ],
+                  "max": [
+                    131.797455,
+                    336.150238,
+                    182.581833
+                  ],
+                  "size": [
+                    263.59491,
+                    336.150238,
+                    0.000031
+                  ]
+                }
+              },
+              {
+                "vertexCount": 35,
+                "bounds": {
+                  "min": [
+                    -131.797455,
+                    0,
+                    -182.581802
+                  ],
+                  "max": [
+                    131.797455,
+                    372.823944,
+                    -182.581802
+                  ],
+                  "size": [
+                    263.59491,
+                    372.823944,
+                    0
+                  ]
+                }
+              },
+              {
+                "vertexCount": 31,
+                "bounds": {
+                  "min": [
+                    -131.797455,
+                    336.150238,
+                    -182.581802
+                  ],
+                  "max": [
+                    131.797455,
+                    336.150238,
+                    182.581802
+                  ],
+                  "size": [
+                    263.59491,
+                    0,
+                    365.163604
+                  ]
+                }
+              },
+              {
+                "vertexCount": 20,
+                "bounds": {
+                  "min": [
+                    -36.807774,
+                    425.621124,
+                    -120.984833
+                  ],
+                  "max": [
+                    10.575173,
+                    425.621155,
+                    -49.282543
+                  ],
+                  "size": [
+                    47.382947,
+                    0.000031,
+                    71.70229
+                  ]
+                }
+              },
+              {
+                "vertexCount": 16,
+                "bounds": {
+                  "min": [
+                    -131.797455,
+                    0,
+                    -182.581802
+                  ],
+                  "max": [
+                    131.797455,
+                    0.000001,
+                    182.581802
+                  ],
+                  "size": [
+                    263.59491,
+                    0.000001,
+                    365.163604
+                  ]
+                }
+              },
+              {
+                "vertexCount": 15,
+                "bounds": {
+                  "min": [
+                    -77.223633,
+                    286.231903,
+                    181.948227
+                  ],
+                  "max": [
+                    40.766209,
+                    286.231934,
+                    254.623123
+                  ],
+                  "size": [
+                    117.989842,
+                    0.000031,
+                    72.674896
+                  ]
+                }
+              },
+              {
+                "vertexCount": 14,
+                "bounds": {
+                  "min": [
+                    -77.223633,
+                    290.506927,
+                    181.948227
+                  ],
+                  "max": [
+                    40.766209,
+                    290.506927,
+                    254.623123
+                  ],
+                  "size": [
+                    117.989842,
+                    0,
+                    72.674896
+                  ]
+                }
+              },
+              {
+                "vertexCount": 8,
+                "bounds": {
+                  "min": [
+                    -77.223633,
+                    286.231934,
+                    181.948227
+                  ],
+                  "max": [
+                    40.766209,
+                    290.506927,
+                    181.948227
+                  ],
+                  "size": [
+                    117.989842,
+                    4.274993,
+                    0
+                  ]
+                }
+              },
+              {
+                "vertexCount": 6,
+                "bounds": {
+                  "min": [
+                    40.766209,
+                    286.231934,
+                    181.948227
+                  ],
+                  "max": [
+                    40.766209,
+                    290.506927,
+                    254.623123
+                  ],
+                  "size": [
+                    0,
+                    4.274993,
+                    72.674896
+                  ]
+                }
+              },
+              {
+                "vertexCount": 6,
+                "bounds": {
+                  "min": [
+                    -77.223633,
+                    286.231934,
+                    181.948227
+                  ],
+                  "max": [
+                    -77.223633,
+                    290.506927,
+                    254.623123
+                  ],
+                  "size": [
+                    0,
+                    4.274993,
+                    72.674896
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    131.79744,
+                    0,
+                    -182.581802
+                  ],
+                  "max": [
+                    131.797455,
+                    336.150238,
+                    182.581802
+                  ],
+                  "size": [
+                    0.000015,
+                    336.150238,
+                    365.163604
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    -131.797455,
+                    0,
+                    -182.581802
+                  ],
+                  "max": [
+                    -131.79744,
+                    336.150238,
+                    182.581802
+                  ],
+                  "size": [
+                    0.000015,
+                    336.150238,
+                    365.163604
+                  ]
+                }
+              },
+              {
+                "vertexCount": 4,
+                "bounds": {
+                  "min": [
+                    -77.223633,
+                    286.231934,
+                    254.623123
+                  ],
+                  "max": [
+                    40.766209,
+                    290.506927,
+                    254.623123
+                  ],
+                  "size": [
+                    117.989842,
+                    4.274993,
+                    0
+                  ]
+                }
+              }
+            ]
+          },
+          "uv": {
+            "present": true,
+            "uniquePairCount": 288,
+            "allIdentical": false,
+            "finite": true
+          },
+          "sourceNormals": "valid-unit-vectors",
+          "displayNormalAdapter": "none"
+        },
+        "hostEvidence": {
+          "status": "source-hosted-static-scene",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "materialMode": "CL3DObject-host-overrides-all-groups-with-StdMat",
+          "staticMeshBody": true,
+          "initialCameraPosition": [
+            400,
+            300,
+            200
+          ],
+          "ballSpawn": [
+            -20,
+            310,
+            225
+          ],
+          "chaseOffset": [
+            25,
+            100,
+            30
+          ],
+          "gameplayBoundary": "UpdateScene is empty; ManageCamCtrl is commented out; the 100 diagonal rings are explicitly temporary placeholders."
+        },
+        "normalization": {
+          "status": "inferred-reversible-display-only",
+          "basis": "exact-source-world-transform",
+          "sourceWorldBounds": {
+            "min": [
+              -131.797455,
+              0,
+              -182.581802
+            ],
+            "max": [
+              131.797455,
+              425.621155,
+              254.623123
+            ],
+            "size": [
+              263.59491,
+              425.621155,
+              437.204925
+            ]
+          },
+          "anchor": [
+            0,
+            0,
+            36.02066
+          ],
+          "displayScale": 0.164682,
+          "displayBounds": {
+            "min": [
+              -21.704668,
+              0,
+              -35.999891
+            ],
+            "max": [
+              21.704668,
+              70.092143,
+              35.999891
+            ],
+            "size": [
+              43.409336,
+              70.092143,
+              71.999782
+            ]
+          },
+          "inverse": "sourceWorldPosition = displayPosition / displayScale + anchor",
+          "preservesAspectAndOrientation": true
+        },
+        "material": {
+          "mode": "source-evidence",
+          "embeddedRecords": [],
+          "legacyRecords": [
+            {
+              "format": "MGR4-172",
+              "materialIndex": 0,
+              "rgbaSlots": [
+                [
+                  0.597656,
+                  0.890625,
+                  0.835938,
+                  1
+                ],
+                [
+                  0.597656,
+                  0.890625,
+                  0.835938,
+                  1
+                ]
+              ],
+              "rawRecordSha256": "D3BA908637662B649B6D4258CB50F6B16236A1910F1E0CFC4A7FA609E0621C5F"
+            }
+          ],
+          "resolvedTextures": [],
+          "neutralFallback": false,
+          "policy": "Use exact host StdMat overrides where source exists; otherwise use exact MGRP group colors/textures when valid. A zeroed source material is shown with a disclosed neutral inspection fallback."
+        },
+        "diagnostics": {
+          "edgesVisible": true,
+          "boundsVisible": false
+        },
+        "statusRecommendation": {
+          "status": "PARTIAL",
+          "reason": "Exact static host track, Ball spawn and camera evidence survive, but Update/Input are empty and rings are explicit placeholders."
+        },
+        "exclusions": [
+          {
+            "id": "slide-long1",
+            "reason": "Byte-identical to the recovered BallZ 2011 Level1 visit."
+          },
+          {
+            "id": "pipe1",
+            "reason": "Already classified as a FlightX component, not a distinct BallZ scene."
+          }
+        ]
+      }
+    },
+    "final": {
+      "schema": "graphysx.ballz-track-gallery-inspector/v1",
+      "mode": "evidence-bounded-non-gameplay-gallery",
+      "selectedAssetId": "level-slides",
+      "assetsReady": true,
+      "textureLoadErrors": [],
+      "playable": false,
+      "asset": {
+        "label": "Level.Slides",
+        "role": "unhosted-stockroom-experiment",
+        "source": "E:/Media/Datalake/Tech/StockRoom/Level.Slides.TVM",
+        "sha256": "BFB6BAD803BAC7C53221D5F20B86CD66E6ECA4D47DD5766BB58B8EE594FC8F42",
+        "geometrySha256": "9A82FB4A9D4B553F78C9B6AC7EAD083C26B5F9A8EE55793771742DAC4422A190",
+        "vertexCount": 792,
+        "triangleCount": 1524,
+        "exactMaterialIndices": [
+          0,
+          1,
+          2
+        ],
+        "exactGroupCount": 3,
+        "exactBounds": {
+          "min": [
+            -15.343631,
+            -6.030302,
+            -9.990703
+          ],
+          "max": [
+            10.535905,
+            1.316926,
+            14.257111
+          ],
+          "size": [
+            25.879536,
+            7.347228,
+            24.247814
+          ]
+        },
+        "topology": {
+          "edgeCount": 2286,
+          "edgeUseCounts": {
+            "2": 2286
+          },
+          "boundaryEdgeCount": 0,
+          "nonManifoldEdgeCount": 0,
+          "connectedComponents": [
+            {
+              "vertexCount": 120,
+              "bounds": {
+                "min": [
+                  -6.379768,
+                  -1.160743,
+                  -1.339197
+                ],
+                "max": [
+                  -4.57673,
+                  0.345518,
+                  0.843251
+                ],
+                "size": [
+                  1.803038,
+                  1.506261,
+                  2.182448
+                ]
+              }
+            },
+            {
+              "vertexCount": 120,
+              "bounds": {
+                "min": [
+                  -2.638084,
+                  -3.034734,
+                  1.690208
+                ],
+                "max": [
+                  -0.455636,
+                  -1.528473,
+                  3.493246
+                ],
+                "size": [
+                  2.182448,
+                  1.506261,
+                  1.803038
+                ]
+              }
+            },
+            {
+              "vertexCount": 120,
+              "bounds": {
+                "min": [
+                  -6.379768,
+                  -4.319143,
+                  3.963403
+                ],
+                "max": [
+                  -4.57673,
+                  -2.812882,
+                  6.14585
+                ],
+                "size": [
+                  1.803038,
+                  1.506261,
+                  2.182447
+                ]
+              }
+            },
+            {
+              "vertexCount": 64,
+              "bounds": {
+                "min": [
+                  -15.27308,
+                  -5.982659,
+                  5.711068
+                ],
+                "max": [
+                  -14.834811,
+                  -3.09225,
+                  6.149337
+                ],
+                "size": [
+                  0.438269,
+                  2.890409,
+                  0.438269
+                ]
+              }
+            },
+            {
+              "vertexCount": 64,
+              "bounds": {
+                "min": [
+                  -11.989035,
+                  -5.982659,
+                  4.001773
+                ],
+                "max": [
+                  -11.550766,
+                  -3.09225,
+                  4.440042
+                ],
+                "size": [
+                  0.438269,
+                  2.890409,
+                  0.438269
+                ]
+              }
+            },
+            {
+              "vertexCount": 64,
+              "bounds": {
+                "min": [
+                  -13.63635,
+                  -5.982659,
+                  4.001773
+                ],
+                "max": [
+                  -13.198081,
+                  -3.09225,
+                  4.440042
+                ],
+                "size": [
+                  0.438269,
+                  2.890409,
+                  0.438269
+                ]
+              }
+            },
+            {
+              "vertexCount": 64,
+              "bounds": {
+                "min": [
+                  -3.884893,
+                  -5.982659,
+                  4.001773
+                ],
+                "max": [
+                  -3.446624,
+                  -3.09225,
+                  4.440042
+                ],
+                "size": [
+                  0.438269,
+                  2.890409,
+                  0.438269
+                ]
+              }
+            },
+            {
+              "vertexCount": 64,
+              "bounds": {
+                "min": [
+                  -11.989035,
+                  -5.982659,
+                  5.711068
+                ],
+                "max": [
+                  -11.550766,
+                  -3.09225,
+                  6.149337
+                ],
+                "size": [
+                  0.438269,
+                  2.890409,
+                  0.438269
+                ]
+              }
+            },
+            {
+              "vertexCount": 64,
+              "bounds": {
+                "min": [
+                  -13.63635,
+                  -5.982659,
+                  5.711068
+                ],
+                "max": [
+                  -13.198081,
+                  -3.09225,
+                  6.149337
+                ],
+                "size": [
+                  0.438269,
+                  2.890409,
+                  0.438269
+                ]
+              }
+            },
+            {
+              "vertexCount": 8,
+              "bounds": {
+                "min": [
+                  -2.582968,
+                  0.123409,
+                  -4.295644
+                ],
+                "max": [
+                  -0.543171,
+                  1.298911,
+                  -1.839585
+                ],
+                "size": [
+                  2.039797,
+                  1.175502,
+                  2.456059
+                ]
+              }
+            },
+            {
+              "vertexCount": 8,
+              "bounds": {
+                "min": [
+                  -9.433983,
+                  -1.901739,
+                  -4.617682
+                ],
+                "max": [
+                  0.509504,
+                  -1.765586,
+                  1.71304
+                ],
+                "size": [
+                  9.943487,
+                  0.136153,
+                  6.330722
+                ]
+              }
+            },
+            {
+              "vertexCount": 8,
+              "bounds": {
+                "min": [
+                  -4.589344,
+                  -3.188715,
+                  3.294678
+                ],
+                "max": [
+                  0.509504,
+                  -3.052561,
+                  7.209307
+                ],
+                "size": [
+                  5.098848,
+                  0.136154,
+                  3.914629
+                ]
+              }
+            },
+            {
+              "vertexCount": 8,
+              "bounds": {
+                "min": [
+                  -15.343631,
+                  -6.030302,
+                  -9.990703
+                ],
+                "max": [
+                  10.535905,
+                  -5.909919,
+                  14.257111
+                ],
+                "size": [
+                  25.879536,
+                  0.120383,
+                  24.247814
+                ]
+              }
+            },
+            {
+              "vertexCount": 8,
+              "bounds": {
+                "min": [
+                  -4.589344,
+                  -0.030315,
+                  -2.007922
+                ],
+                "max": [
+                  0.509504,
+                  0.105839,
+                  1.906707
+                ],
+                "size": [
+                  5.098848,
+                  0.136154,
+                  3.914629
+                ]
+              }
+            },
+            {
+              "vertexCount": 8,
+              "bounds": {
+                "min": [
+                  -4.589344,
+                  1.180772,
+                  -7.940341
+                ],
+                "max": [
+                  0.509504,
+                  1.316926,
+                  -4.025713
+                ],
+                "size": [
+                  5.098848,
+                  0.136154,
+                  3.914628
+                ]
+              }
+            }
+          ]
+        },
+        "uv": {
+          "present": true,
+          "uniquePairCount": 1,
+          "allIdentical": true,
+          "finite": true
+        },
+        "sourceNormals": "all-zero",
+        "displayNormalAdapter": "computed-for-inspection"
+      },
+      "hostEvidence": {
+        "status": "no-located-host",
+        "position": null,
+        "scale": null,
+        "materialMode": "embedded-MGRP-colors-no-textures",
+        "staticMeshBody": null,
+        "gameplayBoundary": "No transform, spawn, collision setup, camera or objective was located."
+      },
+      "normalization": {
+        "status": "inferred-reversible-display-only",
+        "basis": "unhosted-local-mesh-coordinates",
+        "sourceWorldBounds": {
+          "min": [
+            -15.343631,
+            -6.030302,
+            -9.990703
+          ],
+          "max": [
+            10.535905,
+            1.316926,
+            14.257111
+          ],
+          "size": [
+            25.879536,
+            7.347228,
+            24.247814
+          ]
+        },
+        "anchor": [
+          -2.403863,
+          -6.030302,
+          2.133204
+        ],
+        "displayScale": 2.782121,
+        "displayBounds": {
+          "min": [
+            -36,
+            0,
+            -33.730176
+          ],
+          "max": [
+            36,
+            20.440877,
+            33.730176
+          ],
+          "size": [
+            72,
+            20.440877,
+            67.460352
+          ]
+        },
+        "inverse": "sourceWorldPosition = displayPosition / displayScale + anchor",
+        "preservesAspectAndOrientation": true
+      },
+      "material": {
+        "mode": "diagnostic-groups",
+        "embeddedRecords": [
+          {
+            "format": "MGRP-416",
+            "materialIndex": 0,
+            "name": "Material",
+            "textureName": null,
+            "rgbaSlots": [
+              [
+                0.007843,
+                0.035294,
+                0.94902,
+                1
+              ],
+              [
+                0.007843,
+                0.035294,
+                0.94902,
+                1
+              ],
+              [
+                0.309804,
+                0.372549,
+                1,
+                1
+              ]
+            ],
+            "rawRecordSha256": "C55496258FEABBB5439FEDF8C77603115C099C08C82DFD5B538686124BF57F48"
+          },
+          {
+            "format": "MGRP-416",
+            "materialIndex": 1,
+            "name": "Material.001",
+            "textureName": null,
+            "rgbaSlots": [
+              [
+                0.121569,
+                0.8,
+                0.031373,
+                1
+              ],
+              [
+                0.121569,
+                0.8,
+                0.031373,
+                1
+              ],
+              [
+                0.47451,
+                1,
+                0.392157,
+                1
+              ]
+            ],
+            "rawRecordSha256": "3A996A87B1A68F86AD6A4B1A8806C506F99D1DAE47111F0BEE2505D8C721ED6F"
+          },
+          {
+            "format": "MGRP-416",
+            "materialIndex": 2,
+            "name": "Material.002",
+            "textureName": null,
+            "rgbaSlots": [
+              [
+                0.121569,
+                0.8,
+                0.031373,
+                1
+              ],
+              [
+                0.121569,
+                0.8,
+                0.031373,
+                1
+              ],
+              [
+                0.47451,
+                1,
+                0.392157,
+                1
+              ]
+            ],
+            "rawRecordSha256": "8B78DD5661DCC61368FA971D2E477E8A3F2A33EDC04A6A18ABDCFBAC745BDAF9"
+          }
+        ],
+        "legacyRecords": [],
+        "resolvedTextures": [],
+        "neutralFallback": false,
+        "policy": "Use exact host StdMat overrides where source exists; otherwise use exact MGRP group colors/textures when valid. A zeroed source material is shown with a disclosed neutral inspection fallback."
+      },
+      "diagnostics": {
+        "edgesVisible": false,
+        "boundsVisible": true
+      },
+      "statusRecommendation": {
+        "status": "PARTIAL",
+        "reason": "Exact three-group geometry/colors are visitable, but no host transform, camera, collision, spawn or objective survives."
+      },
+      "exclusions": [
+        {
+          "id": "slide-long1",
+          "reason": "Byte-identical to the recovered BallZ 2011 Level1 visit."
+        },
+        {
+          "id": "pipe1",
+          "reason": "Already classified as a FlightX component, not a distinct BallZ scene."
+        }
+      ]
+    }
+  },
+  "browserProblems": []
+}

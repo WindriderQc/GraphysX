@@ -1,0 +1,302 @@
+{
+  "url": "http://127.0.0.1:4175/",
+  "assertions": [
+    {
+      "pass": true,
+      "message": "Nature Lab opens"
+    },
+    {
+      "pass": true,
+      "message": "Flock opens on the isolated Separation lesson"
+    },
+    {
+      "pass": true,
+      "message": "Flock starts with the source HTML's readable 60-boid population"
+    },
+    {
+      "pass": true,
+      "message": "Separation lesson disables alignment"
+    },
+    {
+      "pass": true,
+      "message": "Separation lesson disables cohesion"
+    },
+    {
+      "pass": true,
+      "message": "The visible Experiment button performs the lesson action"
+    },
+    {
+      "pass": true,
+      "message": "Alignment is independently selectable"
+    },
+    {
+      "pass": true,
+      "message": "Alignment runs without the other flock rules"
+    },
+    {
+      "pass": true,
+      "message": "Cohesion is independently selectable"
+    },
+    {
+      "pass": true,
+      "message": "Cohesion runs without the other flock rules"
+    },
+    {
+      "pass": true,
+      "message": "Complete flock remains available after the isolated rules"
+    },
+    {
+      "pass": true,
+      "message": "Clicking the 3D view adds twelve boids like the HTML interaction"
+    },
+    {
+      "pass": true,
+      "message": "The simulation pauses"
+    },
+    {
+      "pass": true,
+      "message": "Global deterministic time respects pause"
+    },
+    {
+      "pass": true,
+      "message": "A paused lesson can advance one explicit step"
+    },
+    {
+      "pass": true,
+      "message": "Step advances the lesson by the requested duration"
+    },
+    {
+      "pass": true,
+      "message": "The simulation resumes"
+    },
+    {
+      "pass": true,
+      "message": "Forces & Flow opens"
+    },
+    {
+      "pass": true,
+      "message": "Session 1 is restored as two isolated random walkers"
+    },
+    {
+      "pass": true,
+      "message": "Random walk exposes its path history"
+    },
+    {
+      "pass": true,
+      "message": "Gravity & Mass is independently selectable"
+    },
+    {
+      "pass": true,
+      "message": "Attraction is isolated from the flow field"
+    },
+    {
+      "pass": true,
+      "message": "Attraction action releases particles"
+    },
+    {
+      "pass": true,
+      "message": "Particle release increases the attraction population by twelve"
+    },
+    {
+      "pass": true,
+      "message": "Flow Field is independently selectable"
+    },
+    {
+      "pass": true,
+      "message": "Flow Field shows only its eighteen vehicles and vectors"
+    },
+    {
+      "pass": true,
+      "message": "The combined garden remains an explicit synthesis lesson"
+    },
+    {
+      "pass": true,
+      "message": "Combined garden exposes particles and vehicles together"
+    },
+    {
+      "pass": true,
+      "message": "Living Forest opens"
+    },
+    {
+      "pass": true,
+      "message": "Recursive Growth isolates thirteen trees without leaf entities"
+    },
+    {
+      "pass": true,
+      "message": "Branching reports its visible growth phase"
+    },
+    {
+      "pass": true,
+      "message": "Leaf Fall is independently selectable"
+    },
+    {
+      "pass": true,
+      "message": "Leaf Fall action triggers autumn immediately"
+    },
+    {
+      "pass": true,
+      "message": "DNA & Evolution is independently selectable"
+    },
+    {
+      "pass": true,
+      "message": "Evolution action advances a generation"
+    },
+    {
+      "pass": true,
+      "message": "Evolution action changes inherited DNA colors by generation"
+    },
+    {
+      "pass": true,
+      "message": "Complete Life Cycle remains available after the focused lessons"
+    },
+    {
+      "pass": true,
+      "message": "Complete Life Cycle can plant another tree"
+    },
+    {
+      "pass": true,
+      "message": "Planting adds a real tree and leaf population"
+    },
+    {
+      "pass": true,
+      "message": "Orbital Observatory remains an independent non-Nature-of-Code world"
+    },
+    {
+      "pass": true,
+      "message": "Orbital telemetry remains intact after gallery expansion"
+    },
+    {
+      "pass": true,
+      "message": "Nature gallery browser console and page errors remain clean"
+    }
+  ],
+  "states": {
+    "final": {
+      "study": "orbital-observatory",
+      "title": "Orbital Observatory",
+      "source": "SBQC/public/js/{Globe,Trajectory,Starfield,earth3D,threeEarth}.js",
+      "elapsedSeconds": 0.07050000000000001,
+      "seed": 1977,
+      "population": 161,
+      "trails": true,
+      "generation": 1,
+      "paused": false,
+      "actionCount": 0,
+      "lesson": {
+        "id": "orbital-live",
+        "label": "Live Observatory",
+        "session": "World telemetry",
+        "concept": "ISS trajectory, quakes, and observer passes remain an independent world.",
+        "observe": "Move the observer or toggle layers through the recipe API.",
+        "action": "Advance to next pass",
+        "source": "public/js/{Globe,Trajectory,Starfield,earth3D,threeEarth}.js"
+      },
+      "demonstration": {
+        "phase": "orbit and pass prediction running",
+        "effectiveRules": [
+          "inclined orbit",
+          "observer distance",
+          "pass prediction"
+        ],
+        "interaction": "Advance to next pass · canvas click or Experiment button"
+      },
+      "settings": {
+        "separation": 1.5,
+        "alignment": 1,
+        "cohesion": 1,
+        "speed": 1,
+        "attraction": 1.15,
+        "flowStrength": 0.72,
+        "mutationRate": 0.08,
+        "cycleSeconds": 17,
+        "orbitSpeed": 1,
+        "earthSpin": 0.2,
+        "detectionRadiusKm": 1500,
+        "quakeScale": 1
+      },
+      "layers": {
+        "trails": true,
+        "clouds": true,
+        "trajectory": true,
+        "quakes": true,
+        "observer": true
+      },
+      "recipe": {
+        "schema": "graphysx.world/v1",
+        "id": "graphysx.live.orbital-observatory",
+        "label": "Orbital Observatory — live recipe",
+        "study": "orbital-observatory",
+        "lesson": "orbital-live",
+        "seed": 1977,
+        "settings": {
+          "orbitSpeed": 1,
+          "earthSpin": 0.2,
+          "detectionRadiusKm": 1500,
+          "quakeScale": 1
+        },
+        "layers": {
+          "trails": true,
+          "clouds": true,
+          "trajectory": true,
+          "quakes": true,
+          "observer": true
+        },
+        "observer": {
+          "label": "Québec City",
+          "latitude": 46.8139,
+          "longitude": -71.208
+        }
+      },
+      "observatory": {
+        "satellite": {
+          "label": "ISS",
+          "latitude": -31.11486427308663,
+          "longitude": -28.58105260092708,
+          "altitudeKm": 420,
+          "position": {
+            "x": 3.947,
+            "y": -2.713,
+            "z": -2.15
+          },
+          "simulatedPeriodSeconds": 92
+        },
+        "observer": {
+          "label": "Québec City",
+          "latitude": 46.8139,
+          "longitude": -71.208,
+          "detectionRadiusKm": 1500,
+          "distanceToSatelliteKm": 9661.31807176017
+        },
+        "pass": {
+          "insideDetectionRadius": false,
+          "entryInSeconds": 226,
+          "exitInSeconds": 230
+        },
+        "earthquakes": {
+          "visible": true,
+          "count": 160,
+          "maximumMagnitude": 7.1,
+          "source": "WindriderQc/SBQC/public/data/quakes.csv",
+          "sourceCommit": "42c210f3599c55038efde8fad61d9fe5bf5c0f24"
+        },
+        "sources": [
+          "SBQC/public/js/Globe.js",
+          "SBQC/public/js/Trajectory.js",
+          "SBQC/public/js/Starfield.js",
+          "SBQC/public/js/earth3D.js",
+          "SBQC/public/js/threeEarth.js"
+        ]
+      },
+      "visibleSystems": [
+        "day/night Earth",
+        "cloud shell",
+        "ISS",
+        "inclined trajectory",
+        "observer pass window",
+        "earthquake telemetry",
+        "reference grid"
+      ]
+    }
+  },
+  "errors": []
+}

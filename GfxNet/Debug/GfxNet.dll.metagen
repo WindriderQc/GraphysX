@@ -1,0 +1,123 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly GfxNet, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Vec3D: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Single, Single, Single): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Single x : Public
+    Single y : Public
+    Single z : Public
+Class Vec2D: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Single, Single): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Single x : Public
+    Single y : Public
+Class GfxNet.EntityNET: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(enumType, enumGeom, Boolean, System.String, Vec3D, Vec3D, Vec3D, Boolean, Single, Boolean, enumPHYSMAT, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    enumType Type : Public
+    enumGeom Geom : Public
+    enumPHYSMAT physMat : Public
+    System.String Name : Public
+    Vec3D Pos : Public
+    Vec3D Rot : Public
+    Vec3D Scale : Public
+    Boolean bEnable : Public
+    Single Masse : Public
+    Boolean MeshControlled : Public
+    System.String PathToMesh : Public
+    System.String TextureName : Public
+    Vec3D playerPos IsByValue : Public, InitOnly
+Struct GfxNet.EntityNET+enumType: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    enumType PRIMITIVE = 0 : Public, Static, Literal, HasDefault
+    enumType BILLBOARD = 1 : Public, Static, Literal, HasDefault
+    enumType FLOOR = 2 : Public, Static, Literal, HasDefault
+    enumType CUSTOM = 3 : Public, Static, Literal, HasDefault
+    enumType PHYSPRIMITIVE = 4 : Public, Static, Literal, HasDefault
+    enumType PHYSICCUSTOM = 5 : Public, Static, Literal, HasDefault
+    enumType XMESH = 6 : Public, Static, Literal, HasDefault
+    enumType PHYSICXMESH = 7 : Public, Static, Literal, HasDefault
+    enumType PHYSICXSTATIC = 8 : Public, Static, Literal, HasDefault
+    enumType DUPLICATEMESH = 9 : Public, Static, Literal, HasDefault
+    enumType TEXT = 10 : Public, Static, Literal, HasDefault
+    enumType VERTEXSTRIP = 11 : Public, Static, Literal, HasDefault
+    enumType ACTOR = 12 : Public, Static, Literal, HasDefault
+    enumType NONE = 13 : Public, Static, Literal, HasDefault
+    enumType V1_5 = 14 : Public, Static, Literal, HasDefault
+Struct GfxNet.EntityNET+enumGeom: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    enumGeom CUBE = 0 : Public, Static, Literal, HasDefault
+    enumGeom SPHERE = 1 : Public, Static, Literal, HasDefault
+    enumGeom CYLINDER = 2 : Public, Static, Literal, HasDefault
+    enumGeom CONE = 3 : Public, Static, Literal, HasDefault
+    enumGeom TEAPOT = 4 : Public, Static, Literal, HasDefault
+    enumGeom PLANE = 5 : Public, Static, Literal, HasDefault
+    enumGeom NON_PRIMITIVE = 6 : Public, Static, Literal, HasDefault
+    enumGeom CUSTOM_MESH = 7 : Public, Static, Literal, HasDefault
+Struct GfxNet.EntityNET+enumPHYSMAT: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    enumPHYSMAT DEF_PHYSMAT = 0 : Public, Static, Literal, HasDefault
+    enumPHYSMAT WALL = 1 : Public, Static, Literal, HasDefault
+    enumPHYSMAT FINISH = 2 : Public, Static, Literal, HasDefault
+    enumPHYSMAT GROUND = 3 : Public, Static, Literal, HasDefault
+    enumPHYSMAT BALL = 4 : Public, Static, Literal, HasDefault
+    enumPHYSMAT HUMAN = 5 : Public, Static, Literal, HasDefault
+Class GfxNet.SceneNET: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String ActionsHeader : Public
+    System.String filepathASCII : Public
+    Vec2D mapSize : Public
+    System.Collections.Generic.List`1[GfxNet.EntityNET] EntityNETList IsByValue : Public, InitOnly
+    Vec3D fS : Public
+    Vec3D fF : Public
+    Vec3D hS : Public
+    Vec3D hF : Public
+    Vec3D playerPos : Public
+    System.Collections.Generic.List`1[Vec3D] ringPosList IsByValue : Public, InitOnly
+  Methods:
+    setPlayerPos(Single, Single, Single): PrivateScope, Public, HideBySig
+    Serialize(String, Object): PrivateScope, Public, Static, HideBySig
+    Deserialized(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, Static, HideBySig
+    updateHeader(): PrivateScope, Public, HideBySig
+Class GraphysX.Tv: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    render(): PrivateScope, Public, HideBySig
+    update(): PrivateScope, Public, HideBySig
+    AppStillIdle(): PrivateScope, Public, HideBySig
+    ClearActiveScene(): PrivateScope, Public, HideBySig
+    BuildScene(SceneNET): PrivateScope, Public, HideBySig
+    BuildASCIIScene(String): PrivateScope, Public, HideBySig
+    addFloor(Int32, String): PrivateScope, Public, HideBySig
+    createSmoke(): PrivateScope, Public, HideBySig
+    CreateVoieLactee(): PrivateScope, Public, HideBySig
+    CreateChain(Vec3D IsByValue, Single, Single, Single, String): PrivateScope, Public, HideBySig
+    addPhysMesh(EntityNET): PrivateScope, Public, HideBySig
+    sceneNETtoNative(STSceneParam*, SceneNET): PrivateScope, Public, Static, HideBySig
+    entityNETtoNative(STEntityParam*, EntityNET): PrivateScope, Public, Static, HideBySig
+    nativeToSceneNET(STSceneParam*): PrivateScope, Public, Static, HideBySig
+    nativeToEntityNET(STEntityParam*): PrivateScope, Public, Static, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig

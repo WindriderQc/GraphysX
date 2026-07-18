@@ -1,0 +1,198 @@
+{
+  "url": "http://127.0.0.1:7137/vehicle-pack-inspector.html",
+  "assertions": [
+    {
+      "passed": true,
+      "message": "isolated inspector reports its own mode"
+    },
+    {
+      "passed": true,
+      "message": "GT4 exposes all 14 authored 3DS objects"
+    },
+    {
+      "passed": true,
+      "message": "GT4 exposes the audited 10,740 authored vertices"
+    },
+    {
+      "passed": true,
+      "message": "GT4 exposes the audited 8,345 faces"
+    },
+    {
+      "passed": true,
+      "message": "GT4 exposes both authored material slots"
+    },
+    {
+      "passed": true,
+      "message": "GT4 retains its exact material-map reference"
+    },
+    {
+      "passed": true,
+      "message": "GT4 makes no invented selector binding"
+    },
+    {
+      "passed": true,
+      "message": "GT4 makes no invented driving-physics binding"
+    },
+    {
+      "passed": true,
+      "message": "inspection transform discloses that source scale is preserved"
+    },
+    {
+      "passed": true,
+      "message": "runtime 3DS parser loads all 14 GT4 objects"
+    },
+    {
+      "passed": true,
+      "message": "runtime 3DS parser loads all 8,345 GT4 faces"
+    },
+    {
+      "passed": true,
+      "message": "GT4's black textured diffuse slot has one disclosed inspection override"
+    },
+    {
+      "passed": true,
+      "message": "Low Cobra exposes all 10 authored 3DS objects"
+    },
+    {
+      "passed": true,
+      "message": "Low Cobra exposes the audited 6,961 authored vertices"
+    },
+    {
+      "passed": true,
+      "message": "Low Cobra exposes the audited 3,266 faces"
+    },
+    {
+      "passed": true,
+      "message": "Low Cobra exposes all seven authored material slots"
+    },
+    {
+      "passed": true,
+      "message": "Low Cobra retains all seven exact texture references"
+    },
+    {
+      "passed": true,
+      "message": "Low Cobra uses the referenced CobTex body map, not an invented paint binding"
+    },
+    {
+      "passed": true,
+      "message": "Low Cobra makes no invented selector binding"
+    },
+    {
+      "passed": true,
+      "message": "Low Cobra makes no invented driving-physics binding"
+    },
+    {
+      "passed": true,
+      "message": "runtime 3DS parser loads all 10 Low Cobra objects"
+    },
+    {
+      "passed": true,
+      "message": "runtime 3DS parser loads all 3,266 Low Cobra faces"
+    },
+    {
+      "passed": true,
+      "message": "runtime loader resolves all seven Cobra material maps"
+    },
+    {
+      "passed": true,
+      "message": "Low Cobra needs no material compatibility override"
+    },
+    {
+      "passed": true,
+      "message": "drag changes the inspection yaw"
+    },
+    {
+      "passed": true,
+      "message": "wheel input changes the fitted-camera zoom"
+    },
+    {
+      "passed": true,
+      "message": "R resets inspection yaw deterministically"
+    },
+    {
+      "passed": true,
+      "message": "R resets inspection zoom deterministically"
+    },
+    {
+      "passed": true,
+      "message": "keyboard 1 returns to GT4"
+    },
+    {
+      "passed": true,
+      "message": "keyboard 2 returns to Low Cobra"
+    },
+    {
+      "passed": true,
+      "message": "standalone inspector produces no browser/page errors"
+    }
+  ],
+  "passed": 31,
+  "failed": 0,
+  "browserErrors": [],
+  "finalState": {
+    "mode": "vehicle-pack-evidence-inspector",
+    "selected": "low-cobra",
+    "loadStatus": "ready",
+    "loadError": null,
+    "evidence": {
+      "id": "low-cobra",
+      "label": "Low Cobra",
+      "source": "Media/Models/cars/Low_Cobra.3DS",
+      "objects": 10,
+      "vertices": 6961,
+      "triangles": 3266,
+      "materials": 7,
+      "textureReferences": [
+        "COBTEX.TGA",
+        "TA_TIRE.TGA",
+        "TIRE_TRD.TGA",
+        "DISK_BRK.TGA",
+        "HEAD_LT.TGA",
+        "TAIL_LT.TGA",
+        "GLASS.TGA"
+      ],
+      "tvm": {
+        "file": "Media/Models/cars/Low Cobra.tvm",
+        "vertices": 7298,
+        "triangles": 3266
+      },
+      "selectorBinding": false,
+      "physicsBinding": false
+    },
+    "presentation": {
+      "sourceCoordinateSystem": "3DS Z-up",
+      "viewTransform": "deterministic (x,y,z) to (x,z,-y); no size normalization",
+      "yaw": -0.55,
+      "pitch": -0.16,
+      "zoom": 1,
+      "fittedCameraDistance": 521.435,
+      "floorOffset": 50.665
+    },
+    "loaderEvidence": {
+      "objectCount": 10,
+      "vertexCount": 6961,
+      "triangleCount": 3266,
+      "materialNames": [
+        "2 - Default",
+        "7 - Default",
+        "13 - Default",
+        "14 - Default",
+        "19 - Default",
+        "20 - Default",
+        "8 - Default"
+      ],
+      "textureReferences": [
+        "COBTEX.TGA",
+        "TA_TIRE.TGA",
+        "TIRE_TRD.TGA",
+        "DISK_BRK.TGA",
+        "HEAD_LT.TGA",
+        "TAIL_LT.TGA",
+        "GLASS.TGA"
+      ],
+      "compatibilityOverrides": [],
+      "fidelityBoundary": "Exact 3DS point arrays, triangle faces, UVs, object names, material-face lists and referenced textures; deterministic Z-up→Y-up conversion. Runtime normals are recomputed because the preview does not reproduce 3DS smoothing-group splits."
+    },
+    "controls": "1/2 select source; drag rotates; wheel zooms; R resets; F toggles fullscreen"
+  }
+}

@@ -1,0 +1,73 @@
+- generic [ref=f1e6]:
+  - generic [ref=f1e7]:
+    - generic [ref=f1e8]: GraphysX Web Revival
+    - strong [ref=f1e9]: v0.1.0
+    - generic [ref=f1e10]: revival-2026.07.16-r4
+  - heading "Room 2 Shadow Lab" [level=1] [ref=f1e72]
+  - paragraph [ref=f1e12]: "A standalone visit to the exact room2.tvm geometry used by HLSL Shadow Mapping #23. This is an environment and rendering demo: there is no BallZ shell, race route, timer, or scoreboard."
+  - generic [ref=f1e13]:
+    - button "Next Lab" [ref=f1e73] [cursor=pointer]
+    - button "Back Home" [ref=f1e74] [cursor=pointer]
+  - generic [ref=f1e16]:
+    - generic [ref=f1e75]:
+      - generic [ref=f1e76]: Local Environment Controls
+      - generic [ref=f1e77]:
+        - button "Orbit Left A · hold for continuous orbit" [ref=f1e78] [cursor=pointer]:
+          - generic [ref=f1e79]: Orbit Left
+          - generic [ref=f1e80]: A · hold for continuous orbit
+        - button "Orbit Right D · hold for continuous orbit" [ref=f1e81] [cursor=pointer]:
+          - generic [ref=f1e82]: Orbit Right
+          - generic [ref=f1e83]: D · hold for continuous orbit
+        - button "Reset View restore the archived starting angle" [ref=f1e84] [cursor=pointer]:
+          - generic [ref=f1e85]: Reset View
+          - generic [ref=f1e86]: restore the archived starting angle
+    - article [ref=f1e87]:
+      - generic [ref=f1e88]: Environment State
+      - strong [ref=f1e89]:
+        - text: Ready — archived DDS maps loaded
+        - generic [ref=f1e90]: orbit 0.0° · source room2.tvm · standalone visit
+    - article [ref=f1e91]:
+      - generic [ref=f1e92]: Visible Assembly
+      - strong [ref=f1e93]:
+        - text: room2 / teapot / light marker
+        - generic [ref=f1e94]: white point light at (0, 15, 0) · 1024 shadow map · A/D orbit
+    - article [ref=f1e95]:
+      - generic [ref=f1e96]: Archive Camera
+      - strong [ref=f1e97]:
+        - text: center (0, 20, 0) · radius 50
+        - generic [ref=f1e98]: looks at the origin over a black background; drag horizontally also orbits
+    - generic [ref=f1e99]:
+      - generic [ref=f1e100]: Project Modes
+      - generic [ref=f1e101]:
+        - button "Recovered Worlds" [ref=f1e102] [cursor=pointer]
+        - button "BallZ Race" [ref=f1e104] [cursor=pointer]
+        - button "Scene Index" [ref=f1e106] [cursor=pointer]
+        - button "Scene Lab" [ref=f1e108] [cursor=pointer]
+        - button "Room 2 Shadow Lab Standalone visit to the decoded Room 2 mesh with its archived logo bump maps, teapot, point light, cube shadow, and A/D orbit camera." [ref=f1e110] [cursor=pointer]:
+          - generic [ref=f1e111]: Room 2 Shadow Lab
+          - generic [ref=f1e112]: Standalone visit to the decoded Room 2 mesh with its archived logo bump maps, teapot, point light, cube shadow, and A/D orbit camera.
+        - button "Engine & FX" [ref=f1e113] [cursor=pointer]
+        - button "Physics Lab" [ref=f1e115] [cursor=pointer]
+        - button "BallZ Map Editor" [ref=f1e117] [cursor=pointer]
+        - button "Math Game" [ref=f1e119] [cursor=pointer]
+        - button "Editor Lab" [ref=f1e121] [cursor=pointer]
+        - button "CubZ Menu" [ref=f1e123] [cursor=pointer]
+        - button "Asset Catalog" [ref=f1e125] [cursor=pointer]
+    - generic [ref=f1e127]:
+      - generic [ref=f1e128]: Recovery Map
+      - generic [ref=f1e129]:
+        - article [ref=f1e130]:
+          - generic [ref=f1e131]: Ported
+          - strong [ref=f1e132]: Room 2 Indexed Geometry
+          - generic [ref=f1e133]: common/room2.tvm
+          - paragraph [ref=f1e134]: 105 archived vertices and 56 triangles retain their indexed positions, normals, UVs, material assignment, position, and scale.
+        - article [ref=f1e135]:
+          - generic [ref=f1e136]: Ported
+          - strong [ref=f1e137]: Logo Bump Material
+          - generic [ref=f1e138]: common/tv3dlogo_d.dds; common/tv3dlogo_n.dds
+          - paragraph [ref=f1e139]: The original 512px diffuse and tangent-space normal DDS maps load directly with repeat wrapping and their archived mipmaps.
+        - article [ref=f1e140]:
+          - generic [ref=f1e141]: Preview
+          - strong [ref=f1e142]: Point Shadow Assembly
+          - generic [ref=f1e143]: "#23 HLSL_Shadow_Mapping/main.cpp; meshlight.shade; meshdeep.shade"
+          - paragraph [ref=f1e144]: Archived teapot, light marker, point-light position, 1024 cube shadow, black background, and orbit composition are live; exact parallax/specular shader math remains.

@@ -1,0 +1,27 @@
+- generic [ref=f14e6]:
+  - heading "Suzanne 1 — Classic" [level=1] [ref=f14e227]
+  - paragraph [ref=f14e8]: Collect every ring, cross the amber halfway gate, then return through the cyan finish. Movement follows the camera.
+  - generic [ref=f14e9]:
+    - button "Restart Race" [active] [ref=f14e228] [cursor=pointer]
+    - button "Exit To Tour" [ref=f14e229] [cursor=pointer]
+  - generic [ref=f14e12]:
+    - article [ref=f14e230]:
+      - generic [ref=f14e231]: Time
+      - strong [ref=f14e232]: 0.44s
+    - article [ref=f14e233]:
+      - generic [ref=f14e234]: Rings
+      - strong [ref=f14e235]: 1 / 12
+    - article [ref=f14e236]:
+      - generic [ref=f14e237]: Lap State
+      - strong [ref=f14e238]: Reach Halfway
+    - article [ref=f14e239]:
+      - generic [ref=f14e240]: Camera
+      - strong [ref=f14e241]:
+        - text: Drag + wheel
+        - generic [ref=f14e242]: C resets behind the starting direction
+    - article [ref=f14e243]:
+      - generic [ref=f14e244]: Archive Champ
+      - strong [ref=f14e245]: 52.00s
+    - article [ref=f14e246]:
+      - generic [ref=f14e247]: Target
+      - strong [ref=f14e248]: 1:18.00

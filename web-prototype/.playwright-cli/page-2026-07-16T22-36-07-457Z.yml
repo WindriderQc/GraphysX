@@ -1,0 +1,57 @@
+- generic [ref=e6]:
+  - generic [ref=e7]:
+    - generic [ref=e8]: GraphysX Web Revival
+    - strong [ref=e9]: v0.1.0
+    - generic [ref=e10]: revival-2026.07.16-r2
+  - heading "GRAPHYSX" [level=1] [ref=e11]
+  - paragraph [ref=e12]: Choose a project family. BallZ races, recovered worlds, vehicle experiments, engine labs, Math Game, CubX, and editors are tracked separately so archive location is never mistaken for game identity.
+  - generic [ref=e13]:
+    - button "Play BallZ" [ref=e14] [cursor=pointer]
+    - button "Engine & Scene Labs" [ref=e15] [cursor=pointer]
+  - generic [ref=e16]:
+    - generic [ref=e17]:
+      - generic [ref=e18]: Choose A Project Family
+      - generic [ref=e19]:
+        - button "Play BallZ Tour BallZ shell/controller races, Suzanne machinery, ZombieKiller, medals, and records." [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: Play BallZ Tour
+          - generic [ref=e22]: BallZ shell/controller races, Suzanne machinery, ZombieKiller, medals, and records.
+        - button "Recovered Worlds & Vehicles World 1, Map 1, Piste Ovale, plus the tracked Level0/1, slide, room, and Dominus backlog." [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]: Recovered Worlds & Vehicles
+          - generic [ref=e25]: World 1, Map 1, Piste Ovale, plus the tracked Level0/1, slide, room, and Dominus backlog.
+        - button "Engine & FX Labs Visible particles, projectiles, physics, shaders, sky, water, lighting, and scene experiments." [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: Engine & FX Labs
+          - generic [ref=e28]: Visible particles, projectiles, physics, shaders, sky, water, lighting, and scene experiments.
+        - button "Open Math Game Formula presets and live A/B/C/M/X controls driving the 10,000-molecule field." [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]: Open Math Game
+          - generic [ref=e31]: Formula presets and live A/B/C/M/X controls driving the 10,000-molecule field.
+        - button "Editors & Archive Tools Start with the BallZ tile editor, then continue toward the full scene/editor recovery." [ref=e32] [cursor=pointer]:
+          - generic [ref=e33]: Editors & Archive Tools
+          - generic [ref=e34]: Start with the BallZ tile editor, then continue toward the full scene/editor recovery.
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e38]: BallZ Tour
+          - strong [ref=e39]: 0 / 6 complete
+        - generic [ref=e40]:
+          - generic [ref=e41]: Career Score
+          - strong [ref=e42]: 0 pts
+      - generic "0% complete" [ref=e43]
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e48]: Recovered Worlds
+          - strong [ref=e49]: 0 / 3 complete
+        - generic [ref=e50]:
+          - generic [ref=e51]: Career Score
+          - strong [ref=e52]: 0 pts
+      - generic "0% complete" [ref=e53]
+    - article [ref=e55]:
+      - generic [ref=e56]: BallZ Next
+      - strong [ref=e57]:
+        - text: Archive Level 1
+        - generic [ref=e58]: Learn camera-relative rolling, jumping, and the two-gate lap.
+    - article [ref=e59]:
+      - generic [ref=e60]: BallZ Controls
+      - strong [ref=e61]:
+        - text: WASD / arrows
+        - generic [ref=e62]: camera-relative roll · drag to orbit · wheel zoom · Space jump

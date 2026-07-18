@@ -1,0 +1,653 @@
+{
+  "url": "http://127.0.0.1:4191/cubx-actor-lineage-preview.html",
+  "assertions": [
+    {
+      "pass": true,
+      "message": "Inspector is explicitly isolated from the unresolved CubZ mapping"
+    },
+    {
+      "pass": true,
+      "message": "Closed view uses the exact CubXMesh.tvm companion"
+    },
+    {
+      "pass": true,
+      "message": "Closed companion exposes exact 2264-vertex / 2750-triangle totals"
+    },
+    {
+      "pass": true,
+      "message": "All eight exact TVM click proxies are present"
+    },
+    {
+      "pass": true,
+      "message": "render_game_to_text exposes the isolated lineage state"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 1 selects exact CubXGet2.tva"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 1 preserves 0..100 @ 30fps"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 1 preserves its terminal hold"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 1 displays all exact decoded geometry chunks"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 2 selects exact CubXGet3.tva"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 2 preserves 0..100 @ 30fps"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 2 preserves its terminal hold"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 2 displays all exact decoded geometry chunks"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 3 selects exact CubXGet4.tva"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 3 preserves 0..100 @ 30fps"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 3 preserves its terminal hold"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 3 displays all exact decoded geometry chunks"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 4 selects exact CubXGet5.tva"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 4 preserves 0..100 @ 30fps"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 4 preserves its terminal hold"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 4 displays all exact decoded geometry chunks"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 5 selects exact CubXGet6.tva"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 5 preserves 0..100 @ 30fps"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 5 preserves its terminal hold"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 5 displays all exact decoded geometry chunks"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 6 selects exact CubXGet7.tva"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 6 preserves 0..100 @ 30fps"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 6 preserves its terminal hold"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 6 displays all exact decoded geometry chunks"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 7 selects exact CubXGet8.tva"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 7 preserves 0..100 @ 30fps"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 7 preserves its terminal hold"
+    },
+    {
+      "pass": true,
+      "message": "Get pair 7 displays all exact decoded geometry chunks"
+    },
+    {
+      "pass": true,
+      "message": "Fractional Get frame is disclosed as inferred SLERP before the hold"
+    },
+    {
+      "pass": true,
+      "message": "Get2 frame 30 is an exact terminal-hold key"
+    },
+    {
+      "pass": true,
+      "message": "Deterministic advanceTime moves Get2 by exactly 30 frames in one second"
+    },
+    {
+      "pass": true,
+      "message": "Deterministic playback enters the archived Get2 terminal hold"
+    },
+    {
+      "pass": true,
+      "message": "Playback clamps at source frame 100 and stops after the full hold"
+    },
+    {
+      "pass": true,
+      "message": "Rot pair 1 selects exact CubXRot1.tva"
+    },
+    {
+      "pass": true,
+      "message": "Rot pair 1 preserves its exact range without a terminal hold"
+    },
+    {
+      "pass": true,
+      "message": "Rot pair 1 displays all exact decoded geometry chunks"
+    },
+    {
+      "pass": true,
+      "message": "Rot pair 2 selects exact CubXRot2.tva"
+    },
+    {
+      "pass": true,
+      "message": "Rot pair 2 preserves its exact range without a terminal hold"
+    },
+    {
+      "pass": true,
+      "message": "Rot pair 2 displays all exact decoded geometry chunks"
+    },
+    {
+      "pass": true,
+      "message": "Rot pair 3 selects exact CubXRot3.tva"
+    },
+    {
+      "pass": true,
+      "message": "Rot pair 3 preserves its exact range without a terminal hold"
+    },
+    {
+      "pass": true,
+      "message": "Rot pair 3 displays all exact decoded geometry chunks"
+    },
+    {
+      "pass": true,
+      "message": "Rot pair 4 selects exact CubXRot4.tva"
+    },
+    {
+      "pass": true,
+      "message": "Rot pair 4 preserves its exact range without a terminal hold"
+    },
+    {
+      "pass": true,
+      "message": "Rot pair 4 displays all exact decoded geometry chunks"
+    },
+    {
+      "pass": true,
+      "message": "Rot pair 5 selects exact CubXRot5.tva"
+    },
+    {
+      "pass": true,
+      "message": "Rot pair 5 preserves its exact range without a terminal hold"
+    },
+    {
+      "pass": true,
+      "message": "Rot pair 5 displays all exact decoded geometry chunks"
+    },
+    {
+      "pass": true,
+      "message": "Rot pair 6 selects exact CubXRot6.tva"
+    },
+    {
+      "pass": true,
+      "message": "Rot pair 6 preserves its exact range without a terminal hold"
+    },
+    {
+      "pass": true,
+      "message": "Rot pair 6 displays all exact decoded geometry chunks"
+    },
+    {
+      "pass": true,
+      "message": "Rot pair 7 selects exact CubXRot7.tva"
+    },
+    {
+      "pass": true,
+      "message": "Rot pair 7 preserves its exact range without a terminal hold"
+    },
+    {
+      "pass": true,
+      "message": "Rot pair 7 displays all exact decoded geometry chunks"
+    },
+    {
+      "pass": true,
+      "message": "Full open selects exact CubXOpen.tva 0..100 range"
+    },
+    {
+      "pass": true,
+      "message": "Full open preserves its 50-frame terminal hold"
+    },
+    {
+      "pass": true,
+      "message": "Full open displays exact decoded geometry totals"
+    },
+    {
+      "pass": true,
+      "message": "Full-open frame 50 is the exact start of its terminal hold"
+    },
+    {
+      "pass": true,
+      "message": "Solo open selects exact CubeOpensolo.tva 0..50 range"
+    },
+    {
+      "pass": true,
+      "message": "Solo open displays its four exact panel geometry chunks"
+    },
+    {
+      "pass": true,
+      "message": "Click 8 retains its exact Box01 spatial label"
+    },
+    {
+      "pass": true,
+      "message": "Click 8 exposes the uninitialized slot-7 / render-loop defect instead of inventing an actor"
+    },
+    {
+      "pass": true,
+      "message": "Inspecting broken click 8 does not swap in an invented actor"
+    },
+    {
+      "pass": true,
+      "message": "Click 1 reports its exact spatial Box05 label"
+    },
+    {
+      "pass": true,
+      "message": "Click 1 reports exact host slot 0 -> CubXGet2"
+    },
+    {
+      "pass": true,
+      "message": "Click 2 reports its exact spatial Box04 label"
+    },
+    {
+      "pass": true,
+      "message": "Click 2 reports exact host slot 1 -> CubXGet3"
+    },
+    {
+      "pass": true,
+      "message": "Click 3 reports its exact spatial Box03 label"
+    },
+    {
+      "pass": true,
+      "message": "Click 3 reports exact host slot 2 -> CubXGet4"
+    },
+    {
+      "pass": true,
+      "message": "Click 4 reports its exact spatial Box02 label"
+    },
+    {
+      "pass": true,
+      "message": "Click 4 reports exact host slot 3 -> CubXGet5"
+    },
+    {
+      "pass": true,
+      "message": "Click 5 reports its exact spatial Box08 label"
+    },
+    {
+      "pass": true,
+      "message": "Click 5 reports exact host slot 4 -> CubXGet6"
+    },
+    {
+      "pass": true,
+      "message": "Click 6 reports its exact spatial Box06 label"
+    },
+    {
+      "pass": true,
+      "message": "Click 6 reports exact host slot 5 -> CubXGet7"
+    },
+    {
+      "pass": true,
+      "message": "Click 7 reports its exact spatial Box07 label"
+    },
+    {
+      "pass": true,
+      "message": "Click 7 reports exact host slot 6 -> CubXGet8"
+    },
+    {
+      "pass": true,
+      "message": "Click proxies can be hidden without changing source geometry"
+    },
+    {
+      "pass": true,
+      "message": "Click proxies can be restored"
+    },
+    {
+      "pass": true,
+      "message": "Source-gray material mode is available"
+    },
+    {
+      "pass": true,
+      "message": "Diagnostic component colors are available and disclosed"
+    },
+    {
+      "pass": true,
+      "message": "Harness rejects invalid actor pairs and click indices"
+    },
+    {
+      "pass": true,
+      "message": "CubXActor lineage inspector has no browser console or page errors"
+    }
+  ],
+  "states": {
+    "closed": {
+      "schema": "graphysx.cubx-actor-lineage-inspector/v1",
+      "isolatedFromCubz": true,
+      "clip": {
+        "family": "closed",
+        "pairIndex": null,
+        "assetId": null,
+        "filename": "CubXMesh.tvm",
+        "sourceFrame": 0,
+        "startFrame": 0,
+        "endFrame": 0,
+        "framesPerSecond": 0,
+        "motionCompletedAtFrame": 0,
+        "terminalHoldFrames": 0,
+        "terminalHoldActive": false,
+        "exactStoredRotationKey": true,
+        "playing": false,
+        "direction": 1
+      },
+      "geometry": {
+        "actorVisible": true,
+        "hierarchyNodes": 1,
+        "meshChunks": 1,
+        "vertices": 2264,
+        "triangles": 2750,
+        "buttonsVisible": true,
+        "buttonMeshes": 8,
+        "buttonVertices": 192,
+        "buttonTriangles": 96,
+        "diagnosticColors": true
+      },
+      "clickInspection": null,
+      "hostEvidence": {
+        "position": [
+          -400,
+          500,
+          0
+        ],
+        "constructorSize": 4,
+        "scaleStatus": "not-applied-source-commented-out",
+        "pathEvidence": {
+          "hardCodedDirectory": "Media/CubX",
+          "hardCodedDirectoryExistsInArchive": false,
+          "survivingDirectory": "Yanik C++ BCKUP/Media/CubXActor",
+          "survivingDirectoryExists": true,
+          "requiredRemap": "Media/CubX -> Yanik C++ BCKUP/Media/CubXActor",
+          "status": "source-path-mismatch"
+        },
+        "defects": [
+          "Seven actor slots are initialized from Get2..Get8, but eight click indices are accepted and selection 8 indexes uninitialized slot 7.",
+          "The render loop covers only slots 0..6.",
+          "DisableCubXButtons enables the click meshes instead of disabling them.",
+          "CLOSING, DESELECTING, FOCUSED, OPENED and DEFOCUSING contain no transition behavior; the internal menu registration block is commented out.",
+          "Hard-coded Media/CubX asset paths do not exist in the surviving tree; the files live under Media/CubXActor."
+        ]
+      },
+      "fidelity": {
+        "status": "isolated-source-evidence-inspector",
+        "separateFromCubz": true,
+        "reason": "The click meshes spatially map to Box05, Box04, Box03, Box02, Box08, Box06, Box07, Box01, but the host maps click indices 1..7 to filenames Get2..Get8 and has no valid click-8 actor. The full and solo opening exports also disagree between Box05 and Box08 naming. Those contradictions prevent a defensible semantic click-index-to-BoxNN mapping for CubZ.",
+        "exact": [
+          "TVA/TVM hashes, decoded geometry, hierarchy, bind matrices, source frame ranges and stored MANI keys",
+          "click mesh geometry and click -> actor-slot host calls",
+          "30 fps timing including Get/Open terminal holds",
+          "host position, unit scale caused by commented Size scaling, and StdMat constants"
+        ],
+        "inferred": [
+          "raw TV3D source-order matrices/quaternions are applied directly to Three.js for inspection",
+          "fractional frames use normalized shortest-arc quaternion interpolation and linear vector interpolation",
+          "diagnostic colors, lighting, grid, camera and click-proxy visibility are modern inspection aids"
+        ],
+        "notClaimed": [
+          "TV3D handedness or original engine interpolation",
+          "visual continuity between separately authored actor swaps",
+          "a stable semantic click-index -> BoxNN mapping",
+          "host execution of CubXRot1..7 or CubeOpensolo"
+        ],
+        "coordinateBoundary": "Exact TV3D source-order geometry. No handedness conversion, recentering or display scaling is baked into these arrays."
+      }
+    },
+    "getFiles": [
+      "CubXGet2.tva",
+      "CubXGet3.tva",
+      "CubXGet4.tva",
+      "CubXGet5.tva",
+      "CubXGet6.tva",
+      "CubXGet7.tva",
+      "CubXGet8.tva"
+    ],
+    "click8": {
+      "schema": "graphysx.cubx-actor-lineage-inspector/v1",
+      "isolatedFromCubz": true,
+      "clip": {
+        "family": "closed",
+        "pairIndex": null,
+        "assetId": null,
+        "filename": "CubXMesh.tvm",
+        "sourceFrame": 0,
+        "startFrame": 0,
+        "endFrame": 0,
+        "framesPerSecond": 0,
+        "motionCompletedAtFrame": 0,
+        "terminalHoldFrames": 0,
+        "terminalHoldActive": false,
+        "exactStoredRotationKey": true,
+        "playing": false,
+        "direction": 1
+      },
+      "geometry": {
+        "actorVisible": true,
+        "hierarchyNodes": 1,
+        "meshChunks": 1,
+        "vertices": 2264,
+        "triangles": 2750,
+        "buttonsVisible": true,
+        "buttonMeshes": 8,
+        "buttonVertices": 192,
+        "buttonTriangles": 96,
+        "diagnosticColors": true
+      },
+      "clickInspection": {
+        "clickIndex": 8,
+        "clickedMesh": "CubXBtn8.tvm",
+        "clickedMeshLocalCenter": [
+          -24.999997616,
+          -24.863770962,
+          -24.999996662
+        ],
+        "exactSpatialBoxLabel": "Box01",
+        "exactSpatialBoxCenter": [
+          -25,
+          -25,
+          -25
+        ],
+        "centerDistance": 0.136229038,
+        "sourceSelectedCube": 8,
+        "actorArrayIndex": 7,
+        "actorSlotInitialized": false,
+        "actorFilename": null,
+        "actorFilenameBoxLabel": null,
+        "renderedByHostLoop": false,
+        "result": "Source indexes the uninitialized eighth actor slot; the render loop also stops at slot 6."
+      },
+      "hostEvidence": {
+        "position": [
+          -400,
+          500,
+          0
+        ],
+        "constructorSize": 4,
+        "scaleStatus": "not-applied-source-commented-out",
+        "pathEvidence": {
+          "hardCodedDirectory": "Media/CubX",
+          "hardCodedDirectoryExistsInArchive": false,
+          "survivingDirectory": "Yanik C++ BCKUP/Media/CubXActor",
+          "survivingDirectoryExists": true,
+          "requiredRemap": "Media/CubX -> Yanik C++ BCKUP/Media/CubXActor",
+          "status": "source-path-mismatch"
+        },
+        "defects": [
+          "Seven actor slots are initialized from Get2..Get8, but eight click indices are accepted and selection 8 indexes uninitialized slot 7.",
+          "The render loop covers only slots 0..6.",
+          "DisableCubXButtons enables the click meshes instead of disabling them.",
+          "CLOSING, DESELECTING, FOCUSED, OPENED and DEFOCUSING contain no transition behavior; the internal menu registration block is commented out.",
+          "Hard-coded Media/CubX asset paths do not exist in the surviving tree; the files live under Media/CubXActor."
+        ]
+      },
+      "fidelity": {
+        "status": "isolated-source-evidence-inspector",
+        "separateFromCubz": true,
+        "reason": "The click meshes spatially map to Box05, Box04, Box03, Box02, Box08, Box06, Box07, Box01, but the host maps click indices 1..7 to filenames Get2..Get8 and has no valid click-8 actor. The full and solo opening exports also disagree between Box05 and Box08 naming. Those contradictions prevent a defensible semantic click-index-to-BoxNN mapping for CubZ.",
+        "exact": [
+          "TVA/TVM hashes, decoded geometry, hierarchy, bind matrices, source frame ranges and stored MANI keys",
+          "click mesh geometry and click -> actor-slot host calls",
+          "30 fps timing including Get/Open terminal holds",
+          "host position, unit scale caused by commented Size scaling, and StdMat constants"
+        ],
+        "inferred": [
+          "raw TV3D source-order matrices/quaternions are applied directly to Three.js for inspection",
+          "fractional frames use normalized shortest-arc quaternion interpolation and linear vector interpolation",
+          "diagnostic colors, lighting, grid, camera and click-proxy visibility are modern inspection aids"
+        ],
+        "notClaimed": [
+          "TV3D handedness or original engine interpolation",
+          "visual continuity between separately authored actor swaps",
+          "a stable semantic click-index -> BoxNN mapping",
+          "host execution of CubXRot1..7 or CubeOpensolo"
+        ],
+        "coordinateBoundary": "Exact TV3D source-order geometry. No handedness conversion, recentering or display scaling is baked into these arrays."
+      }
+    },
+    "final": {
+      "schema": "graphysx.cubx-actor-lineage-inspector/v1",
+      "isolatedFromCubz": true,
+      "clip": {
+        "family": "get",
+        "pairIndex": 7,
+        "assetId": "get-8",
+        "filename": "CubXGet8.tva",
+        "sourceFrame": 0,
+        "startFrame": 0,
+        "endFrame": 100,
+        "framesPerSecond": 30,
+        "motionCompletedAtFrame": 50,
+        "terminalHoldFrames": 50,
+        "terminalHoldActive": false,
+        "exactStoredRotationKey": true,
+        "playing": false,
+        "direction": 1
+      },
+      "geometry": {
+        "actorVisible": true,
+        "hierarchyNodes": 29,
+        "meshChunks": 23,
+        "vertices": 2264,
+        "triangles": 2750,
+        "buttonsVisible": true,
+        "buttonMeshes": 8,
+        "buttonVertices": 192,
+        "buttonTriangles": 96,
+        "diagnosticColors": true
+      },
+      "clickInspection": {
+        "clickIndex": 7,
+        "clickedMesh": "CubXBtn7.tvm",
+        "clickedMeshLocalCenter": [
+          -25.03777647,
+          -24.999996662,
+          25.000002384
+        ],
+        "exactSpatialBoxLabel": "Box07",
+        "exactSpatialBoxCenter": [
+          -25,
+          -25,
+          25
+        ],
+        "centerDistance": 0.03777647,
+        "sourceSelectedCube": 7,
+        "actorArrayIndex": 6,
+        "actorSlotInitialized": true,
+        "actorFilename": "CubXGet8.tva",
+        "actorFilenameBoxLabel": "Box08",
+        "renderedByHostLoop": true,
+        "result": "Host plays the separately authored Get actor and later swaps to CubXOpen."
+      },
+      "hostEvidence": {
+        "position": [
+          -400,
+          500,
+          0
+        ],
+        "constructorSize": 4,
+        "scaleStatus": "not-applied-source-commented-out",
+        "pathEvidence": {
+          "hardCodedDirectory": "Media/CubX",
+          "hardCodedDirectoryExistsInArchive": false,
+          "survivingDirectory": "Yanik C++ BCKUP/Media/CubXActor",
+          "survivingDirectoryExists": true,
+          "requiredRemap": "Media/CubX -> Yanik C++ BCKUP/Media/CubXActor",
+          "status": "source-path-mismatch"
+        },
+        "defects": [
+          "Seven actor slots are initialized from Get2..Get8, but eight click indices are accepted and selection 8 indexes uninitialized slot 7.",
+          "The render loop covers only slots 0..6.",
+          "DisableCubXButtons enables the click meshes instead of disabling them.",
+          "CLOSING, DESELECTING, FOCUSED, OPENED and DEFOCUSING contain no transition behavior; the internal menu registration block is commented out.",
+          "Hard-coded Media/CubX asset paths do not exist in the surviving tree; the files live under Media/CubXActor."
+        ]
+      },
+      "fidelity": {
+        "status": "isolated-source-evidence-inspector",
+        "separateFromCubz": true,
+        "reason": "The click meshes spatially map to Box05, Box04, Box03, Box02, Box08, Box06, Box07, Box01, but the host maps click indices 1..7 to filenames Get2..Get8 and has no valid click-8 actor. The full and solo opening exports also disagree between Box05 and Box08 naming. Those contradictions prevent a defensible semantic click-index-to-BoxNN mapping for CubZ.",
+        "exact": [
+          "TVA/TVM hashes, decoded geometry, hierarchy, bind matrices, source frame ranges and stored MANI keys",
+          "click mesh geometry and click -> actor-slot host calls",
+          "30 fps timing including Get/Open terminal holds",
+          "host position, unit scale caused by commented Size scaling, and StdMat constants"
+        ],
+        "inferred": [
+          "raw TV3D source-order matrices/quaternions are applied directly to Three.js for inspection",
+          "fractional frames use normalized shortest-arc quaternion interpolation and linear vector interpolation",
+          "diagnostic colors, lighting, grid, camera and click-proxy visibility are modern inspection aids"
+        ],
+        "notClaimed": [
+          "TV3D handedness or original engine interpolation",
+          "visual continuity between separately authored actor swaps",
+          "a stable semantic click-index -> BoxNN mapping",
+          "host execution of CubXRot1..7 or CubeOpensolo"
+        ],
+        "coordinateBoundary": "Exact TV3D source-order geometry. No handedness conversion, recentering or display scaling is baked into these arrays."
+      }
+    }
+  },
+  "browserProblems": []
+}

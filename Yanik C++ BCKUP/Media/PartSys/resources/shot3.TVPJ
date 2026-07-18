@@ -1,0 +1,9 @@
+<particle-system>
+  <emitter type="billboard" max-particles="100" id="0" size="2" location="0/0/0" direction="0/0/0" directional="True" randomdirectionfactor="0.001/0.001/0.001" power="1" lifetime="1" shape="0" texture="F:\VS.Projects\Shooter\ShooterWorld\particles\circle_soft4.dds" color="1,1,1,1" speed="10" usegravity="False" gravity="0/0/0" alphachange="1" alphablending="1" alphatest="False" alpharef="0" alphadepthwrite="False" boxsize="0/0/0" sphereradius="0" looping="True">
+    <particle-keyframes>
+      <keyframe id="0" key="0" size="2/2/2" color="1,1,0,1" />
+      <keyframe id="1" key="0.5" size="2/2/2" color="1,1,0,1" />
+      <keyframe id="2" key="1" size="1/1/1" color="1,0,1,0" />
+    </particle-keyframes>
+  </emitter>
+</particle-system>

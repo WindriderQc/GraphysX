@@ -1,0 +1,384 @@
+{
+  "url": "http://127.0.0.1:4198/",
+  "assertions": [
+    {
+      "pass": true,
+      "message": "E:/Media/Datalake/bckup/Unity Projects/Arena/Assets/Arena.unity matches its locked SHA-256"
+    },
+    {
+      "pass": true,
+      "message": "E:/Media/Datalake/bckup/Unity Projects/Arena/Assets/Models/Arena.obj matches its locked SHA-256"
+    },
+    {
+      "pass": true,
+      "message": "public/assets/arena-archive/Arena.obj matches its locked SHA-256"
+    },
+    {
+      "pass": true,
+      "message": "public/assets/arena-archive/Arena.mtl matches its locked SHA-256"
+    },
+    {
+      "pass": true,
+      "message": "public/assets/arena-archive/arena.mat matches its locked SHA-256"
+    },
+    {
+      "pass": true,
+      "message": "public/assets/arena-archive/arena.png matches its locked SHA-256"
+    },
+    {
+      "pass": true,
+      "message": "Unity Arena opens through the canonical main app"
+    },
+    {
+      "pass": true,
+      "message": "Arena is complete at its surviving scriptless authored scope"
+    },
+    {
+      "pass": true,
+      "message": "Arena exposes the source OBJ totals"
+    },
+    {
+      "pass": true,
+      "message": "Arena renders one exact textured mesh"
+    },
+    {
+      "pass": true,
+      "message": "Arena defaults to the disclosed readable overview"
+    },
+    {
+      "pass": true,
+      "message": "Arena remains isolated from BallZ actors and progression"
+    },
+    {
+      "pass": true,
+      "message": "Arena preserves its authored Unity camera"
+    },
+    {
+      "pass": true,
+      "message": "Source-camera state is explicitly exact"
+    },
+    {
+      "pass": true,
+      "message": "Source camera retains Unity position 0,1,-10"
+    },
+    {
+      "pass": true,
+      "message": "Arena reset restores the readable overview"
+    },
+    {
+      "pass": true,
+      "message": "Reset state matches the visible overview"
+    },
+    {
+      "pass": true,
+      "message": "Arena runs without browser console or page errors"
+    }
+  ],
+  "errors": [],
+  "states": {
+    "overview": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.18-r13",
+      "mode": "arena-archive",
+      "projectFamily": "arena-archive",
+      "preview": "arena-archive",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "arenaArchive": {
+        "restorationStatus": "RESTORED",
+        "classification": "Complete exact-asset restoration of the surviving authored Unity Arena scene",
+        "loadStatus": "ready",
+        "loadError": null,
+        "source": {
+          "unityScene": {
+            "path": "E:\\Media\\Datalake\\bckup\\Unity Projects\\Arena\\Assets\\Arena.unity",
+            "bytes": 8748,
+            "sha256": "8DAB1C507DA98E94CA13CA68192DF6DAA98B6C442630A6251F76797934D02CAB"
+          },
+          "obj": {
+            "path": "/assets/arena-archive/Arena.obj",
+            "bytes": 6417,
+            "sha256": "AE582845AC6EAB09C65430EED51E866AD40E787CBF4B652DE0B4A9DBE620BE45"
+          },
+          "mtl": {
+            "path": "/assets/arena-archive/Arena.mtl",
+            "bytes": 144,
+            "sha256": "547D290E4DC5B7826667B2DFB59F8918E97B1980599C99B9CF54819436316668"
+          },
+          "material": {
+            "path": "/assets/arena-archive/arena.mat",
+            "bytes": 2048,
+            "sha256": "D12CDD3744F38A1D86C62EBD3B01247ECD6E7C7B5F668B0117B1828D07FCDC55",
+            "shader": "Unity Standard",
+            "color": "#ffffff",
+            "metallic": 0,
+            "smoothness": 0.5
+          },
+          "atlas": {
+            "path": "/assets/arena-archive/arena.png",
+            "bytes": 532134,
+            "sha256": "B643EBC1B13BA2C04F8D32DF35B2874CF3717F7057BCC36CEFD2F3C321572245",
+            "dimensions": [
+              1024,
+              1024
+            ]
+          },
+          "authored": {
+            "objects": 1,
+            "meshes": 1,
+            "vertices": 48,
+            "faces": 44,
+            "dimensions": [
+              40,
+              2,
+              40
+            ],
+            "objectPosition": [
+              1.4151101,
+              0.69250107,
+              -1.6516027
+            ],
+            "cameraPosition": [
+              0,
+              1,
+              -10
+            ],
+            "cameraEulerDegrees": [
+              0,
+              0,
+              0
+            ],
+            "cameraFov": 60,
+            "lightPosition": [
+              0,
+              7.51,
+              -13.44
+            ],
+            "lightEulerDegrees": [
+              50,
+              -49.32,
+              0
+            ]
+          }
+        },
+        "camera": {
+          "profile": "overview",
+          "position": [
+            29.768651,
+            24.792501,
+            30.676044
+          ],
+          "lookAt": [
+            1.41511,
+            1.792501,
+            -1.651603
+          ],
+          "orbitAngleRadians": 0.72,
+          "sourceTransformExact": false
+        },
+        "runtime": {
+          "meshes": 1,
+          "vertices": 276,
+          "triangles": 92,
+          "boundsSize": [
+            40,
+            2.046725,
+            40
+          ],
+          "material": {
+            "atlasLoaded": true,
+            "metalness": 0,
+            "roughness": 0.5,
+            "doubleSidedAdapter": true
+          }
+        },
+        "presentationAdapters": [
+          "Readable overview orbit is the default; Source Camera preserves the Unity camera transform and 60° FOV.",
+          "A neutral hemisphere fill supplements the surviving Unity directional light for browser inspection.",
+          "Double-sided rasterization makes the authored thin wall/floor surfaces readable without changing geometry or UVs."
+        ]
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "input": {
+        "keyboard": false,
+        "touch": false,
+        "gamepad": {
+          "connected": false,
+          "id": null,
+          "forward": 0,
+          "turn": 0
+        }
+      },
+      "camera": {
+        "profile": "overview",
+        "position": [
+          29.768651,
+          24.792501,
+          30.676044
+        ],
+        "lookAt": [
+          1.41511,
+          1.792501,
+          -1.651603
+        ],
+        "orbitAngleRadians": 0.72,
+        "sourceTransformExact": false
+      },
+      "controls": "Use the exact Unity Source Camera or the readable Overview; A/D, drag, or visible buttons orbit; wheel zooms; Reset restores the overview. No gameplay is invented for this scriptless scene."
+    },
+    "source": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.18-r13",
+      "mode": "arena-archive",
+      "projectFamily": "arena-archive",
+      "preview": "arena-archive",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "arenaArchive": {
+        "restorationStatus": "RESTORED",
+        "classification": "Complete exact-asset restoration of the surviving authored Unity Arena scene",
+        "loadStatus": "ready",
+        "loadError": null,
+        "source": {
+          "unityScene": {
+            "path": "E:\\Media\\Datalake\\bckup\\Unity Projects\\Arena\\Assets\\Arena.unity",
+            "bytes": 8748,
+            "sha256": "8DAB1C507DA98E94CA13CA68192DF6DAA98B6C442630A6251F76797934D02CAB"
+          },
+          "obj": {
+            "path": "/assets/arena-archive/Arena.obj",
+            "bytes": 6417,
+            "sha256": "AE582845AC6EAB09C65430EED51E866AD40E787CBF4B652DE0B4A9DBE620BE45"
+          },
+          "mtl": {
+            "path": "/assets/arena-archive/Arena.mtl",
+            "bytes": 144,
+            "sha256": "547D290E4DC5B7826667B2DFB59F8918E97B1980599C99B9CF54819436316668"
+          },
+          "material": {
+            "path": "/assets/arena-archive/arena.mat",
+            "bytes": 2048,
+            "sha256": "D12CDD3744F38A1D86C62EBD3B01247ECD6E7C7B5F668B0117B1828D07FCDC55",
+            "shader": "Unity Standard",
+            "color": "#ffffff",
+            "metallic": 0,
+            "smoothness": 0.5
+          },
+          "atlas": {
+            "path": "/assets/arena-archive/arena.png",
+            "bytes": 532134,
+            "sha256": "B643EBC1B13BA2C04F8D32DF35B2874CF3717F7057BCC36CEFD2F3C321572245",
+            "dimensions": [
+              1024,
+              1024
+            ]
+          },
+          "authored": {
+            "objects": 1,
+            "meshes": 1,
+            "vertices": 48,
+            "faces": 44,
+            "dimensions": [
+              40,
+              2,
+              40
+            ],
+            "objectPosition": [
+              1.4151101,
+              0.69250107,
+              -1.6516027
+            ],
+            "cameraPosition": [
+              0,
+              1,
+              -10
+            ],
+            "cameraEulerDegrees": [
+              0,
+              0,
+              0
+            ],
+            "cameraFov": 60,
+            "lightPosition": [
+              0,
+              7.51,
+              -13.44
+            ],
+            "lightEulerDegrees": [
+              50,
+              -49.32,
+              0
+            ]
+          }
+        },
+        "camera": {
+          "profile": "source",
+          "position": [
+            0,
+            1,
+            -10
+          ],
+          "lookAt": [
+            0,
+            1,
+            -9
+          ],
+          "orbitAngleRadians": 0.72,
+          "sourceTransformExact": true
+        },
+        "runtime": {
+          "meshes": 1,
+          "vertices": 276,
+          "triangles": 92,
+          "boundsSize": [
+            40,
+            2.046725,
+            40
+          ],
+          "material": {
+            "atlasLoaded": true,
+            "metalness": 0,
+            "roughness": 0.5,
+            "doubleSidedAdapter": true
+          }
+        },
+        "presentationAdapters": [
+          "Readable overview orbit is the default; Source Camera preserves the Unity camera transform and 60° FOV.",
+          "A neutral hemisphere fill supplements the surviving Unity directional light for browser inspection.",
+          "Double-sided rasterization makes the authored thin wall/floor surfaces readable without changing geometry or UVs."
+        ]
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "input": {
+        "keyboard": false,
+        "touch": false,
+        "gamepad": {
+          "connected": false,
+          "id": null,
+          "forward": 0,
+          "turn": 0
+        }
+      },
+      "camera": {
+        "profile": "source",
+        "position": [
+          0,
+          1,
+          -10
+        ],
+        "lookAt": [
+          0,
+          1,
+          -9
+        ],
+        "orbitAngleRadians": 0.72,
+        "sourceTransformExact": true
+      },
+      "controls": "Use the exact Unity Source Camera or the readable Overview; A/D, drag, or visible buttons orbit; wheel zooms; Reset restores the overview. No gameplay is invented for this scriptless scene."
+    }
+  }
+}

@@ -1,0 +1,1708 @@
+{
+  "results": [
+    {
+      "id": "race",
+      "reachable": true,
+      "appState": "race-select",
+      "title": "BALLZ TOUR",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 1929,
+      "panelAtTop": 0,
+      "visibleButtonCount": 8,
+      "firstButtons": [
+        "Start Archive Level 1 — ASCII Restoration",
+        "Back Home",
+        "Challenge 1 Archive Level 1 — ASCII Restoration Intro · BallZ Foundations Ready to play Learn the exact Level 1 tile footprint, paired gates, and optional checkpoint bonus line.",
+        "Challenge 2 Archive Level 2 — ASCII Restoration Easy · Maze Reading Ready to play Route planning through the original Level 2 ASCII geometry and paired gates.",
+        "Challenge 3 Archive Level 3 — ASCII Restoration Medium · Platform Clusters Ready to play Platform navigation and recovery on the authored Level 3 footprint.",
+        "Challenge 4 Skybox Spiral Medium · Open Sky Ready to play Camera orbit, momentum, and long sightlines.",
+        "Challenge 5 Suzanne 1 — ASCII Arena Hard · Recovered Classic Ready to play Read the original 40×40 block field, 45 chain assemblies, three pistons, particle cells, and exact authored gates.",
+        "Challenge 6 ZombieKiller Arena Hard · ZombieKiller Ready to play Free-roam hunting instead of rings and gates."
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8BALLZ TOURCore BallZ races and the ZombieKiller branch live here. Recovered 3D worlds and the Impreza experiment now have their own menu instead of masquerading as BallZ Tour chapters.Start Archive Level 1 — ASCII RestorationBack Home BallZ challenge 1 of 6 Intro Archive Level 1 — ASCII Restoration Complete the three laps authored in levelList.xml; recovered checkpoints subtract time from the run. Archive reference target — not a screenshot of the current build ChapterBallZ Foundations Target45.00s StatusUnplayed Record29.82s BallZ Tour0 / 6 complete Career Score0 pts BallZ Races — No Locks Challenge 1 Archive Level 1 — ASCII Restoration Intro · BallZ Foundations Ready to play Learn the exact Level 1 tile footprint, paired gates, and optional checkpoint bonus line. Challenge 2 Archive Level 2 — ASCII Restoration Easy · Maze Reading Ready to ",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "race-select",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "ballz",
+        "hasPlayer": true,
+        "hasRace": true,
+        "particles": {
+          "active": 0,
+          "persistentFxLab": false
+        },
+        "selector": null
+      }
+    },
+    {
+      "id": "scene-index",
+      "reachable": true,
+      "appState": "scene-index",
+      "title": "ARCHIVE SCENE INDEX",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 9789,
+      "panelAtTop": 0,
+      "visibleButtonCount": 31,
+      "firstButtons": [
+        "Next Lab",
+        "Back Home",
+        "Archive Family Browser separate BallZ concepts, FlightX, and vehicle experiment sections",
+        "BallZ Race Open mode",
+        "Scene Index Evidence-based census of every distinct screen, runtime scene, authored level, environment, vehicle scene, and standalone demo found in the audited archives.",
+        "Scene Lab Open mode",
+        "Voie Lactée Vignette Open mode",
+        "Nature Lab Open mode",
+        "Agent World Studio Open mode",
+        "Skybox Selector Open mode",
+        "Car Selector Open mode",
+        "GT4 / Low Cobra Source Gallery Open mode"
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8ARCHIVE SCENE INDEXEvery distinct application screen, runtime scene class, authored level, environment document, vehicle scene, gameplay experiment, and rendering demo found in the audited archive—de-duplicated and checked against the running revival.Next LabBack Home Audited Scene Census48 distinct scenesDuplicate backup copies and individual prop meshes are excluded. RESTORED 3 PARTIAL 44 REGRESSED 0 PIPELINE 1 MISSING 0 RESEARCH 0 Project Modes Archive Family Browser separate BallZ concepts, FlightX, and vehicle experiment sections BallZ Race Open mode Scene Index Evidence-based census of every distinct screen, runtime scene, authored level, environment, vehicle scene, and standalone demo found in the audited archives. Scene Lab Open mode Voie Lactée Vignette Open mode Nature Lab Open mode Agent World Studio Open mode Skybox Selector Open",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "scene-index",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "scene-index",
+        "hasPlayer": false,
+        "hasRace": false,
+        "particles": {
+          "active": 0,
+          "persistentFxLab": false
+        },
+        "selector": null
+      }
+    },
+    {
+      "id": "scene-lab",
+      "reachable": false
+    },
+    {
+      "id": "nature-lab",
+      "reachable": true,
+      "appState": "nature-lab",
+      "title": "Nature Lab",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 3805,
+      "panelAtTop": 0,
+      "visibleButtonCount": 45,
+      "firstButtons": [
+        "Next Lab",
+        "Back Home",
+        "4 demonstrations Flock Planet 3D flocking on a spherical world",
+        "4 demonstrations Forces & Flow Garden Walkers, attraction, particles, and vector fields",
+        "4 demonstrations Living Forest Recursive growth, leaf fall, DNA, and generations",
+        "1 demonstration Orbital Observatory Earth telemetry, ISS trajectory, pass windows, and quakes",
+        "1SeparationFlocking 1/4",
+        "2AlignmentFlocking 2/4",
+        "3CohesionFlocking 3/4",
+        "4Complete FlockFlocking 4/4",
+        "Compress the flocksame action as clicking the 3D view",
+        "Pausefreeze this mechanism"
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8Nature LabA small-world engine for people and agents: choose a living study, tune its rules, reset the same seed, and read the active simulation as structured state.Next LabBack Home Nature of Code Gallery · 13 focused demonstrationsFlock PlanetSeparation, alignment, and cohesion run tangentially around a layered planet with orbital trails. running · 60 visible · 0.4 s 4 demonstrations Flock Planet 3D flocking on a spherical world 4 demonstrations Forces & Flow Garden Walkers, attraction, particles, and vector fields 4 demonstrations Living Forest Recursive growth, leaf fall, DNA, and generations 1 demonstration Orbital Observatory Earth telemetry, ISS trajectory, pass windows, and quakes Choose one mechanismThe original HTML sessions are no longer folded into one scene. 1SeparationFlocking 1/4 2AlignmentFlocking 2/4 3CohesionFlocking 3/4 4C",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "nature-lab",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "nature-lab",
+        "hasPlayer": false,
+        "hasRace": false,
+        "particles": {
+          "active": 0,
+          "persistentFxLab": false
+        },
+        "selector": null
+      }
+    },
+    {
+      "id": "world-api-lab",
+      "reachable": true,
+      "appState": "world-api-lab",
+      "title": "Agent World Studio",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 5051,
+      "panelAtTop": 0,
+      "visibleButtonCount": 48,
+      "firstButtons": [
+        "Next Lab",
+        "Back Home",
+        "Compose Prefab Plazafive prefabs · one actor-aware commit",
+        "Build API Demoload the agent constellation recipe",
+        "Pausedeterministic simulation clock",
+        "Step 0.5 Secondsadvance behaviors exactly",
+        "Undorestore the previous definition",
+        "Save Snapshotstudio-snapshot · saved: none yet",
+        "Clear Worldkeep environment, remove entities",
+        "Prefab Plaza43 entities 5 prefabs · A balanced showcase with one of every reusable structure.",
+        "Glow Garden45 entities 6 prefabs · Four luminous trees frame a portal and kinetic centerpiece.",
+        "Signal Outpost41 entities 5 prefabs · Two habitat pods, paired beacons and a welcoming portal."
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8Agent World StudioThe engine-facing side of GraphysX: agents compose attractive 3D scenes from typed entities or reusable prefabs, observe structured state, and collaborate through revision-guarded changes without writing renderer code.Next LabBack Home GraphysX World API v2Agent Constellationgraphysx.agent-world/v2 · revision 0 running · 16 entities · 0.0 s Compose Prefab Plazafive prefabs · one actor-aware commit Build API Demoload the agent constellation recipe Pausedeterministic simulation clock Step 0.5 Secondsadvance behaviors exactly Undorestore the previous definition Save Snapshotstudio-snapshot · saved: none yet Clear Worldkeep environment, remove entities Start With A Complete World Prefab Plaza43 entities 5 prefabs · A balanced showcase with one of every reusable structure. Glow Garden45 entities 6 prefabs · Four luminous trees f",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "world-api-lab",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "world-api-lab",
+        "hasPlayer": false,
+        "hasRace": false,
+        "particles": {
+          "active": 0,
+          "persistentFxLab": false
+        },
+        "selector": null
+      }
+    },
+    {
+      "id": "skybox-selector",
+      "reachable": true,
+      "appState": "skybox-selector",
+      "title": "Skybox Selector",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 2219,
+      "panelAtTop": 0,
+      "visibleButtonCount": 37,
+      "firstButtons": [
+        "Next Lab",
+        "Back Home",
+        "01Clear BlueClearBlue · click cube / zoom / panorama",
+        "02SkyXSkyX · click cube / zoom / panorama",
+        "03Clear NightClearNight · click cube / zoom / panorama",
+        "04Lost ValleyLostValley · click cube / zoom / panorama",
+        "05WinterWinter · click cube / zoom / panorama",
+        "Return To Cubesleave panorama and restore the archived selector camera",
+        "Archive Family Browser separate BallZ concepts, FlightX, and vehicle experiment sections",
+        "BallZ Race Open mode",
+        "Scene Index Open mode",
+        "Scene Lab Open mode"
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8Skybox SelectorThe actual CLSkyboxSelectScene flow: five textured cubes rotate on their archived ring. Pick one, the camera chases into it, then the selected sky becomes a panorama orbit.Next LabBack HomeArchived Sky Cubes 01Clear BlueClearBlue · click cube / zoom / panorama 02SkyXSkyX · click cube / zoom / panorama 03Clear NightClearNight · click cube / zoom / panorama 04Lost ValleyLostValley · click cube / zoom / panorama 05WinterWinter · click cube / zoom / panorama Return To Cubesleave panorama and restore the archived selector cameraSelector Stateready · iconsno sky selected · camera FOV 45°Archive Geometry5 × 50-unit cubes · radius 125camera (150, 200, 500) · panorama radius 500Project Modes Archive Family Browser separate BallZ concepts, FlightX, and vehicle experiment sections BallZ Race Open mode Scene Index Open mode Scene Lab Open",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "skybox-selector",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "skybox-selector",
+        "hasPlayer": false,
+        "hasRace": false,
+        "particles": {
+          "active": 0,
+          "persistentFxLab": false
+        },
+        "selector": {
+          "id": "archive-skybox-selector",
+          "loadStatus": "ready",
+          "phase": "icons"
+        }
+      }
+    },
+    {
+      "id": "car-selector",
+      "reachable": true,
+      "appState": "car-selector",
+      "title": "Car Selector — Impreza Preview",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 2406,
+      "panelAtTop": 0,
+      "visibleButtonCount": 32,
+      "firstButtons": [
+        "Next Lab",
+        "Back Home",
+        "Reset Previewcamera (75, 100, 50) · car (30, 100, 0)",
+        "Archive Family Browser separate BallZ concepts, FlightX, and vehicle experiment sections",
+        "BallZ Race Open mode",
+        "Scene Index Open mode",
+        "Scene Lab Open mode",
+        "Voie Lactée Vignette Open mode",
+        "Nature Lab Open mode",
+        "Agent World Studio Open mode",
+        "Skybox Selector Open mode",
+        "Car Selector The authentic one-Impreza terrain/water preview and free camera; the archived car-click callback was empty, so no selection commit is invented."
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8Car Selector — Impreza PreviewThe recovered CLCarSelectScene is an authentic one-car preview, not a fabricated chooser. Its archived click callback was empty: this mode restores the terrain, water, camera, gravity drop, free camera, and Impreza without inventing a confirmation action.Next LabBack HomeArchive Camera ControlsReset Previewcamera (75, 100, 50) · car (30, 100, 0)Environmentreadyterrain ready · water y=2 · car y=100.00Free CameraW/S walk · A/D strafe · Q/E raisedrag to turn · click the Impreza to inspect · Esc exitsHonest Scope1 Impreza · no commit actionthe revival preserves the archive's unfinished boundaryProject Modes Archive Family Browser separate BallZ concepts, FlightX, and vehicle experiment sections BallZ Race Open mode Scene Index Open mode Scene Lab Open mode Voie Lactée Vignette Open mode Nature Lab Open mode Agent Wo",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "car-selector",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "car-selector",
+        "hasPlayer": false,
+        "hasRace": false,
+        "particles": {
+          "active": 0,
+          "persistentFxLab": false
+        },
+        "selector": {
+          "id": "archive-car-selector",
+          "loadStatus": "ready",
+          "carY": 97.64523857789035
+        }
+      }
+    },
+    {
+      "id": "vehicle-pack-gallery",
+      "reachable": true,
+      "appState": "vehicle-pack-gallery",
+      "title": "Vehicle Experiments — GT4 & Low Cobra Sources",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 2720,
+      "panelAtTop": 0,
+      "visibleButtonCount": 36,
+      "firstButtons": [
+        "Next Lab",
+        "Back Home",
+        "GT414 objects · 10,740v · 8,345t",
+        "Low Cobra10 objects · 6,961v · 3,266t",
+        "Orbit LeftA or drag",
+        "Orbit RightD or drag",
+        "Reset Viewsource component layout",
+        "Archive Family Browser separate BallZ concepts, FlightX, and vehicle experiment sections",
+        "BallZ Race Open mode",
+        "Scene Index Open mode",
+        "Scene Lab Open mode",
+        "Voie Lactée Vignette Open mode"
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8Vehicle Experiments — GT4 & Low Cobra SourcesBoth archived car packs are now inspectable with exact 3DS geometry, object splits, UVs, material-face lists, and referenced textures. They remain PIPELINE as vehicles: the archived selector contains only Impreza, its click callback is empty, and CLVehicule hard-codes the Impreza assembly.Next LabBack HomeChoose Exact Vehicle SourceGT414 objects · 10,740v · 8,345tLow Cobra10 objects · 6,961v · 3,266tInspection CameraOrbit LeftA or dragOrbit RightD or dragReset Viewsource component layoutExact 3DS10 740 vertices · 8 345 triangles14 objects · 2 materialsRuntime Bindingselector NONE · physics NONEplayable false · status PIPELINETVM Evidence12 916v / 8 345tMedia/Models/cars/GT4.tvmProject Modes Archive Family Browser separate BallZ concepts, FlightX, and vehicle experiment sections BallZ Race Open mod",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "vehicle-pack-gallery",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "vehicle-pack-gallery",
+        "hasPlayer": false,
+        "hasRace": false,
+        "particles": {
+          "active": 0,
+          "persistentFxLab": false
+        },
+        "selector": null
+      }
+    },
+    {
+      "id": "common-room-lab",
+      "reachable": true,
+      "appState": "common-room-lab",
+      "title": "Standalone 3D Environments — Common Archive",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 3253,
+      "panelAtTop": 0,
+      "visibleButtonCount": 37,
+      "firstButtons": [
+        "Next Lab",
+        "Back Home",
+        "Common Room 1exact shell · inferred visit presentation",
+        "sky.tvm Componentexact skydome diagnostic · not counted as a standalone scene",
+        "Room 2 Shadow Labauthored #23 HLSL assembly evidence",
+        "Orbit LeftA · hold for continuous orbit",
+        "Orbit RightD · hold for continuous orbit",
+        "Reset Viewrestore the archived starting angle",
+        "Archive Family Browser separate BallZ concepts, FlightX, and vehicle experiment sections",
+        "BallZ Race Open mode",
+        "Scene Index Open mode",
+        "Scene Lab Open mode"
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8Standalone 3D Environments — Common ArchiveRoom 1, the separate sky.tvm component, and Room 2's evidenced HLSL assembly are kept outside BallZ progression. Room 1 and sky.tvm have exact geometry/assets but no surviving authored host scene, so their visit cameras and lighting stay explicitly labeled reconstruction choices.Next LabBack HomeChoose Standalone Environment Common Room 1exact shell · inferred visit presentation sky.tvm Componentexact skydome diagnostic · not counted as a standalone scene Room 2 Shadow Labauthored #23 HLSL assembly evidence Local Environment Controls Orbit LeftA · hold for continuous orbit Orbit RightD · hold for continuous orbit Reset Viewrestore the archived starting angle Environment StateReady — exact archived geometry and DDS dependencies loadedorbit 0.0° · common/room2.tvm + #23 HLSL assemblyEvidence BoundaryA",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "common-room-lab",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "common-room-lab",
+        "hasPlayer": false,
+        "hasRace": false,
+        "particles": {
+          "active": 0,
+          "persistentFxLab": false
+        },
+        "selector": null
+      }
+    },
+    {
+      "id": "ballz-2011-level1",
+      "reachable": false
+    },
+    {
+      "id": "ballz-slide1",
+      "reachable": true,
+      "appState": "ballz-slide1",
+      "title": "BallZ Concepts — Active Atmel Slide 1",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 2550,
+      "panelAtTop": 0,
+      "visibleButtonCount": 34,
+      "firstButtons": [
+        "Next Lab",
+        "Back Home",
+        "Exact Ball Spawnvisible · source transform and scale",
+        "Topology Edgesvisible · diagnostic overlay",
+        "Normalized Boundshidden · reversible presentation only",
+        "Archive Family Browser separate BallZ concepts, FlightX, and vehicle experiment sections",
+        "BallZ Race Open mode",
+        "Scene Index Open mode",
+        "Scene Lab Open mode",
+        "Voie Lactée Vignette Open mode",
+        "Nature Lab Open mode",
+        "Agent World Studio Open mode"
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8BallZ Concepts — Active Atmel Slide 1This is the source-loaded Atmel Slide1 revision—not the much smaller later StockRoom binary. Its assembly is exact and reachable, while gameplay stays disabled because the surviving input only applies backward impulse and the 100 rings are labeled temporary in source.Next LabBack HomeInspection Overlays Exact Ball Spawnvisible · source transform and scale Topology Edgesvisible · diagnostic overlay Normalized Boundshidden · reversible presentation only Exact Slide566 vertices · 552 triangles251.586 × 2,049 × 3,713.869 source spanExact Ballmass 5000spawn -50, -4750, -250 · scale 0.5CategoryBallZ slide concept / non-race visitsource chase evidence retained · playable falseProject Modes Archive Family Browser separate BallZ concepts, FlightX, and vehicle experiment sections BallZ Race Open mode Scene Index Op",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "ballz-slide1",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "ballz-slide1",
+        "hasPlayer": false,
+        "hasRace": false,
+        "particles": {
+          "active": 0,
+          "persistentFxLab": false
+        },
+        "selector": null
+      }
+    },
+    {
+      "id": "ballz-track-gallery",
+      "reachable": true,
+      "appState": "ballz-track-gallery",
+      "title": "BallZ Concepts — Slide / Track Archive Gallery",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 2933,
+      "panelAtTop": 0,
+      "visibleButtonCount": 42,
+      "firstButtons": [
+        "Next Lab",
+        "Back Home",
+        "Slide 1Aexact source-backed visit",
+        "Level.Slidesexact source-backed visit",
+        "Level.Stepsexact source-backed visit",
+        "Slide Bumpexact source-backed visit",
+        "Bump GridTexexact source-backed visit",
+        "BallZ Track 1exact source-backed visit",
+        "Material Evidencesource-evidence",
+        "Edgestopology inspection",
+        "Boundsreversible display envelope",
+        "Overviewinferred inspection camera"
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8BallZ Concepts — Slide / Track Archive GallerySix distinct BallZ-era slide and track sources are now visible as exact geometry/material studies. They remain non-gameplay archive visits wherever collision, controls, objectives or a complete host scene did not survive; no temporary ring line is promoted into a race.Next LabBack HomeArchive SourceSlide 1Aexact source-backed visitLevel.Slidesexact source-backed visitLevel.Stepsexact source-backed visitSlide Bumpexact source-backed visitBump GridTexexact source-backed visitBallZ Track 1exact source-backed visitInspectionLoading exact track…Decoded gallery is loading.Material Evidencesource-evidenceEdgestopology inspectionBoundsreversible display envelopeOverviewinferred inspection cameraTop Viewinferred inspection cameraHostloading evidenceNo gameplay is invented.Material0 exact texture bindingss",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "ballz-track-gallery",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "ballz-track-gallery",
+        "hasPlayer": false,
+        "hasRace": false,
+        "particles": {
+          "active": 0,
+          "persistentFxLab": false
+        },
+        "selector": null
+      }
+    },
+    {
+      "id": "suzanne2-archive",
+      "reachable": true,
+      "appState": "suzanne2-archive",
+      "title": "BallZ Authored Arenas — Suzanne 2",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 2808,
+      "panelAtTop": 0,
+      "visibleButtonCount": 36,
+      "firstButtons": [
+        "Next Lab",
+        "Back Home",
+        "SuperCage Playerhidden · exact 0.3 physics radius",
+        "XML Attachmentshidden · Airplane / BonedGate / billboard",
+        "CubX Anchorshidden by default · actor animation unresolved",
+        "Restore 15 Ringsreset source inventory visibility",
+        "Piston 1 Limittoggle exact linear limit endpoints",
+        "Archive Family Browser separate BallZ concepts, FlightX, and vehicle experiment sections",
+        "BallZ Race Open mode",
+        "Scene Index Open mode",
+        "Scene Lab Open mode",
+        "Voie Lactée Vignette Open mode"
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8BallZ Authored Arenas — Suzanne 2Suzanne 2 is a distinct 40×40 authored ASCII/XML level, not a variation of Suzanne 1. This visit follows the active March 2017 source and keeps its contradiction visible: fifteen rings are authored, but the shipped update advances after two pickups and defines no lap victory target.Next LabBack HomeInspection Layers SuperCage Playerhidden · exact 0.3 physics radius XML Attachmentshidden · Airplane / BonedGate / billboard CubX Anchorshidden by default · actor animation unresolved Restore 15 Ringsreset source inventory visibility Piston 1 Limittoggle exact linear limit endpoints Exact Layout40 × 40 · 315 collision cubes313 wall cells + 2 effect-wall cellsActors15 rings · 3 chains · 3 pistons4 posts · 4 emitters · 2 CubX anchorsRule Evidence15 authored / 2 implementedlap victory target: noneScreenshot Fidelityno",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "suzanne2-archive",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "suzanne2-archive",
+        "hasPlayer": false,
+        "hasRace": false,
+        "particles": {
+          "active": 0,
+          "persistentFxLab": false
+        },
+        "selector": null
+      }
+    },
+    {
+      "id": "xml-myworld-copy",
+      "reachable": true,
+      "appState": "xml-myworld-copy",
+      "title": "Archived XML Worlds — MyWorld Copy",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 3208,
+      "panelAtTop": 0,
+      "visibleButtonCount": 42,
+      "firstButtons": [
+        "Next Lab",
+        "Back Home",
+        "CubeTestPhys PHYSICCUBE · visible",
+        "SphereTestPhys PHYSICSPHERE · visible",
+        "CylinderTestPhys PHYSICSCYLINDER · visible",
+        "ConeTestPhys PHYSICCONE · visible",
+        "ArcheChinois PHYSICCUSTOM · missing source — not substituted",
+        "Airplane PHYSICCUSTOM · visible",
+        "Level2 PHYSICCUSTOM · visible",
+        "Show All Recoveredrestore visibility without changing source transforms",
+        "Orbit LeftA or drag",
+        "Orbit RightD or drag"
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8Archived XML Worlds — MyWorld CopyThis seven-object editor scene is kept separate from BallZ races and the Dominus asset family. Six serialized objects are source-backed and visible; ArcheChinois.TVM is absent from the archive, so the visit reports the hole instead of inventing a replacement.Next LabBack HomeSource Objects CubeTestPhys PHYSICCUBE · visible SphereTestPhys PHYSICSPHERE · visible CylinderTestPhys PHYSICSCYLINDER · visible ConeTestPhys PHYSICCONE · visible ArcheChinois PHYSICCUSTOM · missing source — not substituted Airplane PHYSICCUSTOM · visible Level2 PHYSICCUSTOM · visible Show All Recoveredrestore visibility without changing source transformsInspection CameraOrbit LeftA or dragOrbit RightD or dragReset Viewreturn to inspection originRecovered6 / 7 objectsArcheChinoisExact TVMsAirplane 5,367v / 9,202tLevel2 448v / 692t · ten",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "xml-myworld-copy",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "xml-myworld-copy",
+        "hasPlayer": false,
+        "hasRace": false,
+        "particles": {
+          "active": 0,
+          "persistentFxLab": false
+        },
+        "selector": null
+      }
+    },
+    {
+      "id": "ballz-xml-worlds",
+      "reachable": true,
+      "appState": "ballz-xml-worlds",
+      "title": "BallZ XML Evidence — MyWorld & TestWorld",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 2985,
+      "panelAtTop": 0,
+      "visibleButtonCount": 37,
+      "firstButtons": [
+        "Next Lab",
+        "Back Home",
+        "MyWorld.xml4 records · 2 exact · broken editor save",
+        "TestWorld.xml8 records · 5 exact · loader fixture",
+        "Focus Next Exact Objectcycle only rendered records",
+        "Orbit LeftA or drag",
+        "Orbit RightD or drag",
+        "Reset Documentoverview and all exact records",
+        "Archive Family Browser separate BallZ concepts, FlightX, and vehicle experiment sections",
+        "BallZ Race Open mode",
+        "Scene Index Open mode",
+        "Scene Lab Open mode"
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8BallZ XML Evidence — MyWorld & TestWorldThese are two distinct serialized scene documents, not finished BallZ races. Each document is parsed with its own embedded action table; exact loadable records render, while malformed DUPLICATE targets and the absent bush remain unresolved instead of receiving proxies.Next LabBack HomeChoose XML DocumentMyWorld.xml4 records · 2 exact · broken editor saveTestWorld.xml8 records · 5 exact · loader fixtureSerialized RecordsLoading exact XML evidence…source hashes and TVM geometry are being mountedInspectionFocus Next Exact Objectcycle only rendered recordsOrbit LeftA or dragOrbit RightD or dragReset Documentoverview and all exact recordsCoverage2 / 4 exact records2 unresolved · no substitutionsClassificationserialized evidence scenedistinct composition · assembled world falseParser RuleUse the document's e",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "ballz-xml-worlds",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "ballz-xml-worlds",
+        "hasPlayer": false,
+        "hasRace": false,
+        "particles": {
+          "active": 0,
+          "persistentFxLab": false
+        },
+        "selector": null
+      }
+    },
+    {
+      "id": "object-library-catalog",
+      "reachable": true,
+      "appState": "object-library-catalog",
+      "title": "ObjectLibrary — Exact Catalog Grid",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 3247,
+      "panelAtTop": 0,
+      "visibleButtonCount": 49,
+      "firstButtons": [
+        "Next Lab",
+        "Back Home",
+        "All familiesfilter exact serialized rows",
+        "primitivefilter exact serialized rows",
+        "pipefilter exact serialized rows",
+        "buildingfilter exact serialized rows",
+        "technologyfilter exact serialized rows",
+        "aircraftfilter exact serialized rows",
+        "naturefilter exact serialized rows",
+        "campfilter exact serialized rows",
+        "portfilter exact serialized rows",
+        "allsource availability"
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8ObjectLibrary — Exact Catalog GridThis is the archived editor's regular 61-entry object catalog, not a village or composed world. Recovered assets render at their exact serialized transforms; missing and unsupported rows remain labeled holes with no proxy substitution.Next LabBack HomeCatalog FamilyAll familiesfilter exact serialized rowsprimitivefilter exact serialized rowspipefilter exact serialized rowsbuildingfilter exact serialized rowstechnologyfilter exact serialized rowsaircraftfilter exact serialized rowsnaturefilter exact serialized rowscampfilter exact serialized rowsportfilter exact serialized rowsRecovery Filterallsource availabilityrecoveredsource availabilitymissingsource availabilityunsupportedsource availabilitySelected RecordLoading catalog…Exact catalog data is loading.Previousprevious matching rowNextnext matching rowOrbi",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "object-library-catalog",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "object-library-catalog",
+        "hasPlayer": false,
+        "hasRace": false,
+        "particles": {
+          "active": 0,
+          "persistentFxLab": false
+        },
+        "selector": null
+      }
+    },
+    {
+      "id": "dominus-asset-gallery",
+      "reachable": true,
+      "appState": "dominus-asset-gallery",
+      "title": "Dominus — Source Asset Gallery",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 3046,
+      "panelAtTop": 0,
+      "visibleButtonCount": 47,
+      "firstButtons": [
+        "Next Lab",
+        "Back Home",
+        "All families65 audited source assets",
+        "bush0 exact records",
+        "camp0 exact records",
+        "character0 exact records",
+        "grass0 exact records",
+        "port0 exact records",
+        "weapon0 exact records",
+        "tree0 exact records",
+        "allsource decode status",
+        "recoveredsource decode status"
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8Dominus — Source Asset GalleryAll 65 surviving Dominus models are inspectable here as local source assets. This is deliberately not the missing Dominus Village / Port world: no authored placement, terrain, water, camera, spawn, navigation or interaction composition survives.Next LabBack HomeSource FamilyAll families65 audited source assetsbush0 exact recordscamp0 exact recordscharacter0 exact recordsgrass0 exact recordsport0 exact recordsweapon0 exact recordstree0 exact recordsDecode Filterallsource decode statusrecoveredsource decode statusunsupportedsource decode statusSelected AssetLoading source asset…Exact gallery data is loading.Previousprevious matching sourceNextnext matching sourceOrbit LeftA or dragOrbit RightD or dragReset Galleryall 65 source assetsRecovery63 recovered / 652 unsupported binary-X recordsVisible Filter65 assetsall ",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "dominus-asset-gallery",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "dominus-asset-gallery",
+        "hasPlayer": false,
+        "hasRace": false,
+        "particles": {
+          "active": 0,
+          "persistentFxLab": false
+        },
+        "selector": null
+      }
+    },
+    {
+      "id": "xml-serializer-artifacts",
+      "reachable": true,
+      "appState": "xml-serializer-artifacts",
+      "title": "Recovery Status — XML Serializer Artifacts",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 2745,
+      "panelAtTop": 0,
+      "visibleButtonCount": 36,
+      "firstButtons": [
+        "Next Lab",
+        "Back Home",
+        "BaseScene.xml18 exact overlapping records · v1.1",
+        "test1.xmlone unit cube · v1.2 smoke save",
+        "Orbit LeftA or drag",
+        "Orbit RightD or drag",
+        "Reset Viewkeep exact overlap intact",
+        "Archive Family Browser separate BallZ concepts, FlightX, and vehicle experiment sections",
+        "BallZ Race Open mode",
+        "Scene Index Open mode",
+        "Scene Lab Open mode",
+        "Voie Lactée Vignette Open mode"
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8Recovery Status — XML Serializer ArtifactsBaseScene.xml and test1.xml are preserved here because they prove serializer versions and save behavior. The exact audit also proves they are not distinct composed worlds, so both have been removed from the scene census instead of inflating restoration totals.Next LabBack HomeChoose Serializer ArtifactBaseScene.xml18 exact overlapping records · v1.1test1.xmlone unit cube · v1.2 smoke saveInspection CameraOrbit LeftA or dragOrbit RightD or dragReset Viewkeep exact overlap intactSerialized Records18 objects · 1 unique signatureoverlap group 18Scene Censusexcluded as serializer artifactsdistinctAssembledScene = falsePhysicsmetadata preserved · simulation offno host gravity, ground, timestep, or behavior serializedProject Modes Archive Family Browser separate BallZ concepts, FlightX, and vehicle experime",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "xml-serializer-artifacts",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "xml-serializer-artifacts",
+        "hasPlayer": false,
+        "hasRace": false,
+        "particles": {
+          "active": 0,
+          "persistentFxLab": false
+        },
+        "selector": null
+      }
+    },
+    {
+      "id": "notes-manager-lab",
+      "reachable": true,
+      "appState": "notes-manager-lab",
+      "title": "CubX Systems — 3D Notes Block",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 2373,
+      "panelAtTop": 0,
+      "visibleButtonCount": 33,
+      "firstButtons": [
+        "Next Lab",
+        "Back Home",
+        "Add Note Meshenable slot 1 of 50 · or click the 3D add cube",
+        "Reset Blockreturn to the exact zero-note initial state",
+        "Archive Family Browser separate BallZ concepts, FlightX, and vehicle experiment sections",
+        "BallZ Race Open mode",
+        "Scene Index Open mode",
+        "Scene Lab Open mode",
+        "Voie Lactée Vignette Open mode",
+        "Nature Lab Open mode",
+        "Agent World Studio Open mode",
+        "Skybox Selector Open mode"
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8CubX Systems — 3D Notes BlockThe recoverable Notes Manager is a 50-slot marble 3D block with one add cube. It belongs to CubX, not BallZ. The referenced GUI layout is absent and the source has no note text, edit, delete, save, or load model, so this revival keeps that incomplete boundary visible.Next LabBack HomeRecovered Interaction Add Note Meshenable slot 1 of 50 · or click the 3D add cube Reset Blockreturn to the exact zero-note initial state Active Notes0 / 50next index 0Archive Coordinatesadd cube (0, −250, 0)parent-only 0.04 inspection scale keeps the full block visibleHonest Scope3D subsystem, incomplete GUIno invented text editor, deletion, file format, or persistenceProject Modes Archive Family Browser separate BallZ concepts, FlightX, and vehicle experiment sections BallZ Race Open mode Scene Index Open mode Scene Lab Open mode Vo",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "notes-manager-lab",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "notes-manager-lab",
+        "hasPlayer": false,
+        "hasRace": false,
+        "particles": {
+          "active": 0,
+          "persistentFxLab": false
+        },
+        "selector": null
+      }
+    },
+    {
+      "id": "milky-way-lab",
+      "reachable": true,
+      "appState": "milky-way-lab",
+      "title": "Voie Lactée — Planetary Vignette",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 2343,
+      "panelAtTop": 0,
+      "visibleButtonCount": 34,
+      "firstButtons": [
+        "Next Lab",
+        "Back Home",
+        "GraphysX 2017exact later assets and static transforms",
+        "BallZ 2015older positions and recovered motion profile",
+        "Reset Vignetterestore source positions and phase",
+        "Archive Family Browser separate BallZ concepts, FlightX, and vehicle experiment sections",
+        "BallZ Race Open mode",
+        "Scene Index Open mode",
+        "Scene Lab Open mode",
+        "Voie Lactée Vignette The archived five-body planetary component—Earth, clouds, Moon, Mars and Venus—correctly presented as a scene subsystem, not a generated star field.",
+        "Nature Lab Open mode",
+        "Agent World Studio Open mode"
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8Voie Lactée — Planetary VignetteThe archive name suggested a galaxy, but the implemented subsystem is exactly five textured bodies: Earth, a cloud shell, Moon, Mars, and Venus. There is no generated star field. The later GraphysX placement and the older moving BallZ profile are kept separate.Next LabBack HomeSource Profile GraphysX 2017exact later assets and static transforms BallZ 2015older positions and recovered motion profile Reset Vignetterestore source positions and phase Implemented Bodies5 / 5Earth · clouds · Moon · Mars · VenusGenerated Stars0corrected classification: planetary scene component, not star fieldAsset Bindingexact later archive setvisit camera and group centering remain labeled presentationProject Modes Archive Family Browser separate BallZ concepts, FlightX, and vehicle experiment sections BallZ Race Open mode Scene In",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "milky-way-lab",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "milky-way-lab",
+        "hasPlayer": false,
+        "hasRace": false,
+        "particles": {
+          "active": 0,
+          "persistentFxLab": false
+        },
+        "selector": null
+      }
+    },
+    {
+      "id": "game-lab",
+      "reachable": true,
+      "appState": "game-lab",
+      "title": "Engine & FX Lab",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 2900,
+      "panelAtTop": 0,
+      "visibleButtonCount": 36,
+      "firstButtons": [
+        "Next Lab",
+        "Back Home",
+        "Previousprevious audited preset",
+        "Nextnext audited preset",
+        "Restartdeterministic exact-config playback",
+        "Pauseinspection control · not archive behavior",
+        "Auto Replayoff · inspection convenience",
+        "Archive Family Browser separate BallZ concepts, FlightX, and vehicle experiment sections",
+        "BallZ Race Open mode",
+        "Scene Index Open mode",
+        "Scene Lab Open mode",
+        "Voie Lactée Vignette Open mode"
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8Engine & FX LabThe complete audited particle preset library now runs beside clearly labeled modern diagnostic fountains. Readable TVPJ values, aliases, textures and the surviving attractor remain exact evidence; opaque binaries and the missing clumpy_blurry texture stay explicit instead of receiving invented configurations.Next LabBack HomeArchived Particle PresetsLoading the exact library census…Selected PresetLoading exact DDS assets…16 readable presets and three opaque binariesPreviousprevious audited presetNextnext audited presetRestartdeterministic exact-config playbackPauseinspection control · not archive behaviorAuto Replayoff · inspection convenienceLibrary Census16 readable / 3 opaque29 emitters · 1 attractor · 1 missing bindingEvidenceloading callsite evidenceopaque data retained without simulationDiagnostic Rigsfire / energy / pla",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "game-lab",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "game-lab",
+        "hasPlayer": false,
+        "hasRace": false,
+        "particles": {
+          "active": 220,
+          "persistentFxLab": true,
+          "archivedPresetLibrary": {
+            "id": "archived-particle-preset-library",
+            "classification": "engine-fx-feature-not-scene",
+            "status": "readable-presets-recovered-opaque-presets-evidence-only",
+            "loadStatus": "ready",
+            "loadError": null,
+            "ready": true,
+            "visible": true,
+            "disposed": false,
+            "paused": false,
+            "autoReplay": true,
+            "seed": 538183440,
+            "selectionIndex": 1,
+            "selected": {
+              "id": "explosion_01",
+              "label": "Explosion 01",
+              "category": "explosion",
+              "availability": "readable-compiled",
+              "readable": true,
+              "runtimeEvidence": "located-graphysx-callsite",
+              "source": {
+                "path": "Yanik C++ BCKUP/Media/PartSys/resources/explosion_01.TVPJ",
+                "sha256": "18267D7EECE0D6137C8FAE4811FDEC03DC99EB99899866B744388740F522BBE7",
+                "bytes": 2197
+              },
+              "compiled": {
+                "sha256": "99F3AD87ED5D8BD691E21FDEF49DF455B1FD08D78236BC0E5B56CF8E4E460F5E",
+                "bytes": 1594,
+                "aliases": [
+                  "explosion1.TVP",
+                  "explosion_01.TVP"
+                ]
+              },
+              "reason": null,
+              "textureBindings": [
+                {
+                  "name": "Glow2.dds",
+                  "status": "present",
+                  "bytes": 65664,
+                  "sha256": "6DCF8614A1445EC2ABF851DC84BE7725FBD9790995E7313FF0DEDF8557E135B0",
+                  "source": "Yanik C++ BCKUP/Media/PartSys/resources/Glow2.dds",
+                  "publicUrl": "/assets/particles/archive/Glow2.dds"
+                },
+                {
+                  "name": "smokey.dds",
+                  "status": "present",
+                  "bytes": 87508,
+                  "sha256": "C1B60429AF9232522439D623B249236CE8D41EC5D41725B61146309DB7129A75",
+                  "source": "Yanik C++ BCKUP/Media/PartSys/resources/smokey.dds",
+                  "publicUrl": "/assets/particles/archive/smokey.dds"
+                }
+              ],
+              "emitterConfigs": [
+                {
+                  "id": 0,
+                  "type": "billboard",
+                  "maxParticles": 10,
+                  "defaultSize": 2,
+                  "location": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "direction": [
+                    0,
+                    10,
+                    0
+                  ],
+                  "directional": true,
+                  "randomDirectionFactor": [
+                    20,
+                    10,
+                    20
+                  ],
+                  "power": 40,
+                  "lifetimeSeconds": 2,
+                  "shape": 0,
+                  "textureBinding": "F:\\VS.Projects\\Machina\\MachinaClient\\textures\\sprites\\Glow2.dds",
+                  "textureFile": "Glow2.dds",
+                  "defaultColor": [
+                    1,
+                    1,
+                    0.5,
+                    1
+                  ],
+                  "generationSpeedMilliseconds": 10,
+                  "gravityEnabled": true,
+                  "gravity": [
+                    0,
+                    -50,
+                    0
+                  ],
+                  "particleChange": 2,
+                  "blending": 4,
+                  "alphaTest": true,
+                  "alphaReference": 0,
+                  "depthWrite": false,
+                  "boxSize": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "sphereRadius": 0,
+                  "looping": false,
+                  "keyframes": [
+                    {
+                      "id": 0,
+                      "timeSeconds": 0,
+                      "size": [
+                        8,
+                        8,
+                        8
+                      ],
+                      "color": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "id": 1,
+                      "timeSeconds": 1,
+                      "size": [
+                        4,
+                        4,
+                        4
+                      ],
+                      "color": [
+                        1,
+                        0.75,
+                        0,
+                        1
+                      ]
+                    },
+                    {
+                      "id": 2,
+                      "timeSeconds": 2,
+                      "size": [
+                        2,
+                        2,
+                        2
+                      ],
+                      "color": [
+                        1,
+                        0,
+                        0,
+                        0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 1,
+                  "type": "billboard",
+                  "maxParticles": 64,
+                  "defaultSize": 2,
+                  "location": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "direction": [
+                    0,
+                    5,
+                    0
+                  ],
+                  "directional": true,
+                  "randomDirectionFactor": [
+                    5,
+                    5,
+                    5
+                  ],
+                  "power": 10,
+                  "lifetimeSeconds": 3,
+                  "shape": 1,
+                  "textureBinding": "\\\\Storage\\Exchange\\Particles\\Glow2.dds",
+                  "textureFile": "Glow2.dds",
+                  "defaultColor": [
+                    1,
+                    1,
+                    1,
+                    0.75
+                  ],
+                  "generationSpeedMilliseconds": 10,
+                  "gravityEnabled": true,
+                  "gravity": [
+                    0,
+                    -5,
+                    0
+                  ],
+                  "particleChange": 1,
+                  "blending": 3,
+                  "alphaTest": true,
+                  "alphaReference": 0,
+                  "depthWrite": false,
+                  "boxSize": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "sphereRadius": 3,
+                  "looping": false,
+                  "keyframes": [
+                    {
+                      "id": 0,
+                      "timeSeconds": 0,
+                      "size": [
+                        16,
+                        16,
+                        16
+                      ],
+                      "color": [
+                        1,
+                        1,
+                        1,
+                        1
+                      ]
+                    },
+                    {
+                      "id": 1,
+                      "timeSeconds": 2,
+                      "size": [
+                        48,
+                        48,
+                        48
+                      ],
+                      "color": [
+                        0.7,
+                        0.5,
+                        0,
+                        1
+                      ]
+                    },
+                    {
+                      "id": 2,
+                      "timeSeconds": 3,
+                      "size": [
+                        128,
+                        128,
+                        128
+                      ],
+                      "color": [
+                        0.1,
+                        0.05,
+                        0,
+                        0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "type": "billboard",
+                  "maxParticles": 8,
+                  "defaultSize": 2,
+                  "location": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "direction": [
+                    0,
+                    -5,
+                    0
+                  ],
+                  "directional": true,
+                  "randomDirectionFactor": [
+                    2,
+                    10,
+                    2
+                  ],
+                  "power": 5,
+                  "lifetimeSeconds": 4,
+                  "shape": 1,
+                  "textureBinding": "\\\\Storage\\Exchange\\Particles\\smokey.dds",
+                  "textureFile": "smokey.dds",
+                  "defaultColor": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "generationSpeedMilliseconds": 10,
+                  "gravityEnabled": true,
+                  "gravity": [
+                    0,
+                    10,
+                    0
+                  ],
+                  "particleChange": 1,
+                  "blending": 1,
+                  "alphaTest": false,
+                  "alphaReference": 0,
+                  "depthWrite": false,
+                  "boxSize": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "sphereRadius": 3,
+                  "looping": false,
+                  "keyframes": [
+                    {
+                      "id": 0,
+                      "timeSeconds": 0,
+                      "size": [
+                        16,
+                        16,
+                        16
+                      ],
+                      "color": [
+                        0.25,
+                        0.125,
+                        0,
+                        0.1
+                      ]
+                    },
+                    {
+                      "id": 1,
+                      "timeSeconds": 2,
+                      "size": [
+                        16,
+                        16,
+                        16
+                      ],
+                      "color": [
+                        0.2,
+                        0.2,
+                        0.2,
+                        0.4
+                      ]
+                    },
+                    {
+                      "id": 2,
+                      "timeSeconds": 4,
+                      "size": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "color": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attractorConfigs": []
+            },
+            "cycle": 1,
+            "cycleElapsedSeconds": 0.8999999999999992,
+            "totalElapsedSeconds": 0.8999999999999992,
+            "displayScale": 0.030555555555555555,
+            "oneShot": true,
+            "finished": false,
+            "counts": {
+              "activeEmitters": 3,
+              "emitterCapacity": 82,
+              "activeParticles": 82,
+              "spawnedParticles": 82,
+              "attractors": 0
+            },
+            "emitters": [
+              {
+                "id": 0,
+                "activeParticles": 10,
+                "spawnedParticles": 10,
+                "capacity": 10,
+                "textureBinding": "F:\\VS.Projects\\Machina\\MachinaClient\\textures\\sprites\\Glow2.dds",
+                "textureFile": "Glow2.dds",
+                "textureStatus": "exact-archive-texture",
+                "generationSpeedMilliseconds": 10,
+                "lifetimeSeconds": 2,
+                "looping": false,
+                "shape": "point",
+                "blending": "add-alpha",
+                "sampleSourcePositions": [
+                  [
+                    24.503968136979648,
+                    -19.10555040246691,
+                    -26.339731506063625
+                  ],
+                  [
+                    -14.129999236677731,
+                    7.5823134284046265,
+                    -17.55615342810878
+                  ],
+                  [
+                    -17.505707083932577,
+                    -6.800253674880849,
+                    -27.853618064252075
+                  ]
+                ]
+              },
+              {
+                "id": 1,
+                "activeParticles": 64,
+                "spawnedParticles": 64,
+                "capacity": 64,
+                "textureBinding": "\\\\Storage\\Exchange\\Particles\\Glow2.dds",
+                "textureFile": "Glow2.dds",
+                "textureStatus": "exact-archive-texture",
+                "generationSpeedMilliseconds": 10,
+                "lifetimeSeconds": 3,
+                "looping": false,
+                "shape": "sphere-volume",
+                "blending": "color",
+                "sampleSourcePositions": [
+                  [
+                    -4.764239343594068,
+                    7.634352430705692,
+                    2.5008753795781256
+                  ],
+                  [
+                    2.5582979480427652,
+                    7.5665211934208765,
+                    -0.4424290421160726
+                  ],
+                  [
+                    -3.845419764172353,
+                    3.568201110002323,
+                    -1.9618177485780817
+                  ]
+                ]
+              },
+              {
+                "id": 2,
+                "activeParticles": 8,
+                "spawnedParticles": 8,
+                "capacity": 8,
+                "textureBinding": "\\\\Storage\\Exchange\\Particles\\smokey.dds",
+                "textureFile": "smokey.dds",
+                "textureStatus": "exact-archive-texture",
+                "generationSpeedMilliseconds": 10,
+                "lifetimeSeconds": 4,
+                "looping": false,
+                "shape": "sphere-volume",
+                "blending": "alpha",
+                "sampleSourcePositions": [
+                  [
+                    2.2477587459725776,
+                    0.3428439181079161,
+                    1.2245913175769791
+                  ],
+                  [
+                    1.2620691430941466,
+                    -0.396775427874384,
+                    1.156356470582474
+                  ],
+                  [
+                    -1.7016752124266945,
+                    0.4885129609975804,
+                    -0.9821026263227476
+                  ]
+                ]
+              }
+            ],
+            "library": {
+              "counts": {
+                "compiledFilenames": 19,
+                "uniqueCompiledBinaries": 17,
+                "readablePresets": 16,
+                "readableCompiledPresets": 14,
+                "readableSourceOnlyPresets": 2,
+                "opaqueCompiledPresets": 3,
+                "emitters": 29,
+                "attractors": 1,
+                "uniqueTextureBindings": 6,
+                "missingTextureBindings": 1
+              },
+              "entries": [
+                {
+                  "id": "expl1",
+                  "label": "Expl1",
+                  "category": "explosion",
+                  "availability": "readable-source-only",
+                  "playable": true
+                },
+                {
+                  "id": "explosion_01",
+                  "label": "Explosion 01",
+                  "category": "explosion",
+                  "availability": "readable-compiled",
+                  "playable": true
+                },
+                {
+                  "id": "explosion_02",
+                  "label": "Explosion 02",
+                  "category": "explosion",
+                  "availability": "readable-compiled",
+                  "playable": true
+                },
+                {
+                  "id": "explosion_03",
+                  "label": "Explosion 03",
+                  "category": "explosion",
+                  "availability": "readable-compiled",
+                  "playable": true
+                },
+                {
+                  "id": "fire1",
+                  "label": "Fire1",
+                  "category": "fire",
+                  "availability": "readable-source-only",
+                  "playable": true
+                },
+                {
+                  "id": "firetrail_01",
+                  "label": "Firetrail 01",
+                  "category": "fire",
+                  "availability": "readable-compiled",
+                  "playable": true
+                },
+                {
+                  "id": "firetrail_02",
+                  "label": "Firetrail 02",
+                  "category": "fire",
+                  "availability": "readable-compiled",
+                  "playable": true
+                },
+                {
+                  "id": "gatling_01",
+                  "label": "Gatling 01",
+                  "category": "weapon",
+                  "availability": "readable-compiled",
+                  "playable": true
+                },
+                {
+                  "id": "hit_01",
+                  "label": "Hit 01",
+                  "category": "impact",
+                  "availability": "readable-compiled",
+                  "playable": true
+                },
+                {
+                  "id": "lightningball_01",
+                  "label": "Lightningball 01",
+                  "category": "energy",
+                  "availability": "readable-compiled",
+                  "playable": true
+                },
+                {
+                  "id": "plasmatrail_01",
+                  "label": "Plasmatrail 01",
+                  "category": "trail",
+                  "availability": "readable-compiled",
+                  "playable": true
+                },
+                {
+                  "id": "shot2",
+                  "label": "Shot2",
+                  "category": "weapon",
+                  "availability": "readable-compiled",
+                  "playable": true
+                },
+                {
+                  "id": "shot3",
+                  "label": "Shot3",
+                  "category": "weapon",
+                  "availability": "readable-compiled",
+                  "playable": true
+                },
+                {
+                  "id": "smartbomb_01",
+                  "label": "Smartbomb 01",
+                  "category": "area-effect",
+                  "availability": "readable-compiled",
+                  "playable": true
+                },
+                {
+                  "id": "smoketrail_01",
+                  "label": "Smoketrail 01",
+                  "category": "trail",
+                  "availability": "readable-compiled",
+                  "playable": true
+                },
+                {
+                  "id": "trail_01",
+                  "label": "Trail 01",
+                  "category": "trail",
+                  "availability": "readable-compiled",
+                  "playable": true
+                },
+                {
+                  "id": "explosion3",
+                  "label": "Explosion3",
+                  "category": "explosion",
+                  "availability": "opaque-compiled-only",
+                  "playable": false
+                },
+                {
+                  "id": "impact1",
+                  "label": "Impact1",
+                  "category": "impact",
+                  "availability": "opaque-compiled-only",
+                  "playable": false
+                },
+                {
+                  "id": "shot1",
+                  "label": "Shot1",
+                  "category": "weapon",
+                  "availability": "opaque-compiled-only",
+                  "playable": false
+                }
+              ],
+              "exactAliasGroups": [
+                {
+                  "sha256": "99F3AD87ED5D8BD691E21FDEF49DF455B1FD08D78236BC0E5B56CF8E4E460F5E",
+                  "bytes": 1594,
+                  "aliases": [
+                    "explosion1.TVP",
+                    "explosion_01.TVP"
+                  ]
+                },
+                {
+                  "sha256": "2767DFD9428A99C10D18A4853EE8F31D99690FEB6EC142676256C4D0AC35B88A",
+                  "bytes": 896,
+                  "aliases": [
+                    "explosion2.TVP",
+                    "explosion_02.TVP"
+                  ]
+                }
+              ],
+              "opaque": [
+                {
+                  "id": "explosion3",
+                  "label": "Explosion3",
+                  "category": "explosion",
+                  "availability": "opaque-compiled-only",
+                  "runtimeEvidence": "no-graphysx-callsite-located",
+                  "compiled": {
+                    "sha256": "C0BB473ECC02725B3000A0F7D2D8343B48F2543952FB21C008B34F77A354DE45",
+                    "bytes": 2708,
+                    "aliases": [
+                      "explosion3.TVP"
+                    ]
+                  },
+                  "reason": "Compiled TVP survives without a readable TVPJ companion; emitter fields are intentionally not guessed."
+                },
+                {
+                  "id": "impact1",
+                  "label": "Impact1",
+                  "category": "impact",
+                  "availability": "opaque-compiled-only",
+                  "runtimeEvidence": "no-graphysx-callsite-located",
+                  "compiled": {
+                    "sha256": "13EDD41D8E3DFA1385CC5289206672F59A1520708E86241A247B0BE769CBB411",
+                    "bytes": 821,
+                    "aliases": [
+                      "impact1.TVP"
+                    ]
+                  },
+                  "reason": "Compiled TVP survives without a readable TVPJ companion; emitter fields are intentionally not guessed."
+                },
+                {
+                  "id": "shot1",
+                  "label": "Shot1",
+                  "category": "weapon",
+                  "availability": "opaque-compiled-only",
+                  "runtimeEvidence": "no-graphysx-callsite-located",
+                  "compiled": {
+                    "sha256": "6E779B070B74276670511B7995D00622BD2E2B2F982885F84411D30FAE18D634",
+                    "bytes": 807,
+                    "aliases": [
+                      "shot1.TVP"
+                    ]
+                  },
+                  "reason": "Compiled TVP survives without a readable TVPJ companion; emitter fields are intentionally not guessed."
+                }
+              ]
+            },
+            "fidelity": {
+              "exact": "TVPJ emitter/attractor fields, compiled/readable hashes, exact aliases and surviving DDS bytes.",
+              "adapted": "Seeded component-random direction, fixed-step integration, batched point sprites, inspection normalization and approximate Three.js blend mapping.",
+              "unavailable": "TV3D private RNG/integrator/blend-state recipes and emitter/particle interpolation implementation.",
+              "runtimeNotes": [
+                "All readable TVPJ values and surviving texture bindings are preserved in selected.emitterConfigs/attractorConfigs.",
+                "Looping emitters honor archived capacity, generation interval and lifetime; the batch renderer uses one draw call per emitter.",
+                "COLOR and ADDALPHA map to alpha and additive blending because TV3D's internal blend-state recipes are unavailable.",
+                "The one archived attractor uses a disclosed radial/directional force adapter with its exact serialized values.",
+                "A missing texture binding uses a conspicuous magenta-X diagnostic sprite; it is not a replacement archive texture.",
+                "Opaque compiled-only presets remain selectable evidence with zero invented emitters."
+              ]
+            }
+          }
+        },
+        "selector": null
+      }
+    },
+    {
+      "id": "physics-lab",
+      "reachable": false
+    },
+    {
+      "id": "map-editor",
+      "reachable": true,
+      "appState": "map-editor",
+      "title": "BallZ Map Editor",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 3001,
+      "panelAtTop": 0,
+      "visibleButtonCount": 161,
+      "firstButtons": [
+        "Next Lab",
+        "Back Home",
+        "Play This Mapbuild it as a real race and drive it",
+        "Reset Draftback to the default layout",
+        "Floor driveable tile",
+        "Wall solid block",
+        "Start single spawn",
+        "Ring checkpoint pickup",
+        "Half single halfway gate",
+        "Finish single finish gate",
+        "Hazard moving obstacle seed",
+        "#"
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8BallZ Map EditorA first browser-side editor for BallZ-style arena maps. Pick a tile, paint the grid, and the 3D preview updates from the same serializable draft.Next LabBack HomeDraft Actions Play This Mapbuild it as a real race and drive it Reset Draftback to the default layout Tile Palette Floor driveable tile Wall solid block Start single spawn Ring checkpoint pickup Half single halfway gate Finish single finish gate Hazard moving obstacle seed Clickable Map Draft # # # # # # # # # # # # . . . . H . . . . # # . . . . . . . . . # # . . # # . . . o . # # . . . . . o . . . # # . . . . ! . . . . # # . . . o . . # . . # # . o . . . . # . . # # . . . . . . . . . # # . . . . S . . . . # # # # # # F # # # # # Draft Stats43 walls4 rings1 hazards1 start1 half1 finishExport Draft{\"width\":11,\"height\":11,\"rows\":[\"###########\",\"#....H....#\",\"#.........",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "map-editor",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "map-editor",
+        "hasPlayer": false,
+        "hasRace": false,
+        "particles": {
+          "active": 0,
+          "persistentFxLab": false
+        },
+        "selector": null
+      }
+    },
+    {
+      "id": "math-lab",
+      "reachable": true,
+      "appState": "math-lab",
+      "title": "Math Game",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 2517,
+      "panelAtTop": 0,
+      "visibleButtonCount": 39,
+      "firstButtons": [
+        "Next Lab",
+        "Back Home",
+        "Reset 3D Viewdrag orbit · wheel zoom",
+        "Parabola y = ax² + bx + c",
+        "Slope y = mx + b",
+        "Classic Bowlmodern inspection preset",
+        "Wide Archmodern inspection preset",
+        "Offset Curvemodern inspection preset",
+        "Rising Rampmodern inspection preset",
+        "Falling Rampmodern inspection preset",
+        "Archive Family Browser separate BallZ concepts, FlightX, and vehicle experiment sections",
+        "BallZ Race Open mode"
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8Math GameShape the exact 10,000-molecule / 100-lane field with the recovered A/B/C/M/X formula controls. The archive implemented this as a visual formula workbench—not a scored puzzle—so modern convenience presets are labeled as inspection aids instead of invented legacy goals.Next LabBack Home Live Formulay = 1.50x² + -1.00x + 0.00y = ax² + bx + c — set A to 0 and the parabola becomes a slope :) 10,000 molecules · liveReset 3D Viewdrag orbit · wheel zoom Parabola y = ax² + bx + c Slope y = mx + b Classic Bowlmodern inspection presetWide Archmodern inspection presetOffset Curvemodern inspection presetRising Rampmodern inspection presetFalling Rampmodern inspection preset A curveB tilt/interceptC heightM slopeX horizontal offset A 1.50 B -1.00 C 0.00 M 1.25 X 0.00 Project Modes Archive Family Browser separate BallZ concepts, FlightX, and vehi",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "math-lab",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "math-lab",
+        "hasPlayer": false,
+        "hasRace": false,
+        "particles": {
+          "active": 0,
+          "persistentFxLab": false
+        },
+        "selector": null
+      }
+    },
+    {
+      "id": "editor-lab",
+      "reachable": false
+    },
+    {
+      "id": "cubx-lab",
+      "reachable": true,
+      "appState": "cubx-lab",
+      "title": "CubZ Animated Menu",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 3918,
+      "panelAtTop": 0,
+      "visibleButtonCount": 44,
+      "firstButtons": [
+        "Next Lab",
+        "Back Home",
+        "SunLaunch FlightX — Pipe Looprace id flightx-pipe · source CubXScene sun action",
+        "Level 0SYSTEMRecovered explosion-scene branch is unavailable · inspect only · source (-800, 300, -250)",
+        "Level 0TOOLSRecovered destination: one-car Impreza Car Scene · source (-1100, 300, -500)",
+        "Level 0EARTHRecovered click handler is empty · inspect only · source (800, 500, 350)",
+        "Level 666MAIN MENUALLMENU 666 · return to source menu level 0 · source (1000, 600, 300)",
+        "Cube 1Atmel ControlRotateTo(0)",
+        "Cube 2System InfoRotateTo(1)",
+        "Cube 3NotesRotateTo(2)",
+        "Cube 43D ScenesRotateTo(3)",
+        "Cube 5BallZRotateTo(4)"
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8CubZ Animated MenuClick one of the eight cubes. Cube 0 opens immediately as in source; selections 1–7 follow their decoded CubeRot ranges, then CubeOpen runs frames 0–50 at 30 fps. Close reverses that clip before the repaired same-range return; the separate older CubXActor lineage is not substituted for CubZ.Next LabBack Home Live CubZ State Machine Choose one of eight cubes Click the 3D cube or recovered satellites directly, or use these mirrored controls. The red 3D sun launches FlightX. SunLaunch FlightX — Pipe Looprace id flightx-pipe · source CubXScene sun action Recovered CubX Satellite Shell · menu level 0 Level 0SYSTEMRecovered explosion-scene branch is unavailable · inspect only · source (-800, 300, -250) Level 0TOOLSRecovered destination: one-car Impreza Car Scene · source (-1100, 300, -500) Level 0EARTHRecovered click handler is e",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "cubx-lab",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "cubx-lab",
+        "hasPlayer": false,
+        "hasRace": false,
+        "particles": {
+          "active": 0,
+          "persistentFxLab": false
+        },
+        "selector": null
+      }
+    },
+    {
+      "id": "cubx-actor-lineage",
+      "reachable": true,
+      "appState": "cubx-actor-lineage",
+      "title": "CubXActor Lineage — Separate Evidence Inspector",
+      "versionText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8",
+      "versionVisible": true,
+      "panelClientHeight": 960,
+      "panelScrollHeight": 3131,
+      "panelAtTop": 0,
+      "visibleButtonCount": 50,
+      "firstButtons": [
+        "Next Lab",
+        "Back Home",
+        "closedexact decoded family",
+        "getexact decoded family",
+        "rotexact decoded family",
+        "open-fullexact decoded family",
+        "open-soloexact decoded family",
+        "Click 1Get2",
+        "Click 2Get3",
+        "Click 3Get4",
+        "Click 4Get5",
+        "Click 5Get6"
+      ],
+      "bodyText": "GraphysX Web Revivalv0.1.0revival-2026.07.17-r8CubXActor Lineage — Separate Evidence InspectorThis older Closed/Get/Rot/Open actor family is inspected on its own because its BoxNN labels and host indices conflict with CubZ. Exact geometry, click meshes, source frames and terminal holds are visible; click 8 remains a broken uninitialized slot instead of receiving an invented actor.Next LabBack HomeClip Familyclosedexact decoded familygetexact decoded familyrotexact decoded familyopen-fullexact decoded familyopen-soloexact decoded familyClick FlowClick 1Get2Click 2Get3Click 3Get4Click 4Get5Click 5Get6Click 6Get7Click 7Get8Click 8broken slot 7 · no actorPlaybackLoading decoded actor…frame 0.00 / 0 · motion · direction 1Playexact 30 fps rangeReversetoggle source direction−1 Framepause and step+1 Framepause and stepClick Meshesexact CubXBtn TVMsDiagnostic Colorsinspection aid onlyActive Geome",
+      "canvasRect": {
+        "w": 921.609375,
+        "h": 960
+      },
+      "textState": {
+        "mode": "cubx-actor-lineage",
+        "build": "revival-2026.07.17-r8",
+        "projectFamily": "cubx-actor-lineage",
+        "hasPlayer": false,
+        "hasRace": false,
+        "particles": {
+          "active": 0,
+          "persistentFxLab": false
+        },
+        "selector": null
+      }
+    },
+    {
+      "id": "asset-catalog",
+      "reachable": false
+    }
+  ],
+  "errors": [],
+  "requestFailures": []
+}
