@@ -1,0 +1,14 @@
+<particle-system>
+  <emitter type="billboard" max-particles="100" id="0" size="1" location="0/0/0" direction="0/0/1" directional="True" randomdirectionfactor="0/0/1" power="15" lifetime="1" shape="0" texture="\\Storage\Exchange\Particles\Glow2.dds" color="1,1,1,0.5" speed="10" usegravity="False" gravity="0/0/0" alphachange="1" alphablending="4" alphatest="True" alpharef="0" alphadepthwrite="False" boxsize="0/0/0" sphereradius="1" looping="True">
+    <particle-keyframes>
+      <keyframe id="0" key="0" size="2/2/2" color="0.75,0.75,1,0.5" />
+      <keyframe id="1" key="1" size="0/0/0" color="0,0.125,1,0" />
+    </particle-keyframes>
+  </emitter>
+  <emitter type="billboard" max-particles="32" id="1" size="1" location="0/0/0" direction="0/0/1" directional="True" randomdirectionfactor="1/1/0.5" power="1" lifetime="2" shape="0" texture="\\Storage\Exchange\Particles\Glow2.dds" color="0,1,1,1" speed="100" usegravity="True" gravity="0/0/20" alphachange="1" alphablending="4" alphatest="True" alpharef="0" alphadepthwrite="False" boxsize="0/0/0" sphereradius="0" looping="True">
+    <particle-keyframes>
+      <keyframe id="0" key="0" size="2/2/2" color="1,0.5,0,1" />
+      <keyframe id="1" key="1" size="0/0/0" color="1,1,1,0" />
+    </particle-keyframes>
+  </emitter>
+</particle-system>

@@ -1,0 +1,10 @@
+<?xml version='1.0'?>
+<Spline>
+   <point x="40"  y="15"  z="70"/>
+   <point x="45"  y="-5"  z="60"/>
+   <point x="60"  y="-5"  z="50"/>
+   <point x="60"  y="0"   z="40"/>
+   <point x="40"  y="5"   z="20"/>
+   <point x="20"  y="10"  z="10"/>
+   <point x="5"   y="10"  z="0"/>
+</Spline>

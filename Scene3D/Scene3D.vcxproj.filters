@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="HighScoreForm.cpp">
+      <Filter>ScoringSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="Anneaux.cpp">
+      <Filter>ScoringSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolsNET.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorScreen.cpp">
+      <Filter>BallZScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayScreen.cpp">
+      <Filter>BallZScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuScreen.cpp">
+      <Filter>BallZScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="AfterRaceScreen.cpp">
+      <Filter>BallZScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Formulas.cpp" />
+    <ClCompile Include="MathGameScreen.cpp">
+      <Filter>BallZScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectRaceScreen.cpp">
+      <Filter>BallZScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="IScreenApp.cpp">
+      <Filter>ScreenSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenList.cpp">
+      <Filter>ScreenSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Wrapper3D.h" />
+    <ClInclude Include="HighScoreForm.h">
+      <Filter>ScoringSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Anneaux.h">
+      <Filter>ScoringSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ScoringSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="LapChecker.h">
+      <Filter>ScoringSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h" />
+    <ClInclude Include="BallZLevel.h" />
+    <ClInclude Include="ToolsNET.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorScreen.h">
+      <Filter>BallZScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayScreen.h">
+      <Filter>BallZScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuScreen.h">
+      <Filter>BallZScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenIndices.h">
+      <Filter>BallZScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="AfterRaceScreen.h">
+      <Filter>BallZScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="Formulas.h" />
+    <ClInclude Include="MathGameScreen.h">
+      <Filter>BallZScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectRaceScreen.h">
+      <Filter>BallZScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="HighScoreData.h">
+      <Filter>ScoringSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="IScreen3D.h">
+      <Filter>ScreenSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="IScreenApp.h">
+      <Filter>ScreenSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenList.h">
+      <Filter>ScreenSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="HighScoreForm.resx">
+      <Filter>ScoringSystem</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{765b50fc-538d-4fb4-8228-0cae5371c614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScoringSystem">
+      <UniqueIdentifier>{1f34088c-8f2d-4ee4-8d50-be7c8f8a66f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BallZScreens">
+      <UniqueIdentifier>{9593fa7d-ed06-4914-8f73-dc51cdde872a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScreenSystem">
+      <UniqueIdentifier>{da0374c9-1700-4acf-ab32-eecdb9090720}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

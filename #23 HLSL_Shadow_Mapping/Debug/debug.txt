@@ -1,0 +1,23 @@
+02-06-2011 06:04:53 | --------------------------------------------
+02-06-2011 06:04:53 | Truevision3D Debug/Log File
+02-06-2011 06:04:53 | --------------------------------------------
+02-06-2011 06:04:53 | Engine Version : 6.5
+02-06-2011 06:04:53 | ENGINE INFO : DLL Compilation time Nov 11 2009 23:25:48
+02-06-2011 06:04:53 | DEVICE INIT : Initialize Depth
+02-06-2011 06:04:53 | DEVICE INIT : Initializing the device in windowed mode, with a render surface size of 794x572, format 22, depthbuffer 75
+02-06-2011 06:04:53 | VIEWPORT MANAGER : Main viewport initialization
+02-06-2011 06:04:53 | VIEWPORT MANAGER : Main viewport initialized (794x572)
+02-06-2011 06:04:53 | DEVICE INIT : Initialization successful !
+02-06-2011 06:04:53 | DEVICE INFO :  3D Card : ATI Radeon HD 5800 Series  | Card ID : 26776 | Driver ID : 656057
+02-06-2011 06:04:53 | DEVICE INFO : Available texture memory : 2799 MB
+02-06-2011 06:04:53 | DEVICE INFO : Vertex Shaders 3.0 supported in hardware.
+02-06-2011 06:04:53 | DEVICE INFO : Pixel Shaders 3.0 supported in hardware.
+02-06-2011 06:04:53 | DEVICE INFO : Driver used is a DirectX9-level driver 'atiumdag.dll'. Excellent
+02-06-2011 06:04:53 | DEVICE INFO : Card Type Geforce6xxx/7xxx/8xxx/ATIRadeonX1xxx  Level card, third generation of programmable card
+02-06-2011 06:04:53 | TEXTURE MANAGER : Successfully created a cubic render surface of side size 256 on slot 2
+02-06-2011 06:04:53 | SHADER MANAGER : Error, file not found '..\common\shaders\meshdeep.shade'
+02-06-2011 06:04:53 | SHADER MANAGER : Error, file not found '..\common\shaders\meshlight.shade'
+02-06-2011 06:04:53 | STREAM MANAGER : Couldn't open file '..\common\room2.tvm'
+02-06-2011 06:04:53 | MESH MANAGER : TVM Loading : '..\common\room2.tvm' file not found
+02-06-2011 06:05:04 | START UNLOAD
+02-06-2011 06:05:04 | RESOURCE MANAGER : Engine successfully unloaded

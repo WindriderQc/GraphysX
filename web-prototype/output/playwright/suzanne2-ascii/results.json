@@ -1,0 +1,596 @@
+{
+  "url": "http://127.0.0.1:4187/suzanne2-ascii-preview.html",
+  "assertions": [
+    {
+      "pass": true,
+      "message": "Suzanne2 remains the exact 40x40 authored grid"
+    },
+    {
+      "pass": true,
+      "message": "# / Z / z author exactly 313 wall cubes"
+    },
+    {
+      "pass": true,
+      "message": "effect walls bring the collision-cube total to 315"
+    },
+    {
+      "pass": true,
+      "message": "all fifteen authored rings render initially"
+    },
+    {
+      "pass": true,
+      "message": "three source chains preserve nine rigid parts"
+    },
+    {
+      "pass": true,
+      "message": "three pistons preserve bar, plate, and trigger semantics"
+    },
+    {
+      "pass": true,
+      "message": "both effect cells preserve four 64-particle emitters"
+    },
+    {
+      "pass": true,
+      "message": "finish and halfway gates preserve four posts and two segments"
+    },
+    {
+      "pass": true,
+      "message": "two CubX anchors remain explicit but hidden by default"
+    },
+    {
+      "pass": true,
+      "message": "all three Suzanne2.xml objects render"
+    },
+    {
+      "pass": true,
+      "message": "the @ spawn preserves its non-centered [10,0.5,6] loader position"
+    },
+    {
+      "pass": true,
+      "message": "active-source SuperCage / FireArrow player dimensions survive"
+    },
+    {
+      "pass": true,
+      "message": "finish endpoints match the ASCII F/f cells"
+    },
+    {
+      "pass": true,
+      "message": "halfway endpoints match the ASCII H/h cells"
+    },
+    {
+      "pass": true,
+      "message": "QA preserves the authored 15 versus implemented 2 progression conflict"
+    },
+    {
+      "pass": true,
+      "message": "no invented lap victory target is attached to Suzanne2"
+    },
+    {
+      "pass": true,
+      "message": "isolated candidate excludes host globals and labels the missing screenshot boundary"
+    },
+    {
+      "pass": true,
+      "message": "deterministic one-second advance applies the source 100-degrees-per-second ring rotation"
+    },
+    {
+      "pass": true,
+      "message": "ring pickup visibility API removes one authored ring without mutating inventory"
+    },
+    {
+      "pass": true,
+      "message": "piston API reaches the exact +0.5 sliding limit"
+    },
+    {
+      "pass": true,
+      "message": "CubX evidence anchors can be inspected independently"
+    },
+    {
+      "pass": true,
+      "message": "XML and player layers are independently isolatable"
+    },
+    {
+      "pass": true,
+      "message": "implemented source camera pose is directly inspectable"
+    },
+    {
+      "pass": true,
+      "message": "reset restores every source layer"
+    },
+    {
+      "pass": true,
+      "message": "Suzanne2 preview has no browser console or page errors"
+    }
+  ],
+  "states": {
+    "initial": {
+      "id": "suzanne2-ascii-arena",
+      "title": "Suzanne 2 — isolated ASCII environment",
+      "status": "authored-layout-and-source-runtime-recovered",
+      "loadStatus": "ready",
+      "loadError": null,
+      "ready": true,
+      "visible": true,
+      "disposed": false,
+      "screenshotEvidence": false,
+      "grid": {
+        "width": 40,
+        "height": 40
+      },
+      "counts": {
+        "wallCubesFromHashZz": 313,
+        "wallCubesBySymbol": {
+          "hash": 192,
+          "grassZ": 65,
+          "podiumz": 56
+        },
+        "effectWallCubes": 2,
+        "totalAsciiCollisionCubes": 315,
+        "rings": 15,
+        "chainAssemblies": 3,
+        "chainRigidBodies": 9,
+        "pistonAssemblies": 3,
+        "pistonBodiesIncludingHiddenTriggers": 9,
+        "lapGatePosts": 4,
+        "gateSegments": 2,
+        "effectCells": 2,
+        "particleEmitters": 4,
+        "particleCapacity": 256,
+        "cubxActorAnchors": 2,
+        "xmlObjects": 3,
+        "ringsVisible": 15,
+        "xmlMeshesVisible": 3,
+        "cubxAnchorsVisible": 0
+      },
+      "player": {
+        "implementation": "ZombieKiller",
+        "position": [
+          10,
+          0.5,
+          6
+        ],
+        "physicsRadius": 0.3,
+        "insideRadius": 0.225,
+        "visible": true
+      },
+      "gates": {
+        "finishStart": [
+          14.5,
+          0.5,
+          3.5
+        ],
+        "finishEnd": [
+          14.5,
+          0.5,
+          9.5
+        ],
+        "halfStart": [
+          20.5,
+          0.5,
+          25.5
+        ],
+        "halfEnd": [
+          20.5,
+          0.5,
+          33.5
+        ]
+      },
+      "rules": {
+        "authoredRingInventory": 15,
+        "implementedVictoryThreshold": 2,
+        "lapVictoryTarget": null
+      },
+      "activePistons": [],
+      "xmlAttachments": [
+        {
+          "name": "..\\\\StockRoom\\\\Airplane\\\\Airplane.x",
+          "position": [
+            -5,
+            2,
+            15
+          ],
+          "visible": true
+        },
+        {
+          "name": "..\\\\StockRoom\\\\BonedGate.x",
+          "position": [
+            0,
+            5,
+            15
+          ],
+          "visible": true
+        },
+        {
+          "name": "Suzanne1.Magician",
+          "position": [
+            40,
+            0,
+            40
+          ],
+          "visible": true
+        }
+      ],
+      "hostGlobalsIncluded": false,
+      "evidenceBoundary": "No Suzanne2 screenshot survives in the audited archive. The candidate therefore follows the active March 2017 GamePlayScreen + GraphysX_1 BuildASCIIScene branch and does not borrow Suzanne1.png presentation inferences.",
+      "unresolved": [
+        "No Suzanne2 screenshot was found, so exact historic camera framing, sky, exposure, and composite appearance cannot be image-matched.",
+        "C cells call createCubX and place actors at y=5.5, but the exact actor animation/menu state is outside the ASCII/XML evidence; the preview exposes anchors only.",
+        "BonedGate.x contains a 200-tick, 24-ticks-per-second animation for Armature, Armature_Bone, and GateBlock, but the active XML path loads it as a mesh and does not establish animation playback.",
+        "The source particle system preserves capacities/colors/settings but not a deterministic seed; preview particle locations are explicitly deterministic visualization, not recovered trajectories.",
+        "The active source advances after two ring pickups even though fifteen rings are authored. Both facts are preserved instead of silently inventing a corrected win rule."
+      ]
+    },
+    "mutated": {
+      "id": "suzanne2-ascii-arena",
+      "title": "Suzanne 2 — isolated ASCII environment",
+      "status": "authored-layout-and-source-runtime-recovered",
+      "loadStatus": "ready",
+      "loadError": null,
+      "ready": true,
+      "visible": true,
+      "disposed": false,
+      "screenshotEvidence": false,
+      "grid": {
+        "width": 40,
+        "height": 40
+      },
+      "counts": {
+        "wallCubesFromHashZz": 313,
+        "wallCubesBySymbol": {
+          "hash": 192,
+          "grassZ": 65,
+          "podiumz": 56
+        },
+        "effectWallCubes": 2,
+        "totalAsciiCollisionCubes": 315,
+        "rings": 15,
+        "chainAssemblies": 3,
+        "chainRigidBodies": 9,
+        "pistonAssemblies": 3,
+        "pistonBodiesIncludingHiddenTriggers": 9,
+        "lapGatePosts": 4,
+        "gateSegments": 2,
+        "effectCells": 2,
+        "particleEmitters": 4,
+        "particleCapacity": 256,
+        "cubxActorAnchors": 2,
+        "xmlObjects": 3,
+        "ringsVisible": 14,
+        "xmlMeshesVisible": 0,
+        "cubxAnchorsVisible": 2
+      },
+      "player": {
+        "implementation": "ZombieKiller",
+        "position": [
+          10,
+          0.5,
+          6
+        ],
+        "physicsRadius": 0.3,
+        "insideRadius": 0.225,
+        "visible": false
+      },
+      "gates": {
+        "finishStart": [
+          14.5,
+          0.5,
+          3.5
+        ],
+        "finishEnd": [
+          14.5,
+          0.5,
+          9.5
+        ],
+        "halfStart": [
+          20.5,
+          0.5,
+          25.5
+        ],
+        "halfEnd": [
+          20.5,
+          0.5,
+          33.5
+        ]
+      },
+      "rules": {
+        "authoredRingInventory": 15,
+        "implementedVictoryThreshold": 2,
+        "lapVictoryTarget": null
+      },
+      "activePistons": [
+        1
+      ],
+      "xmlAttachments": [
+        {
+          "name": "..\\\\StockRoom\\\\Airplane\\\\Airplane.x",
+          "position": [
+            -5,
+            2,
+            15
+          ],
+          "visible": false
+        },
+        {
+          "name": "..\\\\StockRoom\\\\BonedGate.x",
+          "position": [
+            0,
+            5,
+            15
+          ],
+          "visible": false
+        },
+        {
+          "name": "Suzanne1.Magician",
+          "position": [
+            40,
+            0,
+            40
+          ],
+          "visible": false
+        }
+      ],
+      "hostGlobalsIncluded": false,
+      "evidenceBoundary": "No Suzanne2 screenshot survives in the audited archive. The candidate therefore follows the active March 2017 GamePlayScreen + GraphysX_1 BuildASCIIScene branch and does not borrow Suzanne1.png presentation inferences.",
+      "unresolved": [
+        "No Suzanne2 screenshot was found, so exact historic camera framing, sky, exposure, and composite appearance cannot be image-matched.",
+        "C cells call createCubX and place actors at y=5.5, but the exact actor animation/menu state is outside the ASCII/XML evidence; the preview exposes anchors only.",
+        "BonedGate.x contains a 200-tick, 24-ticks-per-second animation for Armature, Armature_Bone, and GateBlock, but the active XML path loads it as a mesh and does not establish animation playback.",
+        "The source particle system preserves capacities/colors/settings but not a deterministic seed; preview particle locations are explicitly deterministic visualization, not recovered trajectories.",
+        "The active source advances after two ring pickups even though fifteen rings are authored. Both facts are preserved instead of silently inventing a corrected win rule."
+      ]
+    },
+    "sourceCamera": {
+      "mode": "suzanne2-ascii-isolated-preview",
+      "evidenceBoundary": "No Suzanne2 screenshot survives; active March 2017 source semantics are authoritative.",
+      "coordinateSystem": "+X ASCII columns, +Y up, +Z ASCII rows; player @ is not half-cell centered",
+      "camera": {
+        "mode": "source2017",
+        "position": [
+          20,
+          10,
+          20
+        ],
+        "target": [
+          10,
+          0.5,
+          6
+        ]
+      },
+      "environment": {
+        "id": "suzanne2-ascii-arena",
+        "title": "Suzanne 2 — isolated ASCII environment",
+        "status": "authored-layout-and-source-runtime-recovered",
+        "loadStatus": "ready",
+        "loadError": null,
+        "ready": true,
+        "visible": true,
+        "disposed": false,
+        "screenshotEvidence": false,
+        "grid": {
+          "width": 40,
+          "height": 40
+        },
+        "counts": {
+          "wallCubesFromHashZz": 313,
+          "wallCubesBySymbol": {
+            "hash": 192,
+            "grassZ": 65,
+            "podiumz": 56
+          },
+          "effectWallCubes": 2,
+          "totalAsciiCollisionCubes": 315,
+          "rings": 15,
+          "chainAssemblies": 3,
+          "chainRigidBodies": 9,
+          "pistonAssemblies": 3,
+          "pistonBodiesIncludingHiddenTriggers": 9,
+          "lapGatePosts": 4,
+          "gateSegments": 2,
+          "effectCells": 2,
+          "particleEmitters": 4,
+          "particleCapacity": 256,
+          "cubxActorAnchors": 2,
+          "xmlObjects": 3,
+          "ringsVisible": 15,
+          "xmlMeshesVisible": 3,
+          "cubxAnchorsVisible": 0
+        },
+        "player": {
+          "implementation": "ZombieKiller",
+          "position": [
+            10,
+            0.5,
+            6
+          ],
+          "physicsRadius": 0.3,
+          "insideRadius": 0.225,
+          "visible": true
+        },
+        "gates": {
+          "finishStart": [
+            14.5,
+            0.5,
+            3.5
+          ],
+          "finishEnd": [
+            14.5,
+            0.5,
+            9.5
+          ],
+          "halfStart": [
+            20.5,
+            0.5,
+            25.5
+          ],
+          "halfEnd": [
+            20.5,
+            0.5,
+            33.5
+          ]
+        },
+        "rules": {
+          "authoredRingInventory": 15,
+          "implementedVictoryThreshold": 2,
+          "lapVictoryTarget": null
+        },
+        "activePistons": [],
+        "xmlAttachments": [
+          {
+            "name": "..\\\\StockRoom\\\\Airplane\\\\Airplane.x",
+            "position": [
+              -5,
+              2,
+              15
+            ],
+            "visible": true
+          },
+          {
+            "name": "..\\\\StockRoom\\\\BonedGate.x",
+            "position": [
+              0,
+              5,
+              15
+            ],
+            "visible": true
+          },
+          {
+            "name": "Suzanne1.Magician",
+            "position": [
+              40,
+              0,
+              40
+            ],
+            "visible": true
+          }
+        ],
+        "hostGlobalsIncluded": false,
+        "evidenceBoundary": "No Suzanne2 screenshot survives in the audited archive. The candidate therefore follows the active March 2017 GamePlayScreen + GraphysX_1 BuildASCIIScene branch and does not borrow Suzanne1.png presentation inferences.",
+        "unresolved": [
+          "No Suzanne2 screenshot was found, so exact historic camera framing, sky, exposure, and composite appearance cannot be image-matched.",
+          "C cells call createCubX and place actors at y=5.5, but the exact actor animation/menu state is outside the ASCII/XML evidence; the preview exposes anchors only.",
+          "BonedGate.x contains a 200-tick, 24-ticks-per-second animation for Armature, Armature_Bone, and GateBlock, but the active XML path loads it as a mesh and does not establish animation playback.",
+          "The source particle system preserves capacities/colors/settings but not a deterministic seed; preview particle locations are explicitly deterministic visualization, not recovered trajectories.",
+          "The active source advances after two ring pickups even though fifteen rings are authored. Both facts are preserved instead of silently inventing a corrected win rule."
+        ]
+      }
+    },
+    "final": {
+      "id": "suzanne2-ascii-arena",
+      "title": "Suzanne 2 — isolated ASCII environment",
+      "status": "authored-layout-and-source-runtime-recovered",
+      "loadStatus": "ready",
+      "loadError": null,
+      "ready": true,
+      "visible": true,
+      "disposed": false,
+      "screenshotEvidence": false,
+      "grid": {
+        "width": 40,
+        "height": 40
+      },
+      "counts": {
+        "wallCubesFromHashZz": 313,
+        "wallCubesBySymbol": {
+          "hash": 192,
+          "grassZ": 65,
+          "podiumz": 56
+        },
+        "effectWallCubes": 2,
+        "totalAsciiCollisionCubes": 315,
+        "rings": 15,
+        "chainAssemblies": 3,
+        "chainRigidBodies": 9,
+        "pistonAssemblies": 3,
+        "pistonBodiesIncludingHiddenTriggers": 9,
+        "lapGatePosts": 4,
+        "gateSegments": 2,
+        "effectCells": 2,
+        "particleEmitters": 4,
+        "particleCapacity": 256,
+        "cubxActorAnchors": 2,
+        "xmlObjects": 3,
+        "ringsVisible": 15,
+        "xmlMeshesVisible": 3,
+        "cubxAnchorsVisible": 0
+      },
+      "player": {
+        "implementation": "ZombieKiller",
+        "position": [
+          10,
+          0.5,
+          6
+        ],
+        "physicsRadius": 0.3,
+        "insideRadius": 0.225,
+        "visible": true
+      },
+      "gates": {
+        "finishStart": [
+          14.5,
+          0.5,
+          3.5
+        ],
+        "finishEnd": [
+          14.5,
+          0.5,
+          9.5
+        ],
+        "halfStart": [
+          20.5,
+          0.5,
+          25.5
+        ],
+        "halfEnd": [
+          20.5,
+          0.5,
+          33.5
+        ]
+      },
+      "rules": {
+        "authoredRingInventory": 15,
+        "implementedVictoryThreshold": 2,
+        "lapVictoryTarget": null
+      },
+      "activePistons": [],
+      "xmlAttachments": [
+        {
+          "name": "..\\\\StockRoom\\\\Airplane\\\\Airplane.x",
+          "position": [
+            -5,
+            2,
+            15
+          ],
+          "visible": true
+        },
+        {
+          "name": "..\\\\StockRoom\\\\BonedGate.x",
+          "position": [
+            0,
+            5,
+            15
+          ],
+          "visible": true
+        },
+        {
+          "name": "Suzanne1.Magician",
+          "position": [
+            40,
+            0,
+            40
+          ],
+          "visible": true
+        }
+      ],
+      "hostGlobalsIncluded": false,
+      "evidenceBoundary": "No Suzanne2 screenshot survives in the audited archive. The candidate therefore follows the active March 2017 GamePlayScreen + GraphysX_1 BuildASCIIScene branch and does not borrow Suzanne1.png presentation inferences.",
+      "unresolved": [
+        "No Suzanne2 screenshot was found, so exact historic camera framing, sky, exposure, and composite appearance cannot be image-matched.",
+        "C cells call createCubX and place actors at y=5.5, but the exact actor animation/menu state is outside the ASCII/XML evidence; the preview exposes anchors only.",
+        "BonedGate.x contains a 200-tick, 24-ticks-per-second animation for Armature, Armature_Bone, and GateBlock, but the active XML path loads it as a mesh and does not establish animation playback.",
+        "The source particle system preserves capacities/colors/settings but not a deterministic seed; preview particle locations are explicitly deterministic visualization, not recovered trajectories.",
+        "The active source advances after two ring pickups even though fifteen rings are authored. Both facts are preserved instead of silently inventing a corrected win rule."
+      ]
+    }
+  },
+  "browserProblems": []
+}

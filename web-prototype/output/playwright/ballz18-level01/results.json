@@ -1,0 +1,284 @@
+{
+  "url": "http://127.0.0.1:4198/",
+  "assertions": [
+    {
+      "pass": true,
+      "message": "GetReady uses the exact archived BallZ18 beepShort.mp3"
+    },
+    {
+      "pass": true,
+      "message": "GO uses the exact archived BallZ18 beep01.mp3"
+    },
+    {
+      "pass": true,
+      "message": "Ring pickup uses the exact archived BallZ2015 coin.wav"
+    },
+    {
+      "pass": true,
+      "message": "Ball jump uses the exact archived BallZ2015 Jump.wav"
+    },
+    {
+      "pass": true,
+      "message": "Math Game uses all six exact archived 1024px NightSky BMP faces"
+    },
+    {
+      "pass": true,
+      "message": "BallZ18 Level01 is a player-facing BallZ Tour challenge"
+    },
+    {
+      "pass": true,
+      "message": "BallZ18 Level01 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "Level01 keeps the Unity sphere collider radius 0.5"
+    },
+    {
+      "pass": true,
+      "message": "Level01 does not invent checkpoint collectibles"
+    },
+    {
+      "pass": true,
+      "message": "Canonical revival exposes its disclosed three-lap finish"
+    },
+    {
+      "pass": true,
+      "message": "BallAI uses all seven authored Raceline children"
+    },
+    {
+      "pass": true,
+      "message": "BallZ18 Level01 starts"
+    },
+    {
+      "pass": true,
+      "message": "Unity-style countdown begins before control is enabled"
+    },
+    {
+      "pass": true,
+      "message": "Countdown preserves the source's initial half-second wait"
+    },
+    {
+      "pass": true,
+      "message": "The exact GetReady sample begins with 3 after the source's half-second wait"
+    },
+    {
+      "pass": true,
+      "message": "Player remains locked during countdown"
+    },
+    {
+      "pass": true,
+      "message": "BallAI remains locked during countdown"
+    },
+    {
+      "pass": true,
+      "message": "Countdown releases the race deterministically"
+    },
+    {
+      "pass": true,
+      "message": "Countdown plays GetReady at 3/2/1 and the archived GoAudio at GO"
+    },
+    {
+      "pass": true,
+      "message": "Player can roll after GO"
+    },
+    {
+      "pass": true,
+      "message": "The source BallAI rival advances along the authored Raceline after GO"
+    },
+    {
+      "pass": true,
+      "message": "render_game_to_text exposes rival route progress"
+    },
+    {
+      "pass": true,
+      "message": "Halfway-before-finish chain completes all three canonical laps"
+    },
+    {
+      "pass": true,
+      "message": "Level01 reaches the common results flow"
+    },
+    {
+      "pass": true,
+      "message": "BallZ18 MathGames evidence merges into the existing Math Game"
+    },
+    {
+      "pass": true,
+      "message": "Math Game exposes the exact BallZ18 Unity formula defaults"
+    },
+    {
+      "pass": true,
+      "message": "Math Game remains isolated from BallZ race actors and HUD state"
+    },
+    {
+      "pass": true,
+      "message": "BallZ18 flow produces no console or page errors"
+    }
+  ],
+  "states": {
+    "live": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.17-r11",
+      "mode": "gameplay",
+      "projectFamily": "ballz",
+      "race": "BallZ18 Level 01 — AI Circuit",
+      "preview": "race-preview",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "player": {
+        "x": -3.87,
+        "y": 0.6,
+        "z": 9.82,
+        "radius": 0.5
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 13.44
+      },
+      "forceZone": null,
+      "forceZonesTotal": 0,
+      "input": {
+        "keyboard": false,
+        "touch": false,
+        "gamepad": {
+          "connected": false,
+          "id": null,
+          "forward": 0,
+          "turn": 0
+        }
+      },
+      "inputAxis": {
+        "forward": 0,
+        "turn": 0
+      },
+      "ballPreset": "revival",
+      "ghost": {
+        "hasBest": false,
+        "bestTimeMs": null,
+        "recordingSamples": 10,
+        "playbackVisible": false,
+        "lastLapVisible": false
+      },
+      "flight": null,
+      "suzanne": null,
+      "rings": "0/0",
+      "laps": {
+        "completed": 0,
+        "total": 3,
+        "current": 1
+      },
+      "halfway": false,
+      "raceActive": true,
+      "raceFinished": false,
+      "racePaused": false,
+      "countdownRemaining": 0,
+      "loadState": {
+        "ready": true,
+        "loading": false,
+        "requiredKeys": [
+          "ballz18level01"
+        ]
+      },
+      "remainingRings": [],
+      "activeZombies": [],
+      "rival": {
+        "label": "BallAI",
+        "ball": {
+          "x": 0.04,
+          "y": 0.6,
+          "z": 9.52
+        },
+        "waypoint": 2,
+        "waypointsTotal": 7,
+        "circuitsCompleted": 0
+      },
+      "nextObjective": "Cross halfway gate",
+      "objectiveDistance": 42.29,
+      "camera": {
+        "yaw": 3.142,
+        "pitch": 0.78,
+        "distance": 16,
+        "collision": {
+          "active": false,
+          "hitBodyId": null,
+          "desiredDistance": 17.61,
+          "resolvedDistance": 17.61
+        }
+      },
+      "controls": "Keyboard WASD/arrows, the touch direction pad, or gamepad left stick moves; drag orbit; wheel zoom; C reset camera; Space/A jump; Shift boost; B cycles Fire/Classic/Revival; P/touch pauses; R restarts; Esc exits.",
+      "shellWireRotation": {
+        "x": 19.631018021372416,
+        "y": 0,
+        "z": 0.05970642004808813
+      },
+      "arrowHeading": 3.142
+    },
+    "math": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.17-r11",
+      "mode": "math-lab",
+      "projectFamily": "math-lab",
+      "preview": "math-lab",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "math": {
+        "formula": "parabola",
+        "a": 0.01,
+        "b": 0,
+        "c": 100,
+        "m": 5,
+        "xOffset": 0,
+        "camera": {
+          "yawRadians": -0.27259107732541416,
+          "pitchRadians": 0.46,
+          "distance": 26,
+          "position": [
+            -6.359035766475856,
+            14.342650781103515,
+            22.41257576425194
+          ],
+          "lookAt": [
+            0,
+            2.8,
+            0
+          ],
+          "controls": "Drag to orbit; wheel to zoom; Reset 3D View restores the inspection camera."
+        }
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "input": {
+        "keyboard": false,
+        "touch": false,
+        "gamepad": {
+          "connected": false,
+          "id": null,
+          "forward": 0,
+          "turn": 0
+        }
+      },
+      "camera": {
+        "yawRadians": -0.27259107732541416,
+        "pitchRadians": 0.46,
+        "distance": 26,
+        "position": [
+          -6.359035766475856,
+          14.342650781103515,
+          22.41257576425194
+        ],
+        "lookAt": [
+          0,
+          2.8,
+          0
+        ],
+        "controls": "Drag to orbit; wheel to zoom; Reset 3D View restores the inspection camera."
+      },
+      "controls": "Choose parabola or slope, tune A/B/C/M/X, or use labeled modern inspection presets; drag the 3D view to orbit, wheel to zoom, and Reset 3D View restores the readable camera."
+    }
+  },
+  "errors": []
+}

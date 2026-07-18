@@ -1,0 +1,1163 @@
+{
+  "url": "http://127.0.0.1:4189/cubz-tva-animation-preview.html",
+  "assertions": [
+    {
+      "pass": true,
+      "message": "Harness starts on CubeRot Animation1 forward"
+    },
+    {
+      "pass": true,
+      "message": "Interpolation remains explicitly marked as inference"
+    },
+    {
+      "pass": true,
+      "message": "No hidden TV3D-to-web coordinate conversion is applied"
+    },
+    {
+      "pass": true,
+      "message": "Archived reverse defect remains disclosed"
+    },
+    {
+      "pass": true,
+      "message": "render_game_to_text mirrors the harness sample"
+    },
+    {
+      "pass": true,
+      "message": "Animation1 forward begins at its decoded start frame"
+    },
+    {
+      "pass": true,
+      "message": "Animation1 forward reaches its decoded end frame"
+    },
+    {
+      "pass": true,
+      "message": "Animation1 endpoints are exact MANI keys"
+    },
+    {
+      "pass": true,
+      "message": "Animation1 endpoint quaternion remains unit length"
+    },
+    {
+      "pass": true,
+      "message": "Animation1 reverse reuses the forward animation ID"
+    },
+    {
+      "pass": true,
+      "message": "Animation1 reverse begins at the exact forward endpoint"
+    },
+    {
+      "pass": true,
+      "message": "Animation1 reverse finishes at the exact forward start"
+    },
+    {
+      "pass": true,
+      "message": "Animation1 reports the archived shifted reverse request"
+    },
+    {
+      "pass": true,
+      "message": "Animation1 forward/reverse complementary time reaches the same source frame"
+    },
+    {
+      "pass": true,
+      "message": "Animation1 forward/reverse complementary sample is quaternion-identical"
+    },
+    {
+      "pass": true,
+      "message": "Animation1 fractional frame uses disclosed shortest-arc SLERP"
+    },
+    {
+      "pass": true,
+      "message": "Animation1 interpolated quaternion remains normalized"
+    },
+    {
+      "pass": true,
+      "message": "Animation2 forward begins at its decoded start frame"
+    },
+    {
+      "pass": true,
+      "message": "Animation2 forward reaches its decoded end frame"
+    },
+    {
+      "pass": true,
+      "message": "Animation2 endpoints are exact MANI keys"
+    },
+    {
+      "pass": true,
+      "message": "Animation2 endpoint quaternion remains unit length"
+    },
+    {
+      "pass": true,
+      "message": "Animation2 reverse reuses the forward animation ID"
+    },
+    {
+      "pass": true,
+      "message": "Animation2 reverse begins at the exact forward endpoint"
+    },
+    {
+      "pass": true,
+      "message": "Animation2 reverse finishes at the exact forward start"
+    },
+    {
+      "pass": true,
+      "message": "Animation2 reports the archived shifted reverse request"
+    },
+    {
+      "pass": true,
+      "message": "Animation2 forward/reverse complementary time reaches the same source frame"
+    },
+    {
+      "pass": true,
+      "message": "Animation2 forward/reverse complementary sample is quaternion-identical"
+    },
+    {
+      "pass": true,
+      "message": "Animation2 fractional frame uses disclosed shortest-arc SLERP"
+    },
+    {
+      "pass": true,
+      "message": "Animation2 interpolated quaternion remains normalized"
+    },
+    {
+      "pass": true,
+      "message": "Animation3 forward begins at its decoded start frame"
+    },
+    {
+      "pass": true,
+      "message": "Animation3 forward reaches its decoded end frame"
+    },
+    {
+      "pass": true,
+      "message": "Animation3 endpoints are exact MANI keys"
+    },
+    {
+      "pass": true,
+      "message": "Animation3 endpoint quaternion remains unit length"
+    },
+    {
+      "pass": true,
+      "message": "Animation3 reverse reuses the forward animation ID"
+    },
+    {
+      "pass": true,
+      "message": "Animation3 reverse begins at the exact forward endpoint"
+    },
+    {
+      "pass": true,
+      "message": "Animation3 reverse finishes at the exact forward start"
+    },
+    {
+      "pass": true,
+      "message": "Animation3 reports the archived shifted reverse request"
+    },
+    {
+      "pass": true,
+      "message": "Animation3 forward/reverse complementary time reaches the same source frame"
+    },
+    {
+      "pass": true,
+      "message": "Animation3 forward/reverse complementary sample is quaternion-identical"
+    },
+    {
+      "pass": true,
+      "message": "Animation3 fractional frame uses disclosed shortest-arc SLERP"
+    },
+    {
+      "pass": true,
+      "message": "Animation3 interpolated quaternion remains normalized"
+    },
+    {
+      "pass": true,
+      "message": "Animation4 forward begins at its decoded start frame"
+    },
+    {
+      "pass": true,
+      "message": "Animation4 forward reaches its decoded end frame"
+    },
+    {
+      "pass": true,
+      "message": "Animation4 endpoints are exact MANI keys"
+    },
+    {
+      "pass": true,
+      "message": "Animation4 endpoint quaternion remains unit length"
+    },
+    {
+      "pass": true,
+      "message": "Animation4 reverse reuses the forward animation ID"
+    },
+    {
+      "pass": true,
+      "message": "Animation4 reverse begins at the exact forward endpoint"
+    },
+    {
+      "pass": true,
+      "message": "Animation4 reverse finishes at the exact forward start"
+    },
+    {
+      "pass": true,
+      "message": "Animation4 reports the archived shifted reverse request"
+    },
+    {
+      "pass": true,
+      "message": "Animation4 forward/reverse complementary time reaches the same source frame"
+    },
+    {
+      "pass": true,
+      "message": "Animation4 forward/reverse complementary sample is quaternion-identical"
+    },
+    {
+      "pass": true,
+      "message": "Animation4 fractional frame uses disclosed shortest-arc SLERP"
+    },
+    {
+      "pass": true,
+      "message": "Animation4 interpolated quaternion remains normalized"
+    },
+    {
+      "pass": true,
+      "message": "Animation5 forward begins at its decoded start frame"
+    },
+    {
+      "pass": true,
+      "message": "Animation5 forward reaches its decoded end frame"
+    },
+    {
+      "pass": true,
+      "message": "Animation5 endpoints are exact MANI keys"
+    },
+    {
+      "pass": true,
+      "message": "Animation5 endpoint quaternion remains unit length"
+    },
+    {
+      "pass": true,
+      "message": "Animation5 reverse reuses the forward animation ID"
+    },
+    {
+      "pass": true,
+      "message": "Animation5 reverse begins at the exact forward endpoint"
+    },
+    {
+      "pass": true,
+      "message": "Animation5 reverse finishes at the exact forward start"
+    },
+    {
+      "pass": true,
+      "message": "Animation5 reports the archived shifted reverse request"
+    },
+    {
+      "pass": true,
+      "message": "Animation5 forward/reverse complementary time reaches the same source frame"
+    },
+    {
+      "pass": true,
+      "message": "Animation5 forward/reverse complementary sample is quaternion-identical"
+    },
+    {
+      "pass": true,
+      "message": "Animation5 fractional frame uses disclosed shortest-arc SLERP"
+    },
+    {
+      "pass": true,
+      "message": "Animation5 interpolated quaternion remains normalized"
+    },
+    {
+      "pass": true,
+      "message": "Animation6 forward begins at its decoded start frame"
+    },
+    {
+      "pass": true,
+      "message": "Animation6 forward reaches its decoded end frame"
+    },
+    {
+      "pass": true,
+      "message": "Animation6 endpoints are exact MANI keys"
+    },
+    {
+      "pass": true,
+      "message": "Animation6 endpoint quaternion remains unit length"
+    },
+    {
+      "pass": true,
+      "message": "Animation6 reverse reuses the forward animation ID"
+    },
+    {
+      "pass": true,
+      "message": "Animation6 reverse begins at the exact forward endpoint"
+    },
+    {
+      "pass": true,
+      "message": "Animation6 reverse finishes at the exact forward start"
+    },
+    {
+      "pass": true,
+      "message": "Animation6 reports the archived shifted reverse request"
+    },
+    {
+      "pass": true,
+      "message": "Animation6 forward/reverse complementary time reaches the same source frame"
+    },
+    {
+      "pass": true,
+      "message": "Animation6 forward/reverse complementary sample is quaternion-identical"
+    },
+    {
+      "pass": true,
+      "message": "Animation6 fractional frame uses disclosed shortest-arc SLERP"
+    },
+    {
+      "pass": true,
+      "message": "Animation6 interpolated quaternion remains normalized"
+    },
+    {
+      "pass": true,
+      "message": "Animation7 forward begins at its decoded start frame"
+    },
+    {
+      "pass": true,
+      "message": "Animation7 forward reaches its decoded end frame"
+    },
+    {
+      "pass": true,
+      "message": "Animation7 endpoints are exact MANI keys"
+    },
+    {
+      "pass": true,
+      "message": "Animation7 endpoint quaternion remains unit length"
+    },
+    {
+      "pass": true,
+      "message": "Animation7 reverse reuses the forward animation ID"
+    },
+    {
+      "pass": true,
+      "message": "Animation7 reverse begins at the exact forward endpoint"
+    },
+    {
+      "pass": true,
+      "message": "Animation7 reverse finishes at the exact forward start"
+    },
+    {
+      "pass": true,
+      "message": "Animation7 reports the archived shifted reverse request"
+    },
+    {
+      "pass": true,
+      "message": "Selection 7 reports archived ID 8 as invalid"
+    },
+    {
+      "pass": true,
+      "message": "Animation7 forward/reverse complementary time reaches the same source frame"
+    },
+    {
+      "pass": true,
+      "message": "Animation7 forward/reverse complementary sample is quaternion-identical"
+    },
+    {
+      "pass": true,
+      "message": "Animation7 fractional frame uses disclosed shortest-arc SLERP"
+    },
+    {
+      "pass": true,
+      "message": "Animation7 interpolated quaternion remains normalized"
+    },
+    {
+      "pass": true,
+      "message": "CubeOpen uses its exact 0..50 @30fps duration"
+    },
+    {
+      "pass": true,
+      "message": "CubeOpen exposes exactly the three decoded Box08 panel tracks"
+    },
+    {
+      "pass": true,
+      "message": "Right08 open endpoints are exact MANI keys"
+    },
+    {
+      "pass": true,
+      "message": "Right08 endpoint quaternion remains normalized"
+    },
+    {
+      "pass": true,
+      "message": "Top08 open endpoints are exact MANI keys"
+    },
+    {
+      "pass": true,
+      "message": "Top08 endpoint quaternion remains normalized"
+    },
+    {
+      "pass": true,
+      "message": "Left08 open endpoints are exact MANI keys"
+    },
+    {
+      "pass": true,
+      "message": "Left08 endpoint quaternion remains normalized"
+    },
+    {
+      "pass": true,
+      "message": "Right08 close starts at the exact open endpoint"
+    },
+    {
+      "pass": true,
+      "message": "Right08 close finishes at the exact open start"
+    },
+    {
+      "pass": true,
+      "message": "Top08 close starts at the exact open endpoint"
+    },
+    {
+      "pass": true,
+      "message": "Top08 close finishes at the exact open start"
+    },
+    {
+      "pass": true,
+      "message": "Left08 close starts at the exact open endpoint"
+    },
+    {
+      "pass": true,
+      "message": "Left08 close finishes at the exact open start"
+    },
+    {
+      "pass": true,
+      "message": "All three Box08 panels use SLERP at a fractional source frame"
+    },
+    {
+      "pass": true,
+      "message": "All fractional Box08 quaternions remain normalized"
+    },
+    {
+      "pass": true,
+      "message": "Deterministic advanceTime moves Animation2 by exactly one 30fps source frame"
+    },
+    {
+      "pass": true,
+      "message": "Harness rejects selection 8 instead of touching the archived invalid reverse ID"
+    },
+    {
+      "pass": true,
+      "message": "CubZ TVA diagnostic has no browser console or page errors"
+    }
+  ],
+  "states": {
+    "initial": {
+      "mode": "rotation",
+      "direction": "forward",
+      "selection": 1,
+      "running": false,
+      "sample": {
+        "schema": "graphysx.cubz-tva-playback/v1",
+        "kind": "cube-rotation",
+        "selection": 1,
+        "animationId": 1,
+        "rangeName": "Animation1",
+        "cursor": {
+          "direction": "forward",
+          "elapsedSeconds": 0,
+          "durationSeconds": 0.9333333333333333,
+          "progress": 0,
+          "sourceFrame": 0,
+          "startFrame": 0,
+          "endFrame": 28,
+          "framesPerSecond": 30,
+          "finished": false
+        },
+        "globalCube": {
+          "nodeId": 1,
+          "nodeName": "GlobalCube",
+          "quaternion": [
+            0,
+            0,
+            0,
+            0.9999999403953552
+          ],
+          "exactStoredKey": true,
+          "lowerFrame": 0,
+          "upperFrame": 0,
+          "interpolationAlpha": 0,
+          "interpolation": "exact-key"
+        },
+        "reverseBehavior": {
+          "repairedSameRange": true,
+          "animationId": 1,
+          "archivedWouldRequest": 2,
+          "archivedRequestIsValid": true
+        },
+        "fidelity": {
+          "schema": "graphysx.cubz-tva-fidelity/v1",
+          "dataSchema": "graphysx.cubz-tva-audit/v1",
+          "sourceIdentity": {
+            "cubeRotation": {
+              "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeRot.tva",
+              "filename": "CubeRot.tva",
+              "bytes": 700768,
+              "sha256": "8ADBA22A2103A6EDAC9B173474B1A4599DB04B21C7DF4418412EA35903AE7B4B"
+            },
+            "cubeOpen": {
+              "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeOpen.tva",
+              "filename": "CubeOpen.tva",
+              "bytes": 222564,
+              "sha256": "CCB1ED3BB77919509E2B501663FB34BFD7E64C34E95F01E003E6D553160CA27B"
+            }
+          },
+          "decodedExact": {
+            "timing": "MANS source ranges and 30 fps are decoded exactly.",
+            "storedKeys": "Stored MANI quaternion keys are returned in original float32 source order at exact source frames.",
+            "rotationTrack": "CubeRot materially changes only GlobalCube.",
+            "openTracks": "CubeOpen materially changes only Right08, Top08 and Left08."
+          },
+          "interpolation": {
+            "status": "deterministic-inference-engine-routine-not-recovered",
+            "method": "normalized shortest-arc quaternion SLERP between the two surrounding decoded keys",
+            "rationale": "Quaternion interpolation is the narrowest transform-preserving interpolation supported by the decoded unit-quaternion evidence; no authored easing curve is invented."
+          },
+          "coordinateSpace": {
+            "status": "raw-tv3d-source-order-no-web-conversion",
+            "rotationInterpretation": "The four stored rotation floats are emitted in source order and labeled x,y,z,w because every decoded key is unit length within 1e-6 and identity keys are [0,0,0,~1].",
+            "boundary": "No TV3D-to-Three.js handedness conversion, Euler conversion, interpolation mode, or procedural easing is asserted here."
+          },
+          "reverseRepair": {
+            "status": "intentional-source-defect-repair",
+            "archivedExpression": "iSelectedCube+1",
+            "archivedValidIds": [
+              0,
+              7
+            ],
+            "archivedResultingReverseIds": [
+              2,
+              8
+            ],
+            "implementedBehavior": "Reverse traverses the same animation ID/range used by forward playback, from its decoded end frame to its decoded start frame.",
+            "reason": "For selections 1-6 the reverse ID is a different range than the forward ID; selection 7 requests ID 8 although CubeRot contains only IDs 0-7. This is a source/binary inconsistency, not behavior to reproduce as intended design."
+          }
+        }
+      },
+      "fidelity": {
+        "schema": "graphysx.cubz-tva-fidelity/v1",
+        "dataSchema": "graphysx.cubz-tva-audit/v1",
+        "sourceIdentity": {
+          "cubeRotation": {
+            "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeRot.tva",
+            "filename": "CubeRot.tva",
+            "bytes": 700768,
+            "sha256": "8ADBA22A2103A6EDAC9B173474B1A4599DB04B21C7DF4418412EA35903AE7B4B"
+          },
+          "cubeOpen": {
+            "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeOpen.tva",
+            "filename": "CubeOpen.tva",
+            "bytes": 222564,
+            "sha256": "CCB1ED3BB77919509E2B501663FB34BFD7E64C34E95F01E003E6D553160CA27B"
+          }
+        },
+        "decodedExact": {
+          "timing": "MANS source ranges and 30 fps are decoded exactly.",
+          "storedKeys": "Stored MANI quaternion keys are returned in original float32 source order at exact source frames.",
+          "rotationTrack": "CubeRot materially changes only GlobalCube.",
+          "openTracks": "CubeOpen materially changes only Right08, Top08 and Left08."
+        },
+        "interpolation": {
+          "status": "deterministic-inference-engine-routine-not-recovered",
+          "method": "normalized shortest-arc quaternion SLERP between the two surrounding decoded keys",
+          "rationale": "Quaternion interpolation is the narrowest transform-preserving interpolation supported by the decoded unit-quaternion evidence; no authored easing curve is invented."
+        },
+        "coordinateSpace": {
+          "status": "raw-tv3d-source-order-no-web-conversion",
+          "rotationInterpretation": "The four stored rotation floats are emitted in source order and labeled x,y,z,w because every decoded key is unit length within 1e-6 and identity keys are [0,0,0,~1].",
+          "boundary": "No TV3D-to-Three.js handedness conversion, Euler conversion, interpolation mode, or procedural easing is asserted here."
+        },
+        "reverseRepair": {
+          "status": "intentional-source-defect-repair",
+          "archivedExpression": "iSelectedCube+1",
+          "archivedValidIds": [
+            0,
+            7
+          ],
+          "archivedResultingReverseIds": [
+            2,
+            8
+          ],
+          "implementedBehavior": "Reverse traverses the same animation ID/range used by forward playback, from its decoded end frame to its decoded start frame.",
+          "reason": "For selections 1-6 the reverse ID is a different range than the forward ID; selection 7 requests ID 8 although CubeRot contains only IDs 0-7. This is a source/binary inconsistency, not behavior to reproduce as intended design."
+        }
+      }
+    },
+    "rotationEndpoints": {
+      "1": {
+        "start": [
+          0,
+          0,
+          0,
+          0.9999999403953552
+        ],
+        "end": [
+          0,
+          -0.705168604850769,
+          0,
+          0.7090396285057068
+        ]
+      },
+      "2": {
+        "start": [
+          0,
+          0,
+          0,
+          0.9999999403953552
+        ],
+        "end": [
+          0,
+          0.9999958872795105,
+          0,
+          0.0028596639167517424
+        ]
+      },
+      "3": {
+        "start": [
+          0,
+          0,
+          0,
+          0.9999999403953552
+        ],
+        "end": [
+          0,
+          0.705168604850769,
+          0,
+          0.7090396285057068
+        ]
+      },
+      "4": {
+        "start": [
+          0,
+          0,
+          0,
+          0.9999999403953552
+        ],
+        "end": [
+          0.669723391532898,
+          0.0036664532963186502,
+          -0.7425904273986816,
+          0.004065369721502066
+        ]
+      },
+      "5": {
+        "start": [
+          4.371139183945161e-8,
+          4.371139183945161e-8,
+          -7.549790126404332e-8,
+          0.9999999403953552
+        ],
+        "end": [
+          -0.9999849796295166,
+          -7.525746781311682e-8,
+          -4.4124046638671643e-8,
+          0.00547447707504034
+        ]
+      },
+      "6": {
+        "start": [
+          -4.371139183945161e-8,
+          -4.371139183945161e-8,
+          7.549790126404332e-8,
+          -0.9999999403953552
+        ],
+        "end": [
+          0.7090290784835815,
+          -0.003860375378280878,
+          0.705157995223999,
+          -0.003881674027070403
+        ]
+      },
+      "7": {
+        "start": [
+          -4.371138473402425e-8,
+          7.549790126404332e-8,
+          7.549790126404332e-8,
+          -0.9999999403953552
+        ],
+        "end": [
+          7.525746781311682e-8,
+          -4.3297422536170416e-8,
+          0.9999849796295166,
+          -0.005474476609379053
+        ]
+      }
+    },
+    "rotationDiagnostic": {
+      "mode": "rotation",
+      "direction": "reverse",
+      "selection": 4,
+      "running": false,
+      "sample": {
+        "schema": "graphysx.cubz-tva-playback/v1",
+        "kind": "cube-rotation",
+        "selection": 4,
+        "animationId": 4,
+        "rangeName": "Animation4",
+        "cursor": {
+          "direction": "reverse",
+          "elapsedSeconds": 0.41,
+          "durationSeconds": 0.9333333333333333,
+          "progress": 0.4392857142857143,
+          "sourceFrame": 105.7,
+          "startFrame": 90,
+          "endFrame": 118,
+          "framesPerSecond": 30,
+          "finished": false
+        },
+        "globalCube": {
+          "nodeId": 1,
+          "nodeName": "GlobalCube",
+          "quaternion": [
+            0.18197322120514375,
+            0.14901472011073272,
+            -0.750643168260062,
+            0.617426265961402
+          ],
+          "exactStoredKey": false,
+          "lowerFrame": 105,
+          "upperFrame": 106,
+          "interpolationAlpha": 0.7000000000000028,
+          "interpolation": "shortest-arc-slerp"
+        },
+        "reverseBehavior": {
+          "repairedSameRange": true,
+          "animationId": 4,
+          "archivedWouldRequest": 5,
+          "archivedRequestIsValid": true
+        },
+        "fidelity": {
+          "schema": "graphysx.cubz-tva-fidelity/v1",
+          "dataSchema": "graphysx.cubz-tva-audit/v1",
+          "sourceIdentity": {
+            "cubeRotation": {
+              "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeRot.tva",
+              "filename": "CubeRot.tva",
+              "bytes": 700768,
+              "sha256": "8ADBA22A2103A6EDAC9B173474B1A4599DB04B21C7DF4418412EA35903AE7B4B"
+            },
+            "cubeOpen": {
+              "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeOpen.tva",
+              "filename": "CubeOpen.tva",
+              "bytes": 222564,
+              "sha256": "CCB1ED3BB77919509E2B501663FB34BFD7E64C34E95F01E003E6D553160CA27B"
+            }
+          },
+          "decodedExact": {
+            "timing": "MANS source ranges and 30 fps are decoded exactly.",
+            "storedKeys": "Stored MANI quaternion keys are returned in original float32 source order at exact source frames.",
+            "rotationTrack": "CubeRot materially changes only GlobalCube.",
+            "openTracks": "CubeOpen materially changes only Right08, Top08 and Left08."
+          },
+          "interpolation": {
+            "status": "deterministic-inference-engine-routine-not-recovered",
+            "method": "normalized shortest-arc quaternion SLERP between the two surrounding decoded keys",
+            "rationale": "Quaternion interpolation is the narrowest transform-preserving interpolation supported by the decoded unit-quaternion evidence; no authored easing curve is invented."
+          },
+          "coordinateSpace": {
+            "status": "raw-tv3d-source-order-no-web-conversion",
+            "rotationInterpretation": "The four stored rotation floats are emitted in source order and labeled x,y,z,w because every decoded key is unit length within 1e-6 and identity keys are [0,0,0,~1].",
+            "boundary": "No TV3D-to-Three.js handedness conversion, Euler conversion, interpolation mode, or procedural easing is asserted here."
+          },
+          "reverseRepair": {
+            "status": "intentional-source-defect-repair",
+            "archivedExpression": "iSelectedCube+1",
+            "archivedValidIds": [
+              0,
+              7
+            ],
+            "archivedResultingReverseIds": [
+              2,
+              8
+            ],
+            "implementedBehavior": "Reverse traverses the same animation ID/range used by forward playback, from its decoded end frame to its decoded start frame.",
+            "reason": "For selections 1-6 the reverse ID is a different range than the forward ID; selection 7 requests ID 8 although CubeRot contains only IDs 0-7. This is a source/binary inconsistency, not behavior to reproduce as intended design."
+          }
+        }
+      },
+      "fidelity": {
+        "schema": "graphysx.cubz-tva-fidelity/v1",
+        "dataSchema": "graphysx.cubz-tva-audit/v1",
+        "sourceIdentity": {
+          "cubeRotation": {
+            "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeRot.tva",
+            "filename": "CubeRot.tva",
+            "bytes": 700768,
+            "sha256": "8ADBA22A2103A6EDAC9B173474B1A4599DB04B21C7DF4418412EA35903AE7B4B"
+          },
+          "cubeOpen": {
+            "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeOpen.tva",
+            "filename": "CubeOpen.tva",
+            "bytes": 222564,
+            "sha256": "CCB1ED3BB77919509E2B501663FB34BFD7E64C34E95F01E003E6D553160CA27B"
+          }
+        },
+        "decodedExact": {
+          "timing": "MANS source ranges and 30 fps are decoded exactly.",
+          "storedKeys": "Stored MANI quaternion keys are returned in original float32 source order at exact source frames.",
+          "rotationTrack": "CubeRot materially changes only GlobalCube.",
+          "openTracks": "CubeOpen materially changes only Right08, Top08 and Left08."
+        },
+        "interpolation": {
+          "status": "deterministic-inference-engine-routine-not-recovered",
+          "method": "normalized shortest-arc quaternion SLERP between the two surrounding decoded keys",
+          "rationale": "Quaternion interpolation is the narrowest transform-preserving interpolation supported by the decoded unit-quaternion evidence; no authored easing curve is invented."
+        },
+        "coordinateSpace": {
+          "status": "raw-tv3d-source-order-no-web-conversion",
+          "rotationInterpretation": "The four stored rotation floats are emitted in source order and labeled x,y,z,w because every decoded key is unit length within 1e-6 and identity keys are [0,0,0,~1].",
+          "boundary": "No TV3D-to-Three.js handedness conversion, Euler conversion, interpolation mode, or procedural easing is asserted here."
+        },
+        "reverseRepair": {
+          "status": "intentional-source-defect-repair",
+          "archivedExpression": "iSelectedCube+1",
+          "archivedValidIds": [
+            0,
+            7
+          ],
+          "archivedResultingReverseIds": [
+            2,
+            8
+          ],
+          "implementedBehavior": "Reverse traverses the same animation ID/range used by forward playback, from its decoded end frame to its decoded start frame.",
+          "reason": "For selections 1-6 the reverse ID is a different range than the forward ID; selection 7 requests ID 8 although CubeRot contains only IDs 0-7. This is a source/binary inconsistency, not behavior to reproduce as intended design."
+        }
+      }
+    },
+    "openDiagnostic": {
+      "mode": "open",
+      "direction": "forward",
+      "selection": 4,
+      "running": false,
+      "sample": {
+        "schema": "graphysx.cubz-tva-playback/v1",
+        "kind": "cube-open",
+        "animationId": 0,
+        "rangeName": "",
+        "cursor": {
+          "direction": "forward",
+          "elapsedSeconds": 0.9666666666666667,
+          "durationSeconds": 1.6666666666666667,
+          "progress": 0.58,
+          "sourceFrame": 28.999999999999996,
+          "startFrame": 0,
+          "endFrame": 50,
+          "framesPerSecond": 30,
+          "finished": false
+        },
+        "panels": {
+          "Right08": {
+            "nodeId": 34,
+            "nodeName": "Right08",
+            "fixedPosition": [
+              22.499998092651367,
+              5,
+              22.37502098083496
+            ],
+            "fixedScale": [
+              1,
+              1,
+              1
+            ],
+            "quaternion": [
+              0,
+              0.46836626529693604,
+              0,
+              0.8835343718528748
+            ],
+            "exactStoredKey": true,
+            "lowerFrame": 29,
+            "upperFrame": 29,
+            "interpolationAlpha": 0,
+            "interpolation": "exact-key"
+          },
+          "Top08": {
+            "nodeId": 36,
+            "nodeName": "Top08",
+            "fixedPosition": [
+              -22.07537841796875,
+              44.999996185302734,
+              22.026580810546875
+            ],
+            "fixedScale": [
+              1,
+              1,
+              1
+            ],
+            "quaternion": [
+              -0.32664793729782104,
+              0.06109248101711273,
+              -0.26740843057632446,
+              0.9044675230979919
+            ],
+            "exactStoredKey": true,
+            "lowerFrame": 29,
+            "upperFrame": 29,
+            "interpolationAlpha": 0,
+            "interpolation": "exact-key"
+          },
+          "Left08": {
+            "nodeId": 38,
+            "nodeName": "Left08",
+            "fixedPosition": [
+              -22.869407653808594,
+              5,
+              -22.499998092651367
+            ],
+            "fixedScale": [
+              1,
+              1,
+              1
+            ],
+            "quaternion": [
+              0,
+              -0.4678821861743927,
+              0,
+              0.8837907910346985
+            ],
+            "exactStoredKey": true,
+            "lowerFrame": 29,
+            "upperFrame": 29,
+            "interpolationAlpha": 0,
+            "interpolation": "exact-key"
+          }
+        },
+        "fidelity": {
+          "schema": "graphysx.cubz-tva-fidelity/v1",
+          "dataSchema": "graphysx.cubz-tva-audit/v1",
+          "sourceIdentity": {
+            "cubeRotation": {
+              "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeRot.tva",
+              "filename": "CubeRot.tva",
+              "bytes": 700768,
+              "sha256": "8ADBA22A2103A6EDAC9B173474B1A4599DB04B21C7DF4418412EA35903AE7B4B"
+            },
+            "cubeOpen": {
+              "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeOpen.tva",
+              "filename": "CubeOpen.tva",
+              "bytes": 222564,
+              "sha256": "CCB1ED3BB77919509E2B501663FB34BFD7E64C34E95F01E003E6D553160CA27B"
+            }
+          },
+          "decodedExact": {
+            "timing": "MANS source ranges and 30 fps are decoded exactly.",
+            "storedKeys": "Stored MANI quaternion keys are returned in original float32 source order at exact source frames.",
+            "rotationTrack": "CubeRot materially changes only GlobalCube.",
+            "openTracks": "CubeOpen materially changes only Right08, Top08 and Left08."
+          },
+          "interpolation": {
+            "status": "deterministic-inference-engine-routine-not-recovered",
+            "method": "normalized shortest-arc quaternion SLERP between the two surrounding decoded keys",
+            "rationale": "Quaternion interpolation is the narrowest transform-preserving interpolation supported by the decoded unit-quaternion evidence; no authored easing curve is invented."
+          },
+          "coordinateSpace": {
+            "status": "raw-tv3d-source-order-no-web-conversion",
+            "rotationInterpretation": "The four stored rotation floats are emitted in source order and labeled x,y,z,w because every decoded key is unit length within 1e-6 and identity keys are [0,0,0,~1].",
+            "boundary": "No TV3D-to-Three.js handedness conversion, Euler conversion, interpolation mode, or procedural easing is asserted here."
+          },
+          "reverseRepair": {
+            "status": "intentional-source-defect-repair",
+            "archivedExpression": "iSelectedCube+1",
+            "archivedValidIds": [
+              0,
+              7
+            ],
+            "archivedResultingReverseIds": [
+              2,
+              8
+            ],
+            "implementedBehavior": "Reverse traverses the same animation ID/range used by forward playback, from its decoded end frame to its decoded start frame.",
+            "reason": "For selections 1-6 the reverse ID is a different range than the forward ID; selection 7 requests ID 8 although CubeRot contains only IDs 0-7. This is a source/binary inconsistency, not behavior to reproduce as intended design."
+          }
+        }
+      },
+      "fidelity": {
+        "schema": "graphysx.cubz-tva-fidelity/v1",
+        "dataSchema": "graphysx.cubz-tva-audit/v1",
+        "sourceIdentity": {
+          "cubeRotation": {
+            "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeRot.tva",
+            "filename": "CubeRot.tva",
+            "bytes": 700768,
+            "sha256": "8ADBA22A2103A6EDAC9B173474B1A4599DB04B21C7DF4418412EA35903AE7B4B"
+          },
+          "cubeOpen": {
+            "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeOpen.tva",
+            "filename": "CubeOpen.tva",
+            "bytes": 222564,
+            "sha256": "CCB1ED3BB77919509E2B501663FB34BFD7E64C34E95F01E003E6D553160CA27B"
+          }
+        },
+        "decodedExact": {
+          "timing": "MANS source ranges and 30 fps are decoded exactly.",
+          "storedKeys": "Stored MANI quaternion keys are returned in original float32 source order at exact source frames.",
+          "rotationTrack": "CubeRot materially changes only GlobalCube.",
+          "openTracks": "CubeOpen materially changes only Right08, Top08 and Left08."
+        },
+        "interpolation": {
+          "status": "deterministic-inference-engine-routine-not-recovered",
+          "method": "normalized shortest-arc quaternion SLERP between the two surrounding decoded keys",
+          "rationale": "Quaternion interpolation is the narrowest transform-preserving interpolation supported by the decoded unit-quaternion evidence; no authored easing curve is invented."
+        },
+        "coordinateSpace": {
+          "status": "raw-tv3d-source-order-no-web-conversion",
+          "rotationInterpretation": "The four stored rotation floats are emitted in source order and labeled x,y,z,w because every decoded key is unit length within 1e-6 and identity keys are [0,0,0,~1].",
+          "boundary": "No TV3D-to-Three.js handedness conversion, Euler conversion, interpolation mode, or procedural easing is asserted here."
+        },
+        "reverseRepair": {
+          "status": "intentional-source-defect-repair",
+          "archivedExpression": "iSelectedCube+1",
+          "archivedValidIds": [
+            0,
+            7
+          ],
+          "archivedResultingReverseIds": [
+            2,
+            8
+          ],
+          "implementedBehavior": "Reverse traverses the same animation ID/range used by forward playback, from its decoded end frame to its decoded start frame.",
+          "reason": "For selections 1-6 the reverse ID is a different range than the forward ID; selection 7 requests ID 8 although CubeRot contains only IDs 0-7. This is a source/binary inconsistency, not behavior to reproduce as intended design."
+        }
+      }
+    },
+    "final": {
+      "mode": "rotation",
+      "direction": "forward",
+      "selection": 2,
+      "running": true,
+      "sample": {
+        "schema": "graphysx.cubz-tva-playback/v1",
+        "kind": "cube-rotation",
+        "selection": 2,
+        "animationId": 2,
+        "rangeName": "Animation2",
+        "cursor": {
+          "direction": "forward",
+          "elapsedSeconds": 0.03333333333333333,
+          "durationSeconds": 0.9333333333333333,
+          "progress": 0.03571428571428571,
+          "sourceFrame": 31,
+          "startFrame": 30,
+          "endFrame": 58,
+          "framesPerSecond": 30,
+          "finished": false
+        },
+        "globalCube": {
+          "nodeId": 1,
+          "nodeName": "GlobalCube",
+          "quaternion": [
+            0,
+            0.07860998064279556,
+            0,
+            0.9969054460525513
+          ],
+          "exactStoredKey": true,
+          "lowerFrame": 31,
+          "upperFrame": 31,
+          "interpolationAlpha": 0,
+          "interpolation": "exact-key"
+        },
+        "reverseBehavior": {
+          "repairedSameRange": true,
+          "animationId": 2,
+          "archivedWouldRequest": 3,
+          "archivedRequestIsValid": true
+        },
+        "fidelity": {
+          "schema": "graphysx.cubz-tva-fidelity/v1",
+          "dataSchema": "graphysx.cubz-tva-audit/v1",
+          "sourceIdentity": {
+            "cubeRotation": {
+              "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeRot.tva",
+              "filename": "CubeRot.tva",
+              "bytes": 700768,
+              "sha256": "8ADBA22A2103A6EDAC9B173474B1A4599DB04B21C7DF4418412EA35903AE7B4B"
+            },
+            "cubeOpen": {
+              "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeOpen.tva",
+              "filename": "CubeOpen.tva",
+              "bytes": 222564,
+              "sha256": "CCB1ED3BB77919509E2B501663FB34BFD7E64C34E95F01E003E6D553160CA27B"
+            }
+          },
+          "decodedExact": {
+            "timing": "MANS source ranges and 30 fps are decoded exactly.",
+            "storedKeys": "Stored MANI quaternion keys are returned in original float32 source order at exact source frames.",
+            "rotationTrack": "CubeRot materially changes only GlobalCube.",
+            "openTracks": "CubeOpen materially changes only Right08, Top08 and Left08."
+          },
+          "interpolation": {
+            "status": "deterministic-inference-engine-routine-not-recovered",
+            "method": "normalized shortest-arc quaternion SLERP between the two surrounding decoded keys",
+            "rationale": "Quaternion interpolation is the narrowest transform-preserving interpolation supported by the decoded unit-quaternion evidence; no authored easing curve is invented."
+          },
+          "coordinateSpace": {
+            "status": "raw-tv3d-source-order-no-web-conversion",
+            "rotationInterpretation": "The four stored rotation floats are emitted in source order and labeled x,y,z,w because every decoded key is unit length within 1e-6 and identity keys are [0,0,0,~1].",
+            "boundary": "No TV3D-to-Three.js handedness conversion, Euler conversion, interpolation mode, or procedural easing is asserted here."
+          },
+          "reverseRepair": {
+            "status": "intentional-source-defect-repair",
+            "archivedExpression": "iSelectedCube+1",
+            "archivedValidIds": [
+              0,
+              7
+            ],
+            "archivedResultingReverseIds": [
+              2,
+              8
+            ],
+            "implementedBehavior": "Reverse traverses the same animation ID/range used by forward playback, from its decoded end frame to its decoded start frame.",
+            "reason": "For selections 1-6 the reverse ID is a different range than the forward ID; selection 7 requests ID 8 although CubeRot contains only IDs 0-7. This is a source/binary inconsistency, not behavior to reproduce as intended design."
+          }
+        }
+      },
+      "fidelity": {
+        "schema": "graphysx.cubz-tva-fidelity/v1",
+        "dataSchema": "graphysx.cubz-tva-audit/v1",
+        "sourceIdentity": {
+          "cubeRotation": {
+            "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeRot.tva",
+            "filename": "CubeRot.tva",
+            "bytes": 700768,
+            "sha256": "8ADBA22A2103A6EDAC9B173474B1A4599DB04B21C7DF4418412EA35903AE7B4B"
+          },
+          "cubeOpen": {
+            "source": "Yanik C++ BCKUP/Media/PartSys/Animations/CubeOpen.tva",
+            "filename": "CubeOpen.tva",
+            "bytes": 222564,
+            "sha256": "CCB1ED3BB77919509E2B501663FB34BFD7E64C34E95F01E003E6D553160CA27B"
+          }
+        },
+        "decodedExact": {
+          "timing": "MANS source ranges and 30 fps are decoded exactly.",
+          "storedKeys": "Stored MANI quaternion keys are returned in original float32 source order at exact source frames.",
+          "rotationTrack": "CubeRot materially changes only GlobalCube.",
+          "openTracks": "CubeOpen materially changes only Right08, Top08 and Left08."
+        },
+        "interpolation": {
+          "status": "deterministic-inference-engine-routine-not-recovered",
+          "method": "normalized shortest-arc quaternion SLERP between the two surrounding decoded keys",
+          "rationale": "Quaternion interpolation is the narrowest transform-preserving interpolation supported by the decoded unit-quaternion evidence; no authored easing curve is invented."
+        },
+        "coordinateSpace": {
+          "status": "raw-tv3d-source-order-no-web-conversion",
+          "rotationInterpretation": "The four stored rotation floats are emitted in source order and labeled x,y,z,w because every decoded key is unit length within 1e-6 and identity keys are [0,0,0,~1].",
+          "boundary": "No TV3D-to-Three.js handedness conversion, Euler conversion, interpolation mode, or procedural easing is asserted here."
+        },
+        "reverseRepair": {
+          "status": "intentional-source-defect-repair",
+          "archivedExpression": "iSelectedCube+1",
+          "archivedValidIds": [
+            0,
+            7
+          ],
+          "archivedResultingReverseIds": [
+            2,
+            8
+          ],
+          "implementedBehavior": "Reverse traverses the same animation ID/range used by forward playback, from its decoded end frame to its decoded start frame.",
+          "reason": "For selections 1-6 the reverse ID is a different range than the forward ID; selection 7 requests ID 8 although CubeRot contains only IDs 0-7. This is a source/binary inconsistency, not behavior to reproduce as intended design."
+        }
+      }
+    }
+  },
+  "browserProblems": []
+}

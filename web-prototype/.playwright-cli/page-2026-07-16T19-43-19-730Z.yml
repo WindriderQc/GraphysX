@@ -1,0 +1,54 @@
+- generic [ref=f18e6]:
+  - heading "Scene Lab" [level=1] [ref=f18e43]
+  - paragraph [ref=f18e8]: "Environment work from the old folders: skyboxes, heightmaps, atmosphere, splines, and flight proxies."
+  - generic [ref=f18e9]:
+    - button "Next Lab" [ref=f18e44] [cursor=pointer]
+    - button "Back Home" [active] [ref=f18e45] [cursor=pointer]
+  - generic [ref=f18e12]:
+    - generic [ref=f18e46]:
+      - generic [ref=f18e47]: Archive Modes
+      - generic [ref=f18e48]:
+        - button "BallZ Race" [ref=f18e49] [cursor=pointer]
+        - button "Scene Lab Recovered sky, terrain, water, spline, sun/moon, and environment experiments as a navigable preview." [ref=f18e51] [cursor=pointer]:
+          - generic [ref=f18e52]: Scene Lab
+          - generic [ref=f18e53]: Recovered sky, terrain, water, spline, sun/moon, and environment experiments as a navigable preview.
+        - button "Game Basics" [ref=f18e54] [cursor=pointer]
+        - button "Physics Lab" [ref=f18e56] [cursor=pointer]
+        - button "BallZ Map Editor" [ref=f18e58] [cursor=pointer]
+        - button "Math Lab" [ref=f18e60] [cursor=pointer]
+        - button "Editor Lab" [ref=f18e62] [cursor=pointer]
+        - button "CubX Lab" [ref=f18e64] [cursor=pointer]
+        - button "Asset Catalog" [ref=f18e66] [cursor=pointer]
+    - article [ref=f18e68]:
+      - generic [ref=f18e69]: Preview
+      - strong [ref=f18e70]:
+        - text: SkyX terrain
+        - generic [ref=f18e71]: heightmap material, water plane, sun/moon orbit
+    - article [ref=f18e72]:
+      - generic [ref=f18e73]: Spline
+      - strong [ref=f18e74]:
+        - text: Airplane proxy
+        - generic [ref=f18e75]: Media/Spline.xml and Airplane.x are queued for import
+    - generic [ref=f18e76]:
+      - generic [ref=f18e77]: Recovery Map
+      - generic [ref=f18e78]:
+        - article [ref=f18e79]:
+          - generic [ref=f18e80]: Ported
+          - strong [ref=f18e81]: Skyboxes
+          - generic [ref=f18e82]: Media/Sky/ClearBlue, ClearNight, SkyX, Winter
+          - paragraph [ref=f18e83]: CubeTextureLoader-backed skyboxes are active in the race scenes and preview modes.
+        - article [ref=f18e84]:
+          - generic [ref=f18e85]: Preview
+          - strong [ref=f18e86]: Heightmaps
+          - generic [ref=f18e87]: Media/Heightmaps/Track.jpg, heightmap8.jpg
+          - paragraph [ref=f18e88]: Procedural terrain preview uses archived heightmap imagery as material inspiration.
+        - article [ref=f18e89]:
+          - generic [ref=f18e90]: Preview
+          - strong [ref=f18e91]: Day/Night
+          - generic [ref=f18e92]: GraphysX_1/Sky.cpp, Archive Atmosphere.cpp
+          - paragraph [ref=f18e93]: Sun/moon orbit and atmosphere lighting are represented as a modern scene-lab target.
+        - article [ref=f18e94]:
+          - generic [ref=f18e95]: Preview
+          - strong [ref=f18e96]: Spline Flight
+          - generic [ref=f18e97]: Media/Spline.xml, Media/Airplane/Airplane.x
+          - paragraph [ref=f18e98]: A spline path and airplane proxy mark the old flight-follow experiment until model conversion lands.

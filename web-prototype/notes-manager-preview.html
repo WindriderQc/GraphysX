@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'/>" />
+    <title>Notes Manager archive preview</title>
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+        background: #101319;
+      }
+      canvas {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      aside {
+        position: fixed;
+        inset: 1rem auto auto 1rem;
+        max-width: 26rem;
+        padding: 0.75rem 0.9rem;
+        border: 1px solid #ffffff35;
+        border-radius: 0.65rem;
+        color: #eef4ff;
+        background: #080b10cc;
+        font: 14px/1.35 system-ui, sans-serif;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="notes-manager-preview-canvas" aria-label="Recovered Notes Manager 3D block preview"></canvas>
+    <aside>A / marble cube: add the next archived note block · R: reset</aside>
+    <script type="module" src="/src/notes-manager-preview.ts"></script>
+  </body>
+</html>
+

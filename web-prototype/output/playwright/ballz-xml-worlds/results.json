@@ -1,0 +1,287 @@
+{
+  "passed": 28,
+  "errors": [],
+  "finalState": {
+    "id": "ballz-xml-worlds-evidence-preview",
+    "sceneId": "testworld",
+    "source": "Archive/bckup/BallZ2015.bckup/Media/TestWorld.xml",
+    "sourceSha256": "F158AD164F3DE5B80B0D7EA2061889B62C22A069D2CCE2D56B2E48493791D16C",
+    "classification": "distinct scene-loader coverage fixture",
+    "assessment": "Four primitive tests and AirplaneLP form an exact line; the missing bush source and two empty duplicate targets prove incomplete loader coverage, not a finished discoverable world.",
+    "distinctSerializedComposition": true,
+    "assembledDiscoverableWorld": false,
+    "ready": true,
+    "loadStatus": "ready",
+    "loadError": null,
+    "objectCount": 8,
+    "renderedObjectCount": 5,
+    "unresolvedObjectCount": 3,
+    "resolutionCounts": {
+      "exact-procedural-primitive": 4,
+      "exact-file": 1,
+      "missing-file": 1,
+      "invalid-duplicate-target": 2
+    },
+    "focusedObjectIndex": 4,
+    "orbitAngleRadians": 0,
+    "cameraPosition": [
+      25.17988348007202,
+      1.8554016768932344,
+      7.685843434333801
+    ],
+    "lookAt": [
+      25.17988348007202,
+      -0.34319546818733215,
+      0.6503325700759888
+    ],
+    "physics": {
+      "metadataPreserved": true,
+      "simulated": false,
+      "reason": "XML retains mass/material metadata but not host gravity, timestep, ground, or interactions."
+    },
+    "exactTvmAssets": [
+      {
+        "id": "airplane-lp",
+        "vertices": 5367,
+        "triangles": 9202,
+        "materialGroups": 8,
+        "materialFormat": "MGRP-416"
+      }
+    ],
+    "objects": [
+      {
+        "index": 0,
+        "name": "CubeTestPhys",
+        "action": "PHYSICCUBE",
+        "serializedType": 7,
+        "sourcePosition": [
+          5,
+          0,
+          0
+        ],
+        "webPosition": [
+          5,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "mass": 0,
+        "newtonMaterial": 1,
+        "resolution": "exact-procedural-primitive",
+        "sourceAsset": null,
+        "rendered": true,
+        "visible": false
+      },
+      {
+        "index": 1,
+        "name": "SphereTestPhys",
+        "action": "PHYSICSPHERE",
+        "serializedType": 8,
+        "sourcePosition": [
+          10,
+          0,
+          0
+        ],
+        "webPosition": [
+          10,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "mass": 0,
+        "newtonMaterial": 1,
+        "resolution": "exact-procedural-primitive",
+        "sourceAsset": null,
+        "rendered": true,
+        "visible": false
+      },
+      {
+        "index": 2,
+        "name": "CylinderTestPhys",
+        "action": "PHYSICSCYLINDER",
+        "serializedType": 9,
+        "sourcePosition": [
+          15,
+          0,
+          0
+        ],
+        "webPosition": [
+          15,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "mass": 0,
+        "newtonMaterial": 1,
+        "resolution": "exact-procedural-primitive",
+        "sourceAsset": null,
+        "rendered": true,
+        "visible": false
+      },
+      {
+        "index": 3,
+        "name": "ConeTestPhys",
+        "action": "PHYSICCONE",
+        "serializedType": 10,
+        "sourcePosition": [
+          20,
+          0,
+          0
+        ],
+        "webPosition": [
+          20,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "mass": 0,
+        "newtonMaterial": 1,
+        "resolution": "exact-procedural-primitive",
+        "sourceAsset": null,
+        "rendered": true,
+        "visible": false
+      },
+      {
+        "index": 4,
+        "name": "Airplane",
+        "action": "PHYSICCUSTOM",
+        "serializedType": 11,
+        "sourcePosition": [
+          25,
+          0,
+          0
+        ],
+        "webPosition": [
+          25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "mass": 0,
+        "newtonMaterial": -1,
+        "resolution": "exact-file",
+        "sourceAsset": "Archive/bckup/BallZ2015.bckup/Media/Airplane/AirplaneLP.TVM",
+        "rendered": true,
+        "visible": true
+      },
+      {
+        "index": 5,
+        "name": "Bushx1",
+        "action": "XMESH",
+        "serializedType": 12,
+        "sourcePosition": [
+          25,
+          0,
+          0
+        ],
+        "webPosition": [
+          25,
+          0,
+          0
+        ],
+        "scale": [
+          0.1,
+          0.1,
+          0.1
+        ],
+        "mass": 0,
+        "newtonMaterial": -1,
+        "resolution": "missing-file",
+        "sourceAsset": null,
+        "rendered": false,
+        "visible": false
+      },
+      {
+        "index": 6,
+        "name": "Bushx1",
+        "action": "DUPLICATE",
+        "serializedType": 13,
+        "sourcePosition": [
+          2,
+          0,
+          4
+        ],
+        "webPosition": [
+          2,
+          0,
+          -4
+        ],
+        "scale": [
+          0.1,
+          0.1,
+          0.1
+        ],
+        "mass": 0,
+        "newtonMaterial": -1,
+        "resolution": "invalid-duplicate-target",
+        "sourceAsset": null,
+        "rendered": false,
+        "visible": false
+      },
+      {
+        "index": 7,
+        "name": "Bushx1",
+        "action": "DUPLICATE",
+        "serializedType": 13,
+        "sourcePosition": [
+          4,
+          0,
+          0
+        ],
+        "webPosition": [
+          4,
+          0,
+          0
+        ],
+        "scale": [
+          0.1,
+          0.1,
+          0.1
+        ],
+        "mass": 0,
+        "newtonMaterial": -1,
+        "resolution": "invalid-duplicate-target",
+        "sourceAsset": null,
+        "rendered": false,
+        "visible": false
+      }
+    ],
+    "parserRule": "Resolve Type with each XML document's own Actions header. Do not use the later archived stdafx.h enum, which inserted PHYSICXSTATIC and shifted DUPLICATE.",
+    "evidence": {
+      "exact": [
+        "All serialized object records, action tables, transforms and physics metadata.",
+        "Five recoverable TestWorld objects and two recoverable MyWorld objects.",
+        "Both decoded TVM meshes and all six airplane textures, including byte-identical StockRoom copies."
+      ],
+      "unresolved": [
+        "MyWorld's two DUPLICATE records contain file paths where the host requires prior mesh names; the coincident X files are not substituted.",
+        "TestWorld's bush1.X is absent and its two DUPLICATE records have empty targets.",
+        "Neither XML stores camera, light, sky, gravity, timestep or interaction configuration."
+      ],
+      "inference": [
+        "Standalone preview camera, lights and diagnostic ground grid are inspection aids only.",
+        "Physics metadata is reported but not simulated without a surviving host-world configuration."
+      ]
+    }
+  }
+}

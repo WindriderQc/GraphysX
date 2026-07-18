@@ -1,0 +1,38 @@
+- generic [ref=f6e6]:
+  - heading "GRAPHYSX" [level=1] [ref=f6e7]
+  - paragraph [ref=f6e8]: "Choose a clear path: play the BallZ tour, explore the recovered experiments, or build a map. Every race is available; progression now tracks mastery instead of blocking content."
+  - generic [ref=f6e9]:
+    - button "Play BallZ" [ref=f6e10] [cursor=pointer]
+    - button "Explore Labs" [ref=f6e11] [cursor=pointer]
+  - generic [ref=f6e12]:
+    - generic [ref=f6e13]:
+      - generic [ref=f6e14]: Choose A Path
+      - generic [ref=f6e15]:
+        - button "Play BallZ Tour Nine open challenges, medals, records, and a recommended learning path." [ref=f6e16] [cursor=pointer]:
+          - generic [ref=f6e17]: Play BallZ Tour
+          - generic [ref=f6e18]: Nine open challenges, medals, records, and a recommended learning path.
+        - button "Explore Archive Labs Scenes, physics, Math Game, CubX, assets, and recovered experiments." [ref=f6e19] [cursor=pointer]:
+          - generic [ref=f6e20]: Explore Archive Labs
+          - generic [ref=f6e21]: Scenes, physics, Math Game, CubX, assets, and recovered experiments.
+        - button "Build A BallZ Map Paint a tile map, preview it in 3D, then play the result immediately." [ref=f6e22] [cursor=pointer]:
+          - generic [ref=f6e23]: Build A BallZ Map
+          - generic [ref=f6e24]: Paint a tile map, preview it in 3D, then play the result immediately.
+    - generic [ref=f6e25]:
+      - generic [ref=f6e26]:
+        - generic [ref=f6e27]:
+          - generic [ref=f6e28]: Tour Progress
+          - strong [ref=f6e29]: 9 / 9 complete
+        - generic [ref=f6e30]:
+          - generic [ref=f6e31]: Career Score
+          - strong [ref=f6e32]: 900 pts
+      - generic "100% complete" [ref=f6e33]
+    - article [ref=f6e35]:
+      - generic [ref=f6e36]: Recommended Challenge
+      - strong [ref=f6e37]:
+        - text: Archive Level 1
+        - generic [ref=f6e38]: Learn camera-relative rolling, jumping, and the two-gate lap.
+    - article [ref=f6e39]:
+      - generic [ref=f6e40]: BallZ Controls
+      - strong [ref=f6e41]:
+        - text: WASD / arrows
+        - generic [ref=f6e42]: camera-relative roll · drag to orbit · wheel zoom · Space jump

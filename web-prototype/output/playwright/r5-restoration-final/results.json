@@ -1,0 +1,2215 @@
+{
+  "url": "http://127.0.0.1:4176/",
+  "assertions": [
+    {
+      "pass": true,
+      "message": "Visible/text build identity reports the r6 restoration wave"
+    },
+    {
+      "pass": true,
+      "message": "Complete Scene Index remains directly reachable"
+    },
+    {
+      "pass": true,
+      "message": "Scene census remains de-duplicated at 52 distinct records"
+    },
+    {
+      "pass": true,
+      "message": "Scene census records all identified scenes as at least reachable partials without overclaiming restoration"
+    },
+    {
+      "pass": true,
+      "message": "Skybox Selector opens from the same navigation path as its Home card"
+    },
+    {
+      "pass": true,
+      "message": "ClearBlue cube starts the archived zoom transition"
+    },
+    {
+      "pass": true,
+      "message": "Skybox Selector reaches the ClearBlue panorama"
+    },
+    {
+      "pass": true,
+      "message": "Car Selector opens from the same navigation path as its Home card"
+    },
+    {
+      "pass": true,
+      "message": "Car Selector height terrain is ready"
+    },
+    {
+      "pass": true,
+      "message": "Car Selector exposes the four-wheel Impreza"
+    },
+    {
+      "pass": true,
+      "message": "Car Selector Impreza settles from y=100 onto the recovered terrain"
+    },
+    {
+      "pass": true,
+      "message": "Car Selector retains its downward archive view instead of snapping above the car"
+    },
+    {
+      "pass": true,
+      "message": "Car Selector does not invent a commit action for the empty archive callback"
+    },
+    {
+      "pass": true,
+      "message": "Nature Lab opens as a standalone engine archive mode"
+    },
+    {
+      "pass": true,
+      "message": "Nature Lab reports its active study and simulation state"
+    },
+    {
+      "pass": true,
+      "message": "Orbital Observatory is reachable as Nature Lab World 4"
+    },
+    {
+      "pass": true,
+      "message": "Observatory exports the versioned world recipe contract"
+    },
+    {
+      "pass": true,
+      "message": "Observatory exposes the deterministic 160-event SBQC quake subset"
+    },
+    {
+      "pass": true,
+      "message": "Observatory predicts a Québec pass within its deterministic horizon"
+    },
+    {
+      "pass": true,
+      "message": "World API can hide the quake telemetry layer"
+    },
+    {
+      "pass": true,
+      "message": "Quake layer visibility is reflected in text state"
+    },
+    {
+      "pass": true,
+      "message": "Canonical observatory recipe reloads through the agent API"
+    },
+    {
+      "pass": true,
+      "message": "Agent can relocate the observatory ground station"
+    },
+    {
+      "pass": true,
+      "message": "Relocated ground station enters the live pass radius"
+    },
+    {
+      "pass": true,
+      "message": "Standalone Common archive opens outside BallZ progression"
+    },
+    {
+      "pass": true,
+      "message": "Common Room 1 is directly reachable"
+    },
+    {
+      "pass": true,
+      "message": "Common archive reports Room 1 as the active standalone environment"
+    },
+    {
+      "pass": true,
+      "message": "Common Room 1 preserves the exact 180-vertex / 250-triangle shell"
+    },
+    {
+      "pass": true,
+      "message": "Room 1 exposes its inferred host-camera and lighting boundary"
+    },
+    {
+      "pass": true,
+      "message": "The recovered sky.tvm component is inspectable without claiming a scene"
+    },
+    {
+      "pass": true,
+      "message": "Common archive reports sky.tvm as the active component"
+    },
+    {
+      "pass": true,
+      "message": "sky.tvm preserves the exact 726-vertex / 1,200-triangle skydome"
+    },
+    {
+      "pass": true,
+      "message": "sky.tvm remains classified as an environment component rather than a standalone scene"
+    },
+    {
+      "pass": true,
+      "message": "Room 2's authored HLSL assembly remains reachable alongside Room 1"
+    },
+    {
+      "pass": true,
+      "message": "Common archive reports Room 2 as the active shadow lab"
+    },
+    {
+      "pass": true,
+      "message": "Room 2 retains the recovered mesh and authored HLSL teapot assembly"
+    },
+    {
+      "pass": true,
+      "message": "The distinct BallZ 2011 Level1 mesh opens as a concept visit"
+    },
+    {
+      "pass": true,
+      "message": "BallZ 2011 Level1 preserves all 828 vertices / 1,648 triangles"
+    },
+    {
+      "pass": true,
+      "message": "BallZ 2011 Level1 preserves its two closed mesh components"
+    },
+    {
+      "pass": true,
+      "message": "BallZ 2011 Level1 explicitly reports its neutral material as inference"
+    },
+    {
+      "pass": true,
+      "message": "BallZ 2011 Level1 decoded bounds can be inspected"
+    },
+    {
+      "pass": true,
+      "message": "BallZ 2011 Level1 bounds toggle changes the live environment"
+    },
+    {
+      "pass": true,
+      "message": "CubX 3D Notes opens outside BallZ progression"
+    },
+    {
+      "pass": true,
+      "message": "CubX Notes begins at its exact zero-note state"
+    },
+    {
+      "pass": true,
+      "message": "CubX Notes enables exact slots 0 and 1 in sequence"
+    },
+    {
+      "pass": true,
+      "message": "CubX Notes exposes the exact 50-slot capacity"
+    },
+    {
+      "pass": true,
+      "message": "CubX Notes preserves the first two authored 3D positions"
+    },
+    {
+      "pass": true,
+      "message": "Voie Lactée opens as a planetary vignette rather than a star field"
+    },
+    {
+      "pass": true,
+      "message": "Voie Lactée exposes the five implemented archive bodies"
+    },
+    {
+      "pass": true,
+      "message": "Voie Lactée correctly reports zero generated stars"
+    },
+    {
+      "pass": true,
+      "message": "Voie Lactée later profile uses the exact recovered texture set"
+    },
+    {
+      "pass": true,
+      "message": "Voie Lactée exposes the distinct older BallZ motion profile"
+    },
+    {
+      "pass": true,
+      "message": "Voie Lactée retains the selected 2015 profile in live state"
+    },
+    {
+      "pass": true,
+      "message": "Voie Lactée 2015 Moon follows the recovered motion rate"
+    },
+    {
+      "pass": true,
+      "message": "green-grid-run is reachable from the player-facing roster"
+    },
+    {
+      "pass": true,
+      "message": "green-grid-run starts"
+    },
+    {
+      "pass": true,
+      "message": "green-grid-run exposes all 20 authored checkpoints"
+    },
+    {
+      "pass": true,
+      "message": "green-grid-run uses the three-lap XML rule"
+    },
+    {
+      "pass": true,
+      "message": "green-grid-run uses the archived 0.3 BallZ radius"
+    },
+    {
+      "pass": true,
+      "message": "green-grid-run completes through the live three-lap callbacks"
+    },
+    {
+      "pass": true,
+      "message": "rotator-cube-works is reachable from the player-facing roster"
+    },
+    {
+      "pass": true,
+      "message": "rotator-cube-works starts"
+    },
+    {
+      "pass": true,
+      "message": "rotator-cube-works exposes all 20 authored checkpoints"
+    },
+    {
+      "pass": true,
+      "message": "rotator-cube-works uses the three-lap XML rule"
+    },
+    {
+      "pass": true,
+      "message": "rotator-cube-works uses the archived 0.3 BallZ radius"
+    },
+    {
+      "pass": true,
+      "message": "rotator-cube-works completes through the live three-lap callbacks"
+    },
+    {
+      "pass": true,
+      "message": "piston-gateworks is reachable from the player-facing roster"
+    },
+    {
+      "pass": true,
+      "message": "piston-gateworks starts"
+    },
+    {
+      "pass": true,
+      "message": "piston-gateworks exposes all 20 authored checkpoints"
+    },
+    {
+      "pass": true,
+      "message": "piston-gateworks uses the three-lap XML rule"
+    },
+    {
+      "pass": true,
+      "message": "piston-gateworks uses the archived 0.3 BallZ radius"
+    },
+    {
+      "pass": true,
+      "message": "piston-gateworks completes through the live three-lap callbacks"
+    },
+    {
+      "pass": true,
+      "message": "Suzanne 1 is reachable from the BallZ roster"
+    },
+    {
+      "pass": true,
+      "message": "Suzanne 1 starts after its recovered textures are ready"
+    },
+    {
+      "pass": true,
+      "message": "Suzanne uses its recovered 0.3 BallZ radius"
+    },
+    {
+      "pass": true,
+      "message": "Suzanne uses the recovered 40×40 ASCII grid"
+    },
+    {
+      "pass": true,
+      "message": "Suzanne exposes the authored wall and chain counts"
+    },
+    {
+      "pass": true,
+      "message": "Suzanne exposes its authored checkpoints, pistons, and effects"
+    },
+    {
+      "pass": true,
+      "message": "Suzanne completes through the live race callbacks"
+    },
+    {
+      "pass": true,
+      "message": "Suzanne records all three laps at finish"
+    },
+    {
+      "pass": true,
+      "message": "Suzanne collects all 15 authored checkpoints"
+    },
+    {
+      "pass": true,
+      "message": "Browser console and page errors remain clean across the r5 restoration matrix"
+    }
+  ],
+  "states": {
+    "sceneIndex": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.16-r6",
+      "mode": "scene-index",
+      "projectFamily": "scene-index",
+      "race": "Archive Level 1 — ASCII Restoration",
+      "preview": "scene-index",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "sceneCensus": {
+        "total": 52,
+        "byStatus": {
+          "RESTORED": 3,
+          "PARTIAL": 32,
+          "REGRESSED": 0,
+          "PIPELINE": 17,
+          "MISSING": 0,
+          "RESEARCH": 0
+        }
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "player": {
+        "x": -6.5,
+        "y": 0.35,
+        "z": 7.5,
+        "radius": 0.3
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "inputAxis": {
+        "forward": 0,
+        "turn": 0
+      },
+      "ballPreset": "revival",
+      "ghost": {
+        "hasBest": false,
+        "bestTimeMs": null,
+        "recordingSamples": 0,
+        "playbackVisible": false,
+        "lastLapVisible": false
+      },
+      "flight": null,
+      "suzanne": null,
+      "rings": "0/20",
+      "laps": {
+        "completed": 0,
+        "total": 3,
+        "current": 1
+      },
+      "halfway": false,
+      "raceActive": false,
+      "raceFinished": false,
+      "loadState": {
+        "ready": true,
+        "loading": false,
+        "requiredKeys": []
+      },
+      "remainingRings": [
+        {
+          "x": 2.5,
+          "y": 0.8,
+          "z": -6.5
+        },
+        {
+          "x": -1.5,
+          "y": 0.8,
+          "z": -5.5
+        },
+        {
+          "x": 1.5,
+          "y": 0.8,
+          "z": -5.5
+        },
+        {
+          "x": -0.5,
+          "y": 0.8,
+          "z": -4.5
+        },
+        {
+          "x": 0.5,
+          "y": 0.8,
+          "z": -4.5
+        },
+        {
+          "x": -5.5,
+          "y": 0.8,
+          "z": -2.5
+        },
+        {
+          "x": -4.5,
+          "y": 0.8,
+          "z": -1.5
+        },
+        {
+          "x": 4.5,
+          "y": 0.8,
+          "z": -1.5
+        },
+        {
+          "x": -3.5,
+          "y": 0.8,
+          "z": -0.5
+        },
+        {
+          "x": 3.5,
+          "y": 0.8,
+          "z": -0.5
+        },
+        {
+          "x": -3.5,
+          "y": 0.8,
+          "z": 0.5
+        },
+        {
+          "x": 3.5,
+          "y": 0.8,
+          "z": 0.5
+        },
+        {
+          "x": -4.5,
+          "y": 0.8,
+          "z": 1.5
+        },
+        {
+          "x": 4.5,
+          "y": 0.8,
+          "z": 1.5
+        },
+        {
+          "x": 5.5,
+          "y": 0.8,
+          "z": 2.5
+        },
+        {
+          "x": -0.5,
+          "y": 0.8,
+          "z": 4.5
+        },
+        {
+          "x": 0.5,
+          "y": 0.8,
+          "z": 4.5
+        },
+        {
+          "x": -1.5,
+          "y": 0.8,
+          "z": 5.5
+        },
+        {
+          "x": 1.5,
+          "y": 0.8,
+          "z": 5.5
+        },
+        {
+          "x": -2.5,
+          "y": 0.8,
+          "z": 6.5
+        }
+      ],
+      "activeZombies": [],
+      "nextObjective": "Bonus checkpoint nearby",
+      "objectiveDistance": 4.12,
+      "camera": {
+        "yaw": -0.28,
+        "pitch": 0.58,
+        "distance": 14
+      },
+      "controls": "Use the visible menu buttons; Enter opens/starts when focus is not already on a control.",
+      "shellWireRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "arrowHeading": 3.142
+    },
+    "skybox": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.16-r6",
+      "mode": "skybox-selector",
+      "projectFamily": "skybox-selector",
+      "preview": "skybox-selector",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "selector": {
+        "id": "archive-skybox-selector",
+        "source": "Yanik C++ BCKUP/CubXSolution/3DScenes.cpp + CLSkybox.cpp + Scene.cpp",
+        "visible": true,
+        "loadStatus": "ready",
+        "loadError": null,
+        "phase": "panorama",
+        "entries": [
+          {
+            "id": "clearblue",
+            "archiveName": "ClearBlue",
+            "label": "Clear Blue",
+            "position": [
+              125,
+              0,
+              0
+            ],
+            "rotationYDegrees": 0.3599999999627471
+          },
+          {
+            "id": "skyx",
+            "archiveName": "SkyX",
+            "label": "SkyX",
+            "position": [
+              38.62712429686843,
+              0,
+              118.88206453689419
+            ],
+            "rotationYDegrees": 0.3599999999627471
+          },
+          {
+            "id": "clearnight",
+            "archiveName": "ClearNight",
+            "label": "Clear Night",
+            "position": [
+              -101.12712429686842,
+              0,
+              73.47315653655916
+            ],
+            "rotationYDegrees": 0.3599999999627471
+          },
+          {
+            "id": "lostvalley",
+            "archiveName": "LostValley",
+            "label": "Lost Valley",
+            "position": [
+              -101.12712429686844,
+              0,
+              -73.47315653655913
+            ],
+            "rotationYDegrees": 0.3599999999627471
+          },
+          {
+            "id": "winter",
+            "archiveName": "Winter",
+            "label": "Winter",
+            "position": [
+              38.6271242968684,
+              0,
+              -118.8820645368942
+            ],
+            "rotationYDegrees": 0.3599999999627471
+          }
+        ],
+        "pendingId": null,
+        "activeId": "clearblue",
+        "camera": {
+          "position": [
+            1000,
+            5,
+            0
+          ],
+          "fovDegrees": 45,
+          "lookAt": [
+            0,
+            3,
+            0
+          ]
+        },
+        "controls": "Archive: click a sky cube",
+        "transition": "cube ring -> camera zoom -> selected panorama orbit"
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "camera": {
+        "position": [
+          1000,
+          5,
+          0
+        ],
+        "fovDegrees": 45,
+        "lookAt": [
+          0,
+          3,
+          0
+        ]
+      },
+      "controls": "Click a sky cube or use the five visible sky buttons; wait for zoom into panorama; Return To Cubes resets; Esc exits."
+    },
+    "car": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.16-r6",
+      "mode": "car-selector",
+      "projectFamily": "car-selector",
+      "preview": "car-selector",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "selector": {
+        "id": "archive-car-selector",
+        "source": "Yanik C++ BCKUP/CubXSolution/3DScenes.cpp + 3DScenes.h + Vehicule.cpp",
+        "visible": true,
+        "loadStatus": "ready",
+        "loadError": null,
+        "entries": [
+          {
+            "id": "impreza",
+            "archiveName": "Impreza",
+            "label": "Subaru Impreza",
+            "position": [
+              30,
+              7.939179830893806,
+              0
+            ]
+          }
+        ],
+        "selectionImplementedInArchive": false,
+        "selectedId": null,
+        "inspectedId": null,
+        "car": {
+          "spawnPosition": [
+            30,
+            100,
+            0
+          ],
+          "currentPosition": [
+            30,
+            7.939179830893806,
+            0
+          ],
+          "fallingUnderArchiveGravity": true,
+          "wheelCount": 4,
+          "materialSlots": [
+            "ChassisSTI",
+            "Windows",
+            "UnderCarriage"
+          ]
+        },
+        "terrain": {
+          "ready": true,
+          "source": "Media/Heightmaps/height.jpg",
+          "size": [
+            100,
+            100
+          ],
+          "heightScaleFidelity": "estimated"
+        },
+        "water": {
+          "height": 2,
+          "distortionSource": "Media/distortiontexture.dds"
+        },
+        "camera": {
+          "position": [
+            75,
+            100,
+            50
+          ],
+          "lookAt": [
+            74.44291398546885,
+            99.2572186472918,
+            49.6286093236459
+          ],
+          "fovDegrees": 45
+        },
+        "controls": "Archive free camera: walk / strafe / raise + mouse deltas; car click callback was empty"
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "camera": {
+        "position": [
+          75,
+          100,
+          50
+        ],
+        "lookAt": [
+          74.44291398546885,
+          99.2572186472918,
+          49.6286093236459
+        ],
+        "fovDegrees": 45
+      },
+      "controls": "W/S walk; A/D strafe; Q/E raise; drag to turn; click the Impreza to inspect; Reset Preview restores the archive camera; Esc exits."
+    },
+    "nature": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.16-r6",
+      "mode": "nature-lab",
+      "projectFamily": "nature-lab",
+      "preview": "nature-lab",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "nature": {
+        "study": "flock-planet",
+        "title": "Flock Planet",
+        "source": "SBQC/public/js/{Boid3D,Flock3D,threejs_setup}.js",
+        "elapsedSeconds": 0.033,
+        "seed": 1977,
+        "population": 60,
+        "trails": true,
+        "generation": 1,
+        "paused": false,
+        "actionCount": 0,
+        "lesson": {
+          "id": "flock-separation",
+          "label": "Separation",
+          "session": "Flocking 1/4",
+          "concept": "One rule only: nearby boids push apart.",
+          "observe": "Watch dense knots open while headings remain deliberately uncoordinated.",
+          "action": "Compress the flock",
+          "source": "flock/{boid,flock,sketch}.js · Boid.separate"
+        },
+        "demonstration": {
+          "phase": "isolated flock rule running",
+          "effectiveRules": [
+            "separation 1.50",
+            "alignment 0.00",
+            "cohesion 0.00"
+          ],
+          "interaction": "Compress the flock · canvas click or Experiment button"
+        },
+        "settings": {
+          "separation": 1.5,
+          "alignment": 1,
+          "cohesion": 1,
+          "speed": 1,
+          "attraction": 1.15,
+          "flowStrength": 0.72,
+          "mutationRate": 0.08,
+          "cycleSeconds": 17,
+          "orbitSpeed": 1,
+          "earthSpin": 0.2,
+          "detectionRadiusKm": 1500,
+          "quakeScale": 1
+        },
+        "layers": {
+          "trails": true,
+          "clouds": true,
+          "trajectory": true,
+          "quakes": true,
+          "observer": true
+        },
+        "recipe": {
+          "schema": "graphysx.world/v1",
+          "id": "graphysx.live.flock-planet",
+          "label": "Flock Planet — live recipe",
+          "study": "flock-planet",
+          "lesson": "flock-separation",
+          "seed": 1977,
+          "settings": {
+            "separation": 1.5,
+            "alignment": 1,
+            "cohesion": 1,
+            "speed": 1
+          },
+          "layers": {
+            "trails": true,
+            "clouds": true,
+            "trajectory": true,
+            "quakes": true,
+            "observer": true
+          }
+        },
+        "visibleSystems": [
+          "60 source-count boids",
+          "separation only",
+          "neighbor radius",
+          "spherical boundary",
+          "path trails"
+        ]
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "camera": {
+        "yaw": -0.277,
+        "pitch": 0.34,
+        "distance": 14
+      },
+      "controls": "Choose a world family and focused lesson, use its Experiment action or click the 3D view, pause/step/reset, tune named sliders, drag to orbit, wheel to zoom, or use __GRAPHYSX_WORLDS__."
+    },
+    "observatory": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.16-r6",
+      "mode": "nature-lab",
+      "projectFamily": "nature-lab",
+      "preview": "nature-lab",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "nature": {
+        "study": "orbital-observatory",
+        "title": "Orbital Observatory",
+        "source": "SBQC/public/js/{Globe,Trajectory,Starfield,earth3D,threeEarth}.js",
+        "elapsedSeconds": 10.066000000000075,
+        "seed": 1977,
+        "population": 161,
+        "trails": true,
+        "generation": 1,
+        "paused": false,
+        "actionCount": 0,
+        "lesson": {
+          "id": "orbital-live",
+          "label": "Live Observatory",
+          "session": "World telemetry",
+          "concept": "ISS trajectory, quakes, and observer passes remain an independent world.",
+          "observe": "Move the observer or toggle layers through the recipe API.",
+          "action": "Advance to next pass",
+          "source": "public/js/{Globe,Trajectory,Starfield,earth3D,threeEarth}.js"
+        },
+        "demonstration": {
+          "phase": "orbit and pass prediction running",
+          "effectiveRules": [
+            "inclined orbit",
+            "observer distance",
+            "pass prediction"
+          ],
+          "interaction": "Advance to next pass · canvas click or Experiment button"
+        },
+        "settings": {
+          "separation": 1.5,
+          "alignment": 1,
+          "cohesion": 1,
+          "speed": 1,
+          "attraction": 1.15,
+          "flowStrength": 0.72,
+          "mutationRate": 0.08,
+          "cycleSeconds": 17,
+          "orbitSpeed": 1,
+          "earthSpin": 0.2,
+          "detectionRadiusKm": 1500,
+          "quakeScale": 1
+        },
+        "layers": {
+          "trails": true,
+          "clouds": true,
+          "trajectory": true,
+          "quakes": true,
+          "observer": true
+        },
+        "recipe": {
+          "schema": "graphysx.world/v1",
+          "id": "graphysx.live.orbital-observatory",
+          "label": "Orbital Observatory — live recipe",
+          "study": "orbital-observatory",
+          "lesson": "orbital-live",
+          "seed": 1977,
+          "settings": {
+            "orbitSpeed": 1,
+            "earthSpin": 0.2,
+            "detectionRadiusKm": 1500,
+            "quakeScale": 1
+          },
+          "layers": {
+            "trails": true,
+            "clouds": true,
+            "trajectory": true,
+            "quakes": true,
+            "observer": true
+          },
+          "observer": {
+            "label": "Québec City",
+            "latitude": 46.8139,
+            "longitude": -71.208
+          }
+        },
+        "observatory": {
+          "satellite": {
+            "label": "ISS",
+            "latitude": -1.7654553793513517,
+            "longitude": 4.580135027585584,
+            "altitudeKm": 420,
+            "position": {
+              "x": 5.246,
+              "y": -0.162,
+              "z": -0.128
+            },
+            "simulatedPeriodSeconds": 92
+          },
+          "observer": {
+            "label": "Québec City",
+            "latitude": 46.8139,
+            "longitude": -71.208,
+            "detectionRadiusKm": 1500,
+            "distanceToSatelliteKm": 9077.418841795256
+          },
+          "pass": {
+            "insideDetectionRadius": false,
+            "entryInSeconds": 216,
+            "exitInSeconds": 220
+          },
+          "earthquakes": {
+            "visible": true,
+            "count": 160,
+            "maximumMagnitude": 7.1,
+            "source": "WindriderQc/SBQC/public/data/quakes.csv",
+            "sourceCommit": "42c210f3599c55038efde8fad61d9fe5bf5c0f24"
+          },
+          "sources": [
+            "SBQC/public/js/Globe.js",
+            "SBQC/public/js/Trajectory.js",
+            "SBQC/public/js/Starfield.js",
+            "SBQC/public/js/earth3D.js",
+            "SBQC/public/js/threeEarth.js"
+          ]
+        },
+        "visibleSystems": [
+          "day/night Earth",
+          "cloud shell",
+          "ISS",
+          "inclined trajectory",
+          "observer pass window",
+          "earthquake telemetry",
+          "reference grid"
+        ]
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "camera": {
+        "yaw": 0.598,
+        "pitch": 0.34,
+        "distance": 14
+      },
+      "controls": "Choose a world family and focused lesson, use its Experiment action or click the 3D view, pause/step/reset, tune named sliders, drag to orbit, wheel to zoom, or use __GRAPHYSX_WORLDS__."
+    },
+    "observatoryAligned": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.16-r6",
+      "mode": "nature-lab",
+      "projectFamily": "nature-lab",
+      "preview": "nature-lab",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "nature": {
+        "study": "orbital-observatory",
+        "title": "Orbital Observatory",
+        "source": "SBQC/public/js/{Globe,Trajectory,Starfield,earth3D,threeEarth}.js",
+        "elapsedSeconds": 0,
+        "seed": 1977,
+        "population": 161,
+        "trails": true,
+        "generation": 1,
+        "paused": false,
+        "actionCount": 0,
+        "lesson": {
+          "id": "orbital-live",
+          "label": "Live Observatory",
+          "session": "World telemetry",
+          "concept": "ISS trajectory, quakes, and observer passes remain an independent world.",
+          "observe": "Move the observer or toggle layers through the recipe API.",
+          "action": "Advance to next pass",
+          "source": "public/js/{Globe,Trajectory,Starfield,earth3D,threeEarth}.js"
+        },
+        "demonstration": {
+          "phase": "observer pass active",
+          "effectiveRules": [
+            "inclined orbit",
+            "observer distance",
+            "pass prediction"
+          ],
+          "interaction": "Advance to next pass · canvas click or Experiment button"
+        },
+        "settings": {
+          "separation": 1.5,
+          "alignment": 1,
+          "cohesion": 1,
+          "speed": 1,
+          "attraction": 1.15,
+          "flowStrength": 0.72,
+          "mutationRate": 0.08,
+          "cycleSeconds": 17,
+          "orbitSpeed": 1,
+          "earthSpin": 0.2,
+          "detectionRadiusKm": 1500,
+          "quakeScale": 1
+        },
+        "layers": {
+          "trails": true,
+          "clouds": true,
+          "trajectory": true,
+          "quakes": true,
+          "observer": true
+        },
+        "recipe": {
+          "schema": "graphysx.world/v1",
+          "id": "graphysx.live.orbital-observatory",
+          "label": "Orbital Observatory — live recipe",
+          "study": "orbital-observatory",
+          "lesson": "orbital-live",
+          "seed": 1977,
+          "settings": {
+            "orbitSpeed": 1,
+            "earthSpin": 0.2,
+            "detectionRadiusKm": 1500,
+            "quakeScale": 1
+          },
+          "layers": {
+            "trails": true,
+            "clouds": true,
+            "trajectory": true,
+            "quakes": true,
+            "observer": true
+          },
+          "observer": {
+            "label": "QA Ground Station",
+            "latitude": -31.11486427308663,
+            "longitude": -28.58105260092708
+          }
+        },
+        "observatory": {
+          "satellite": {
+            "label": "ISS",
+            "latitude": -31.11486427308663,
+            "longitude": -28.58105260092708,
+            "altitudeKm": 420,
+            "position": {
+              "x": 3.947,
+              "y": -2.713,
+              "z": -2.15
+            },
+            "simulatedPeriodSeconds": 92
+          },
+          "observer": {
+            "label": "QA Ground Station",
+            "latitude": -31.11486427308663,
+            "longitude": -28.58105260092708,
+            "detectionRadiusKm": 1500,
+            "distanceToSatelliteKm": 0
+          },
+          "pass": {
+            "insideDetectionRadius": true,
+            "entryInSeconds": 0,
+            "exitInSeconds": 4
+          },
+          "earthquakes": {
+            "visible": true,
+            "count": 160,
+            "maximumMagnitude": 7.1,
+            "source": "WindriderQc/SBQC/public/data/quakes.csv",
+            "sourceCommit": "42c210f3599c55038efde8fad61d9fe5bf5c0f24"
+          },
+          "sources": [
+            "SBQC/public/js/Globe.js",
+            "SBQC/public/js/Trajectory.js",
+            "SBQC/public/js/Starfield.js",
+            "SBQC/public/js/earth3D.js",
+            "SBQC/public/js/threeEarth.js"
+          ]
+        },
+        "visibleSystems": [
+          "day/night Earth",
+          "cloud shell",
+          "ISS",
+          "inclined trajectory",
+          "observer pass window",
+          "earthquake telemetry",
+          "reference grid"
+        ]
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "camera": {
+        "yaw": -0.28,
+        "pitch": 0.34,
+        "distance": 14
+      },
+      "controls": "Choose a world family and focused lesson, use its Experiment action or click the 3D view, pause/step/reset, tune named sliders, drag to orbit, wheel to zoom, or use __GRAPHYSX_WORLDS__."
+    },
+    "commonRoom1": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.16-r6",
+      "mode": "common-room-lab",
+      "projectFamily": "common-room-lab",
+      "preview": "common-room-lab",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "environment": {
+        "selection": "room1",
+        "room2": {
+          "id": "common-room2-shadow-demo",
+          "source": "common/room2.tvm",
+          "sourceSha256": "484B5656E91B679786D10A193B29F8162150823080D0B044DD17598906C47E7D",
+          "evidence": "#23 HLSL_Shadow_Mapping/main.cpp",
+          "ready": true,
+          "visible": false,
+          "loadStatus": "ready",
+          "loadError": null,
+          "disposed": false,
+          "orbitAngleRadians": 0.00017453292519943296,
+          "orbitAngleDegrees": 0.01,
+          "orbitRadius": 50,
+          "orbitCenter": [
+            0,
+            20,
+            0
+          ],
+          "lookAt": [
+            0,
+            0,
+            0
+          ],
+          "cameraPosition": [
+            0.00872664621566684,
+            20,
+            -49.999999238456454
+          ],
+          "objects": [
+            "room2",
+            "teapot",
+            "light-marker"
+          ],
+          "light": {
+            "position": [
+              0,
+              15,
+              0
+            ],
+            "color": "#ffffff",
+            "intensity": 3.5,
+            "visible": true,
+            "castShadow": true,
+            "shadowMapSize": [
+              1024,
+              1024
+            ]
+          },
+          "controls": "A/D orbit",
+          "recommendedBackground": "#000000"
+        },
+        "archive": {
+          "id": "common-archive-room1-and-sky-component",
+          "activeSpace": "room1",
+          "ready": true,
+          "loadStatus": "ready",
+          "loadError": null,
+          "disposed": false,
+          "visible": true,
+          "orbitAngleRadians": 0,
+          "cameraPosition": [
+            0,
+            10,
+            8
+          ],
+          "lookAt": [
+            0,
+            11,
+            0
+          ],
+          "source": "common/room.tvm",
+          "sourceSha256": "7F929EEB285B8DCE89E95CF8CF46A327AB7A02A0E730B620FA40120FA8CDC8F2",
+          "classification": "unassembled inward-facing room-shell asset",
+          "geometry": {
+            "vertices": 180,
+            "triangles": 250,
+            "materialGroups": 1,
+            "sourceBounds": {
+              "min": [
+                -12.499999,
+                0,
+                -12.499999
+              ],
+              "max": [
+                12.499999,
+                24.999998,
+                12.499999
+              ],
+              "size": [
+                24.999998,
+                24.999998,
+                24.999998
+              ]
+            }
+          },
+          "textures": [
+            "tv3dlogo_d.dds",
+            "tv3dlogo_n.dds"
+          ],
+          "evidence": {
+            "exact": [
+              "25-unit inward-facing room shell with one embedded TV3D-logo diffuse/normal material.",
+              "The DDS filenames are embedded in room.tvm and the decoded mesh preserves its indexed geometry, normals and UVs.",
+              "TV3D source +Z is mirrored to web -Z to preserve the source view in Three's right-handed coordinates."
+            ],
+            "inference": [
+              "Camera orbit and lights are restoration choices; no authored Room 1 assembly was recovered."
+            ]
+          }
+        }
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "camera": {
+        "orbitAngleRadians": 0,
+        "orbitAngleDegrees": 0,
+        "position": [
+          0,
+          10,
+          8
+        ],
+        "lookAt": [
+          0,
+          11,
+          0
+        ]
+      },
+      "controls": "A/D orbit continuously; drag horizontally or use the visible Orbit Left/Right buttons; Reset View restores the archived angle; Back Home or Esc exits."
+    },
+    "commonSkyComponent": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.16-r6",
+      "mode": "common-room-lab",
+      "projectFamily": "common-room-lab",
+      "preview": "common-room-lab",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "environment": {
+        "selection": "sky-component",
+        "room2": {
+          "id": "common-room2-shadow-demo",
+          "source": "common/room2.tvm",
+          "sourceSha256": "484B5656E91B679786D10A193B29F8162150823080D0B044DD17598906C47E7D",
+          "evidence": "#23 HLSL_Shadow_Mapping/main.cpp",
+          "ready": true,
+          "visible": false,
+          "loadStatus": "ready",
+          "loadError": null,
+          "disposed": false,
+          "orbitAngleRadians": 0.00017453292519943296,
+          "orbitAngleDegrees": 0.01,
+          "orbitRadius": 50,
+          "orbitCenter": [
+            0,
+            20,
+            0
+          ],
+          "lookAt": [
+            0,
+            0,
+            0
+          ],
+          "cameraPosition": [
+            0.00872664621566684,
+            20,
+            -49.999999238456454
+          ],
+          "objects": [
+            "room2",
+            "teapot",
+            "light-marker"
+          ],
+          "light": {
+            "position": [
+              0,
+              15,
+              0
+            ],
+            "color": "#ffffff",
+            "intensity": 3.5,
+            "visible": true,
+            "castShadow": true,
+            "shadowMapSize": [
+              1024,
+              1024
+            ]
+          },
+          "controls": "A/D orbit",
+          "recommendedBackground": "#000000"
+        },
+        "archive": {
+          "id": "common-archive-room1-and-sky-component",
+          "activeSpace": "sky-component",
+          "ready": true,
+          "loadStatus": "ready",
+          "loadError": null,
+          "disposed": false,
+          "visible": true,
+          "orbitAngleRadians": 0,
+          "cameraPosition": [
+            0,
+            0,
+            0
+          ],
+          "lookAt": [
+            0,
+            0.08,
+            -10
+          ],
+          "source": "common/sky.tvm",
+          "sourceSha256": "30C9BD089817741D8F27F01F3EFE6343E4B25E7401F1BBFF0273936C94F80977",
+          "classification": "inward-facing skydome environment component, not an evidenced standalone scene",
+          "geometry": {
+            "vertices": 726,
+            "triangles": 1200,
+            "materialGroups": 6,
+            "sourceBounds": {
+              "min": [
+                -0.999997,
+                -0.999999,
+                -0.999996
+              ],
+              "max": [
+                1.000003,
+                1.000001,
+                1.000004
+              ],
+              "size": [
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "textures": [
+            "mid_day.dds",
+            "top_pole.dds",
+            "bottom_pole.dds"
+          ],
+          "evidence": {
+            "exact": [
+              "Unit-radius inward-facing subdivided skydome: four mid-day side groups plus top/bottom pole caps.",
+              "No archived source in this repository loads sky.tvm as a standalone scene.",
+              "TV3D source +Z is mirrored to web -Z to preserve the source view in Three's right-handed coordinates."
+            ],
+            "inference": [
+              "The 250x display scale and preview camera heading only demonstrate the source skydome component."
+            ]
+          }
+        }
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "camera": {
+        "orbitAngleRadians": 0,
+        "orbitAngleDegrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "lookAt": [
+          0,
+          0.08,
+          -10
+        ]
+      },
+      "controls": "A/D orbit continuously; drag horizontally or use the visible Orbit Left/Right buttons; Reset View restores the archived angle; Back Home or Esc exits."
+    },
+    "commonRoom2": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.16-r6",
+      "mode": "common-room-lab",
+      "projectFamily": "common-room-lab",
+      "preview": "common-room-lab",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "environment": {
+        "selection": "room2-shadow",
+        "room2": {
+          "id": "common-room2-shadow-demo",
+          "source": "common/room2.tvm",
+          "sourceSha256": "484B5656E91B679786D10A193B29F8162150823080D0B044DD17598906C47E7D",
+          "evidence": "#23 HLSL_Shadow_Mapping/main.cpp",
+          "ready": true,
+          "visible": true,
+          "loadStatus": "ready",
+          "loadError": null,
+          "disposed": false,
+          "orbitAngleRadians": 0.00017453292519943296,
+          "orbitAngleDegrees": 0.01,
+          "orbitRadius": 50,
+          "orbitCenter": [
+            0,
+            20,
+            0
+          ],
+          "lookAt": [
+            0,
+            0,
+            0
+          ],
+          "cameraPosition": [
+            0.00872664621566684,
+            20,
+            -49.999999238456454
+          ],
+          "objects": [
+            "room2",
+            "teapot",
+            "light-marker"
+          ],
+          "light": {
+            "position": [
+              0,
+              15,
+              0
+            ],
+            "color": "#ffffff",
+            "intensity": 3.5,
+            "visible": true,
+            "castShadow": true,
+            "shadowMapSize": [
+              1024,
+              1024
+            ]
+          },
+          "controls": "A/D orbit",
+          "recommendedBackground": "#000000"
+        },
+        "archive": {
+          "id": "common-archive-room1-and-sky-component",
+          "activeSpace": "sky-component",
+          "ready": true,
+          "loadStatus": "ready",
+          "loadError": null,
+          "disposed": false,
+          "visible": false,
+          "orbitAngleRadians": 0,
+          "cameraPosition": [
+            0,
+            0,
+            0
+          ],
+          "lookAt": [
+            0,
+            0.08,
+            -10
+          ],
+          "source": "common/sky.tvm",
+          "sourceSha256": "30C9BD089817741D8F27F01F3EFE6343E4B25E7401F1BBFF0273936C94F80977",
+          "classification": "inward-facing skydome environment component, not an evidenced standalone scene",
+          "geometry": {
+            "vertices": 726,
+            "triangles": 1200,
+            "materialGroups": 6,
+            "sourceBounds": {
+              "min": [
+                -0.999997,
+                -0.999999,
+                -0.999996
+              ],
+              "max": [
+                1.000003,
+                1.000001,
+                1.000004
+              ],
+              "size": [
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "textures": [
+            "mid_day.dds",
+            "top_pole.dds",
+            "bottom_pole.dds"
+          ],
+          "evidence": {
+            "exact": [
+              "Unit-radius inward-facing subdivided skydome: four mid-day side groups plus top/bottom pole caps.",
+              "No archived source in this repository loads sky.tvm as a standalone scene.",
+              "TV3D source +Z is mirrored to web -Z to preserve the source view in Three's right-handed coordinates."
+            ],
+            "inference": [
+              "The 250x display scale and preview camera heading only demonstrate the source skydome component."
+            ]
+          }
+        }
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "camera": {
+        "orbitAngleRadians": 0,
+        "orbitAngleDegrees": 0,
+        "radius": 50,
+        "position": [
+          0.00872664621566684,
+          20,
+          -49.999999238456454
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ]
+      },
+      "controls": "A/D orbit continuously; drag horizontally or use the visible Orbit Left/Right buttons; Reset View restores the archived angle; Back Home or Esc exits."
+    },
+    "ballz2011Level1": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.16-r6",
+      "mode": "ballz-2011-level1",
+      "projectFamily": "ballz-2011-level1",
+      "preview": "ballz-2011-level1",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "ballz2011Level1": {
+        "id": "ballz2011-level1",
+        "source": "Yanik C++ BCKUP/BallZ 2011/Release/Media/Level1.TVM",
+        "sourceSha256": "5748B62F50511527A5E0F3DB3C4EF2D1E836D05A49247CA0E75C4AD20CDD5E61",
+        "objectName": "Line01",
+        "ready": true,
+        "visible": true,
+        "disposed": false,
+        "vertexCount": 828,
+        "triangleCount": 1648,
+        "archiveBounds": {
+          "min": [
+            112.642822,
+            -360.756775,
+            -963.363525
+          ],
+          "max": [
+            322.803009,
+            137.971985,
+            172.080444
+          ],
+          "size": [
+            210.160187,
+            498.72876,
+            1135.443969
+          ]
+        },
+        "displayBounds": {
+          "min": [
+            -10.508009,
+            0,
+            -56.772198
+          ],
+          "max": [
+            10.508009,
+            49.872876,
+            56.772198
+          ],
+          "size": [
+            21.016018,
+            49.872876,
+            113.544396
+          ]
+        },
+        "componentCount": 2,
+        "componentVertexCounts": [
+          414,
+          414
+        ],
+        "closedTwoManifold": true,
+        "normalization": {
+          "status": "inferred-display-only",
+          "method": "Translate archive X/Z center and archive minimum Y to the web origin, then apply one uniform scale.",
+          "anchor": [
+            217.722916,
+            -360.756775,
+            -395.64154
+          ],
+          "displayScale": 0.1,
+          "inverse": "archivePosition = displayPosition / displayScale + anchor",
+          "preservesAspectAndOrientation": true,
+          "maxArchiveRoundTripError": 0.000005
+        },
+        "materialEvidence": {
+          "exact": true,
+          "groups": [
+            {
+              "vertexCount": 828,
+              "vertexStart": 0,
+              "triangleCount": 1648,
+              "triangleStart": 0
+            }
+          ],
+          "materialIndices": [
+            0
+          ],
+          "allUvsAreIdentical": true,
+          "decodedUv": [
+            0,
+            1
+          ],
+          "embeddedTextureNames": [],
+          "assessment": "The TVM has one material slot, no usable UV map, and no embedded texture filename. Any colored, lit, or textured presentation is necessarily inferred."
+        },
+        "presentation": {
+          "exactGeometry": true,
+          "inferredMaterial": true,
+          "edgesVisible": true,
+          "boundsVisible": false,
+          "color": "#f0d76e",
+          "edgeColor": "#8ae9ff"
+        },
+        "archiveInterpretation": {
+          "exact": "One object named Line01; two adjacent, closed 414-vertex solids have identical Y/Z bounds and an 0.018006-unit X seam gap.",
+          "inferred": "The geometry reads as a paired/two-lane long-form BallZ course. No archived runtime source was found loading Level1.TVM, so spawn, rules, camera, collision settings, and finish semantics remain unknown."
+        },
+        "recommendedCamera": {
+          "position": [
+            76,
+            112,
+            104
+          ],
+          "target": [
+            0,
+            22,
+            0
+          ],
+          "fovDegrees": 48,
+          "near": 0.1,
+          "far": 500
+        }
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "camera": {
+        "yaw": 0.634,
+        "pitch": 0.61,
+        "distance": 14
+      },
+      "controls": "Drag to orbit; wheel zooms; toggle diagnostic edges/bounds; this is a non-race mesh visit with no invented BallZ objective."
+    },
+    "notesManager": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.16-r6",
+      "mode": "notes-manager-lab",
+      "projectFamily": "notes-manager-lab",
+      "preview": "notes-manager-lab",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "notesManager": {
+        "kind": "notes-manager-3d-block",
+        "loadStatus": "ready",
+        "activeNotes": 2,
+        "capacity": 50,
+        "nextNoteIndex": 2,
+        "addButtonPosition": [
+          0,
+          -250,
+          0
+        ],
+        "activeNotePositions": [
+          [
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            50,
+            20
+          ]
+        ],
+        "fullGuiRecoverable": false
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "camera": {
+        "yaw": 0.391,
+        "pitch": 0.28,
+        "distance": 14
+      },
+      "controls": "Click the 3D add cube or Add Note Mesh; Reset Block returns to zero; drag or wheel adjusts the inspection view."
+    },
+    "milkyWay2017": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.16-r6",
+      "mode": "milky-way-lab",
+      "projectFamily": "milky-way-lab",
+      "preview": "milky-way-lab",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "milkyWay": {
+        "kind": "voie-lactee-planetary-vignette",
+        "profile": "graphysx2017",
+        "loadStatus": "ready",
+        "exactAssetBinding": true,
+        "elapsedSeconds": 0.136,
+        "earthRotationDegrees": 0,
+        "cloudRotationDegrees": 0,
+        "moonOrbitDegrees": 0,
+        "planets": [
+          {
+            "id": "earth",
+            "radius": 6,
+            "position": [
+              -10,
+              15,
+              10
+            ]
+          },
+          {
+            "id": "clouds",
+            "radius": 6.1,
+            "position": [
+              -10,
+              15,
+              10
+            ]
+          },
+          {
+            "id": "moon",
+            "radius": 2,
+            "position": [
+              -8,
+              14,
+              12
+            ]
+          },
+          {
+            "id": "mars",
+            "radius": 12,
+            "position": [
+              -40,
+              15,
+              10
+            ]
+          },
+          {
+            "id": "venus",
+            "radius": 4,
+            "position": [
+              -70,
+              15,
+              10
+            ]
+          }
+        ],
+        "generatedStars": 0
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "camera": {
+        "yaw": 0.232,
+        "pitch": 0.32,
+        "distance": 14
+      },
+      "controls": "Switch between the exact later placement and partial moving 2015 profile; drag to orbit, wheel zooms, Reset restores source transforms."
+    },
+    "milkyWay2015": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.16-r6",
+      "mode": "milky-way-lab",
+      "projectFamily": "milky-way-lab",
+      "preview": "milky-way-lab",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "milkyWay": {
+        "kind": "voie-lactee-planetary-vignette",
+        "profile": "ballz2015",
+        "loadStatus": "ready",
+        "exactAssetBinding": false,
+        "elapsedSeconds": 1.033,
+        "earthRotationDegrees": 1.2396,
+        "cloudRotationDegrees": 3.7188,
+        "moonOrbitDegrees": -3.099,
+        "planets": [
+          {
+            "id": "earth",
+            "radius": 6,
+            "position": [
+              -10,
+              15,
+              0
+            ]
+          },
+          {
+            "id": "clouds",
+            "radius": 6.1,
+            "position": [
+              -10,
+              15,
+              0
+            ]
+          },
+          {
+            "id": "moon",
+            "radius": 2,
+            "position": [
+              -2.0117,
+              14,
+              -0.4325
+            ]
+          },
+          {
+            "id": "mars",
+            "radius": 12,
+            "position": [
+              -25,
+              15,
+              0
+            ]
+          },
+          {
+            "id": "venus",
+            "radius": 4,
+            "position": [
+              -35,
+              15,
+              0
+            ]
+          }
+        ],
+        "generatedStars": 0
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "camera": {
+        "yaw": 0.452,
+        "pitch": 0.32,
+        "distance": 14
+      },
+      "controls": "Switch between the exact later placement and partial moving 2015 profile; drag to orbit, wheel zooms, Reset restores source transforms."
+    },
+    "suzanneLive": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.16-r6",
+      "mode": "gameplay",
+      "projectFamily": "ballz",
+      "race": "Suzanne 1 — ASCII Arena",
+      "preview": "race-preview",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "player": {
+        "x": 5,
+        "y": 0.35,
+        "z": 36,
+        "radius": 0.3
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "inputAxis": {
+        "forward": 0,
+        "turn": 0
+      },
+      "ballPreset": "revival",
+      "ghost": {
+        "hasBest": false,
+        "bestTimeMs": null,
+        "recordingSamples": 2,
+        "playbackVisible": false,
+        "lastLapVisible": false
+      },
+      "flight": null,
+      "suzanne": {
+        "id": "suzanne1-ascii-arena",
+        "title": "Suzanne 1 — ASCII arena",
+        "status": "authored-layout-recovered",
+        "profile": "reference2016",
+        "profileEvidence": "Suzanne1.png visual target; floor/wall bindings and the larger pickup/chain presentation are image-backed inference because that exact branch's binding table is absent.",
+        "loadStatus": "ready",
+        "loadError": null,
+        "ready": true,
+        "visible": true,
+        "disposed": false,
+        "grid": {
+          "width": 40,
+          "height": 40
+        },
+        "counts": {
+          "walls": 208,
+          "chains": 45,
+          "ringsVisible": 15,
+          "ringsTotal": 15,
+          "pistons": 3,
+          "effects": 2,
+          "cubxAnchors": 2
+        },
+        "playerStart": [
+          5,
+          0.5,
+          36
+        ],
+        "gates": {
+          "finishStart": [
+            10.5,
+            0.5,
+            34.5
+          ],
+          "finishEnd": [
+            1.5,
+            0.5,
+            34.5
+          ],
+          "halfStart": [
+            0.5,
+            0.5,
+            32.5
+          ],
+          "halfEnd": [
+            14.5,
+            0.5,
+            9.5
+          ]
+        },
+        "activePistons": [
+          0,
+          1,
+          2
+        ],
+        "sourceObjectsAwaitingIntegration": [
+          "CubX actors at C cells",
+          "Airplane.x from compact XML",
+          "BallZ physics/controller"
+        ],
+        "referenceScreenshot": {
+          "dimensions": [
+            1280,
+            720
+          ],
+          "sha256": "888a1299db67c2e4f58b4afbe03417ad74240325eb3a1fa895b5663f5a96c6c5"
+        },
+        "unresolved": [
+          "The exact pre-2017 texture binding code that produced Suzanne1.png is absent; grass and wood are preserved as screenshot-backed profile choices.",
+          "The two C cells invoke createCubX, but that actor's exact runtime animation/menu state is not encoded by the ASCII file.",
+          "The XML airplane can be placed exactly, but its authored interaction in this arena varies across source branches.",
+          "The screenshot branch's random human count and seed are not recoverable from the image."
+        ]
+      },
+      "rings": "0/15",
+      "laps": {
+        "completed": 0,
+        "total": 3,
+        "current": 1
+      },
+      "halfway": false,
+      "raceActive": true,
+      "raceFinished": false,
+      "loadState": {
+        "ready": true,
+        "loading": false,
+        "requiredKeys": [
+          "suzanne1-ascii-textures"
+        ]
+      },
+      "remainingRings": [
+        {
+          "x": 31.5,
+          "y": 1.5,
+          "z": 2.5
+        },
+        {
+          "x": 21.5,
+          "y": 1.5,
+          "z": 3.5
+        },
+        {
+          "x": 6.5,
+          "y": 1.5,
+          "z": 5.5
+        },
+        {
+          "x": 13.5,
+          "y": 1.5,
+          "z": 6.5
+        },
+        {
+          "x": 29.5,
+          "y": 1.5,
+          "z": 14.5
+        },
+        {
+          "x": 5.5,
+          "y": 1.5,
+          "z": 15.5
+        },
+        {
+          "x": 9.5,
+          "y": 1.5,
+          "z": 15.5
+        },
+        {
+          "x": 3.5,
+          "y": 1.5,
+          "z": 19.5
+        },
+        {
+          "x": 8.5,
+          "y": 1.5,
+          "z": 19.5
+        },
+        {
+          "x": 4.5,
+          "y": 1.5,
+          "z": 22.5
+        },
+        {
+          "x": 31.5,
+          "y": 1.5,
+          "z": 24.5
+        },
+        {
+          "x": 14.5,
+          "y": 1.5,
+          "z": 28.5
+        },
+        {
+          "x": 30.5,
+          "y": 1.5,
+          "z": 28.5
+        },
+        {
+          "x": 23.5,
+          "y": 1.5,
+          "z": 30.5
+        },
+        {
+          "x": 25.5,
+          "y": 1.5,
+          "z": 36.5
+        }
+      ],
+      "activeZombies": [],
+      "nextObjective": "Bonus checkpoint nearby",
+      "objectiveDistance": 12.1,
+      "camera": {
+        "yaw": 0,
+        "pitch": 0.66,
+        "distance": 14
+      },
+      "controls": "WASD/arrows camera-relative move; drag orbit; wheel zoom; C reset camera; Space jump; Shift boost; B toggles Revival/Classic 2015 physics; R restart; Esc exit.",
+      "shellWireRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "arrowHeading": 3.142
+    },
+    "suzanneFinished": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.16-r6",
+      "mode": "after-race",
+      "projectFamily": "after-race",
+      "race": "Suzanne 1 — ASCII Arena",
+      "preview": "race-preview",
+      "particles": {
+        "active": 700,
+        "persistentFxLab": false
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "player": {
+        "x": 6,
+        "y": 0.5,
+        "z": 34.5,
+        "radius": 0.3
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "inputAxis": {
+        "forward": 0,
+        "turn": 0
+      },
+      "ballPreset": "revival",
+      "ghost": {
+        "hasBest": false,
+        "bestTimeMs": null,
+        "recordingSamples": 5,
+        "playbackVisible": false,
+        "lastLapVisible": true
+      },
+      "flight": null,
+      "suzanne": {
+        "id": "suzanne1-ascii-arena",
+        "title": "Suzanne 1 — ASCII arena",
+        "status": "authored-layout-recovered",
+        "profile": "reference2016",
+        "profileEvidence": "Suzanne1.png visual target; floor/wall bindings and the larger pickup/chain presentation are image-backed inference because that exact branch's binding table is absent.",
+        "loadStatus": "ready",
+        "loadError": null,
+        "ready": true,
+        "visible": true,
+        "disposed": false,
+        "grid": {
+          "width": 40,
+          "height": 40
+        },
+        "counts": {
+          "walls": 208,
+          "chains": 45,
+          "ringsVisible": 0,
+          "ringsTotal": 15,
+          "pistons": 3,
+          "effects": 2,
+          "cubxAnchors": 2
+        },
+        "playerStart": [
+          5,
+          0.5,
+          36
+        ],
+        "gates": {
+          "finishStart": [
+            10.5,
+            0.5,
+            34.5
+          ],
+          "finishEnd": [
+            1.5,
+            0.5,
+            34.5
+          ],
+          "halfStart": [
+            0.5,
+            0.5,
+            32.5
+          ],
+          "halfEnd": [
+            14.5,
+            0.5,
+            9.5
+          ]
+        },
+        "activePistons": [
+          0,
+          1,
+          2
+        ],
+        "sourceObjectsAwaitingIntegration": [
+          "CubX actors at C cells",
+          "Airplane.x from compact XML",
+          "BallZ physics/controller"
+        ],
+        "referenceScreenshot": {
+          "dimensions": [
+            1280,
+            720
+          ],
+          "sha256": "888a1299db67c2e4f58b4afbe03417ad74240325eb3a1fa895b5663f5a96c6c5"
+        },
+        "unresolved": [
+          "The exact pre-2017 texture binding code that produced Suzanne1.png is absent; grass and wood are preserved as screenshot-backed profile choices.",
+          "The two C cells invoke createCubX, but that actor's exact runtime animation/menu state is not encoded by the ASCII file.",
+          "The XML airplane can be placed exactly, but its authored interaction in this arena varies across source branches.",
+          "The screenshot branch's random human count and seed are not recoverable from the image."
+        ]
+      },
+      "rings": "15/15",
+      "laps": {
+        "completed": 3,
+        "total": 3,
+        "current": 3
+      },
+      "halfway": true,
+      "raceActive": false,
+      "raceFinished": true,
+      "loadState": {
+        "ready": true,
+        "loading": false,
+        "requiredKeys": [
+          "suzanne1-ascii-textures"
+        ]
+      },
+      "remainingRings": [],
+      "activeZombies": [],
+      "nextObjective": "Return through finish",
+      "objectiveDistance": 0,
+      "camera": {
+        "yaw": 0,
+        "pitch": 0.66,
+        "distance": 14
+      },
+      "controls": "Use the visible menu buttons; Enter opens/starts when focus is not already on a control.",
+      "shellWireRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "arrowHeading": 3.142
+    }
+  },
+  "errors": []
+}

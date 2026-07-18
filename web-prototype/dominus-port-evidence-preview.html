@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GraphysX · Dominus Port Evidence</title>
+    <style>
+      :root { color-scheme: dark; font-family: Inter, ui-sans-serif, system-ui, sans-serif; color: #edf2f4; background: #071018; }
+      * { box-sizing: border-box; }
+      html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+      button { color: inherit; font: inherit; }
+      #viewport { position: fixed; inset: 0; width: 100%; height: 100%; display: block; outline: none; }
+      .shell { position: fixed; inset: 0; display: grid; grid-template-columns: minmax(270px, 330px) 1fr minmax(260px, 315px); grid-template-rows: auto 1fr auto; gap: 12px; padding: 16px; pointer-events: none; }
+      .panel { border: 1px solid rgba(178, 198, 209, .18); border-radius: 12px; background: linear-gradient(145deg, rgba(15, 25, 32, .95), rgba(7, 14, 20, .91)); box-shadow: 0 20px 58px rgba(0, 0, 0, .38); backdrop-filter: blur(14px); pointer-events: auto; }
+      header { grid-column: 1 / -1; display: flex; align-items: center; gap: 14px; min-height: 70px; padding: 11px 15px; }
+      .mark { width: 42px; height: 42px; display: grid; place-items: center; border: 1px solid #8e7446; border-radius: 8px; color: #e5c47e; background: #211e18; font: 900 12px ui-monospace, monospace; }
+      h1 { margin: 0; font: 500 clamp(21px, 2.1vw, 29px) Georgia, serif; }
+      .subtitle { margin: 4px 0 0; color: #82939d; font: 750 10px ui-monospace, monospace; letter-spacing: .1em; text-transform: uppercase; }
+      .truth-tag { margin-left: auto; max-width: 390px; padding: 7px 10px; border: 1px solid rgba(229, 196, 126, .36); border-radius: 6px; color: #e5c47e; background: rgba(229, 196, 126, .06); font: 800 10px/1.35 ui-monospace, monospace; text-align: right; }
+      .browser { grid-column: 1; grid-row: 2; min-height: 0; display: flex; flex-direction: column; overflow: hidden; }
+      .browser-head { padding: 13px; border-bottom: 1px solid rgba(178, 198, 209, .12); }
+      .eyebrow { color: #e5c47e; font: 850 9px ui-monospace, monospace; letter-spacing: .14em; text-transform: uppercase; }
+      .counts { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 9px; }
+      .count { padding: 4px 6px; border-radius: 4px; color: #9eb0ba; background: #13212b; font: 750 9px ui-monospace, monospace; }
+      .count.ok { color: #79d1a4; } .count.warn { color: #e5b55e; }
+      #placement-list { overflow: auto; padding: 6px; scrollbar-color: #3d505d transparent; }
+      .placement { width: 100%; display: grid; grid-template-columns: 28px 1fr 7px; align-items: center; gap: 8px; padding: 8px; border: 0; border-radius: 6px; color: #afbec6; background: transparent; text-align: left; cursor: pointer; }
+      .placement:hover { background: rgba(178, 198, 209, .07); }
+      .placement.selected { color: #f0d69c; background: rgba(229, 196, 126, .12); box-shadow: inset 2px 0 #e5c47e; }
+      .index { color: #667984; font: 700 9px ui-monospace, monospace; }
+      .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font: 700 11px ui-monospace, monospace; }
+      .dot { width: 7px; height: 7px; border-radius: 50%; background: #79d1a4; } .dot.warn { background: #e5b55e; }
+      aside { grid-column: 3; grid-row: 2; align-self: start; padding: 15px; }
+      aside h2 { margin: 7px 0 4px; overflow-wrap: anywhere; font: 500 23px Georgia, serif; }
+      .status { display: inline-block; margin-bottom: 13px; padding: 5px 7px; border-radius: 4px; color: #79d1a4; background: #11271d; font: 800 9px ui-monospace, monospace; text-transform: uppercase; }
+      .status.warn { color: #e5b55e; background: #2a2113; }
+      dl { display: grid; grid-template-columns: 74px 1fr; gap: 7px 9px; margin: 0; font-size: 10px; }
+      dt { color: #718591; text-transform: uppercase; letter-spacing: .07em; } dd { margin: 0; color: #b4c1c8; font-family: ui-monospace, monospace; overflow-wrap: anywhere; }
+      .boundary { margin: 14px 0 0; padding: 10px; border-left: 2px solid #e5c47e; color: #9facb4; background: rgba(229, 196, 126, .055); font-size: 10px; line-height: 1.5; }
+      .nav { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; margin-top: 13px; }
+      .nav button { padding: 8px; border: 1px solid #354955; border-radius: 6px; background: #101b23; cursor: pointer; font: 750 10px ui-monospace, monospace; }
+      .nav button:hover { border-color: #a78a50; color: #ead098; }
+      .overview { grid-column: 1 / -1; }
+      footer { grid-column: 1 / -1; grid-row: 3; justify-self: center; display: flex; align-items: center; gap: 6px; padding: 7px 9px; }
+      .key { min-width: 23px; padding: 4px 6px; border: 1px solid #3a4c56; border-bottom-color: #6a7a82; border-radius: 4px; background: #101a21; font: 700 9px ui-monospace, monospace; text-align: center; }
+      .help { margin-right: 6px; color: #768992; font-size: 9px; }
+      #load-line { position: fixed; top: 95px; left: 50%; transform: translateX(-50%); color: #8799a3; font: 750 9px ui-monospace, monospace; letter-spacing: .1em; text-transform: uppercase; pointer-events: none; }
+      #load-line.error { color: #ee746c; }
+      @media (max-width: 900px) { .shell { grid-template-columns: minmax(245px, 315px) 1fr; } aside { display: none; } .truth-tag { display: none; } }
+      @media (max-width: 590px) { .shell { padding: 8px; gap: 7px; grid-template-columns: minmax(220px, 68vw) 1fr; } header { min-height: 58px; padding: 8px 10px; } .mark { width: 34px; height: 34px; } .subtitle, footer { display: none; } #load-line { top: 72px; } }
+    </style>
+  </head>
+  <body>
+    <canvas id="viewport" tabindex="0" aria-label="Dominus port ObjectLibrary evidence viewport"></canvas>
+    <div class="shell">
+      <header class="panel">
+        <div class="mark">OBJ</div>
+        <div><h1>Dominus Port · Surviving Placement Evidence</h1><p class="subtitle">ObjectLibrary.xml · exact 28-row port subset</p></div>
+        <div class="truth-tag">PARTIAL RECOVERY · THIS GRID IS AN EDITOR CATALOG, NOT THE LOST VILLAGE</div>
+      </header>
+      <section class="panel browser" aria-label="Serialized port rows">
+        <div class="browser-head"><div class="eyebrow">Source order</div><div class="counts" id="counts"></div></div>
+        <div id="placement-list" data-testid="placement-list"></div>
+      </section>
+      <aside class="panel">
+        <div class="eyebrow" id="selected-index">Record 00</div>
+        <h2 id="selected-name">Loading…</h2>
+        <div class="status" id="selected-status">loading</div>
+        <dl>
+          <dt>Position</dt><dd id="selected-position">—</dd>
+          <dt>Rotation</dt><dd id="selected-rotation">—</dd>
+          <dt>Scale</dt><dd id="selected-scale">—</dd>
+          <dt>Vertices</dt><dd id="selected-vertices">—</dd>
+          <dt>Triangles</dt><dd id="selected-triangles">—</dd>
+          <dt>Materials</dt><dd id="selected-materials">—</dd>
+          <dt>View</dt><dd id="view-mode">—</dd>
+          <dt>Source</dt><dd>ObjectLibrary.xml</dd>
+        </dl>
+        <p class="boundary" id="boundary-copy">The source preserves thumbnail placement only. Camera, terrain, water, navigation and an authored village arrangement are absent.</p>
+        <div class="nav"><button id="previous" type="button">← Previous</button><button id="next" type="button">Next →</button><button class="overview" id="overview" type="button">Return to exact source grid</button></div>
+      </aside>
+      <footer class="panel"><span class="key">click</span><span class="help">focus</span><span class="key">A/D</span><span class="help">orbit</span><span class="key">wheel</span><span class="help">zoom</span><span class="key">O</span><span class="help">overview</span><span class="key">R</span><span class="help">reset</span><span class="key">F</span><span class="help">fullscreen</span></footer>
+    </div>
+    <div id="load-line">Loading all 28 exact source records…</div>
+    <script type="module" src="/src/dominus-port-evidence-preview.ts"></script>
+  </body>
+</html>

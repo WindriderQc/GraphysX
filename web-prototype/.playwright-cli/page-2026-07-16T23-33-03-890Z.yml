@@ -1,0 +1,91 @@
+- generic [ref=e6]:
+  - generic [ref=e7]:
+    - generic [ref=e8]: GraphysX Web Revival
+    - strong [ref=e9]: v0.1.0
+    - generic [ref=e10]: revival-2026.07.16-r2
+  - heading "CubZ Animated Menu" [level=1] [ref=e66]
+  - paragraph [ref=e12]: Click one of the eight cubes. The recovered flow rotates that cube forward, unfolds the CubZ body, and enables four internal panels for the selected menu level.
+  - generic [ref=e13]:
+    - button "Next Lab" [ref=e67] [cursor=pointer]
+    - button "Back Home" [ref=e68] [cursor=pointer]
+  - generic [ref=e16]:
+    - generic [ref=e157]:
+      - generic [ref=e158]: Live CubZ State Machine
+      - strong [ref=e159]: Rotating BallZ forward…
+      - generic [ref=e160]: Click the 3D cube directly, or use these mirrored controls.
+      - generic [ref=e161]:
+        - button "Cube 1 Atmel Control RotateTo(0)" [disabled] [ref=e162] [cursor=pointer]:
+          - generic [ref=e163]: Cube 1
+          - generic [ref=e164]: Atmel Control
+          - generic [ref=e165]: RotateTo(0)
+        - button "Cube 2 System Info RotateTo(1)" [disabled] [ref=e166] [cursor=pointer]:
+          - generic [ref=e167]: Cube 2
+          - generic [ref=e168]: System Info
+          - generic [ref=e169]: RotateTo(1)
+        - button "Cube 3 Notes RotateTo(2)" [disabled] [ref=e170] [cursor=pointer]:
+          - generic [ref=e171]: Cube 3
+          - generic [ref=e172]: Notes
+          - generic [ref=e173]: RotateTo(2)
+        - button "Cube 4 3D Scenes RotateTo(3)" [disabled] [ref=e174] [cursor=pointer]:
+          - generic [ref=e175]: Cube 4
+          - generic [ref=e176]: 3D Scenes
+          - generic [ref=e177]: RotateTo(3)
+        - button "Cube 5 BallZ RotateTo(4)" [disabled] [ref=e178] [cursor=pointer]:
+          - generic [ref=e179]: Cube 5
+          - generic [ref=e180]: BallZ
+          - generic [ref=e181]: RotateTo(4)
+        - button "Cube 6 Vehicles RotateTo(5)" [disabled] [ref=e182] [cursor=pointer]:
+          - generic [ref=e183]: Cube 6
+          - generic [ref=e184]: Vehicles
+          - generic [ref=e185]: RotateTo(5)
+        - button "Cube 7 Media RotateTo(6)" [disabled] [ref=e186] [cursor=pointer]:
+          - generic [ref=e187]: Cube 7
+          - generic [ref=e188]: Media
+          - generic [ref=e189]: RotateTo(6)
+        - button "Cube 8 Tools RotateTo(7)" [disabled] [ref=e190] [cursor=pointer]:
+          - generic [ref=e191]: Cube 8
+          - generic [ref=e192]: Tools
+          - generic [ref=e193]: RotateTo(7)
+    - article [ref=e194]:
+      - generic [ref=e195]: Control Surface
+      - strong [ref=e196]:
+        - text: clock / light / fan
+        - generic [ref=e197]: old domotic panel rebuilt as browser objects
+    - generic [ref=e198]:
+      - generic [ref=e199]: Project Modes
+      - generic [ref=e200]:
+        - button "Recovered Worlds" [ref=e201] [cursor=pointer]
+        - button "BallZ Race" [ref=e203] [cursor=pointer]
+        - button "Scene Lab" [ref=e205] [cursor=pointer]
+        - button "Engine & FX" [ref=e207] [cursor=pointer]
+        - button "Physics Lab" [ref=e209] [cursor=pointer]
+        - button "BallZ Map Editor" [ref=e211] [cursor=pointer]
+        - button "Math Game" [ref=e213] [cursor=pointer]
+        - button "Editor Lab" [ref=e215] [cursor=pointer]
+        - 'button "CubX Lab Recovered CubX menu-world ideas: selectable cubes, clock displays, Earth/grid objects, arrows, and control panels." [ref=e217] [cursor=pointer]':
+          - generic [ref=e218]: CubX Lab
+          - generic [ref=e219]: "Recovered CubX menu-world ideas: selectable cubes, clock displays, Earth/grid objects, arrows, and control panels."
+        - button "Asset Catalog" [ref=e220] [cursor=pointer]
+    - generic [ref=e222]:
+      - generic [ref=e223]: Recovery Map
+      - generic [ref=e224]:
+        - article [ref=e225]:
+          - generic [ref=e226]: Ported
+          - strong [ref=e227]: CubZ Rotate / Open Menu
+          - generic [ref=e228]: "CubZ.cpp: RotateTo, Open, Close, BackRotate; CubeRot.tva / CubeOpen.tva"
+          - paragraph [ref=e229]: Eight cubes are selectable; the chosen cube rotates forward, the body unfolds, four level-specific panels activate, and Close reverses the sequence. Motion is procedural until TVA decoding is available.
+        - article [ref=e230]:
+          - generic [ref=e231]: Preview
+          - strong [ref=e232]: Clock Displays
+          - generic [ref=e233]: CLClockDisplay, LoadLettersAndNumbers
+          - paragraph [ref=e234]: Segment-like 3D time blocks replace the old alphabet/number TVM meshes for the browser.
+        - article [ref=e235]:
+          - generic [ref=e236]: Preview
+          - strong [ref=e237]: Earth Grid
+          - generic [ref=e238]: Earth.tvm, EarthGridXL.bmp
+          - paragraph [ref=e239]: Planet and transparent grid shell are represented as reusable scene-lab objects.
+        - article [ref=e240]:
+          - generic [ref=e241]: Pipeline
+          - strong [ref=e242]: Domotic Controls
+          - generic [ref=e243]: MenuDomo, LightTimeOn/Off, FanTimeOn/Off
+          - paragraph [ref=e244]: The old home-control panels are staged visually; click behavior can become a browser interaction pass.

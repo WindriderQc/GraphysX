@@ -1,0 +1,1036 @@
+{
+  "url": "http://127.0.0.1:4173/particle-preset-library-preview.html",
+  "assertions": [
+    {
+      "ok": true,
+      "message": "Library is classified as an Engine/FX feature, not a scene"
+    },
+    {
+      "ok": true,
+      "message": "Archive-wide preset, emitter, attractor and texture counts are exact"
+    },
+    {
+      "ok": true,
+      "message": "All 16 readable and 3 opaque presets are selectable"
+    },
+    {
+      "ok": true,
+      "message": "Two exact compiled alias groups are deduplicated"
+    },
+    {
+      "ok": true,
+      "message": "Three binary-only presets remain explicitly opaque"
+    },
+    {
+      "ok": true,
+      "message": "Explosion1's compiled alias pair is retained without a duplicate simulation"
+    },
+    {
+      "ok": true,
+      "message": "Explosion2's compiled alias pair is retained without a duplicate simulation"
+    },
+    {
+      "ok": true,
+      "message": "expl1 is backed by readable archived configuration"
+    },
+    {
+      "ok": true,
+      "message": "expl1 creates exactly one batch per archived emitter"
+    },
+    {
+      "ok": true,
+      "message": "expl1 preserves the sum of archived emitter capacities"
+    },
+    {
+      "ok": true,
+      "message": "expl1 produces particles under deterministic playback"
+    },
+    {
+      "ok": true,
+      "message": "explosion_01 is backed by readable archived configuration"
+    },
+    {
+      "ok": true,
+      "message": "explosion_01 creates exactly one batch per archived emitter"
+    },
+    {
+      "ok": true,
+      "message": "explosion_01 preserves the sum of archived emitter capacities"
+    },
+    {
+      "ok": true,
+      "message": "explosion_01 produces particles under deterministic playback"
+    },
+    {
+      "ok": true,
+      "message": "explosion_02 is backed by readable archived configuration"
+    },
+    {
+      "ok": true,
+      "message": "explosion_02 creates exactly one batch per archived emitter"
+    },
+    {
+      "ok": true,
+      "message": "explosion_02 preserves the sum of archived emitter capacities"
+    },
+    {
+      "ok": true,
+      "message": "explosion_02 produces particles under deterministic playback"
+    },
+    {
+      "ok": true,
+      "message": "explosion_03 is backed by readable archived configuration"
+    },
+    {
+      "ok": true,
+      "message": "explosion_03 creates exactly one batch per archived emitter"
+    },
+    {
+      "ok": true,
+      "message": "explosion_03 preserves the sum of archived emitter capacities"
+    },
+    {
+      "ok": true,
+      "message": "explosion_03 produces particles under deterministic playback"
+    },
+    {
+      "ok": true,
+      "message": "fire1 is backed by readable archived configuration"
+    },
+    {
+      "ok": true,
+      "message": "fire1 creates exactly one batch per archived emitter"
+    },
+    {
+      "ok": true,
+      "message": "fire1 preserves the sum of archived emitter capacities"
+    },
+    {
+      "ok": true,
+      "message": "fire1 produces particles under deterministic playback"
+    },
+    {
+      "ok": true,
+      "message": "firetrail_01 is backed by readable archived configuration"
+    },
+    {
+      "ok": true,
+      "message": "firetrail_01 creates exactly one batch per archived emitter"
+    },
+    {
+      "ok": true,
+      "message": "firetrail_01 preserves the sum of archived emitter capacities"
+    },
+    {
+      "ok": true,
+      "message": "firetrail_01 produces particles under deterministic playback"
+    },
+    {
+      "ok": true,
+      "message": "firetrail_02 is backed by readable archived configuration"
+    },
+    {
+      "ok": true,
+      "message": "firetrail_02 creates exactly one batch per archived emitter"
+    },
+    {
+      "ok": true,
+      "message": "firetrail_02 preserves the sum of archived emitter capacities"
+    },
+    {
+      "ok": true,
+      "message": "firetrail_02 produces particles under deterministic playback"
+    },
+    {
+      "ok": true,
+      "message": "gatling_01 is backed by readable archived configuration"
+    },
+    {
+      "ok": true,
+      "message": "gatling_01 creates exactly one batch per archived emitter"
+    },
+    {
+      "ok": true,
+      "message": "gatling_01 preserves the sum of archived emitter capacities"
+    },
+    {
+      "ok": true,
+      "message": "gatling_01 produces particles under deterministic playback"
+    },
+    {
+      "ok": true,
+      "message": "hit_01 is backed by readable archived configuration"
+    },
+    {
+      "ok": true,
+      "message": "hit_01 creates exactly one batch per archived emitter"
+    },
+    {
+      "ok": true,
+      "message": "hit_01 preserves the sum of archived emitter capacities"
+    },
+    {
+      "ok": true,
+      "message": "hit_01 produces particles under deterministic playback"
+    },
+    {
+      "ok": true,
+      "message": "lightningball_01 is backed by readable archived configuration"
+    },
+    {
+      "ok": true,
+      "message": "lightningball_01 creates exactly one batch per archived emitter"
+    },
+    {
+      "ok": true,
+      "message": "lightningball_01 preserves the sum of archived emitter capacities"
+    },
+    {
+      "ok": true,
+      "message": "lightningball_01 produces particles under deterministic playback"
+    },
+    {
+      "ok": true,
+      "message": "plasmatrail_01 is backed by readable archived configuration"
+    },
+    {
+      "ok": true,
+      "message": "plasmatrail_01 creates exactly one batch per archived emitter"
+    },
+    {
+      "ok": true,
+      "message": "plasmatrail_01 preserves the sum of archived emitter capacities"
+    },
+    {
+      "ok": true,
+      "message": "plasmatrail_01 produces particles under deterministic playback"
+    },
+    {
+      "ok": true,
+      "message": "shot2 is backed by readable archived configuration"
+    },
+    {
+      "ok": true,
+      "message": "shot2 creates exactly one batch per archived emitter"
+    },
+    {
+      "ok": true,
+      "message": "shot2 preserves the sum of archived emitter capacities"
+    },
+    {
+      "ok": true,
+      "message": "shot2 produces particles under deterministic playback"
+    },
+    {
+      "ok": true,
+      "message": "shot3 is backed by readable archived configuration"
+    },
+    {
+      "ok": true,
+      "message": "shot3 creates exactly one batch per archived emitter"
+    },
+    {
+      "ok": true,
+      "message": "shot3 preserves the sum of archived emitter capacities"
+    },
+    {
+      "ok": true,
+      "message": "shot3 produces particles under deterministic playback"
+    },
+    {
+      "ok": true,
+      "message": "smartbomb_01 is backed by readable archived configuration"
+    },
+    {
+      "ok": true,
+      "message": "smartbomb_01 creates exactly one batch per archived emitter"
+    },
+    {
+      "ok": true,
+      "message": "smartbomb_01 preserves the sum of archived emitter capacities"
+    },
+    {
+      "ok": true,
+      "message": "smartbomb_01 produces particles under deterministic playback"
+    },
+    {
+      "ok": true,
+      "message": "smoketrail_01 is backed by readable archived configuration"
+    },
+    {
+      "ok": true,
+      "message": "smoketrail_01 creates exactly one batch per archived emitter"
+    },
+    {
+      "ok": true,
+      "message": "smoketrail_01 preserves the sum of archived emitter capacities"
+    },
+    {
+      "ok": true,
+      "message": "smoketrail_01 produces particles under deterministic playback"
+    },
+    {
+      "ok": true,
+      "message": "trail_01 is backed by readable archived configuration"
+    },
+    {
+      "ok": true,
+      "message": "trail_01 creates exactly one batch per archived emitter"
+    },
+    {
+      "ok": true,
+      "message": "trail_01 preserves the sum of archived emitter capacities"
+    },
+    {
+      "ok": true,
+      "message": "trail_01 produces particles under deterministic playback"
+    },
+    {
+      "ok": true,
+      "message": "expl1 remains explicitly source-only"
+    },
+    {
+      "ok": true,
+      "message": "expl1 exposes its missing clumpy_blurry.dds binding"
+    },
+    {
+      "ok": true,
+      "message": "Missing archive texture uses a diagnostic fallback, never an invented replacement"
+    },
+    {
+      "ok": true,
+      "message": "explosion_01 selection reports both compiled aliases"
+    },
+    {
+      "ok": true,
+      "message": "Explosion1 has all exact 82 one-shot particles alive at deterministic 700 ms"
+    },
+    {
+      "ok": true,
+      "message": "Restart reproduces the same seeded particle trajectories"
+    },
+    {
+      "ok": true,
+      "message": "explosion3 remains binary-only evidence"
+    },
+    {
+      "ok": true,
+      "message": "explosion3 explains why it cannot be revived exactly"
+    },
+    {
+      "ok": true,
+      "message": "explosion3 does not invent emitter or attractor configuration"
+    },
+    {
+      "ok": true,
+      "message": "explosion3 remains unsimulated"
+    },
+    {
+      "ok": true,
+      "message": "impact1 remains binary-only evidence"
+    },
+    {
+      "ok": true,
+      "message": "impact1 explains why it cannot be revived exactly"
+    },
+    {
+      "ok": true,
+      "message": "impact1 does not invent emitter or attractor configuration"
+    },
+    {
+      "ok": true,
+      "message": "impact1 remains unsimulated"
+    },
+    {
+      "ok": true,
+      "message": "shot1 remains binary-only evidence"
+    },
+    {
+      "ok": true,
+      "message": "shot1 explains why it cannot be revived exactly"
+    },
+    {
+      "ok": true,
+      "message": "shot1 does not invent emitter or attractor configuration"
+    },
+    {
+      "ok": true,
+      "message": "shot1 remains unsimulated"
+    },
+    {
+      "ok": true,
+      "message": "Right arrow selects the next preset"
+    },
+    {
+      "ok": true,
+      "message": "Left arrow selects the previous preset"
+    },
+    {
+      "ok": true,
+      "message": "Space pauses playback"
+    },
+    {
+      "ok": true,
+      "message": "Paused playback ignores deterministic time"
+    },
+    {
+      "ok": true,
+      "message": "A enables preview-only automatic replay"
+    },
+    {
+      "ok": true,
+      "message": "R restarts the selected preset at cycle one"
+    },
+    {
+      "ok": true,
+      "message": "Preview and all present exact DDS textures load without failed responses"
+    },
+    {
+      "ok": true,
+      "message": "Preview emits no console or page errors"
+    }
+  ],
+  "errors": [],
+  "failedResponses": [],
+  "finalState": {
+    "id": "archived-particle-preset-library",
+    "classification": "engine-fx-feature-not-scene",
+    "status": "readable-presets-recovered-opaque-presets-evidence-only",
+    "loadStatus": "ready",
+    "loadError": null,
+    "ready": true,
+    "visible": true,
+    "disposed": false,
+    "paused": false,
+    "autoReplay": true,
+    "seed": 538183440,
+    "selectionIndex": 1,
+    "selected": {
+      "id": "explosion_01",
+      "label": "Explosion 01",
+      "category": "explosion",
+      "availability": "readable-compiled",
+      "readable": true,
+      "runtimeEvidence": "located-graphysx-callsite",
+      "source": {
+        "path": "Yanik C++ BCKUP/Media/PartSys/resources/explosion_01.TVPJ",
+        "sha256": "18267D7EECE0D6137C8FAE4811FDEC03DC99EB99899866B744388740F522BBE7",
+        "bytes": 2197
+      },
+      "compiled": {
+        "sha256": "99F3AD87ED5D8BD691E21FDEF49DF455B1FD08D78236BC0E5B56CF8E4E460F5E",
+        "bytes": 1594,
+        "aliases": [
+          "explosion1.TVP",
+          "explosion_01.TVP"
+        ]
+      },
+      "reason": null,
+      "textureBindings": [
+        {
+          "name": "Glow2.dds",
+          "status": "present",
+          "bytes": 65664,
+          "sha256": "6DCF8614A1445EC2ABF851DC84BE7725FBD9790995E7313FF0DEDF8557E135B0",
+          "source": "Yanik C++ BCKUP/Media/PartSys/resources/Glow2.dds",
+          "publicUrl": "/assets/particles/archive/Glow2.dds"
+        },
+        {
+          "name": "smokey.dds",
+          "status": "present",
+          "bytes": 87508,
+          "sha256": "C1B60429AF9232522439D623B249236CE8D41EC5D41725B61146309DB7129A75",
+          "source": "Yanik C++ BCKUP/Media/PartSys/resources/smokey.dds",
+          "publicUrl": "/assets/particles/archive/smokey.dds"
+        }
+      ],
+      "emitterConfigs": [
+        {
+          "id": 0,
+          "type": "billboard",
+          "maxParticles": 10,
+          "defaultSize": 2,
+          "location": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            10,
+            0
+          ],
+          "directional": true,
+          "randomDirectionFactor": [
+            20,
+            10,
+            20
+          ],
+          "power": 40,
+          "lifetimeSeconds": 2,
+          "shape": 0,
+          "textureBinding": "F:\\VS.Projects\\Machina\\MachinaClient\\textures\\sprites\\Glow2.dds",
+          "textureFile": "Glow2.dds",
+          "defaultColor": [
+            1,
+            1,
+            0.5,
+            1
+          ],
+          "generationSpeedMilliseconds": 10,
+          "gravityEnabled": true,
+          "gravity": [
+            0,
+            -50,
+            0
+          ],
+          "particleChange": 2,
+          "blending": 4,
+          "alphaTest": true,
+          "alphaReference": 0,
+          "depthWrite": false,
+          "boxSize": [
+            0,
+            0,
+            0
+          ],
+          "sphereRadius": 0,
+          "looping": false,
+          "keyframes": [
+            {
+              "id": 0,
+              "timeSeconds": 0,
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "color": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": 1,
+              "timeSeconds": 1,
+              "size": [
+                4,
+                4,
+                4
+              ],
+              "color": [
+                1,
+                0.75,
+                0,
+                1
+              ]
+            },
+            {
+              "id": 2,
+              "timeSeconds": 2,
+              "size": [
+                2,
+                2,
+                2
+              ],
+              "color": [
+                1,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "type": "billboard",
+          "maxParticles": 64,
+          "defaultSize": 2,
+          "location": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            5,
+            0
+          ],
+          "directional": true,
+          "randomDirectionFactor": [
+            5,
+            5,
+            5
+          ],
+          "power": 10,
+          "lifetimeSeconds": 3,
+          "shape": 1,
+          "textureBinding": "\\\\Storage\\Exchange\\Particles\\Glow2.dds",
+          "textureFile": "Glow2.dds",
+          "defaultColor": [
+            1,
+            1,
+            1,
+            0.75
+          ],
+          "generationSpeedMilliseconds": 10,
+          "gravityEnabled": true,
+          "gravity": [
+            0,
+            -5,
+            0
+          ],
+          "particleChange": 1,
+          "blending": 3,
+          "alphaTest": true,
+          "alphaReference": 0,
+          "depthWrite": false,
+          "boxSize": [
+            0,
+            0,
+            0
+          ],
+          "sphereRadius": 3,
+          "looping": false,
+          "keyframes": [
+            {
+              "id": 0,
+              "timeSeconds": 0,
+              "size": [
+                16,
+                16,
+                16
+              ],
+              "color": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "id": 1,
+              "timeSeconds": 2,
+              "size": [
+                48,
+                48,
+                48
+              ],
+              "color": [
+                0.7,
+                0.5,
+                0,
+                1
+              ]
+            },
+            {
+              "id": 2,
+              "timeSeconds": 3,
+              "size": [
+                128,
+                128,
+                128
+              ],
+              "color": [
+                0.1,
+                0.05,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "billboard",
+          "maxParticles": 8,
+          "defaultSize": 2,
+          "location": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            -5,
+            0
+          ],
+          "directional": true,
+          "randomDirectionFactor": [
+            2,
+            10,
+            2
+          ],
+          "power": 5,
+          "lifetimeSeconds": 4,
+          "shape": 1,
+          "textureBinding": "\\\\Storage\\Exchange\\Particles\\smokey.dds",
+          "textureFile": "smokey.dds",
+          "defaultColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "generationSpeedMilliseconds": 10,
+          "gravityEnabled": true,
+          "gravity": [
+            0,
+            10,
+            0
+          ],
+          "particleChange": 1,
+          "blending": 1,
+          "alphaTest": false,
+          "alphaReference": 0,
+          "depthWrite": false,
+          "boxSize": [
+            0,
+            0,
+            0
+          ],
+          "sphereRadius": 3,
+          "looping": false,
+          "keyframes": [
+            {
+              "id": 0,
+              "timeSeconds": 0,
+              "size": [
+                16,
+                16,
+                16
+              ],
+              "color": [
+                0.25,
+                0.125,
+                0,
+                0.1
+              ]
+            },
+            {
+              "id": 1,
+              "timeSeconds": 2,
+              "size": [
+                16,
+                16,
+                16
+              ],
+              "color": [
+                0.2,
+                0.2,
+                0.2,
+                0.4
+              ]
+            },
+            {
+              "id": 2,
+              "timeSeconds": 4,
+              "size": [
+                0,
+                0,
+                0
+              ],
+              "color": [
+                0.5,
+                0.5,
+                0.5,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "attractorConfigs": []
+    },
+    "cycle": 1,
+    "cycleElapsedSeconds": 0,
+    "totalElapsedSeconds": 0,
+    "displayScale": 0.030555555555555555,
+    "oneShot": true,
+    "finished": false,
+    "counts": {
+      "activeEmitters": 3,
+      "emitterCapacity": 82,
+      "activeParticles": 0,
+      "spawnedParticles": 0,
+      "attractors": 0
+    },
+    "emitters": [
+      {
+        "id": 0,
+        "activeParticles": 0,
+        "spawnedParticles": 0,
+        "capacity": 10,
+        "textureBinding": "F:\\VS.Projects\\Machina\\MachinaClient\\textures\\sprites\\Glow2.dds",
+        "textureFile": "Glow2.dds",
+        "textureStatus": "exact-archive-texture",
+        "generationSpeedMilliseconds": 10,
+        "lifetimeSeconds": 2,
+        "looping": false,
+        "shape": "point",
+        "blending": "add-alpha",
+        "sampleSourcePositions": []
+      },
+      {
+        "id": 1,
+        "activeParticles": 0,
+        "spawnedParticles": 0,
+        "capacity": 64,
+        "textureBinding": "\\\\Storage\\Exchange\\Particles\\Glow2.dds",
+        "textureFile": "Glow2.dds",
+        "textureStatus": "exact-archive-texture",
+        "generationSpeedMilliseconds": 10,
+        "lifetimeSeconds": 3,
+        "looping": false,
+        "shape": "sphere-volume",
+        "blending": "color",
+        "sampleSourcePositions": []
+      },
+      {
+        "id": 2,
+        "activeParticles": 0,
+        "spawnedParticles": 0,
+        "capacity": 8,
+        "textureBinding": "\\\\Storage\\Exchange\\Particles\\smokey.dds",
+        "textureFile": "smokey.dds",
+        "textureStatus": "exact-archive-texture",
+        "generationSpeedMilliseconds": 10,
+        "lifetimeSeconds": 4,
+        "looping": false,
+        "shape": "sphere-volume",
+        "blending": "alpha",
+        "sampleSourcePositions": []
+      }
+    ],
+    "library": {
+      "counts": {
+        "compiledFilenames": 19,
+        "uniqueCompiledBinaries": 17,
+        "readablePresets": 16,
+        "readableCompiledPresets": 14,
+        "readableSourceOnlyPresets": 2,
+        "opaqueCompiledPresets": 3,
+        "emitters": 29,
+        "attractors": 1,
+        "uniqueTextureBindings": 6,
+        "missingTextureBindings": 1
+      },
+      "entries": [
+        {
+          "id": "expl1",
+          "label": "Expl1",
+          "category": "explosion",
+          "availability": "readable-source-only",
+          "playable": true
+        },
+        {
+          "id": "explosion_01",
+          "label": "Explosion 01",
+          "category": "explosion",
+          "availability": "readable-compiled",
+          "playable": true
+        },
+        {
+          "id": "explosion_02",
+          "label": "Explosion 02",
+          "category": "explosion",
+          "availability": "readable-compiled",
+          "playable": true
+        },
+        {
+          "id": "explosion_03",
+          "label": "Explosion 03",
+          "category": "explosion",
+          "availability": "readable-compiled",
+          "playable": true
+        },
+        {
+          "id": "fire1",
+          "label": "Fire1",
+          "category": "fire",
+          "availability": "readable-source-only",
+          "playable": true
+        },
+        {
+          "id": "firetrail_01",
+          "label": "Firetrail 01",
+          "category": "fire",
+          "availability": "readable-compiled",
+          "playable": true
+        },
+        {
+          "id": "firetrail_02",
+          "label": "Firetrail 02",
+          "category": "fire",
+          "availability": "readable-compiled",
+          "playable": true
+        },
+        {
+          "id": "gatling_01",
+          "label": "Gatling 01",
+          "category": "weapon",
+          "availability": "readable-compiled",
+          "playable": true
+        },
+        {
+          "id": "hit_01",
+          "label": "Hit 01",
+          "category": "impact",
+          "availability": "readable-compiled",
+          "playable": true
+        },
+        {
+          "id": "lightningball_01",
+          "label": "Lightningball 01",
+          "category": "energy",
+          "availability": "readable-compiled",
+          "playable": true
+        },
+        {
+          "id": "plasmatrail_01",
+          "label": "Plasmatrail 01",
+          "category": "trail",
+          "availability": "readable-compiled",
+          "playable": true
+        },
+        {
+          "id": "shot2",
+          "label": "Shot2",
+          "category": "weapon",
+          "availability": "readable-compiled",
+          "playable": true
+        },
+        {
+          "id": "shot3",
+          "label": "Shot3",
+          "category": "weapon",
+          "availability": "readable-compiled",
+          "playable": true
+        },
+        {
+          "id": "smartbomb_01",
+          "label": "Smartbomb 01",
+          "category": "area-effect",
+          "availability": "readable-compiled",
+          "playable": true
+        },
+        {
+          "id": "smoketrail_01",
+          "label": "Smoketrail 01",
+          "category": "trail",
+          "availability": "readable-compiled",
+          "playable": true
+        },
+        {
+          "id": "trail_01",
+          "label": "Trail 01",
+          "category": "trail",
+          "availability": "readable-compiled",
+          "playable": true
+        },
+        {
+          "id": "explosion3",
+          "label": "Explosion3",
+          "category": "explosion",
+          "availability": "opaque-compiled-only",
+          "playable": false
+        },
+        {
+          "id": "impact1",
+          "label": "Impact1",
+          "category": "impact",
+          "availability": "opaque-compiled-only",
+          "playable": false
+        },
+        {
+          "id": "shot1",
+          "label": "Shot1",
+          "category": "weapon",
+          "availability": "opaque-compiled-only",
+          "playable": false
+        }
+      ],
+      "exactAliasGroups": [
+        {
+          "sha256": "99F3AD87ED5D8BD691E21FDEF49DF455B1FD08D78236BC0E5B56CF8E4E460F5E",
+          "bytes": 1594,
+          "aliases": [
+            "explosion1.TVP",
+            "explosion_01.TVP"
+          ]
+        },
+        {
+          "sha256": "2767DFD9428A99C10D18A4853EE8F31D99690FEB6EC142676256C4D0AC35B88A",
+          "bytes": 896,
+          "aliases": [
+            "explosion2.TVP",
+            "explosion_02.TVP"
+          ]
+        }
+      ],
+      "opaque": [
+        {
+          "id": "explosion3",
+          "label": "Explosion3",
+          "category": "explosion",
+          "availability": "opaque-compiled-only",
+          "runtimeEvidence": "no-graphysx-callsite-located",
+          "compiled": {
+            "sha256": "C0BB473ECC02725B3000A0F7D2D8343B48F2543952FB21C008B34F77A354DE45",
+            "bytes": 2708,
+            "aliases": [
+              "explosion3.TVP"
+            ]
+          },
+          "reason": "Compiled TVP survives without a readable TVPJ companion; emitter fields are intentionally not guessed."
+        },
+        {
+          "id": "impact1",
+          "label": "Impact1",
+          "category": "impact",
+          "availability": "opaque-compiled-only",
+          "runtimeEvidence": "no-graphysx-callsite-located",
+          "compiled": {
+            "sha256": "13EDD41D8E3DFA1385CC5289206672F59A1520708E86241A247B0BE769CBB411",
+            "bytes": 821,
+            "aliases": [
+              "impact1.TVP"
+            ]
+          },
+          "reason": "Compiled TVP survives without a readable TVPJ companion; emitter fields are intentionally not guessed."
+        },
+        {
+          "id": "shot1",
+          "label": "Shot1",
+          "category": "weapon",
+          "availability": "opaque-compiled-only",
+          "runtimeEvidence": "no-graphysx-callsite-located",
+          "compiled": {
+            "sha256": "6E779B070B74276670511B7995D00622BD2E2B2F982885F84411D30FAE18D634",
+            "bytes": 807,
+            "aliases": [
+              "shot1.TVP"
+            ]
+          },
+          "reason": "Compiled TVP survives without a readable TVPJ companion; emitter fields are intentionally not guessed."
+        }
+      ]
+    },
+    "fidelity": {
+      "exact": "TVPJ emitter/attractor fields, compiled/readable hashes, exact aliases and surviving DDS bytes.",
+      "adapted": "Seeded component-random direction, fixed-step integration, batched point sprites, inspection normalization and approximate Three.js blend mapping.",
+      "unavailable": "TV3D private RNG/integrator/blend-state recipes and emitter/particle interpolation implementation.",
+      "runtimeNotes": [
+        "All readable TVPJ values and surviving texture bindings are preserved in selected.emitterConfigs/attractorConfigs.",
+        "Looping emitters honor archived capacity, generation interval and lifetime; the batch renderer uses one draw call per emitter.",
+        "COLOR and ADDALPHA map to alpha and additive blending because TV3D's internal blend-state recipes are unavailable.",
+        "The one archived attractor uses a disclosed radial/directional force adapter with its exact serialized values.",
+        "A missing texture binding uses a conspicuous magenta-X diagnostic sprite; it is not a replacement archive texture.",
+        "Opaque compiled-only presets remain selectable evidence with zero invented emitters."
+      ]
+    }
+  }
+}

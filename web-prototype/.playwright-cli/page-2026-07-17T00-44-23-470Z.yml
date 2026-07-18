@@ -1,0 +1,33 @@
+- generic [ref=e6]:
+  - generic [ref=e7]:
+    - generic [ref=e8]: GraphysX Web Revival
+    - strong [ref=e9]: v0.1.0
+    - generic [ref=e10]: revival-2026.07.16-r3
+  - heading "The Great Slide — Level0" [level=1] [ref=e231]
+  - paragraph [ref=e12]: Collect every ring, cross the amber halfway gate, then return through the cyan finish. Movement follows the camera.
+  - generic [ref=e13]:
+    - button "Restart Race" [active] [ref=e232] [cursor=pointer]
+    - button "Exit To Worlds" [ref=e233] [cursor=pointer]
+  - generic [ref=e16]:
+    - article [ref=e234]:
+      - generic [ref=e235]: Time
+      - strong [ref=e236]: 0.48s
+    - article [ref=e237]:
+      - generic [ref=e238]: Rings
+      - strong [ref=e239]:
+        - text: 0 / 8
+        - generic [ref=e240]: Collect nearest ring · 0m
+    - article [ref=e241]:
+      - generic [ref=e242]: Lap State
+      - strong [ref=e243]: Reach Halfway
+    - article [ref=e244]:
+      - generic [ref=e245]: Camera
+      - strong [ref=e246]:
+        - text: Drag + wheel
+        - generic [ref=e247]: C resets behind the starting direction
+    - article [ref=e248]:
+      - generic [ref=e249]: Archive Champ
+      - strong [ref=e250]: 42.00s
+    - article [ref=e251]:
+      - generic [ref=e252]: Target
+      - strong [ref=e253]: 1:10.00

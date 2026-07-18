@@ -1,0 +1,274 @@
+{
+  "url": "http://127.0.0.1:4200/",
+  "requestedCase": "suzanne1-classic",
+  "assertions": [
+    {
+      "pass": true,
+      "message": "Suzanne 1 remains reachable"
+    },
+    {
+      "pass": true,
+      "message": "Suzanne 1 starts"
+    },
+    {
+      "pass": true,
+      "message": "Suzanne exact textures finish loading"
+    },
+    {
+      "pass": true,
+      "message": "Suzanne keeps all 208 walls"
+    },
+    {
+      "pass": true,
+      "message": "Suzanne keeps all 45 chains"
+    },
+    {
+      "pass": true,
+      "message": "Suzanne keeps all 15 ZRing spheres"
+    },
+    {
+      "pass": true,
+      "message": "Classic/Suzanne browser pass has no console or page errors"
+    }
+  ],
+  "states": {
+    "suzanne": {
+      "version": "0.1.0",
+      "build": "revival-2026.07.17-r9",
+      "mode": "gameplay",
+      "projectFamily": "ballz",
+      "race": "Suzanne 1 — ASCII Arena",
+      "preview": "race-preview",
+      "particles": {
+        "active": 0,
+        "persistentFxLab": false
+      },
+      "coordinateSystem": "Three.js world coordinates: +x right/east, +y up, -z is the default forward direction.",
+      "player": {
+        "x": 5,
+        "y": 0.36,
+        "z": 36,
+        "radius": 0.3
+      },
+      "velocity": {
+        "x": 0,
+        "y": -2.01,
+        "z": 0
+      },
+      "input": {
+        "keyboard": false,
+        "touch": false,
+        "gamepad": {
+          "connected": false,
+          "id": null,
+          "forward": 0,
+          "turn": 0
+        }
+      },
+      "inputAxis": {
+        "forward": 0,
+        "turn": 0
+      },
+      "ballPreset": "revival",
+      "ghost": {
+        "hasBest": false,
+        "bestTimeMs": null,
+        "recordingSamples": 1,
+        "playbackVisible": false,
+        "lastLapVisible": false
+      },
+      "flight": null,
+      "suzanne": {
+        "id": "suzanne1-ascii-arena",
+        "title": "Suzanne 1 — ASCII arena",
+        "status": "authored-layout-recovered",
+        "profile": "reference2016",
+        "profileEvidence": "Suzanne1.png visual target; floor/wall bindings and the larger pickup/chain presentation are image-backed inference because that exact branch's binding table is absent.",
+        "loadStatus": "ready",
+        "loadError": null,
+        "ready": true,
+        "visible": true,
+        "disposed": false,
+        "grid": {
+          "width": 40,
+          "height": 40
+        },
+        "counts": {
+          "walls": 208,
+          "chains": 45,
+          "ringsVisible": 15,
+          "ringsTotal": 15,
+          "pistons": 3,
+          "effects": 2,
+          "cubxAnchors": 2
+        },
+        "playerStart": [
+          5,
+          0.5,
+          36
+        ],
+        "gates": {
+          "finishStart": [
+            10.5,
+            0.5,
+            34.5
+          ],
+          "finishEnd": [
+            1.5,
+            0.5,
+            34.5
+          ],
+          "halfStart": [
+            0.5,
+            0.5,
+            32.5
+          ],
+          "halfEnd": [
+            14.5,
+            0.5,
+            9.5
+          ]
+        },
+        "activePistons": [
+          0,
+          1,
+          2
+        ],
+        "sourceObjectsAwaitingIntegration": [
+          "CubX actors at C cells",
+          "Airplane.x from compact XML",
+          "BallZ physics/controller"
+        ],
+        "referenceScreenshot": {
+          "dimensions": [
+            1280,
+            720
+          ],
+          "sha256": "888a1299db67c2e4f58b4afbe03417ad74240325eb3a1fa895b5663f5a96c6c5"
+        },
+        "unresolved": [
+          "The exact pre-2017 texture binding code that produced Suzanne1.png is absent; grass and wood are preserved as screenshot-backed profile choices.",
+          "The two C cells invoke createCubX, but that actor's exact runtime animation/menu state is not encoded by the ASCII file.",
+          "The XML airplane can be placed exactly, but its authored interaction in this arena varies across source branches.",
+          "The screenshot branch's random human count and seed are not recoverable from the image."
+        ]
+      },
+      "rings": "0/15",
+      "laps": {
+        "completed": 0,
+        "total": 3,
+        "current": 1
+      },
+      "halfway": false,
+      "raceActive": true,
+      "raceFinished": false,
+      "racePaused": false,
+      "loadState": {
+        "ready": true,
+        "loading": false,
+        "requiredKeys": [
+          "suzanne1-ascii-textures"
+        ]
+      },
+      "remainingRings": [
+        {
+          "x": 31.5,
+          "y": 1.5,
+          "z": 2.5
+        },
+        {
+          "x": 21.5,
+          "y": 1.5,
+          "z": 3.5
+        },
+        {
+          "x": 6.5,
+          "y": 1.5,
+          "z": 5.5
+        },
+        {
+          "x": 13.5,
+          "y": 1.5,
+          "z": 6.5
+        },
+        {
+          "x": 29.5,
+          "y": 1.5,
+          "z": 14.5
+        },
+        {
+          "x": 5.5,
+          "y": 1.5,
+          "z": 15.5
+        },
+        {
+          "x": 9.5,
+          "y": 1.5,
+          "z": 15.5
+        },
+        {
+          "x": 3.5,
+          "y": 1.5,
+          "z": 19.5
+        },
+        {
+          "x": 8.5,
+          "y": 1.5,
+          "z": 19.5
+        },
+        {
+          "x": 4.5,
+          "y": 1.5,
+          "z": 22.5
+        },
+        {
+          "x": 31.5,
+          "y": 1.5,
+          "z": 24.5
+        },
+        {
+          "x": 14.5,
+          "y": 1.5,
+          "z": 28.5
+        },
+        {
+          "x": 30.5,
+          "y": 1.5,
+          "z": 28.5
+        },
+        {
+          "x": 23.5,
+          "y": 1.5,
+          "z": 30.5
+        },
+        {
+          "x": 25.5,
+          "y": 1.5,
+          "z": 36.5
+        }
+      ],
+      "activeZombies": [],
+      "nextObjective": "Bonus checkpoint nearby",
+      "objectiveDistance": 12.1,
+      "camera": {
+        "yaw": 0,
+        "pitch": 0.66,
+        "distance": 14,
+        "collision": {
+          "active": false,
+          "hitBodyId": null,
+          "desiredDistance": 14,
+          "resolvedDistance": 14
+        }
+      },
+      "controls": "Keyboard WASD/arrows, the touch direction pad, or gamepad left stick moves; drag orbit; wheel zoom; C reset camera; Space/A jump; Shift boost; B cycles Fire/Classic/Revival; P/touch pauses; R restarts; Esc exits.",
+      "shellWireRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "arrowHeading": 3.142
+    }
+  },
+  "errors": []
+}

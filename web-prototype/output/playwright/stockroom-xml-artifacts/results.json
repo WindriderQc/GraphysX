@@ -1,0 +1,1094 @@
+{
+  "url": "http://127.0.0.1:4194/stockroom-xml-artifact-preview.html",
+  "assertions": [
+    {
+      "pass": true,
+      "message": "BaseScene is the default artifact"
+    },
+    {
+      "pass": true,
+      "message": "BaseScene v1.1 schema is exposed"
+    },
+    {
+      "pass": true,
+      "message": "BaseScene source hash matches"
+    },
+    {
+      "pass": true,
+      "message": "All 18 serialized BaseScene records render"
+    },
+    {
+      "pass": true,
+      "message": "BaseScene contains one unique serialized object signature"
+    },
+    {
+      "pass": true,
+      "message": "All BaseScene objects remain exactly coincident"
+    },
+    {
+      "pass": true,
+      "message": "BaseScene object names/actions match"
+    },
+    {
+      "pass": true,
+      "message": "BaseScene transforms remain exact"
+    },
+    {
+      "pass": true,
+      "message": "Absent BaseScene Rot fields remain explicit"
+    },
+    {
+      "pass": true,
+      "message": "Identity rotation adapter is disclosed for all 18 BaseScene records"
+    },
+    {
+      "pass": true,
+      "message": "BaseScene zero-mass physics metadata is preserved without invented simulation"
+    },
+    {
+      "pass": true,
+      "message": "Both BaseScene copies are byte-identical"
+    },
+    {
+      "pass": true,
+      "message": "Unproven BaseScene texture candidate is ready but disabled by default"
+    },
+    {
+      "pass": true,
+      "message": "BaseScene is explicitly not classified as an assembled scene"
+    },
+    {
+      "pass": true,
+      "message": "BaseScene does not invent absent world subsystems"
+    },
+    {
+      "pass": true,
+      "message": "render_game_to_text identifies the artifact preview"
+    },
+    {
+      "pass": true,
+      "message": "render_game_to_text exposes all currently visible source records"
+    },
+    {
+      "pass": true,
+      "message": "Exact same-folder twoway.jpg candidate can be explicitly enabled"
+    },
+    {
+      "pass": true,
+      "message": "Candidate binding remains visibly unproven"
+    },
+    {
+      "pass": true,
+      "message": "Candidate texture hash matches exact source art"
+    },
+    {
+      "pass": true,
+      "message": "test1 exposes v1.2 schema"
+    },
+    {
+      "pass": true,
+      "message": "Canonical test1 source hash matches"
+    },
+    {
+      "pass": true,
+      "message": "test1 renders its one serialized cube"
+    },
+    {
+      "pass": true,
+      "message": "test1 name and MeshControlled flag match"
+    },
+    {
+      "pass": true,
+      "message": "test1 preserves attribute case and Newton material ID"
+    },
+    {
+      "pass": true,
+      "message": "test1 exact transform matches"
+    },
+    {
+      "pass": true,
+      "message": "test1 keeps its empty texture and does not inherit BaseScene candidate art"
+    },
+    {
+      "pass": true,
+      "message": "test1 map/ring metadata matches"
+    },
+    {
+      "pass": true,
+      "message": "test1 raw newline variants remain semantically equivalent"
+    },
+    {
+      "pass": true,
+      "message": "test1 reports both distinct raw hashes and one semantic hash"
+    },
+    {
+      "pass": true,
+      "message": "test1 remains a schema smoke artifact, not a world"
+    },
+    {
+      "pass": true,
+      "message": "advanceTime deterministically advances the inspection orbit"
+    },
+    {
+      "pass": true,
+      "message": "Structured state remains synchronized after deterministic stepping"
+    },
+    {
+      "pass": true,
+      "message": "Standalone StockRoom XML preview has no console or page errors"
+    }
+  ],
+  "states": {
+    "baseSource": {
+      "schema": "graphysx.stockroom-xml-artifacts/v1",
+      "mode": "serializer-artifact-inspection",
+      "selectedArtifactId": "base-scene",
+      "source": "E:/Media/Datalake/Tech/StockRoom/BaseScene.xml",
+      "sourceSha256": "1F56E50E0FE48B6F7BF34024FA11C010755C3F59FA6FB2F70377BA0B8574CCA8",
+      "sourceBytes": 5006,
+      "sourceCopies": [
+        {
+          "source": "E:/Media/Datalake/Tech/StockRoom/BaseScene.xml",
+          "bytes": 5006,
+          "sha256": "1F56E50E0FE48B6F7BF34024FA11C010755C3F59FA6FB2F70377BA0B8574CCA8",
+          "whitespaceSemanticSha256": "F00AF05009F101110B1CA9F2B3CBEF7424EE34015E671FBADFF4D8BC4965987C"
+        },
+        {
+          "source": "E:/Media/Datalake/Tech/Repos/GraphysX/StockRoom/BaseScene.xml",
+          "bytes": 5006,
+          "sha256": "1F56E50E0FE48B6F7BF34024FA11C010755C3F59FA6FB2F70377BA0B8574CCA8",
+          "whitespaceSemanticSha256": "F00AF05009F101110B1CA9F2B3CBEF7424EE34015E671FBADFF4D8BC4965987C"
+        }
+      ],
+      "copyEquivalence": {
+        "byteIdentical": true,
+        "semanticEquivalent": true
+      },
+      "version": "V1_1",
+      "root": "Scene3D",
+      "classification": "serializer-default-duplication-artifact",
+      "assessment": "Eighteen byte-serialized PHYSICCUBE records have the same name, transform, scale, material metadata, and origin. They overlap exactly and do not evidence an assembled world.",
+      "distinctAssembledScene": false,
+      "ready": true,
+      "disposed": false,
+      "visible": true,
+      "objectCount": 18,
+      "renderedObjectCount": 18,
+      "uniqueObjectSignatureCount": 1,
+      "distinctSerializedTransformCount": 1,
+      "exactOverlapGroupSizes": [
+        18
+      ],
+      "mapSize": null,
+      "ringPositionCount": 0,
+      "serializedSubsystems": {
+        "objects": true,
+        "mapSize": false,
+        "ringPositions": false,
+        "camera": false,
+        "lights": false,
+        "sky": false,
+        "gravity": false,
+        "physicsTimestep": false,
+        "interactions": false,
+        "gameplayObjective": false
+      },
+      "material": {
+        "serializedTokens": [
+          "TwoWay"
+        ],
+        "candidateTextureEnabled": false,
+        "candidateTextureReady": true,
+        "candidateStatus": "same-folder-case-insensitive-stem-candidate-runtime-binding-unproven",
+        "candidateSource": "E:/Media/Datalake/Tech/StockRoom/twoway.jpg",
+        "candidateSha256": "4998527ACE4E853954E77EC5B937024CB2D2E23064FBBDE4A039224E978A2B21",
+        "candidatePolicy": "Disabled by default. This is exact nearby source art, but the surviving v1.1 host code that would prove extension resolution was not located.",
+        "inspectionFallback": "Blue neutral inspection material; not serialized."
+      },
+      "physics": {
+        "metadataPreserved": true,
+        "simulated": false,
+        "zeroMassRecordCount": 18,
+        "reason": "No gravity, timestep, ground or interaction configuration is serialized; later host lineage treats mass 0 physics primitives as static."
+      },
+      "inspectionAdapters": {
+        "identityRotationForAbsentSourceFieldCount": 18,
+        "inspectionLightCount": 3,
+        "gridIsSourceContent": false,
+        "objectsRepositioned": false
+      },
+      "camera": {
+        "position": [
+          19.01115607690466,
+          14,
+          16.235022162583306
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "orbitAngleRadians": 0.14400000000000013
+      },
+      "objects": [
+        {
+          "index": 0,
+          "name": "CubeTestPhys",
+          "action": "PHYSICCUBE",
+          "enabled": true,
+          "mass": 0,
+          "massAttributeName": "masse",
+          "meshControlled": false,
+          "newtonMaterial": 0,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sourceRotation": null,
+          "appliedInspectionRotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            10,
+            10,
+            10
+          ],
+          "textureName": "TwoWay",
+          "signatureSha256": "740D057299E4393F9E8E84096FC606ED4B005E7DD1DE0A6CE2D65C275E2D079F",
+          "rendered": true,
+          "exactTransform": true
+        },
+        {
+          "index": 1,
+          "name": "CubeTestPhys",
+          "action": "PHYSICCUBE",
+          "enabled": true,
+          "mass": 0,
+          "massAttributeName": "masse",
+          "meshControlled": false,
+          "newtonMaterial": 0,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sourceRotation": null,
+          "appliedInspectionRotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            10,
+            10,
+            10
+          ],
+          "textureName": "TwoWay",
+          "signatureSha256": "740D057299E4393F9E8E84096FC606ED4B005E7DD1DE0A6CE2D65C275E2D079F",
+          "rendered": true,
+          "exactTransform": true
+        },
+        {
+          "index": 2,
+          "name": "CubeTestPhys",
+          "action": "PHYSICCUBE",
+          "enabled": true,
+          "mass": 0,
+          "massAttributeName": "masse",
+          "meshControlled": false,
+          "newtonMaterial": 0,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sourceRotation": null,
+          "appliedInspectionRotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            10,
+            10,
+            10
+          ],
+          "textureName": "TwoWay",
+          "signatureSha256": "740D057299E4393F9E8E84096FC606ED4B005E7DD1DE0A6CE2D65C275E2D079F",
+          "rendered": true,
+          "exactTransform": true
+        },
+        {
+          "index": 3,
+          "name": "CubeTestPhys",
+          "action": "PHYSICCUBE",
+          "enabled": true,
+          "mass": 0,
+          "massAttributeName": "masse",
+          "meshControlled": false,
+          "newtonMaterial": 0,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sourceRotation": null,
+          "appliedInspectionRotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            10,
+            10,
+            10
+          ],
+          "textureName": "TwoWay",
+          "signatureSha256": "740D057299E4393F9E8E84096FC606ED4B005E7DD1DE0A6CE2D65C275E2D079F",
+          "rendered": true,
+          "exactTransform": true
+        },
+        {
+          "index": 4,
+          "name": "CubeTestPhys",
+          "action": "PHYSICCUBE",
+          "enabled": true,
+          "mass": 0,
+          "massAttributeName": "masse",
+          "meshControlled": false,
+          "newtonMaterial": 0,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sourceRotation": null,
+          "appliedInspectionRotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            10,
+            10,
+            10
+          ],
+          "textureName": "TwoWay",
+          "signatureSha256": "740D057299E4393F9E8E84096FC606ED4B005E7DD1DE0A6CE2D65C275E2D079F",
+          "rendered": true,
+          "exactTransform": true
+        },
+        {
+          "index": 5,
+          "name": "CubeTestPhys",
+          "action": "PHYSICCUBE",
+          "enabled": true,
+          "mass": 0,
+          "massAttributeName": "masse",
+          "meshControlled": false,
+          "newtonMaterial": 0,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sourceRotation": null,
+          "appliedInspectionRotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            10,
+            10,
+            10
+          ],
+          "textureName": "TwoWay",
+          "signatureSha256": "740D057299E4393F9E8E84096FC606ED4B005E7DD1DE0A6CE2D65C275E2D079F",
+          "rendered": true,
+          "exactTransform": true
+        },
+        {
+          "index": 6,
+          "name": "CubeTestPhys",
+          "action": "PHYSICCUBE",
+          "enabled": true,
+          "mass": 0,
+          "massAttributeName": "masse",
+          "meshControlled": false,
+          "newtonMaterial": 0,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sourceRotation": null,
+          "appliedInspectionRotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            10,
+            10,
+            10
+          ],
+          "textureName": "TwoWay",
+          "signatureSha256": "740D057299E4393F9E8E84096FC606ED4B005E7DD1DE0A6CE2D65C275E2D079F",
+          "rendered": true,
+          "exactTransform": true
+        },
+        {
+          "index": 7,
+          "name": "CubeTestPhys",
+          "action": "PHYSICCUBE",
+          "enabled": true,
+          "mass": 0,
+          "massAttributeName": "masse",
+          "meshControlled": false,
+          "newtonMaterial": 0,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sourceRotation": null,
+          "appliedInspectionRotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            10,
+            10,
+            10
+          ],
+          "textureName": "TwoWay",
+          "signatureSha256": "740D057299E4393F9E8E84096FC606ED4B005E7DD1DE0A6CE2D65C275E2D079F",
+          "rendered": true,
+          "exactTransform": true
+        },
+        {
+          "index": 8,
+          "name": "CubeTestPhys",
+          "action": "PHYSICCUBE",
+          "enabled": true,
+          "mass": 0,
+          "massAttributeName": "masse",
+          "meshControlled": false,
+          "newtonMaterial": 0,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sourceRotation": null,
+          "appliedInspectionRotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            10,
+            10,
+            10
+          ],
+          "textureName": "TwoWay",
+          "signatureSha256": "740D057299E4393F9E8E84096FC606ED4B005E7DD1DE0A6CE2D65C275E2D079F",
+          "rendered": true,
+          "exactTransform": true
+        },
+        {
+          "index": 9,
+          "name": "CubeTestPhys",
+          "action": "PHYSICCUBE",
+          "enabled": true,
+          "mass": 0,
+          "massAttributeName": "masse",
+          "meshControlled": false,
+          "newtonMaterial": 0,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sourceRotation": null,
+          "appliedInspectionRotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            10,
+            10,
+            10
+          ],
+          "textureName": "TwoWay",
+          "signatureSha256": "740D057299E4393F9E8E84096FC606ED4B005E7DD1DE0A6CE2D65C275E2D079F",
+          "rendered": true,
+          "exactTransform": true
+        },
+        {
+          "index": 10,
+          "name": "CubeTestPhys",
+          "action": "PHYSICCUBE",
+          "enabled": true,
+          "mass": 0,
+          "massAttributeName": "masse",
+          "meshControlled": false,
+          "newtonMaterial": 0,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sourceRotation": null,
+          "appliedInspectionRotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            10,
+            10,
+            10
+          ],
+          "textureName": "TwoWay",
+          "signatureSha256": "740D057299E4393F9E8E84096FC606ED4B005E7DD1DE0A6CE2D65C275E2D079F",
+          "rendered": true,
+          "exactTransform": true
+        },
+        {
+          "index": 11,
+          "name": "CubeTestPhys",
+          "action": "PHYSICCUBE",
+          "enabled": true,
+          "mass": 0,
+          "massAttributeName": "masse",
+          "meshControlled": false,
+          "newtonMaterial": 0,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sourceRotation": null,
+          "appliedInspectionRotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            10,
+            10,
+            10
+          ],
+          "textureName": "TwoWay",
+          "signatureSha256": "740D057299E4393F9E8E84096FC606ED4B005E7DD1DE0A6CE2D65C275E2D079F",
+          "rendered": true,
+          "exactTransform": true
+        },
+        {
+          "index": 12,
+          "name": "CubeTestPhys",
+          "action": "PHYSICCUBE",
+          "enabled": true,
+          "mass": 0,
+          "massAttributeName": "masse",
+          "meshControlled": false,
+          "newtonMaterial": 0,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sourceRotation": null,
+          "appliedInspectionRotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            10,
+            10,
+            10
+          ],
+          "textureName": "TwoWay",
+          "signatureSha256": "740D057299E4393F9E8E84096FC606ED4B005E7DD1DE0A6CE2D65C275E2D079F",
+          "rendered": true,
+          "exactTransform": true
+        },
+        {
+          "index": 13,
+          "name": "CubeTestPhys",
+          "action": "PHYSICCUBE",
+          "enabled": true,
+          "mass": 0,
+          "massAttributeName": "masse",
+          "meshControlled": false,
+          "newtonMaterial": 0,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sourceRotation": null,
+          "appliedInspectionRotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            10,
+            10,
+            10
+          ],
+          "textureName": "TwoWay",
+          "signatureSha256": "740D057299E4393F9E8E84096FC606ED4B005E7DD1DE0A6CE2D65C275E2D079F",
+          "rendered": true,
+          "exactTransform": true
+        },
+        {
+          "index": 14,
+          "name": "CubeTestPhys",
+          "action": "PHYSICCUBE",
+          "enabled": true,
+          "mass": 0,
+          "massAttributeName": "masse",
+          "meshControlled": false,
+          "newtonMaterial": 0,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sourceRotation": null,
+          "appliedInspectionRotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            10,
+            10,
+            10
+          ],
+          "textureName": "TwoWay",
+          "signatureSha256": "740D057299E4393F9E8E84096FC606ED4B005E7DD1DE0A6CE2D65C275E2D079F",
+          "rendered": true,
+          "exactTransform": true
+        },
+        {
+          "index": 15,
+          "name": "CubeTestPhys",
+          "action": "PHYSICCUBE",
+          "enabled": true,
+          "mass": 0,
+          "massAttributeName": "masse",
+          "meshControlled": false,
+          "newtonMaterial": 0,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sourceRotation": null,
+          "appliedInspectionRotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            10,
+            10,
+            10
+          ],
+          "textureName": "TwoWay",
+          "signatureSha256": "740D057299E4393F9E8E84096FC606ED4B005E7DD1DE0A6CE2D65C275E2D079F",
+          "rendered": true,
+          "exactTransform": true
+        },
+        {
+          "index": 16,
+          "name": "CubeTestPhys",
+          "action": "PHYSICCUBE",
+          "enabled": true,
+          "mass": 0,
+          "massAttributeName": "masse",
+          "meshControlled": false,
+          "newtonMaterial": 0,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sourceRotation": null,
+          "appliedInspectionRotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            10,
+            10,
+            10
+          ],
+          "textureName": "TwoWay",
+          "signatureSha256": "740D057299E4393F9E8E84096FC606ED4B005E7DD1DE0A6CE2D65C275E2D079F",
+          "rendered": true,
+          "exactTransform": true
+        },
+        {
+          "index": 17,
+          "name": "CubeTestPhys",
+          "action": "PHYSICCUBE",
+          "enabled": true,
+          "mass": 0,
+          "massAttributeName": "masse",
+          "meshControlled": false,
+          "newtonMaterial": 0,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sourceRotation": null,
+          "appliedInspectionRotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            10,
+            10,
+            10
+          ],
+          "textureName": "TwoWay",
+          "signatureSha256": "740D057299E4393F9E8E84096FC606ED4B005E7DD1DE0A6CE2D65C275E2D079F",
+          "rendered": true,
+          "exactTransform": true
+        }
+      ],
+      "unresolvedRecords": [
+        {
+          "kind": "source-field-absent",
+          "field": "Obj3D/Rot",
+          "count": 18,
+          "policy": "Inspection renderer applies identity rotation but does not claim it was serialized."
+        },
+        {
+          "kind": "runtime-texture-binding-unproven",
+          "field": "Obj3D/TextureName",
+          "serializedValue": "TwoWay",
+          "candidate": "twoway.jpg",
+          "policy": "The same-folder file is preserved as an opt-in candidate only; source mode does not silently bind it."
+        }
+      ],
+      "evidenceBoundary": {
+        "exact": [
+          "Raw source byte counts and SHA-256 hashes for all four located copies.",
+          "Per-document action/version headers, attributes with original case, vectors, paths, texture tokens, object order, and overlap counts.",
+          "Procedural cube dimensions, transforms, and static mass metadata as serialized."
+        ],
+        "unresolved": [
+          "BaseScene.xml omits Rot for all 18 objects; identity rotation is an inspection adapter, not serialized evidence.",
+          "The v1.1 runtime binding from extensionless TwoWay to twoway.jpg is not proven by surviving host code.",
+          "No authored camera, lighting, sky, gravity, physics timestep, interactions, or gameplay objective survives in either document."
+        ],
+        "forbiddenInference": [
+          "Do not spread BaseScene cubes apart to fabricate a level.",
+          "Do not add a floor, player, objective, or dynamic physics simulation to either artifact.",
+          "Do not count these serializer artifacts as restored discovery worlds."
+        ]
+      }
+    },
+    "test1": {
+      "schema": "graphysx.stockroom-xml-artifacts/v1",
+      "mode": "serializer-artifact-inspection",
+      "selectedArtifactId": "test1",
+      "source": "E:/Media/Datalake/Tech/StockRoom/test1.xml",
+      "sourceSha256": "BB8396EBA946E01948BA1072C2D683A505719CBC43AA4BE535784CA31FE0672F",
+      "sourceBytes": 856,
+      "sourceCopies": [
+        {
+          "source": "E:/Media/Datalake/Tech/StockRoom/test1.xml",
+          "bytes": 856,
+          "sha256": "BB8396EBA946E01948BA1072C2D683A505719CBC43AA4BE535784CA31FE0672F",
+          "whitespaceSemanticSha256": "9D6BB2BEF670EA858CE5FEAFA3E439EBAA1334A55B9B3289CDCE9B30718497E0"
+        },
+        {
+          "source": "E:/Media/Datalake/Tech/Repos/GraphysX/StockRoom/test1.xml",
+          "bytes": 857,
+          "sha256": "56C4459DD6D9A483BB35B25978D7CD99C1AB05BF316D2B50D6DCB315FDAF24EB",
+          "whitespaceSemanticSha256": "9D6BB2BEF670EA858CE5FEAFA3E439EBAA1334A55B9B3289CDCE9B30718497E0"
+        }
+      ],
+      "copyEquivalence": {
+        "byteIdentical": false,
+        "semanticEquivalent": true
+      },
+      "version": "V1_2",
+      "root": "Scene3D",
+      "classification": "minimal-v1.2-schema-smoke-document",
+      "assessment": "One default-sized PHYSICCUBE with no texture or surrounding composition proves the v1.2 serializer shape, not an authored discovery world.",
+      "distinctAssembledScene": false,
+      "ready": true,
+      "disposed": false,
+      "visible": true,
+      "objectCount": 1,
+      "renderedObjectCount": 1,
+      "uniqueObjectSignatureCount": 1,
+      "distinctSerializedTransformCount": 1,
+      "exactOverlapGroupSizes": [],
+      "mapSize": 0,
+      "ringPositionCount": 0,
+      "serializedSubsystems": {
+        "objects": true,
+        "mapSize": true,
+        "ringPositions": true,
+        "camera": false,
+        "lights": false,
+        "sky": false,
+        "gravity": false,
+        "physicsTimestep": false,
+        "interactions": false,
+        "gameplayObjective": false
+      },
+      "material": {
+        "serializedTokens": [],
+        "candidateTextureEnabled": false,
+        "candidateTextureReady": true,
+        "candidateStatus": "same-folder-case-insensitive-stem-candidate-runtime-binding-unproven",
+        "candidateSource": "E:/Media/Datalake/Tech/StockRoom/twoway.jpg",
+        "candidateSha256": "4998527ACE4E853954E77EC5B937024CB2D2E23064FBBDE4A039224E978A2B21",
+        "candidatePolicy": "Disabled by default. This is exact nearby source art, but the surviving v1.1 host code that would prove extension resolution was not located.",
+        "inspectionFallback": "White neutral inspection material; TextureName is empty."
+      },
+      "physics": {
+        "metadataPreserved": true,
+        "simulated": false,
+        "zeroMassRecordCount": 1,
+        "reason": "No gravity, timestep, ground or interaction configuration is serialized; later host lineage treats mass 0 physics primitives as static."
+      },
+      "inspectionAdapters": {
+        "identityRotationForAbsentSourceFieldCount": 0,
+        "inspectionLightCount": 3,
+        "gridIsSourceContent": false,
+        "objectsRepositioned": false
+      },
+      "camera": {
+        "position": [
+          3.758492630237397,
+          3.1,
+          4.285292656103102
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "orbitAngleRadians": 0
+      },
+      "objects": [
+        {
+          "index": 0,
+          "name": "cubBasic",
+          "action": "PHYSICCUBE",
+          "enabled": true,
+          "mass": 0,
+          "massAttributeName": "Masse",
+          "meshControlled": true,
+          "newtonMaterial": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sourceRotation": [
+            0,
+            0,
+            0
+          ],
+          "appliedInspectionRotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "textureName": "",
+          "signatureSha256": "D929594313B412A58E0C37E5FCE229CE8D80C035BC1FAF9D0CB914CBDDBF896B",
+          "rendered": true,
+          "exactTransform": true
+        }
+      ],
+      "unresolvedRecords": [],
+      "evidenceBoundary": {
+        "exact": [
+          "Raw source byte counts and SHA-256 hashes for all four located copies.",
+          "Per-document action/version headers, attributes with original case, vectors, paths, texture tokens, object order, and overlap counts.",
+          "Procedural cube dimensions, transforms, and static mass metadata as serialized."
+        ],
+        "unresolved": [
+          "BaseScene.xml omits Rot for all 18 objects; identity rotation is an inspection adapter, not serialized evidence.",
+          "The v1.1 runtime binding from extensionless TwoWay to twoway.jpg is not proven by surviving host code.",
+          "No authored camera, lighting, sky, gravity, physics timestep, interactions, or gameplay objective survives in either document."
+        ],
+        "forbiddenInference": [
+          "Do not spread BaseScene cubes apart to fabricate a level.",
+          "Do not add a floor, player, objective, or dynamic physics simulation to either artifact.",
+          "Do not count these serializer artifacts as restored discovery worlds."
+        ]
+      }
+    },
+    "final": {
+      "schema": "graphysx.stockroom-xml-artifacts/v1",
+      "mode": "serializer-artifact-inspection",
+      "selectedArtifactId": "test1",
+      "source": "E:/Media/Datalake/Tech/StockRoom/test1.xml",
+      "sourceSha256": "BB8396EBA946E01948BA1072C2D683A505719CBC43AA4BE535784CA31FE0672F",
+      "sourceBytes": 856,
+      "sourceCopies": [
+        {
+          "source": "E:/Media/Datalake/Tech/StockRoom/test1.xml",
+          "bytes": 856,
+          "sha256": "BB8396EBA946E01948BA1072C2D683A505719CBC43AA4BE535784CA31FE0672F",
+          "whitespaceSemanticSha256": "9D6BB2BEF670EA858CE5FEAFA3E439EBAA1334A55B9B3289CDCE9B30718497E0"
+        },
+        {
+          "source": "E:/Media/Datalake/Tech/Repos/GraphysX/StockRoom/test1.xml",
+          "bytes": 857,
+          "sha256": "56C4459DD6D9A483BB35B25978D7CD99C1AB05BF316D2B50D6DCB315FDAF24EB",
+          "whitespaceSemanticSha256": "9D6BB2BEF670EA858CE5FEAFA3E439EBAA1334A55B9B3289CDCE9B30718497E0"
+        }
+      ],
+      "copyEquivalence": {
+        "byteIdentical": false,
+        "semanticEquivalent": true
+      },
+      "version": "V1_2",
+      "root": "Scene3D",
+      "classification": "minimal-v1.2-schema-smoke-document",
+      "assessment": "One default-sized PHYSICCUBE with no texture or surrounding composition proves the v1.2 serializer shape, not an authored discovery world.",
+      "distinctAssembledScene": false,
+      "ready": true,
+      "disposed": false,
+      "visible": true,
+      "objectCount": 1,
+      "renderedObjectCount": 1,
+      "uniqueObjectSignatureCount": 1,
+      "distinctSerializedTransformCount": 1,
+      "exactOverlapGroupSizes": [],
+      "mapSize": 0,
+      "ringPositionCount": 0,
+      "serializedSubsystems": {
+        "objects": true,
+        "mapSize": true,
+        "ringPositions": true,
+        "camera": false,
+        "lights": false,
+        "sky": false,
+        "gravity": false,
+        "physicsTimestep": false,
+        "interactions": false,
+        "gameplayObjective": false
+      },
+      "material": {
+        "serializedTokens": [],
+        "candidateTextureEnabled": false,
+        "candidateTextureReady": true,
+        "candidateStatus": "same-folder-case-insensitive-stem-candidate-runtime-binding-unproven",
+        "candidateSource": "E:/Media/Datalake/Tech/StockRoom/twoway.jpg",
+        "candidateSha256": "4998527ACE4E853954E77EC5B937024CB2D2E23064FBBDE4A039224E978A2B21",
+        "candidatePolicy": "Disabled by default. This is exact nearby source art, but the surviving v1.1 host code that would prove extension resolution was not located.",
+        "inspectionFallback": "White neutral inspection material; TextureName is empty."
+      },
+      "physics": {
+        "metadataPreserved": true,
+        "simulated": false,
+        "zeroMassRecordCount": 1,
+        "reason": "No gravity, timestep, ground or interaction configuration is serialized; later host lineage treats mass 0 physics primitives as static."
+      },
+      "inspectionAdapters": {
+        "identityRotationForAbsentSourceFieldCount": 0,
+        "inspectionLightCount": 3,
+        "gridIsSourceContent": false,
+        "objectsRepositioned": false
+      },
+      "camera": {
+        "position": [
+          5.312622790013191,
+          3.1,
+          2.065439200517037
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "orbitAngleRadians": 0.4800000000000004
+      },
+      "objects": [
+        {
+          "index": 0,
+          "name": "cubBasic",
+          "action": "PHYSICCUBE",
+          "enabled": true,
+          "mass": 0,
+          "massAttributeName": "Masse",
+          "meshControlled": true,
+          "newtonMaterial": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sourceRotation": [
+            0,
+            0,
+            0
+          ],
+          "appliedInspectionRotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "textureName": "",
+          "signatureSha256": "D929594313B412A58E0C37E5FCE229CE8D80C035BC1FAF9D0CB914CBDDBF896B",
+          "rendered": true,
+          "exactTransform": true
+        }
+      ],
+      "unresolvedRecords": [],
+      "evidenceBoundary": {
+        "exact": [
+          "Raw source byte counts and SHA-256 hashes for all four located copies.",
+          "Per-document action/version headers, attributes with original case, vectors, paths, texture tokens, object order, and overlap counts.",
+          "Procedural cube dimensions, transforms, and static mass metadata as serialized."
+        ],
+        "unresolved": [
+          "BaseScene.xml omits Rot for all 18 objects; identity rotation is an inspection adapter, not serialized evidence.",
+          "The v1.1 runtime binding from extensionless TwoWay to twoway.jpg is not proven by surviving host code.",
+          "No authored camera, lighting, sky, gravity, physics timestep, interactions, or gameplay objective survives in either document."
+        ],
+        "forbiddenInference": [
+          "Do not spread BaseScene cubes apart to fabricate a level.",
+          "Do not add a floor, player, objective, or dynamic physics simulation to either artifact.",
+          "Do not count these serializer artifacts as restored discovery worlds."
+        ]
+      }
+    }
+  },
+  "browserProblems": []
+}

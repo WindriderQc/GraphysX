@@ -1,0 +1,105 @@
+- generic [ref=f1e6]:
+  - generic [ref=f1e7]:
+    - generic [ref=f1e8]: GraphysX Web Revival
+    - strong [ref=f1e9]: v0.1.0
+    - generic [ref=f1e10]: revival-2026.07.16-r4
+  - heading "ARCHIVE CONCEPTS & WORLDS" [level=1] [ref=f1e69]
+  - paragraph [ref=f1e12]: "Playable recoveries remain labeled by their original identity: World 1, Map 1, and Great Slide are BallZ concepts; Piste Ovale is a vehicle experiment; FlightX is an Atmel/CubX flight mode. Standalone discovery environments remain a separate restoration queue."
+  - generic [ref=f1e13]:
+    - button "Ride The Great Slide — Level0" [ref=f1e159] [cursor=pointer]
+    - button "Back Home" [ref=f1e71] [cursor=pointer]
+  - generic [ref=f1e16]:
+    - generic [ref=f1e160]:
+      - generic [ref=f1e161]:
+        - generic [ref=f1e162]: BallZ concept recovery 3 of 5
+        - generic [ref=f1e163]: Hard
+      - heading "The Great Slide — Level0" [level=2] [ref=f1e164]
+      - paragraph [ref=f1e165]: Descend the byte-identical SlideLarge / BallZ 2011 Level0 geometry, thread its recovered checkpoint route, and survive the runout.
+      - generic [ref=f1e166]:
+        - generic [ref=f1e167]:
+          - generic [ref=f1e168]: Chapter
+          - strong [ref=f1e169]: The Great Slide
+        - generic [ref=f1e170]:
+          - generic [ref=f1e171]: Target
+          - strong [ref=f1e172]: 1:10.00
+        - generic [ref=f1e173]:
+          - generic [ref=f1e174]: Status
+          - strong [ref=f1e175]: Unplayed
+        - generic [ref=f1e176]:
+          - generic [ref=f1e177]: Record
+          - strong [ref=f1e178]: 42.00s
+    - generic [ref=f1e179]:
+      - generic [ref=f1e180]:
+        - generic [ref=f1e181]:
+          - generic [ref=f1e182]: Playable Archive Trials
+          - strong [ref=f1e183]: 0 / 5 complete
+        - generic [ref=f1e184]:
+          - generic [ref=f1e185]: Career Score
+          - strong [ref=f1e186]: 0 pts
+      - generic "0% complete" [ref=f1e187]
+    - generic [ref=f1e189]:
+      - generic [ref=f1e190]: Playable Recoveries
+      - generic [ref=f1e191]:
+        - button "Recovery 1 World 1 — Recovered Hard · Lost World Ready to play Exploration and fall recovery." [ref=f1e192] [cursor=pointer]:
+          - generic [ref=f1e193]: Recovery 1
+          - generic [ref=f1e194]: World 1 — Recovered
+          - generic [ref=f1e195]: Hard · Lost World
+          - strong [ref=f1e196]: Ready to play
+          - generic [ref=f1e197]: Exploration and fall recovery.
+        - button "Recovery 2 Map 1 — BallZ 2011 Expert · 2011 Descent Ready to play Precision on a tall legacy map." [ref=f1e198] [cursor=pointer]:
+          - generic [ref=f1e199]: Recovery 2
+          - generic [ref=f1e200]: Map 1 — BallZ 2011
+          - generic [ref=f1e201]: Expert · 2011 Descent
+          - strong [ref=f1e202]: Ready to play
+          - generic [ref=f1e203]: Precision on a tall legacy map.
+        - button "Recovery 3 The Great Slide — Level0 Hard · The Great Slide Ready to play Momentum control on the archive's giant 116-unit descent." [ref=f1e204] [cursor=pointer]:
+          - generic [ref=f1e205]: Recovery 3
+          - generic [ref=f1e206]: The Great Slide — Level0
+          - generic [ref=f1e207]: Hard · The Great Slide
+          - strong [ref=f1e208]: Ready to play
+          - generic [ref=f1e209]: Momentum control on the archive's giant 116-unit descent.
+        - button "Recovery 4 FlightX — Pipe Loop Hard · FlightX Pipe Loop Ready to play Quaternion roll, pitch, thrust, airbrake, and orientation recovery." [ref=f1e210] [cursor=pointer]:
+          - generic [ref=f1e211]: Recovery 4
+          - generic [ref=f1e212]: FlightX — Pipe Loop
+          - generic [ref=f1e213]: Hard · FlightX Pipe Loop
+          - strong [ref=f1e214]: Ready to play
+          - generic [ref=f1e215]: Quaternion roll, pitch, thrust, airbrake, and orientation recovery.
+        - button "Recovery 5 Piste Ovale — Impreza Medium · Impreza Detour Ready to play Vehicle steering replaces BallZ rolling." [ref=f1e216] [cursor=pointer]:
+          - generic [ref=f1e217]: Recovery 5
+          - generic [ref=f1e218]: Piste Ovale — Impreza
+          - generic [ref=f1e219]: Medium · Impreza Detour
+          - strong [ref=f1e220]: Ready to play
+          - generic [ref=f1e221]: Vehicle steering replaces BallZ rolling.
+    - generic [ref=f1e222]:
+      - generic [ref=f1e223]: Playable Partial Recoveries
+      - list [ref=f1e224]:
+        - listitem [ref=f1e225]:
+          - strong [ref=f1e226]: BallZ concepts
+          - text: — World 1, Map 1, and BallZ 2011 Level0 / Great Slide load and play; materials, rules, navigation, and finish fidelity remain partial.
+        - listitem [ref=f1e227]:
+          - strong [ref=f1e228]: FlightX
+          - text: — pipe1 and the archive airplane are playable with recovered flight controls and a live route; exact mission/lap fidelity remains partial.
+        - listitem [ref=f1e229]:
+          - strong [ref=f1e230]: Piste Ovale
+          - text: — the Impreza vehicle experiment is playable on its decoded oval.
+      - generic [ref=f1e231]: Still Queued By Original Family
+      - list [ref=f1e232]:
+        - listitem [ref=f1e233]:
+          - strong [ref=f1e234]: Remaining BallZ concepts
+          - text: — BallZ 2011 Level1 plus the other slide, corridor, and track experiments.
+        - listitem [ref=f1e235]:
+          - strong [ref=f1e236]: Remaining pipe / flight studies
+          - text: — additional pipe, spline, and track concepts beyond the playable FlightX pipe1 loop.
+      - generic [ref=f1e237]: Standalone 3D Environment Queue
+      - list [ref=f1e238]:
+        - listitem [ref=f1e239]:
+          - strong [ref=f1e240]: Common rooms
+          - text: — room.tvm, room2.tvm, sky.tvm, grass and ballcube spaces intended for discovery.
+        - listitem [ref=f1e241]:
+          - strong [ref=f1e242]: Dominus village
+          - text: — roughly 60 town, dock, cottage, lighthouse, foliage, prop, and character meshes for an explorable environment.
+    - article [ref=f1e243]:
+      - generic [ref=f1e244]: Category Note
+      - strong [ref=f1e245]:
+        - text: BallZ concepts, FlightX, vehicles, and discovery worlds are separate archive lines
+        - generic [ref=f1e246]: Great Slide is the recovered BallZ 2011 Level0. FlightX owns pipe1 and the airplane. Piste Ovale owns the Impreza. Rooms, terrain scenes, and Dominus remain standalone environments.

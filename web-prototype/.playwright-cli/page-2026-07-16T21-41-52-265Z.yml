@@ -1,0 +1,98 @@
+- generic [ref=f6e6]:
+  - heading "Math Game" [level=1] [ref=f6e59]
+  - paragraph [ref=f6e8]: Shape the 10,000-molecule field with the recovered formula controls. Presets make the old A/B/C/M/X experiment readable immediately, while every control remains live.
+  - generic [ref=f6e9]:
+    - button "Next Lab" [ref=f6e60] [cursor=pointer]
+    - button "Back Home" [ref=f6e61] [cursor=pointer]
+  - generic [ref=f6e12]:
+    - generic [ref=f6e161]:
+      - generic [ref=f6e162]:
+        - generic [ref=f6e163]:
+          - generic [ref=f6e164]: Live Formula
+          - strong [ref=f6e165]:
+            - text: y = -0.45x² + 0.50x + 2.50
+            - generic [ref=f6e166]: y = ax² + bx + c — set A to 0 and the parabola becomes a slope :)
+        - generic [ref=f6e167]: 10,000 molecules · live
+      - generic [ref=f6e168]:
+        - button "Parabola y = ax² + bx + c" [ref=f6e169] [cursor=pointer]:
+          - generic [ref=f6e170]: Parabola
+          - generic [ref=f6e171]: y = ax² + bx + c
+        - button "Slope y = mx + b" [ref=f6e172] [cursor=pointer]:
+          - generic [ref=f6e173]: Slope
+          - generic [ref=f6e174]: y = mx + b
+      - generic [ref=f6e175]:
+        - button "Classic Bowl load values" [ref=f6e176] [cursor=pointer]:
+          - generic [ref=f6e177]: Classic Bowl
+          - generic [ref=f6e178]: load values
+        - button "Wide Arch load values" [ref=f6e179] [cursor=pointer]:
+          - generic [ref=f6e180]: Wide Arch
+          - generic [ref=f6e181]: load values
+        - button "Offset Curve load values" [ref=f6e182] [cursor=pointer]:
+          - generic [ref=f6e183]: Offset Curve
+          - generic [ref=f6e184]: load values
+        - button "Rising Ramp load values" [ref=f6e185] [cursor=pointer]:
+          - generic [ref=f6e186]: Rising Ramp
+          - generic [ref=f6e187]: load values
+        - button "Falling Ramp load values" [ref=f6e188] [cursor=pointer]:
+          - generic [ref=f6e189]: Falling Ramp
+          - generic [ref=f6e190]: load values
+      - generic [ref=f6e191]:
+        - generic [ref=f6e192]: A curve
+        - generic [ref=f6e193]: B tilt/intercept
+        - generic [ref=f6e194]: C height
+        - generic [ref=f6e195]: M slope
+        - generic [ref=f6e196]: X horizontal offset
+      - generic [ref=f6e197]:
+        - generic [ref=f6e198]:
+          - generic [ref=f6e199]:
+            - generic [ref=f6e200]: A
+            - strong [ref=f6e201]: "-0.45"
+          - slider "A -0.45" [ref=f6e202]: "-0.5"
+        - generic [ref=f6e203]:
+          - generic [ref=f6e204]:
+            - generic [ref=f6e205]: B
+            - strong [ref=f6e206]: "0.50"
+          - slider "B 0.50" [ref=f6e207]: "0.5"
+        - generic [ref=f6e208]:
+          - generic [ref=f6e209]:
+            - generic [ref=f6e210]: C
+            - strong [ref=f6e211]: "2.50"
+          - slider "C 2.50" [ref=f6e212]: "2.5"
+        - generic [ref=f6e213]:
+          - generic [ref=f6e214]:
+            - generic [ref=f6e215]: M
+            - strong [ref=f6e216]: "1.00"
+          - slider "M 1.00" [ref=f6e217]: "1"
+        - generic [ref=f6e218]:
+          - generic [ref=f6e219]:
+            - generic [ref=f6e220]: X
+            - strong [ref=f6e221]: "0.00"
+          - slider "X 0.00" [ref=f6e222]: "0"
+    - generic [ref=f6e223]:
+      - generic [ref=f6e224]: Project Modes
+      - generic [ref=f6e225]:
+        - button "Recovered Worlds" [ref=f6e226] [cursor=pointer]
+        - button "BallZ Race" [ref=f6e228] [cursor=pointer]
+        - button "Scene Lab" [ref=f6e230] [cursor=pointer]
+        - button "Engine & FX" [ref=f6e232] [cursor=pointer]
+        - button "Physics Lab" [ref=f6e234] [cursor=pointer]
+        - button "BallZ Map Editor" [ref=f6e236] [cursor=pointer]
+        - button "Math Game The formula/molecule screen rebuilt as a visible workbench with presets, live A/B/C/M/X controls, and a 3D field." [ref=f6e238] [cursor=pointer]:
+          - generic [ref=f6e239]: Math Game
+          - generic [ref=f6e240]: The formula/molecule screen rebuilt as a visible workbench with presets, live A/B/C/M/X controls, and a 3D field.
+        - button "Editor Lab" [ref=f6e241] [cursor=pointer]
+        - button "CubX Lab" [ref=f6e243] [cursor=pointer]
+        - button "Asset Catalog" [ref=f6e245] [cursor=pointer]
+    - generic [ref=f6e247]:
+      - generic [ref=f6e248]: Recovery Map
+      - generic [ref=f6e249]:
+        - article [ref=f6e250]:
+          - generic [ref=f6e251]: Ported
+          - strong [ref=f6e252]: Formula Sliders
+          - generic [ref=f6e253]: Scene3D/MathGameScreen.cpp
+          - paragraph [ref=f6e254]: A/B/C/M/X controls update the preview immediately.
+        - article [ref=f6e255]:
+          - generic [ref=f6e256]: Preview
+          - strong [ref=f6e257]: Molecules
+          - generic [ref=f6e258]: Formulas::moleculesCreate / moleculesUpdate
+          - paragraph [ref=f6e259]: Spheres ride the generated surface until the original formula module is fully translated.

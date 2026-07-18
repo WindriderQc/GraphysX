@@ -1,0 +1,77 @@
+- generic [ref=e6]:
+  - heading "RECOVERED WORLDS" [level=1] [ref=e59]
+  - paragraph [ref=e8]: Visit playable recovery trials built from worlds and experiments found across BallZ-era and Atmel folders. These are preserved beside BallZ, not relabeled as BallZ races.
+  - generic [ref=e9]:
+    - button "Loading Piste Ovale — Impreza…" [disabled] [ref=e128]
+    - button "Back Home" [ref=e61] [cursor=pointer]
+  - generic [ref=e12]:
+    - generic [ref=e129]:
+      - generic [ref=e130]:
+        - generic [ref=e131]: Vehicle experiment 3 of 3
+        - generic [ref=e132]: Medium
+      - heading "Piste Ovale — Impreza" [level=2] [ref=e133]
+      - paragraph [ref=e134]: Drive the recovered Subaru around the banked oval and complete the lap.
+      - paragraph [ref=e135]: Preparing recovered level geometry…
+      - generic [ref=e136]:
+        - generic [ref=e137]:
+          - generic [ref=e138]: Chapter
+          - strong [ref=e139]: Impreza Detour
+        - generic [ref=e140]:
+          - generic [ref=e141]: Target
+          - strong [ref=e142]: 1:25.00
+        - generic [ref=e143]:
+          - generic [ref=e144]: Status
+          - strong [ref=e145]: Unplayed
+        - generic [ref=e146]:
+          - generic [ref=e147]: Record
+          - strong [ref=e148]: 55.00s
+    - generic [ref=e149]:
+      - generic [ref=e150]:
+        - generic [ref=e151]:
+          - generic [ref=e152]: Recovered Worlds
+          - strong [ref=e153]: 0 / 3 complete
+        - generic [ref=e154]:
+          - generic [ref=e155]: Career Score
+          - strong [ref=e156]: 0 pts
+      - generic "0% complete" [ref=e157]
+    - generic [ref=e159]:
+      - generic [ref=e160]: Playable Recoveries
+      - generic [ref=e161]:
+        - button "Challenge 1 World 1 — Recovered Hard · Lost World Ready to play Exploration and fall recovery." [ref=e162] [cursor=pointer]:
+          - generic [ref=e163]: Challenge 1
+          - generic [ref=e164]: World 1 — Recovered
+          - generic [ref=e165]: Hard · Lost World
+          - strong [ref=e166]: Ready to play
+          - generic [ref=e167]: Exploration and fall recovery.
+        - button "Challenge 2 Map 1 — BallZ 2011 Expert · 2011 Descent Ready to play Precision on a tall legacy map." [ref=e168] [cursor=pointer]:
+          - generic [ref=e169]: Challenge 2
+          - generic [ref=e170]: Map 1 — BallZ 2011
+          - generic [ref=e171]: Expert · 2011 Descent
+          - strong [ref=e172]: Ready to play
+          - generic [ref=e173]: Precision on a tall legacy map.
+        - button "Challenge 3 Piste Ovale — Impreza Medium · Impreza Detour Ready to play Vehicle steering replaces BallZ rolling." [ref=e174] [cursor=pointer]:
+          - generic [ref=e175]: Challenge 3
+          - generic [ref=e176]: Piste Ovale — Impreza
+          - generic [ref=e177]: Medium · Impreza Detour
+          - strong [ref=e178]: Ready to play
+          - generic [ref=e179]: Vehicle steering replaces BallZ rolling.
+    - generic [ref=e180]:
+      - generic [ref=e181]: Recovered World Queue
+      - list [ref=e182]:
+        - listitem [ref=e183]:
+          - strong [ref=e184]: BallZ 2011 Level0 + Level1
+          - text: — existing geometry, still needs splitting, materials, and visit-mode assembly.
+        - listitem [ref=e185]:
+          - strong [ref=e186]: Slide / pipe / corridor / track set
+          - text: — convertible obstacle-world pieces, not yet organized into a navigable archive.
+        - listitem [ref=e187]:
+          - strong [ref=e188]: Common rooms
+          - text: — room.tvm, room2.tvm, sky.tvm, grass and ballcube environment pieces.
+        - listitem [ref=e189]:
+          - strong [ref=e190]: Dominus village
+          - text: — roughly 60 text-X town, dock, cottage, lighthouse, foliage, prop, and character meshes.
+    - article [ref=e191]:
+      - generic [ref=e192]: Category Note
+      - strong [ref=e193]:
+        - text: World 1 and Map 1 are recovered spaces
+        - generic [ref=e194]: Piste Ovale is an Atmel/CubX vehicle experiment; their current ring objectives are prototype visit trials, not claims about the original project design.

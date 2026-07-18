@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CScene3D xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Actions>  0=CUBE  1=SPHERE  2=CYLINDER  3=CONE  4=BILLBOARD  5=FLOOR  6=CUSTOM  7=PHYSICCUBE  8=PHYSICSPHERE  9=PHYSICSCYLINDER  10=PHYSICCONE  11=PHYSICCUSTOM  12=XMESH  13=PHYSICXMESH  14=DUPLICATE  15=V1_0</Actions>
+  <ObjList>
+     <Object3D Type="11" Name="Airplane" Enabled="true" masse="1" MeshControlled="false" NewtonMat="-1">
+      <Pos x="0" y="10" z="0" />
+      <Scale x="1" y="1" z="1" />
+      <PathToMesh>Media\Airplane\airplane.tvm</PathToMesh>
+      <TextureName />
+    </Object3D>
+    <Object3D Type="9" Name="Cylinder" Enabled="true" masse="1" MeshControlled="false" NewtonMat="-1">
+      <Pos x="0.5" y="-0.005" z="0" />
+      <Scale x="0.05" y="0.1" z="1" />
+      <PathToMesh />
+      <TextureName>TwoWay</TextureName>
+    </Object3D>
+    <Object3D Type="14" Name="Suzanne1.DoorGate" Enabled="true" masse="0" MeshControlled="false" NewtonMat="1">
+      <Pos x="0" y="0" z="0" />
+      <Scale x="1" y="1" z="1" />
+      <PathToMesh>c:\Test\Suzanne1.DoorGate.x</PathToMesh>
+      <TextureName />
+    </Object3D>
+    <Object3D Type="14" Name="Suzanne1" Enabled="true" masse="0" MeshControlled="false" NewtonMat="1">
+      <Pos x="0" y="0" z="0" />
+      <Scale x="1" y="1" z="1" />
+      <PathToMesh>c:\Test\Suzanne1.blend.x</PathToMesh>
+      <TextureName />
+    </Object3D>
+  </ObjList>
+</CScene3D>

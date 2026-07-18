@@ -1,0 +1,12 @@
+10-07-2014 14:48:26 | Continuing debug file on debug.txt
+10-07-2014 14:49:31 | STREAM MANAGER : Couldn't open file 'C:\Program Files (x86)\TV3D SDK 6.5\tools\particleeditor\\\BRUTE\!Dump\Gazz Shit\Prog Shit\Yanik C++ BCKUP\Media\PartSys\resources\smokey.dds'
+10-07-2014 14:49:31 | TEXTURE MANAGER : Couldn't find the texture file C:\Program Files (x86)\TV3D SDK 6.5\tools\particleeditor\\\BRUTE\!Dump\Gazz Shit\Prog Shit\Yanik C++ BCKUP\Media\PartSys\resources\smokey.dds.
+10-07-2014 14:50:36 | STREAM MANAGER : Couldn't open file 'C:\Program Files (x86)\TV3D SDK 6.5\tools\particleeditor\\\BRUTE\!Dump\Gazz Shit\Prog Shit\Yanik C++ BCKUP\Media\PartSys\resources\smokey.dds'
+10-07-2014 14:50:36 | TEXTURE MANAGER : Couldn't find the texture file C:\Program Files (x86)\TV3D SDK 6.5\tools\particleeditor\\\BRUTE\!Dump\Gazz Shit\Prog Shit\Yanik C++ BCKUP\Media\PartSys\resources\smokey.dds.
+10-07-2014 14:55:50 | TEXTURE MANAGER : Loading of 'C:\Users\Windrider\Documents\Visual Studio 2013\Projects\BallZ 2011\Debug\Media\blue_flare.jpg' successful 'blue_flare.jpg' on index 3 
+10-07-2014 14:58:03 | STREAM MANAGER : Couldn't open file 'C:\Program Files (x86)\TV3D SDK 6.5\tools\particleeditor\\\BRUTE\!Dump\Gazz Shit\Prog Shit\TVDemos\common\haze.dds'
+10-07-2014 14:58:03 | TEXTURE MANAGER : Couldn't find the texture file C:\Program Files (x86)\TV3D SDK 6.5\tools\particleeditor\\\BRUTE\!Dump\Gazz Shit\Prog Shit\TVDemos\common\haze.dds.
+10-07-2014 14:58:14 | STREAM MANAGER : Couldn't open file 'C:\Program Files (x86)\TV3D SDK 6.5\tools\particleeditor\\\BRUTE\!Dump\Gazz Shit\Prog Shit\TVDemos\common\haze.dds'
+10-07-2014 14:58:14 | TEXTURE MANAGER : Couldn't find the texture file C:\Program Files (x86)\TV3D SDK 6.5\tools\particleeditor\\\BRUTE\!Dump\Gazz Shit\Prog Shit\TVDemos\common\haze.dds.
+10-07-2014 15:08:35 | START UNLOAD
+10-07-2014 15:08:35 | RESOURCE MANAGER : Engine successfully unloaded

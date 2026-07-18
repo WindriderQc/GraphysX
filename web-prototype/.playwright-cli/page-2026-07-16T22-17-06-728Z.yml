@@ -1,0 +1,60 @@
+- generic [ref=e6]:
+  - heading "Scene Lab" [level=1] [ref=e161]
+  - paragraph [ref=e8]: "Environment work from the old folders: skyboxes, heightmaps, atmosphere, splines, and flight proxies."
+  - generic [ref=e9]:
+    - button "Next Lab" [ref=e60] [cursor=pointer]
+    - button "Back Home" [ref=e61] [cursor=pointer]
+  - generic [ref=e12]:
+    - article [ref=e162]:
+      - generic [ref=e163]: Preview
+      - strong [ref=e164]:
+        - text: SkyX terrain
+        - generic [ref=e165]: heightmap material, water plane, sun/moon orbit
+    - article [ref=e166]:
+      - generic [ref=e167]: Spline
+      - strong [ref=e168]:
+        - text: Airplane proxy
+        - generic [ref=e169]: Media/Spline.xml and Airplane.x are queued for import
+    - article [ref=e170]:
+      - generic [ref=e171]: Sky Source Quality
+      - strong [ref=e172]:
+        - text: 256–1024 px cube faces
+        - generic [ref=e173]: linear filtering, anisotropy, and subtle background softening reduce pixel breakup without pretending the source art is high-resolution
+    - generic [ref=e174]:
+      - generic [ref=e175]: Project Modes
+      - generic [ref=e176]:
+        - button "Recovered Worlds" [ref=e177] [cursor=pointer]
+        - button "BallZ Race" [ref=e179] [cursor=pointer]
+        - button "Scene Lab Recovered sky, terrain, water, spline, sun/moon, and environment experiments as a navigable preview." [ref=e181] [cursor=pointer]:
+          - generic [ref=e182]: Scene Lab
+          - generic [ref=e183]: Recovered sky, terrain, water, spline, sun/moon, and environment experiments as a navigable preview.
+        - button "Engine & FX" [ref=e184] [cursor=pointer]
+        - button "Physics Lab" [ref=e186] [cursor=pointer]
+        - button "BallZ Map Editor" [ref=e188] [cursor=pointer]
+        - button "Math Game" [ref=e190] [cursor=pointer]
+        - button "Editor Lab" [ref=e192] [cursor=pointer]
+        - button "CubX Lab" [ref=e194] [cursor=pointer]
+        - button "Asset Catalog" [ref=e196] [cursor=pointer]
+    - generic [ref=e198]:
+      - generic [ref=e199]: Recovery Map
+      - generic [ref=e200]:
+        - article [ref=e201]:
+          - generic [ref=e202]: Preview
+          - strong [ref=e203]: Skyboxes
+          - generic [ref=e204]: Media/Sky/ClearBlue, ClearNight, SkyX, Winter
+          - paragraph [ref=e205]: "Archive cube skies are active with softened presentation. Source limits remain: most faces are 512 px, Winter is 256 px, and LostValley is 1024 px."
+        - article [ref=e206]:
+          - generic [ref=e207]: Preview
+          - strong [ref=e208]: Heightmaps
+          - generic [ref=e209]: Media/Heightmaps/Track.jpg, heightmap8.jpg
+          - paragraph [ref=e210]: Procedural terrain preview uses archived heightmap imagery as material inspiration.
+        - article [ref=e211]:
+          - generic [ref=e212]: Preview
+          - strong [ref=e213]: Day/Night
+          - generic [ref=e214]: GraphysX_1/Sky.cpp, Archive Atmosphere.cpp
+          - paragraph [ref=e215]: Sun/moon orbit and atmosphere lighting are represented as a modern scene-lab target.
+        - article [ref=e216]:
+          - generic [ref=e217]: Preview
+          - strong [ref=e218]: Spline Flight
+          - generic [ref=e219]: Media/Spline.xml, Media/Airplane/Airplane.x
+          - paragraph [ref=e220]: A spline path and airplane proxy mark the old flight-follow experiment until model conversion lands.

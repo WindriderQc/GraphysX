@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'/>" />
+    <title>Common Room 1 and sky.tvm evidence preview</title>
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+        background: #02040a;
+        color: #e7edf7;
+        font: 14px/1.4 system-ui, sans-serif;
+      }
+
+      canvas {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+
+      .controls {
+        position: fixed;
+        z-index: 2;
+        top: 16px;
+        left: 16px;
+        max-width: min(620px, calc(100vw - 64px));
+        padding: 12px 14px;
+        border: 1px solid #9ec8ff66;
+        border-radius: 10px;
+        background: #07111ddd;
+        box-shadow: 0 8px 32px #0008;
+        pointer-events: none;
+      }
+
+      .controls strong,
+      .controls span {
+        display: block;
+      }
+
+      .controls span {
+        margin-top: 4px;
+        color: #b5c5d9;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="common-archive-canvas" aria-label="Common Room 1 and sky component archive preview"></canvas>
+    <div class="controls" aria-live="polite">
+      <strong id="space-name">Common Room 1</strong>
+      <span id="space-note">1 Room · 2 sky component · A/D or drag to orbit · F fullscreen</span>
+    </div>
+    <script type="module" src="/src/common-archive-preview.ts"></script>
+  </body>
+</html>

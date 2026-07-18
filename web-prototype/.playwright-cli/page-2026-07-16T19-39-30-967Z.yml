@@ -1,0 +1,27 @@
+- generic [ref=f17e6]:
+  - heading "Archive Level 1" [level=1] [ref=f17e43]
+  - paragraph [ref=f17e8]: Collect every ring, cross the amber halfway gate, then return through the cyan finish. Movement follows the camera.
+  - generic [ref=f17e9]:
+    - button "Restart Race" [ref=f17e44] [cursor=pointer]
+    - button "Exit To Tour" [ref=f17e45] [cursor=pointer]
+  - generic [ref=f17e12]:
+    - article [ref=f17e65]:
+      - generic [ref=f17e66]: Time
+      - strong [ref=f17e67]: 18.34s
+    - article [ref=f17e68]:
+      - generic [ref=f17e69]: Rings
+      - strong [ref=f17e70]: 1 / 16
+    - article [ref=f17e71]:
+      - generic [ref=f17e72]: Lap State
+      - strong [ref=f17e73]: Reach Halfway
+    - article [ref=f17e74]:
+      - generic [ref=f17e75]: Camera
+      - strong [ref=f17e76]:
+        - text: Drag + wheel
+        - generic [ref=f17e77]: C resets behind the starting direction
+    - article [ref=f17e78]:
+      - generic [ref=f17e79]: Archive Champ
+      - strong [ref=f17e80]: 41.00s
+    - article [ref=f17e81]:
+      - generic [ref=f17e82]: Target
+      - strong [ref=f17e83]: 58.00s

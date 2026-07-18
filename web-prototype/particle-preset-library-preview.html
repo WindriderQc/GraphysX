@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GraphysX Archived Particle Preset Library</title>
+    <style>
+      :root { color-scheme: dark; font-family: Inter, system-ui, sans-serif; }
+      * { box-sizing: border-box; }
+      html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; background: #071018; }
+      body { isolation: isolate; }
+      canvas { position: fixed; z-index: 0; inset: 0; display: block; width: 100%; height: 100%; }
+      .panel {
+        position: fixed;
+        z-index: 100;
+        left: 18px;
+        top: 18px;
+        width: min(610px, calc(100vw - 36px));
+        padding: 14px 16px;
+        border: 1px solid rgba(128, 211, 255, 0.32);
+        border-radius: 12px;
+        background: #030c13;
+        box-shadow: 0 12px 36px rgba(0, 0, 0, 0.34);
+        contain: paint;
+        transform: translate3d(0, 0, 1px);
+        will-change: transform;
+      }
+      h1 { margin: 0 0 8px; color: #e8f7ff; font-size: 17px; font-weight: 650; }
+      p { margin: 5px 0; color: #a9c5d5; font-size: 12px; line-height: 1.42; }
+      #particle-library-status { color: #ffd283; }
+      #particle-library-config { color: #c8dbe5; max-height: 56px; overflow: auto; }
+      .controls { display: grid; grid-template-columns: minmax(220px, 1fr) repeat(5, auto); gap: 6px; margin: 9px 0 7px; }
+      select, button {
+        min-height: 34px;
+        border: 1px solid rgba(128, 211, 255, 0.28);
+        border-radius: 7px;
+        background: #0e1b25;
+        color: #dff5ff;
+        padding: 6px 9px;
+        font: inherit;
+        font-size: 12px;
+      }
+      button { cursor: pointer; }
+      button:hover { border-color: rgba(255, 210, 131, 0.7); }
+      @media (max-width: 760px) {
+        .controls { grid-template-columns: 1fr 1fr 1fr; }
+        select { grid-column: 1 / -1; }
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="particle-library-canvas" aria-label="GraphysX archived particle preset library"></canvas>
+    <section class="panel">
+      <h1>Archived Particle Presets · Engine &amp; FX feature</h1>
+      <p id="particle-library-status">Loading exact archived DDS textures…</p>
+      <div class="controls">
+        <select id="particle-library-selector" aria-label="Archived particle preset"></select>
+        <button id="particle-library-previous" type="button" title="Previous preset">←</button>
+        <button id="particle-library-next" type="button" title="Next preset">→</button>
+        <button id="particle-library-restart" type="button">Restart</button>
+        <button id="particle-library-pause" type="button">Pause</button>
+        <button id="particle-library-replay" type="button">Auto replay: on</button>
+      </div>
+      <p id="particle-library-evidence"></p>
+      <p id="particle-library-config"></p>
+      <p>Readable TVPJ values and texture bindings are exact. Trajectories, batching, inspection scale and blend mapping are disclosed adapters. Opaque TVPs remain unsimulated evidence.</p>
+    </section>
+    <script type="module" src="/src/particle-preset-library-preview.ts"></script>
+  </body>
+</html>

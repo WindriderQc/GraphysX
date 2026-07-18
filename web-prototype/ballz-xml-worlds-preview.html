@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'/>" />
+    <title>BallZ2015 XML world evidence</title>
+    <style>
+      * { box-sizing: border-box; }
+      html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; background: #09131f; color: #eef5fc; font: 13px/1.35 system-ui, sans-serif; }
+      canvas { display: block; width: 100%; height: 100%; }
+      .panel { position: fixed; z-index: 2; top: 14px; left: 14px; width: min(600px, calc(100vw - 28px)); padding: 12px; border: 1px solid #78b7eb66; border-radius: 10px; background: #07111ee8; box-shadow: 0 10px 36px #0009; }
+      .controls { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+      button { border: 1px solid #78b7eb66; border-radius: 6px; padding: 6px 9px; background: #14283b; color: inherit; cursor: pointer; }
+      button[data-active="true"] { background: #1e6d9a; border-color: #91d6ff; }
+      strong { display: block; }
+      .boundary { margin-top: 4px; color: #b9cad9; }
+      ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2px 12px; margin: 8px 0 0; padding: 0; list-style: none; }
+      li { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+      .resolved { color: #a8edc0; }
+      .unresolved { color: #ffb4a6; }
+      @media (max-width: 650px) { ul { grid-template-columns: 1fr; } .panel { max-height: 48vh; overflow: auto; } }
+    </style>
+  </head>
+  <body>
+    <canvas id="ballz-xml-canvas" aria-label="Exact recoverable objects from BallZ2015 XML test compositions"></canvas>
+    <section class="panel">
+      <div class="controls">
+        <button type="button" data-scene="myworld">MyWorld.xml</button>
+        <button type="button" data-scene="testworld">TestWorld.xml</button>
+        <button type="button" id="overview">Overview</button>
+        <button type="button" id="focus-next">Focus next exact object</button>
+      </div>
+      <strong id="summary">Loading exact archive records…</strong>
+      <div class="boundary">Distinct serialized test compositions, not finished discoverable worlds. Unresolved records receive no proxy.</div>
+      <ul id="objects"></ul>
+    </section>
+    <script type="module" src="/src/ballz-xml-worlds-preview.ts"></script>
+  </body>
+</html>

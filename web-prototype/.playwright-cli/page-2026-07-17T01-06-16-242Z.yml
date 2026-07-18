@@ -1,0 +1,35 @@
+- generic [ref=e6]:
+  - generic [ref=e7]:
+    - generic [ref=e8]: GraphysX Web Revival
+    - strong [ref=e9]: v0.1.0
+    - generic [ref=e10]: revival-2026.07.16-r4
+  - heading "FlightX — Pipe Loop" [level=1] [ref=e247]
+  - paragraph [ref=e12]: Fly the recovered airplane around pipe1 and clear the live route. The archive controls are restored; exact original mission and lap fidelity remains partial.
+  - generic [ref=e13]:
+    - button "Restart Race" [active] [ref=e248] [cursor=pointer]
+    - button "Exit To Worlds" [ref=e249] [cursor=pointer]
+  - generic [ref=e16]:
+    - article [ref=e376]:
+      - generic [ref=e377]: Time
+      - strong [ref=e378]: 0.45s
+    - article [ref=e379]:
+      - generic [ref=e380]: Flight Gates
+      - strong [ref=e381]:
+        - text: 0 / 14
+        - generic [ref=e382]: Collect nearest ring · 7m
+    - article [ref=e383]:
+      - generic [ref=e384]: Flight State
+      - strong [ref=e385]:
+        - text: 0.0 u/s
+        - generic [ref=e386]: Collect nearest ring · thrust 0 · roll 0 · pitch 0
+    - article [ref=e387]:
+      - generic [ref=e388]: Flight Controls
+      - strong [ref=e389]:
+        - text: ←/→ roll · ↑/↓ pitch
+        - generic [ref=e390]: W/S thrust · Space airbrake · R reset orientation · Esc exit
+    - article [ref=e391]:
+      - generic [ref=e392]: Archive Champ
+      - strong [ref=e393]: 1:00.00
+    - article [ref=e394]:
+      - generic [ref=e395]: Target
+      - strong [ref=e396]: 1:30.00

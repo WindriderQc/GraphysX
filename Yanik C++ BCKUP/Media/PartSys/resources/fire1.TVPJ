@@ -1,0 +1,9 @@
+<particle-system>
+  <emitter type="billboard" max-particles="1000" id="0" size="1" location="0/0/0" direction="0/0/0" directional="True" randomdirectionfactor="1/1/1" power="2" lifetime="0.75" shape="0" texture="F:\VS.Projects\Machina\MachinaClient\particles\smokey.dds" color="1,1,0,1" speed="1" usegravity="False" gravity="0/0/0" alphachange="1" alphablending="1" alphatest="True" alpharef="0" alphadepthwrite="False" boxsize="5/20/5" sphereradius="20" looping="True">
+    <particle-keyframes>
+      <keyframe id="0" key="0.1" size="1/1/1" color="0,0,1,1" />
+      <keyframe id="1" key="0.4" size="0.5/0.5/0.5" color="0.8,0.6,0.1,1" />
+      <keyframe id="2" key="0.75" size="0/0/0" color="1,1,1,1" />
+    </particle-keyframes>
+  </emitter>
+</particle-system>

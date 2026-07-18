@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{71957fef-e240-4ed4-823c-723806279845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppSystem">
+      <UniqueIdentifier>{083cf526-9278-453d-b40a-d322b38ae911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{9ad746af-7b3b-42d5-95e0-088044b9a5fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RessourceMgr">
+      <UniqueIdentifier>{2313d781-bb35-4c9f-92d2-565fddbd5630}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="ActorFactory.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Clock.h" />
+    <ClInclude Include="dHighResolutionTimer.h" />
+    <ClInclude Include="Displayer.h" />
+    <ClInclude Include="GraphysXdef.h" />
+    <ClInclude Include="IGraphysX.h" />
+    <ClInclude Include="Joint.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TV3DMoteur.h" />
+    <ClInclude Include="ASCIIFile.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenList.h">
+      <Filter>AppSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="IScreen3D.h">
+      <Filter>AppSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Speedo.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="IScreenApp.h">
+      <Filter>AppSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="CLCEGUI.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="Entity3D.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysMatCache.h">
+      <Filter>RessourceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>RessourceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundCache.h">
+      <Filter>RessourceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureCache.h">
+      <Filter>RessourceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialCache.h">
+      <Filter>RessourceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysGeom.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="KinematicPrimitive.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshPrimitive.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Agent.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieKiller.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="PushPlate.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshBillboard.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicMesh.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\Include\TV3D65\TVall.h" />
+    <ClInclude Include="Spline3D.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="ActorFactory.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Clock.cpp" />
+    <ClCompile Include="dHighResolutionTimer.cpp" />
+    <ClCompile Include="Displayer.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="IGraphysX.cpp" />
+    <ClCompile Include="Joint.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="TV3DMoteur.cpp" />
+    <ClCompile Include="ASCIIFile.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenList.cpp">
+      <Filter>AppSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Speedo.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="IScreenApp.cpp">
+      <Filter>AppSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="CLCEGUI.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="Entity3D.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>RessourceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundCache.cpp">
+      <Filter>RessourceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureCache.cpp">
+      <Filter>RessourceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialCache.cpp">
+      <Filter>RessourceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysMatCache.cpp">
+      <Filter>RessourceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysGeom.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="KinematicPrimitive.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshPrimitive.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Agent.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieKiller.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="PushPlate.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshBillboard.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny_obj_loader.cc">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicMesh.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Spline3D.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

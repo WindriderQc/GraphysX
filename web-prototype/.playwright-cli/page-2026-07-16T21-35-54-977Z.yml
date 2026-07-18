@@ -1,0 +1,29 @@
+- generic [ref=f2e6]:
+  - heading "Piste Ovale — Impreza" [level=1] [ref=f2e193]
+  - paragraph [ref=f2e8]: Drive the oval through every ring, cross the amber halfway line, then return through the finish.
+  - generic [ref=f2e9]:
+    - button "Restart Race" [active] [ref=f2e194] [cursor=pointer]
+    - button "Exit To Worlds" [ref=f2e195] [cursor=pointer]
+  - generic [ref=f2e12]:
+    - article [ref=f2e196]:
+      - generic [ref=f2e197]: Time
+      - strong [ref=f2e198]: 0.50s
+    - article [ref=f2e199]:
+      - generic [ref=f2e200]: Rings
+      - strong [ref=f2e201]:
+        - text: 0 / 10
+        - generic [ref=f2e202]: Collect nearest ring · 7m
+    - article [ref=f2e203]:
+      - generic [ref=f2e204]: Lap State
+      - strong [ref=f2e205]: Reach Halfway
+    - article [ref=f2e206]:
+      - generic [ref=f2e207]: Controls
+      - strong [ref=f2e208]:
+        - text: W/S throttle · A/D steer
+        - generic [ref=f2e209]: drag + wheel camera · C reset view
+    - article [ref=f2e210]:
+      - generic [ref=f2e211]: Archive Champ
+      - strong [ref=f2e212]: 55.00s
+    - article [ref=f2e213]:
+      - generic [ref=f2e214]: Target
+      - strong [ref=f2e215]: 1:25.00

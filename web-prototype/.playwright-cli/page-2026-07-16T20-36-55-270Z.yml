@@ -1,0 +1,97 @@
+- generic [ref=f8e6]:
+  - heading "BALLZ TOUR" [level=1] [ref=f8e70]
+  - paragraph [ref=f8e8]: Pick any recovered challenge. The numbered order is a recommended learning path, not a lock; medals and completions build your career score.
+  - generic [ref=f8e9]:
+    - button "Start Archive Level 1" [active] [ref=f8e71] [cursor=pointer]
+    - button "Back Home" [ref=f8e72] [cursor=pointer]
+  - generic [ref=f8e12]:
+    - generic [ref=f8e73]:
+      - generic [ref=f8e74]:
+        - generic [ref=f8e75]: Challenge 1 of 9
+        - generic [ref=f8e76]: Intro
+      - heading "Archive Level 1" [level=2] [ref=f8e77]
+      - paragraph [ref=f8e78]: Collect the full ring route, cross the amber halfway gate, then return through the finish.
+      - generic [ref=f8e79]:
+        - generic [ref=f8e80]:
+          - generic [ref=f8e81]: Chapter
+          - strong [ref=f8e82]: BallZ Foundations
+        - generic [ref=f8e83]:
+          - generic [ref=f8e84]: Target
+          - strong [ref=f8e85]: 58.00s
+        - generic [ref=f8e86]:
+          - generic [ref=f8e87]: Status
+          - strong [ref=f8e88]: GOLD
+        - generic [ref=f8e89]:
+          - generic [ref=f8e90]: Record
+          - strong [ref=f8e91]: 0.24s
+    - generic [ref=f8e92]:
+      - generic [ref=f8e93]:
+        - generic [ref=f8e94]:
+          - generic [ref=f8e95]: Tour Progress
+          - strong [ref=f8e96]: 9 / 9 complete
+        - generic [ref=f8e97]:
+          - generic [ref=f8e98]: Career Score
+          - strong [ref=f8e99]: 900 pts
+      - generic "100% complete" [ref=f8e100]
+    - generic [ref=f8e102]:
+      - generic [ref=f8e103]: All Challenges — No Locks
+      - generic [ref=f8e104]:
+        - button "Challenge 1 Archive Level 1 Intro · BallZ Foundations 0.24s Local Player · GOLD" [ref=f8e105] [cursor=pointer]:
+          - generic [ref=f8e106]: Challenge 1
+          - generic [ref=f8e107]: Archive Level 1
+          - generic [ref=f8e108]: Intro · BallZ Foundations
+          - strong [ref=f8e109]: 0.24s
+          - generic [ref=f8e110]: Local Player · GOLD
+        - button "Challenge 2 Archive Level 2 Easy · Maze Reading 0.24s Local Player · GOLD" [ref=f8e111] [cursor=pointer]:
+          - generic [ref=f8e112]: Challenge 2
+          - generic [ref=f8e113]: Archive Level 2
+          - generic [ref=f8e114]: Easy · Maze Reading
+          - strong [ref=f8e115]: 0.24s
+          - generic [ref=f8e116]: Local Player · GOLD
+        - button "Challenge 3 Archive Level 3 Medium · Moving Hazards 0.44s Local Player · GOLD" [ref=f8e117] [cursor=pointer]:
+          - generic [ref=f8e118]: Challenge 3
+          - generic [ref=f8e119]: Archive Level 3
+          - generic [ref=f8e120]: Medium · Moving Hazards
+          - strong [ref=f8e121]: 0.44s
+          - generic [ref=f8e122]: Local Player · GOLD
+        - button "Challenge 4 Skybox Spiral Medium · Open Sky 0.23s Local Player · GOLD" [ref=f8e123] [cursor=pointer]:
+          - generic [ref=f8e124]: Challenge 4
+          - generic [ref=f8e125]: Skybox Spiral
+          - generic [ref=f8e126]: Medium · Open Sky
+          - strong [ref=f8e127]: 0.23s
+          - generic [ref=f8e128]: Local Player · GOLD
+        - button "Challenge 5 Suzanne 1 — Classic Hard · Recovered Classic 0.46s Local Player · GOLD" [ref=f8e129] [cursor=pointer]:
+          - generic [ref=f8e130]: Challenge 5
+          - generic [ref=f8e131]: Suzanne 1 — Classic
+          - generic [ref=f8e132]: Hard · Recovered Classic
+          - strong [ref=f8e133]: 0.46s
+          - generic [ref=f8e134]: Local Player · GOLD
+        - button "Challenge 6 World 1 — Recovered Hard · Lost World 0.47s Local Player · GOLD" [ref=f8e135] [cursor=pointer]:
+          - generic [ref=f8e136]: Challenge 6
+          - generic [ref=f8e137]: World 1 — Recovered
+          - generic [ref=f8e138]: Hard · Lost World
+          - strong [ref=f8e139]: 0.47s
+          - generic [ref=f8e140]: Local Player · GOLD
+        - button "Challenge 7 Map 1 — BallZ 2011 Expert · 2011 Descent 0.47s Local Player · GOLD" [ref=f8e141] [cursor=pointer]:
+          - generic [ref=f8e142]: Challenge 7
+          - generic [ref=f8e143]: Map 1 — BallZ 2011
+          - generic [ref=f8e144]: Expert · 2011 Descent
+          - strong [ref=f8e145]: 0.47s
+          - generic [ref=f8e146]: Local Player · GOLD
+        - button "Challenge 8 Piste Ovale — Impreza Medium · Impreza Detour 0.48s Local Player · GOLD" [ref=f8e147] [cursor=pointer]:
+          - generic [ref=f8e148]: Challenge 8
+          - generic [ref=f8e149]: Piste Ovale — Impreza
+          - generic [ref=f8e150]: Medium · Impreza Detour
+          - strong [ref=f8e151]: 0.48s
+          - generic [ref=f8e152]: Local Player · GOLD
+        - button "Challenge 9 ZombieKiller Arena Hard · ZombieKiller 0.45s Local Player · GOLD" [ref=f8e153] [cursor=pointer]:
+          - generic [ref=f8e154]: Challenge 9
+          - generic [ref=f8e155]: ZombieKiller Arena
+          - generic [ref=f8e156]: Hard · ZombieKiller
+          - strong [ref=f8e157]: 0.45s
+          - generic [ref=f8e158]: Local Player · GOLD
+    - article [ref=f8e159]:
+      - generic [ref=f8e160]: In-Race Controls
+      - strong [ref=f8e161]:
+        - text: WASD / arrows move relative to the camera
+        - generic [ref=f8e162]: drag to orbit · wheel zoom · C reset camera · Space jump · Shift boost · R restart · Esc exit

@@ -1,0 +1,20 @@
+10-21-2015 01:07:23 | --------------------------------------------
+10-21-2015 01:07:23 | Truevision3D Debug/Log File
+10-21-2015 01:07:23 | --------------------------------------------
+10-21-2015 01:07:23 | Engine Version : 6.5
+10-21-2015 01:07:23 | ENGINE INFO : DLL Compilation time Nov 11 2009 23:25:48
+10-21-2015 01:07:23 | DEVICE INIT : Initialize Depth
+10-21-2015 01:07:23 | DEVICE INIT : Initializing the device in windowed mode, with a render surface size of 624x441, format 22, depthbuffer 75
+10-21-2015 01:07:23 | VIEWPORT MANAGER : Main viewport initialization
+10-21-2015 01:07:23 | VIEWPORT MANAGER : Main viewport initialized (624x441)
+10-21-2015 01:07:24 | DEVICE INIT : Initialization successful !
+10-21-2015 01:07:24 | DEVICE INFO :  3D Card : Intel(R) HD Graphics Family  | Card ID : 2590 | Driver ID : 987296
+10-21-2015 01:07:24 | DEVICE INFO : Available texture memory : 2110 MB
+10-21-2015 01:07:24 | DEVICE INFO : Vertex Shaders 3.0 supported in hardware.
+10-21-2015 01:07:24 | DEVICE INFO : Pixel Shaders 3.0 supported in hardware.
+10-21-2015 01:07:24 | DEVICE INFO : Driver used is a DirectX9-level driver 'igdumdim32.dll'. Excellent
+10-21-2015 01:07:25 | DEVICE INFO : Card Type Geforce6xxx/7xxx/8xxx/ATIRadeonX1xxx  Level card, third generation of programmable card
+10-21-2015 01:07:25 | DEVICE INIT : Using Antialiasing with 2 samples
+10-21-2015 01:07:25 | INPUT MANAGER : Controller #0 initialized correctly
+10-21-2015 01:07:37 | START UNLOAD
+10-21-2015 01:07:37 | RESOURCE MANAGER : Engine successfully unloaded

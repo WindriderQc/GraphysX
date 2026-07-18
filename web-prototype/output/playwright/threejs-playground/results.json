@@ -1,0 +1,937 @@
+{
+  "url": "http://127.0.0.1:4194/threejs-playground-preview.html",
+  "assertions": [
+    {
+      "pass": true,
+      "message": "media/Airplane.glb remains byte-identical to the archive"
+    },
+    {
+      "pass": true,
+      "message": "textures/twoway.jpg remains byte-identical to the archive"
+    },
+    {
+      "pass": true,
+      "message": "textures/earth/earth_uv_with_topo.jpg remains byte-identical to the archive"
+    },
+    {
+      "pass": true,
+      "message": "textures/sky/asteroids/asteroids_bk.jpg remains byte-identical to the archive"
+    },
+    {
+      "pass": true,
+      "message": "textures/sky/asteroids/asteroids_dn.jpg remains byte-identical to the archive"
+    },
+    {
+      "pass": true,
+      "message": "textures/sky/asteroids/asteroids_ft.jpg remains byte-identical to the archive"
+    },
+    {
+      "pass": true,
+      "message": "textures/sky/asteroids/asteroids_lf.jpg remains byte-identical to the archive"
+    },
+    {
+      "pass": true,
+      "message": "textures/sky/asteroids/asteroids_rt.jpg remains byte-identical to the archive"
+    },
+    {
+      "pass": true,
+      "message": "textures/sky/asteroids/asteroids_up.jpg remains byte-identical to the archive"
+    },
+    {
+      "pass": true,
+      "message": "Environment reaches ready state without a load error"
+    },
+    {
+      "pass": true,
+      "message": "Playground is complete at its authored composition and control scope"
+    },
+    {
+      "pass": true,
+      "message": "State reports the exact nine-asset, 3,712,102-byte source payload"
+    },
+    {
+      "pass": true,
+      "message": "State exposes all nine SHA-256 source records"
+    },
+    {
+      "pass": true,
+      "message": "Authored six-face, 10000-unit asteroids sky is ready"
+    },
+    {
+      "pass": true,
+      "message": "Archived Airplane.glb loads with scale and orbit radius intact"
+    },
+    {
+      "pass": true,
+      "message": "All three archived shader morph spheres are active"
+    },
+    {
+      "pass": true,
+      "message": "Morph positions preserve the authored position.set(x,y,y) result"
+    },
+    {
+      "pass": true,
+      "message": "Earth, Mars, and Moon retain the shared archived Earth texture"
+    },
+    {
+      "pass": true,
+      "message": "Deterministic red terrain preserves 121 vertices and raycast support"
+    },
+    {
+      "pass": true,
+      "message": "Archived animated spotlight formula is active"
+    },
+    {
+      "pass": true,
+      "message": "State explicitly discloses every modernization/presentation adapter"
+    },
+    {
+      "pass": true,
+      "message": "All 16 source dat.GUI controllers and eight named folders are restored"
+    },
+    {
+      "pass": true,
+      "message": "GUI defaults match Cube and Plane source constructors"
+    },
+    {
+      "pass": true,
+      "message": "Isolated preview exposes all 16 controls as visible native range inputs"
+    },
+    {
+      "pass": true,
+      "message": "advanceTime deterministically advances exactly one second at 60 Hz"
+    },
+    {
+      "pass": true,
+      "message": "Earth spheres retain the archived one-radian-per-second rotation formula"
+    },
+    {
+      "pass": true,
+      "message": "Airplane retains the archived time/360 × pi × 0.2 orbit formula"
+    },
+    {
+      "pass": true,
+      "message": "Spotlight intensity follows the archived sinusoidal formula"
+    },
+    {
+      "pass": true,
+      "message": "Original FPS value, red threshold and 0-100 progress scale are live"
+    },
+    {
+      "pass": true,
+      "message": "Cube speedX accepts the exact archived 1-3600 GUI lane"
+    },
+    {
+      "pass": true,
+      "message": "Earth speedY accepts the exact archived 1-3600 GUI lane"
+    },
+    {
+      "pass": true,
+      "message": "Camera X accepts the exact archived -1000 to 1000 GUI lane"
+    },
+    {
+      "pass": true,
+      "message": "Plane GUI rebuilds the source width/height segmented terrain deterministically"
+    },
+    {
+      "pass": true,
+      "message": "Cube, planet and camera GUI changes reach the live environment state"
+    },
+    {
+      "pass": true,
+      "message": "The presented terrain returns a real world-space raycast hit"
+    },
+    {
+      "pass": true,
+      "message": "A-key deterministic input orbits the presentation camera"
+    },
+    {
+      "pass": true,
+      "message": "Preview exposes one interactive WebGL canvas"
+    },
+    {
+      "pass": true,
+      "message": "Mouse drag drives the restored OrbitControls"
+    },
+    {
+      "pass": true,
+      "message": "Mouse wheel drives OrbitControls zoom and synchronized structured state"
+    },
+    {
+      "pass": true,
+      "message": "render_game_to_text matches the visible environment state while OrbitControls damping settles"
+    },
+    {
+      "pass": true,
+      "message": "Preview produces no console or page errors"
+    },
+    {
+      "pass": true,
+      "message": "Reset restores deterministic time, presentation framing and all GUI defaults"
+    },
+    {
+      "pass": true,
+      "message": "dispose releases the isolated environment and marks state disposed"
+    }
+  ],
+  "states": {
+    "initial": {
+      "id": "threejs-playground",
+      "classification": "complete exact-asset restoration of the authored Three.js Playground",
+      "restorationStatus": "RESTORED",
+      "ready": true,
+      "loadStatus": "ready",
+      "error": null,
+      "disposed": false,
+      "elapsedSeconds": 0.0834,
+      "frameCount60Hz": 6.004,
+      "source": {
+        "path": "E:\\Media\\Datalake\\Codes\\SBQC\\public\\Projects\\3D Playground",
+        "assetCount": 9,
+        "totalBytes": 3712102,
+        "assets": {
+          "media/Airplane.glb": {
+            "bytes": 377648,
+            "sha256": "2F9A5382E70BDBEF5D54024C6846A3A53389B889D73121159FB335352D311388"
+          },
+          "textures/twoway.jpg": {
+            "bytes": 20876,
+            "sha256": "4998527ACE4E853954E77EC5B937024CB2D2E23064FBBDE4A039224E978A2B21"
+          },
+          "textures/earth/earth_uv_with_topo.jpg": {
+            "bytes": 2566770,
+            "sha256": "A9F0088972DEE0254610AF851C4D6838CA3F2CF79176987E0A5713E2C15EC042"
+          },
+          "textures/sky/asteroids/asteroids_bk.jpg": {
+            "bytes": 140154,
+            "sha256": "C93993EEA4760D30293B437B3D3191067291C6ADD2490DF06C69E99BF3C1203D"
+          },
+          "textures/sky/asteroids/asteroids_dn.jpg": {
+            "bytes": 100659,
+            "sha256": "14918B653F59E7D652AA71461EF1A4F9AC2037B7485CEC328CDFEEEE9ED87D1F"
+          },
+          "textures/sky/asteroids/asteroids_ft.jpg": {
+            "bytes": 133257,
+            "sha256": "4EB42FC7EB8C7EEE84FB63C174711634570FCE2C79EA1C484B35BC9F6452E3BC"
+          },
+          "textures/sky/asteroids/asteroids_lf.jpg": {
+            "bytes": 127445,
+            "sha256": "EB609931BA0B4C21D89447C03819B7CA06387EE505B8AB259B8212047AE6CE76"
+          },
+          "textures/sky/asteroids/asteroids_rt.jpg": {
+            "bytes": 127102,
+            "sha256": "A69148B4CFCECEC961C1319E3F262E2F46AB4F00DE5FBCF9805F3FB20EBCE582"
+          },
+          "textures/sky/asteroids/asteroids_up.jpg": {
+            "bytes": 118191,
+            "sha256": "87E1F43997F0A705A88A4BE1BE6C53301B8AFE0C10E7A8EAD83377E615FE9886"
+          }
+        }
+      },
+      "camera": {
+        "position": [
+          54.56308,
+          56,
+          50.108344
+        ],
+        "lookAt": [
+          15,
+          8,
+          5
+        ],
+        "orbitAngleRadians": 0.72,
+        "zoom": 1,
+        "fieldOfViewDegrees": 55,
+        "near": 10,
+        "far": 30000
+      },
+      "airplane": {
+        "loaded": true,
+        "position": [
+          9.947124,
+          10,
+          5.725235
+        ],
+        "orbitAngleRadians": 0.14556,
+        "orbitRadius": 5,
+        "scale": 10
+      },
+      "morphSpheres": {
+        "count": 3,
+        "shaderActive": true,
+        "positions": [
+          [
+            0,
+            20,
+            20
+          ],
+          [
+            10,
+            20,
+            20
+          ],
+          [
+            20,
+            20,
+            20
+          ]
+        ]
+      },
+      "earthSpheres": {
+        "count": 3,
+        "labels": [
+          "Earth",
+          "Mars",
+          "Moon"
+        ],
+        "sharedEarthTexture": true,
+        "positions": [
+          [
+            0,
+            20,
+            0
+          ],
+          [
+            20,
+            20,
+            0
+          ],
+          [
+            40,
+            20,
+            0
+          ]
+        ],
+        "rotationYRadians": 0.0834
+      },
+      "terrain": {
+        "width": 10,
+        "height": 10,
+        "segmentsX": 10,
+        "segmentsY": 10,
+        "vertexCount": 121,
+        "seed": 860900441,
+        "heightRange": [
+          0.000354,
+          0.991916,
+          1
+        ],
+        "raycastEnabled": true,
+        "raycastTestCount": 0,
+        "raycastHit": false,
+        "lastRaycastPoint": null
+      },
+      "sky": {
+        "ready": true,
+        "name": "asteroids",
+        "faceCount": 6,
+        "size": 10000
+      },
+      "animatedLight": {
+        "active": true,
+        "intensity": 78.888347,
+        "sourcePeriodFrames": 240,
+        "sourceAmplitude": 75,
+        "sourceOffset": 73
+      },
+      "authoredExtras": {
+        "texturedCubeCount": 1,
+        "blueLinePointCount": 3
+      },
+      "gui": {
+        "restored": true,
+        "controllerCount": 16,
+        "folders": [
+          "World",
+          "Camera",
+          "Cube",
+          "Plane",
+          "Planets",
+          "Earth",
+          "Mars",
+          "Moon"
+        ],
+        "camera": {
+          "x": 54.563,
+          "y": 56,
+          "z": 50.108,
+          "min": -1000,
+          "max": 1000
+        },
+        "cube": {
+          "speedX": 2000,
+          "speedY": 1000,
+          "min": 1,
+          "max": 3600
+        },
+        "plane": {
+          "width": 10,
+          "height": 10,
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "sizeMin": 1,
+          "sizeMax": 100,
+          "positionMin": -100,
+          "positionMax": 100
+        },
+        "planets": [
+          {
+            "label": "Earth",
+            "speedX": 2000,
+            "speedY": 1000,
+            "min": 1,
+            "max": 3600
+          },
+          {
+            "label": "Mars",
+            "speedX": 2000,
+            "speedY": 1000,
+            "min": 1,
+            "max": 3600
+          },
+          {
+            "label": "Moon",
+            "speedX": 2000,
+            "speedY": 1000,
+            "min": 1,
+            "max": 3600
+          }
+        ]
+      },
+      "fps": {
+        "value": 60,
+        "label": "60 FPS",
+        "band": "black",
+        "progressMin": 0,
+        "progressMax": 100
+      },
+      "coordinateSystem": "Right-handed Three.js world coordinates: +X right, +Y up, +Z toward the initial presentation camera; terrain spans XZ around the origin.",
+      "presentationAdapters": [
+        "The archived camera remained at the Three.js origin with no authored framing; applyToCamera supplies a reversible orbit presentation camera while retaining the source 55-degree FOV and 30000-unit far plane.",
+        "The archived PlaneGeometry had no world rotation, leaving its random local-Z relief vertical at the unusable default camera; the restoration rotates it onto XZ so local Z becomes terrain height while preserving the exact 10x10 subdivision and [0,1) relief rule.",
+        "Math.random terrain heights are replaced by a fixed-seed generator so archive QA and agent control are deterministic.",
+        "Legacy IcosahedronBufferGeometry is mapped to modern IcosahedronGeometry without changing radius or detail.",
+        "Frame-count animation is evaluated at a deterministic 60 Hz; archived formulas for the airplane, shaders, cube, planets, and spotlight are otherwise retained.",
+        "The archived dat.GUI hierarchy is restored with native range controls and the same folders, defaults, labels, and numeric bounds; it drives the same environment API in both the main archive and isolated preview.",
+        "Archived JPEG color textures are tagged sRGB for the modern Three.js renderer."
+      ],
+      "exactEvidence": [
+        "All nine runtime files are byte-identical copies verified by the SHA-256 values exposed in source.assets.",
+        "Airplane.glb retains the archived scale 10 and radius-5 orbit centered at (5, 10, 5).",
+        "The three morph spheres retain radius 2, detail 5, archived shader math, and the source position.set(x, y, y) placement.",
+        "Earth, Mars, and Moon retain radius 5, 50x50 segments, source positions, and the same earth_uv_with_topo.jpg texture.",
+        "The asteroids cube retains the archived 10000-unit size and ft/bk/up/dn/rt/lf face mapping.",
+        "The spotlight retains amplitude 75, frame period 240, and offset 73.",
+        "All 16 archived dat.GUI controllers and the original red/deepskyblue/black FPS thresholds are restored as live controls and telemetry."
+      ]
+    },
+    "afterOneSecond": {
+      "id": "threejs-playground",
+      "classification": "complete exact-asset restoration of the authored Three.js Playground",
+      "restorationStatus": "RESTORED",
+      "ready": true,
+      "loadStatus": "ready",
+      "error": null,
+      "disposed": false,
+      "elapsedSeconds": 1,
+      "frameCount60Hz": 61,
+      "source": {
+        "path": "E:\\Media\\Datalake\\Codes\\SBQC\\public\\Projects\\3D Playground",
+        "assetCount": 9,
+        "totalBytes": 3712102,
+        "assets": {
+          "media/Airplane.glb": {
+            "bytes": 377648,
+            "sha256": "2F9A5382E70BDBEF5D54024C6846A3A53389B889D73121159FB335352D311388"
+          },
+          "textures/twoway.jpg": {
+            "bytes": 20876,
+            "sha256": "4998527ACE4E853954E77EC5B937024CB2D2E23064FBBDE4A039224E978A2B21"
+          },
+          "textures/earth/earth_uv_with_topo.jpg": {
+            "bytes": 2566770,
+            "sha256": "A9F0088972DEE0254610AF851C4D6838CA3F2CF79176987E0A5713E2C15EC042"
+          },
+          "textures/sky/asteroids/asteroids_bk.jpg": {
+            "bytes": 140154,
+            "sha256": "C93993EEA4760D30293B437B3D3191067291C6ADD2490DF06C69E99BF3C1203D"
+          },
+          "textures/sky/asteroids/asteroids_dn.jpg": {
+            "bytes": 100659,
+            "sha256": "14918B653F59E7D652AA71461EF1A4F9AC2037B7485CEC328CDFEEEE9ED87D1F"
+          },
+          "textures/sky/asteroids/asteroids_ft.jpg": {
+            "bytes": 133257,
+            "sha256": "4EB42FC7EB8C7EEE84FB63C174711634570FCE2C79EA1C484B35BC9F6452E3BC"
+          },
+          "textures/sky/asteroids/asteroids_lf.jpg": {
+            "bytes": 127445,
+            "sha256": "EB609931BA0B4C21D89447C03819B7CA06387EE505B8AB259B8212047AE6CE76"
+          },
+          "textures/sky/asteroids/asteroids_rt.jpg": {
+            "bytes": 127102,
+            "sha256": "A69148B4CFCECEC961C1319E3F262E2F46AB4F00DE5FBCF9805F3FB20EBCE582"
+          },
+          "textures/sky/asteroids/asteroids_up.jpg": {
+            "bytes": 118191,
+            "sha256": "87E1F43997F0A705A88A4BE1BE6C53301B8AFE0C10E7A8EAD83377E615FE9886"
+          }
+        }
+      },
+      "camera": {
+        "position": [
+          54.56308,
+          56,
+          50.108344
+        ],
+        "lookAt": [
+          15,
+          8,
+          5
+        ],
+        "orbitAngleRadians": 0.72,
+        "zoom": 1,
+        "fieldOfViewDegrees": 55,
+        "near": 10,
+        "far": 30000
+      },
+      "airplane": {
+        "loaded": true,
+        "position": [
+          4.131759,
+          10,
+          9.924039
+        ],
+        "orbitAngleRadians": 1.745329,
+        "orbitRadius": 5,
+        "scale": 10
+      },
+      "morphSpheres": {
+        "count": 3,
+        "shaderActive": true,
+        "positions": [
+          [
+            0,
+            20,
+            20
+          ],
+          [
+            10,
+            20,
+            20
+          ],
+          [
+            20,
+            20,
+            20
+          ]
+        ]
+      },
+      "earthSpheres": {
+        "count": 3,
+        "labels": [
+          "Earth",
+          "Mars",
+          "Moon"
+        ],
+        "sharedEarthTexture": true,
+        "positions": [
+          [
+            0,
+            20,
+            0
+          ],
+          [
+            20,
+            20,
+            0
+          ],
+          [
+            40,
+            20,
+            0
+          ]
+        ],
+        "rotationYRadians": 1
+      },
+      "terrain": {
+        "width": 10,
+        "height": 10,
+        "segmentsX": 10,
+        "segmentsY": 10,
+        "vertexCount": 121,
+        "seed": 860900441,
+        "heightRange": [
+          0.000354,
+          0.991916,
+          1
+        ],
+        "raycastEnabled": true,
+        "raycastTestCount": 0,
+        "raycastHit": false,
+        "lastRaycastPoint": null
+      },
+      "sky": {
+        "ready": true,
+        "name": "asteroids",
+        "faceCount": 6,
+        "size": 10000
+      },
+      "animatedLight": {
+        "active": true,
+        "intensity": 126.722646,
+        "sourcePeriodFrames": 240,
+        "sourceAmplitude": 75,
+        "sourceOffset": 73
+      },
+      "authoredExtras": {
+        "texturedCubeCount": 1,
+        "blueLinePointCount": 3
+      },
+      "gui": {
+        "restored": true,
+        "controllerCount": 16,
+        "folders": [
+          "World",
+          "Camera",
+          "Cube",
+          "Plane",
+          "Planets",
+          "Earth",
+          "Mars",
+          "Moon"
+        ],
+        "camera": {
+          "x": 54.563,
+          "y": 56,
+          "z": 50.108,
+          "min": -1000,
+          "max": 1000
+        },
+        "cube": {
+          "speedX": 2000,
+          "speedY": 1000,
+          "min": 1,
+          "max": 3600
+        },
+        "plane": {
+          "width": 10,
+          "height": 10,
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "sizeMin": 1,
+          "sizeMax": 100,
+          "positionMin": -100,
+          "positionMax": 100
+        },
+        "planets": [
+          {
+            "label": "Earth",
+            "speedX": 2000,
+            "speedY": 1000,
+            "min": 1,
+            "max": 3600
+          },
+          {
+            "label": "Mars",
+            "speedX": 2000,
+            "speedY": 1000,
+            "min": 1,
+            "max": 3600
+          },
+          {
+            "label": "Moon",
+            "speedX": 2000,
+            "speedY": 1000,
+            "min": 1,
+            "max": 3600
+          }
+        ]
+      },
+      "fps": {
+        "value": 1,
+        "label": "1",
+        "band": "red",
+        "progressMin": 0,
+        "progressMax": 100
+      },
+      "coordinateSystem": "Right-handed Three.js world coordinates: +X right, +Y up, +Z toward the initial presentation camera; terrain spans XZ around the origin.",
+      "presentationAdapters": [
+        "The archived camera remained at the Three.js origin with no authored framing; applyToCamera supplies a reversible orbit presentation camera while retaining the source 55-degree FOV and 30000-unit far plane.",
+        "The archived PlaneGeometry had no world rotation, leaving its random local-Z relief vertical at the unusable default camera; the restoration rotates it onto XZ so local Z becomes terrain height while preserving the exact 10x10 subdivision and [0,1) relief rule.",
+        "Math.random terrain heights are replaced by a fixed-seed generator so archive QA and agent control are deterministic.",
+        "Legacy IcosahedronBufferGeometry is mapped to modern IcosahedronGeometry without changing radius or detail.",
+        "Frame-count animation is evaluated at a deterministic 60 Hz; archived formulas for the airplane, shaders, cube, planets, and spotlight are otherwise retained.",
+        "The archived dat.GUI hierarchy is restored with native range controls and the same folders, defaults, labels, and numeric bounds; it drives the same environment API in both the main archive and isolated preview.",
+        "Archived JPEG color textures are tagged sRGB for the modern Three.js renderer."
+      ],
+      "exactEvidence": [
+        "All nine runtime files are byte-identical copies verified by the SHA-256 values exposed in source.assets.",
+        "Airplane.glb retains the archived scale 10 and radius-5 orbit centered at (5, 10, 5).",
+        "The three morph spheres retain radius 2, detail 5, archived shader math, and the source position.set(x, y, y) placement.",
+        "Earth, Mars, and Moon retain radius 5, 50x50 segments, source positions, and the same earth_uv_with_topo.jpg texture.",
+        "The asteroids cube retains the archived 10000-unit size and ft/bk/up/dn/rt/lf face mapping.",
+        "The spotlight retains amplitude 75, frame period 240, and offset 73.",
+        "All 16 archived dat.GUI controllers and the original red/deepskyblue/black FPS thresholds are restored as live controls and telemetry."
+      ]
+    },
+    "final": {
+      "id": "threejs-playground",
+      "classification": "complete exact-asset restoration of the authored Three.js Playground",
+      "restorationStatus": "RESTORED",
+      "ready": true,
+      "loadStatus": "ready",
+      "error": null,
+      "disposed": false,
+      "elapsedSeconds": 0,
+      "frameCount60Hz": 1,
+      "source": {
+        "path": "E:\\Media\\Datalake\\Codes\\SBQC\\public\\Projects\\3D Playground",
+        "assetCount": 9,
+        "totalBytes": 3712102,
+        "assets": {
+          "media/Airplane.glb": {
+            "bytes": 377648,
+            "sha256": "2F9A5382E70BDBEF5D54024C6846A3A53389B889D73121159FB335352D311388"
+          },
+          "textures/twoway.jpg": {
+            "bytes": 20876,
+            "sha256": "4998527ACE4E853954E77EC5B937024CB2D2E23064FBBDE4A039224E978A2B21"
+          },
+          "textures/earth/earth_uv_with_topo.jpg": {
+            "bytes": 2566770,
+            "sha256": "A9F0088972DEE0254610AF851C4D6838CA3F2CF79176987E0A5713E2C15EC042"
+          },
+          "textures/sky/asteroids/asteroids_bk.jpg": {
+            "bytes": 140154,
+            "sha256": "C93993EEA4760D30293B437B3D3191067291C6ADD2490DF06C69E99BF3C1203D"
+          },
+          "textures/sky/asteroids/asteroids_dn.jpg": {
+            "bytes": 100659,
+            "sha256": "14918B653F59E7D652AA71461EF1A4F9AC2037B7485CEC328CDFEEEE9ED87D1F"
+          },
+          "textures/sky/asteroids/asteroids_ft.jpg": {
+            "bytes": 133257,
+            "sha256": "4EB42FC7EB8C7EEE84FB63C174711634570FCE2C79EA1C484B35BC9F6452E3BC"
+          },
+          "textures/sky/asteroids/asteroids_lf.jpg": {
+            "bytes": 127445,
+            "sha256": "EB609931BA0B4C21D89447C03819B7CA06387EE505B8AB259B8212047AE6CE76"
+          },
+          "textures/sky/asteroids/asteroids_rt.jpg": {
+            "bytes": 127102,
+            "sha256": "A69148B4CFCECEC961C1319E3F262E2F46AB4F00DE5FBCF9805F3FB20EBCE582"
+          },
+          "textures/sky/asteroids/asteroids_up.jpg": {
+            "bytes": 118191,
+            "sha256": "87E1F43997F0A705A88A4BE1BE6C53301B8AFE0C10E7A8EAD83377E615FE9886"
+          }
+        }
+      },
+      "camera": {
+        "position": [
+          54.56308,
+          56,
+          50.108344
+        ],
+        "lookAt": [
+          15,
+          8,
+          5
+        ],
+        "orbitAngleRadians": 0.72,
+        "zoom": 1,
+        "fieldOfViewDegrees": 55,
+        "near": 10,
+        "far": 30000
+      },
+      "airplane": {
+        "loaded": true,
+        "position": [
+          10,
+          10,
+          5
+        ],
+        "orbitAngleRadians": 0,
+        "orbitRadius": 5,
+        "scale": 10
+      },
+      "morphSpheres": {
+        "count": 3,
+        "shaderActive": true,
+        "positions": [
+          [
+            0,
+            20,
+            20
+          ],
+          [
+            10,
+            20,
+            20
+          ],
+          [
+            20,
+            20,
+            20
+          ]
+        ]
+      },
+      "earthSpheres": {
+        "count": 3,
+        "labels": [
+          "Earth",
+          "Mars",
+          "Moon"
+        ],
+        "sharedEarthTexture": true,
+        "positions": [
+          [
+            0,
+            20,
+            0
+          ],
+          [
+            20,
+            20,
+            0
+          ],
+          [
+            40,
+            20,
+            0
+          ]
+        ],
+        "rotationYRadians": 0
+      },
+      "terrain": {
+        "width": 10,
+        "height": 10,
+        "segmentsX": 10,
+        "segmentsY": 10,
+        "vertexCount": 121,
+        "seed": 860900441,
+        "heightRange": [
+          0.000354,
+          0.991916,
+          1
+        ],
+        "raycastEnabled": true,
+        "raycastTestCount": 0,
+        "raycastHit": false,
+        "lastRaycastPoint": null
+      },
+      "sky": {
+        "ready": true,
+        "name": "asteroids",
+        "faceCount": 6,
+        "size": 10000
+      },
+      "animatedLight": {
+        "active": true,
+        "intensity": 73.98172,
+        "sourcePeriodFrames": 240,
+        "sourceAmplitude": 75,
+        "sourceOffset": 73
+      },
+      "authoredExtras": {
+        "texturedCubeCount": 1,
+        "blueLinePointCount": 3
+      },
+      "gui": {
+        "restored": true,
+        "controllerCount": 16,
+        "folders": [
+          "World",
+          "Camera",
+          "Cube",
+          "Plane",
+          "Planets",
+          "Earth",
+          "Mars",
+          "Moon"
+        ],
+        "camera": {
+          "x": 54.563,
+          "y": 56,
+          "z": 50.108,
+          "min": -1000,
+          "max": 1000
+        },
+        "cube": {
+          "speedX": 2000,
+          "speedY": 1000,
+          "min": 1,
+          "max": 3600
+        },
+        "plane": {
+          "width": 10,
+          "height": 10,
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "sizeMin": 1,
+          "sizeMax": 100,
+          "positionMin": -100,
+          "positionMax": 100
+        },
+        "planets": [
+          {
+            "label": "Earth",
+            "speedX": 2000,
+            "speedY": 1000,
+            "min": 1,
+            "max": 3600
+          },
+          {
+            "label": "Mars",
+            "speedX": 2000,
+            "speedY": 1000,
+            "min": 1,
+            "max": 3600
+          },
+          {
+            "label": "Moon",
+            "speedX": 2000,
+            "speedY": 1000,
+            "min": 1,
+            "max": 3600
+          }
+        ]
+      },
+      "fps": {
+        "value": 0,
+        "label": "0",
+        "band": "red",
+        "progressMin": 0,
+        "progressMax": 100
+      },
+      "coordinateSystem": "Right-handed Three.js world coordinates: +X right, +Y up, +Z toward the initial presentation camera; terrain spans XZ around the origin.",
+      "presentationAdapters": [
+        "The archived camera remained at the Three.js origin with no authored framing; applyToCamera supplies a reversible orbit presentation camera while retaining the source 55-degree FOV and 30000-unit far plane.",
+        "The archived PlaneGeometry had no world rotation, leaving its random local-Z relief vertical at the unusable default camera; the restoration rotates it onto XZ so local Z becomes terrain height while preserving the exact 10x10 subdivision and [0,1) relief rule.",
+        "Math.random terrain heights are replaced by a fixed-seed generator so archive QA and agent control are deterministic.",
+        "Legacy IcosahedronBufferGeometry is mapped to modern IcosahedronGeometry without changing radius or detail.",
+        "Frame-count animation is evaluated at a deterministic 60 Hz; archived formulas for the airplane, shaders, cube, planets, and spotlight are otherwise retained.",
+        "The archived dat.GUI hierarchy is restored with native range controls and the same folders, defaults, labels, and numeric bounds; it drives the same environment API in both the main archive and isolated preview.",
+        "Archived JPEG color textures are tagged sRGB for the modern Three.js renderer."
+      ],
+      "exactEvidence": [
+        "All nine runtime files are byte-identical copies verified by the SHA-256 values exposed in source.assets.",
+        "Airplane.glb retains the archived scale 10 and radius-5 orbit centered at (5, 10, 5).",
+        "The three morph spheres retain radius 2, detail 5, archived shader math, and the source position.set(x, y, y) placement.",
+        "Earth, Mars, and Moon retain radius 5, 50x50 segments, source positions, and the same earth_uv_with_topo.jpg texture.",
+        "The asteroids cube retains the archived 10000-unit size and ft/bk/up/dn/rt/lf face mapping.",
+        "The spotlight retains amplitude 75, frame period 240, and offset 73.",
+        "All 16 archived dat.GUI controllers and the original red/deepskyblue/black FPS thresholds are restored as live controls and telemetry."
+      ]
+    }
+  },
+  "raycastNdc": [
+    -0.1,
+    0
+  ],
+  "errors": []
+}

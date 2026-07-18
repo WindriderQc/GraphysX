@@ -1,0 +1,10 @@
+<particle-system>
+  <emitter type="billboard" max-particles="64" id="0" size="2" location="0/0/0" direction="0/0/0" directional="True" randomdirectionfactor="1/1/1" power="25" lifetime="3" shape="0" texture="\\Storage\Exchange\Particles\Glow2.dds" color="1,1,1,0.75" speed="1" usegravity="True" gravity="0/-1/0" alphachange="3" alphablending="4" alphatest="True" alpharef="0" alphadepthwrite="False" boxsize="0/0/0" sphereradius="1" looping="True">
+    <particle-keyframes>
+      <keyframe id="0" key="0" size="8/8/8" color="1,1,1,1" />
+      <keyframe id="1" key="2" size="24/24/24" color="0.3,0.2,0,0.5" />
+      <keyframe id="2" key="3" size="48/48/48" color="0.05,0.025,0,0" />
+    </particle-keyframes>
+  </emitter>
+  <attractor directional="False" id="0" location="0/0/0" attenuation="0/0/0" fielddirection="0/1/0" repulsionconst="-2.5" velocitydepend="1" radius="25" />
+</particle-system>

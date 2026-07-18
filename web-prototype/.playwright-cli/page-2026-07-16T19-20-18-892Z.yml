@@ -1,0 +1,118 @@
+- generic [ref=e6]:
+  - heading "BALLZ" [level=1] [ref=e7]
+  - paragraph [ref=e8]: You control an arrowed inner ball almost filling a glass/grid shell. The fluid between them transfers control; the rest of GraphysX now lives beside it as recovered labs.
+  - generic [ref=e9]:
+    - button "Race Archive Level 1" [ref=e10] [cursor=pointer]
+    - button "Next Race" [ref=e11] [cursor=pointer]
+  - generic [ref=e12]:
+    - generic [ref=e13]:
+      - generic [ref=e14]: Recovered Screens
+      - generic [ref=e15]:
+        - button "BallZ Race Playable shell/inner-ball race loop, rings, gates, moving hazards, and archive-textured arena maps. Scene3D/GamePlayScreen.cpp, GraphysX_1/ZombieKiller.cpp" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: BallZ Race
+          - generic [ref=e18]: Playable shell/inner-ball race loop, rings, gates, moving hazards, and archive-textured arena maps.
+          - emphasis [ref=e19]: Scene3D/GamePlayScreen.cpp, GraphysX_1/ZombieKiller.cpp
+        - button "Scene Lab Recovered sky, terrain, water, spline, sun/moon, and environment experiments as a navigable preview. GraphysX_1/Sky.cpp, Atmosphere.cpp, Spline.xml, Heightmaps" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: Scene Lab
+          - generic [ref=e22]: Recovered sky, terrain, water, spline, sun/moon, and environment experiments as a navigable preview.
+          - emphasis [ref=e23]: GraphysX_1/Sky.cpp, Atmosphere.cpp, Spline.xml, Heightmaps
+        - button "Game Basics Zombie-style actor basics, mouse-pick line, projectile lane, trigger zones, flames, and simple AI staging. GraphysX_1/Zombie*.cpp, Scene3D/GamePlayScreen.cpp, Agent.cpp" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: Game Basics
+          - generic [ref=e26]: Zombie-style actor basics, mouse-pick line, projectile lane, trigger zones, flames, and simple AI staging.
+          - emphasis [ref=e27]: GraphysX_1/Zombie*.cpp, Scene3D/GamePlayScreen.cpp, Agent.cpp
+        - 'button "Physics Lab Live Newton-style constraint playground: hinged seesaw, swinging pendulum chain, rigid box stack, and an auto-resetting wrecking ball. Newton joints (GraphysX_1), Scene3D physics callbacks" [ref=e28] [cursor=pointer]':
+          - generic [ref=e29]: Physics Lab
+          - generic [ref=e30]: "Live Newton-style constraint playground: hinged seesaw, swinging pendulum chain, rigid box stack, and an auto-resetting wrecking ball."
+          - emphasis [ref=e31]: Newton joints (GraphysX_1), Scene3D physics callbacks
+        - button "BallZ Map Editor Clickable tile editor for BallZ-style maps with walls, starts, rings, gates, hazards, and a live 3D preview. GraphysX_1/Scene.cpp BuildASCIIScene, Scene3D/EditorScreen.cpp" [ref=e32] [cursor=pointer]:
+          - generic [ref=e33]: BallZ Map Editor
+          - generic [ref=e34]: Clickable tile editor for BallZ-style maps with walls, starts, rings, gates, hazards, and a live 3D preview.
+          - emphasis [ref=e35]: GraphysX_1/Scene.cpp BuildASCIIScene, Scene3D/EditorScreen.cpp
+        - button "Math Lab The old formula/molecule screen rebuilt around live A/B/C/M/X controls and a 3D graph preview. Scene3D/MathGameScreen.cpp, Formulas.cpp" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]: Math Lab
+          - generic [ref=e38]: The old formula/molecule screen rebuilt around live A/B/C/M/X controls and a 3D graph preview.
+          - emphasis [ref=e39]: Scene3D/MathGameScreen.cpp, Formulas.cpp
+        - button "Editor Lab Map-editor flow for load/save/clear/add mesh, selected object telemetry, and primitive scene assembly. Scene3D/EditorScreen.cpp, GfxNet/SceneNET.h" [ref=e40] [cursor=pointer]:
+          - generic [ref=e41]: Editor Lab
+          - generic [ref=e42]: Map-editor flow for load/save/clear/add mesh, selected object telemetry, and primitive scene assembly.
+          - emphasis [ref=e43]: Scene3D/EditorScreen.cpp, GfxNet/SceneNET.h
+        - 'button "CubX Lab Recovered CubX menu-world ideas: selectable cubes, clock displays, Earth/grid objects, arrows, and control panels. AtmelCubx/CubXScene.cpp, ClockDisplay.cpp, MenuManager.cpp" [ref=e44] [cursor=pointer]':
+          - generic [ref=e45]: CubX Lab
+          - generic [ref=e46]: "Recovered CubX menu-world ideas: selectable cubes, clock displays, Earth/grid objects, arrows, and control panels."
+          - emphasis [ref=e47]: AtmelCubx/CubXScene.cpp, ClockDisplay.cpp, MenuManager.cpp
+        - button "Asset Catalog Texture, shader, model, and XML recovery board for TVM/X/OBJ assets that still need conversion. Archive/bckup/BallZ2015.bckup/Media" [ref=e48] [cursor=pointer]:
+          - generic [ref=e49]: Asset Catalog
+          - generic [ref=e50]: Texture, shader, model, and XML recovery board for TVM/X/OBJ assets that still need conversion.
+          - emphasis [ref=e51]: Archive/bckup/BallZ2015.bckup/Media
+    - article [ref=e52]:
+      - generic [ref=e53]: Selected Race
+      - strong [ref=e54]:
+        - text: Archive Level 1
+        - generic [ref=e55]: "Brown arrow-tile maze rebuilt from screenShotLevel1: low maze walls, white ball chains, red posts, and a dusty arena floor."
+    - article [ref=e56]:
+      - generic [ref=e57]: Champion
+      - strong [ref=e58]:
+        - text: Yanik TV3D
+        - generic [ref=e59]: 41.00s / archive
+    - article [ref=e60]:
+      - generic [ref=e61]: Controls
+      - strong [ref=e62]:
+        - text: WASD / arrows
+        - generic [ref=e63]: Space jump, Shift push. Drag/wheel camera outside races.
+    - generic [ref=e64]:
+      - generic [ref=e65]: Race Maps — Career Score 0
+      - generic [ref=e66]:
+        - button "Archive Level 1 41.00s Yanik TV3D" [ref=e67] [cursor=pointer]:
+          - generic [ref=e68]: Archive Level 1
+          - strong [ref=e69]: 41.00s
+          - generic [ref=e70]: Yanik TV3D
+        - button "Archive Level 2 LOCKED Finish Archive Level 1 to unlock" [disabled] [ref=e71]:
+          - generic [ref=e72]: Archive Level 2
+          - strong [ref=e73]: LOCKED
+          - generic [ref=e74]: Finish Archive Level 1 to unlock
+        - button "Archive Level 3 LOCKED Finish Archive Level 2 to unlock" [disabled] [ref=e75]:
+          - generic [ref=e76]: Archive Level 3
+          - strong [ref=e77]: LOCKED
+          - generic [ref=e78]: Finish Archive Level 2 to unlock
+        - button "Skybox Spiral LOCKED Finish Archive Level 3 to unlock" [disabled] [ref=e79]:
+          - generic [ref=e80]: Skybox Spiral
+          - strong [ref=e81]: LOCKED
+          - generic [ref=e82]: Finish Archive Level 3 to unlock
+        - button "Suzanne 1 — Classic LOCKED Finish Skybox Spiral to unlock" [disabled] [ref=e83]:
+          - generic [ref=e84]: Suzanne 1 — Classic
+          - strong [ref=e85]: LOCKED
+          - generic [ref=e86]: Finish Skybox Spiral to unlock
+        - button "World 1 — Recovered LOCKED Finish Suzanne 1 — Classic to unlock" [disabled] [ref=e87]:
+          - generic [ref=e88]: World 1 — Recovered
+          - strong [ref=e89]: LOCKED
+          - generic [ref=e90]: Finish Suzanne 1 — Classic to unlock
+        - button "Map 1 — BallZ 2011 LOCKED Finish World 1 — Recovered to unlock" [disabled] [ref=e91]:
+          - generic [ref=e92]: Map 1 — BallZ 2011
+          - strong [ref=e93]: LOCKED
+          - generic [ref=e94]: Finish World 1 — Recovered to unlock
+        - button "Piste Ovale — Impreza LOCKED Finish Map 1 — BallZ 2011 to unlock" [disabled] [ref=e95]:
+          - generic [ref=e96]: Piste Ovale — Impreza
+          - strong [ref=e97]: LOCKED
+          - generic [ref=e98]: Finish Map 1 — BallZ 2011 to unlock
+        - button "ZombieKiller Arena LOCKED Finish Piste Ovale — Impreza to unlock" [disabled] [ref=e99]:
+          - generic [ref=e100]: ZombieKiller Arena
+          - strong [ref=e101]: LOCKED
+          - generic [ref=e102]: Finish Piste Ovale — Impreza to unlock
+        - button "Unlock All open every recovered race right away" [ref=e103] [cursor=pointer]:
+          - generic [ref=e104]: Unlock All
+          - generic [ref=e105]: open every recovered race right away
+    - generic [ref=e106]:
+      - generic [ref=e107]: Still On The Table
+      - list [ref=e108]:
+        - listitem [ref=e109]: "Scene builder: ASCII maps, XML scene files, trigger zones, and object-library import."
+        - listitem [ref=e110]: "BallZ modifiers: shell grip, inner-ball weight, air control, friction, bounce, and chaos upgrades."
+        - listitem [ref=e111]: "Physics lab: Newton-style joints, hinges, sliders, push plates, chains, elevators, pistons, and dry rolling friction."
+        - listitem [ref=e112]: "Particle lab: ring bursts, flames, smoke, billboards, texture cycles, explosion presets, and emitter editor."
+        - listitem [ref=e113]: "Shader lab: per-pixel lighting, bump mapping, projection, haze, water refraction/reflection, and post effects."
+        - listitem [ref=e114]: "Sky and atmosphere: day/night skyboxes, LostValley, clear night, sun pass, galaxy objects, and heightmap terrain."
+        - listitem [ref=e115]: "3D toys: CubX actor, airplane spline follow, billboards, dynamic mesh tests, alphabet TVM meshes, and rotator assets."
+        - listitem [ref=e116]: "Game shells: main menu, race select, after-race, high scores, math-game screen, editor screen, and arcade HUD."
+        - listitem [ref=e117]: "Media recovery: convert TVM/X/3DS/OBJ assets to GLB, normalize textures, and tag source inspiration per scene."
+    - article [ref=e118]:
+      - generic [ref=e119]: Archive Sources
+      - strong [ref=e120]: screenShotLevel1.pngMedia/90Right.pngMedia/Damier.jpgScene3D/Anneaux.cpp

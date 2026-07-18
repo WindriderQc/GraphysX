@@ -1,0 +1,76 @@
+- generic [ref=f2e6]:
+  - heading "RECOVERED WORLDS" [level=1] [ref=f2e59]
+  - paragraph [ref=f2e8]: Visit playable recovery trials built from worlds and experiments found across BallZ-era and Atmel folders. These are preserved beside BallZ, not relabeled as BallZ races.
+  - generic [ref=f2e9]:
+    - button "Drive Piste Ovale — Impreza" [ref=f2e127] [cursor=pointer]
+    - button "Back Home" [ref=f2e61] [cursor=pointer]
+  - generic [ref=f2e12]:
+    - generic [ref=f2e128]:
+      - generic [ref=f2e129]:
+        - generic [ref=f2e130]: Vehicle experiment 3 of 3
+        - generic [ref=f2e131]: Medium
+      - heading "Piste Ovale — Impreza" [level=2] [ref=f2e132]
+      - paragraph [ref=f2e133]: Drive the recovered Subaru around the banked oval and complete the lap.
+      - generic [ref=f2e134]:
+        - generic [ref=f2e135]:
+          - generic [ref=f2e136]: Chapter
+          - strong [ref=f2e137]: Impreza Detour
+        - generic [ref=f2e138]:
+          - generic [ref=f2e139]: Target
+          - strong [ref=f2e140]: 1:25.00
+        - generic [ref=f2e141]:
+          - generic [ref=f2e142]: Status
+          - strong [ref=f2e143]: Unplayed
+        - generic [ref=f2e144]:
+          - generic [ref=f2e145]: Record
+          - strong [ref=f2e146]: 55.00s
+    - generic [ref=f2e147]:
+      - generic [ref=f2e148]:
+        - generic [ref=f2e149]:
+          - generic [ref=f2e150]: Recovered Worlds
+          - strong [ref=f2e151]: 0 / 3 complete
+        - generic [ref=f2e152]:
+          - generic [ref=f2e153]: Career Score
+          - strong [ref=f2e154]: 0 pts
+      - generic "0% complete" [ref=f2e155]
+    - generic [ref=f2e157]:
+      - generic [ref=f2e158]: Playable Recoveries
+      - generic [ref=f2e159]:
+        - button "Challenge 1 World 1 — Recovered Hard · Lost World Ready to play Exploration and fall recovery." [ref=f2e160] [cursor=pointer]:
+          - generic [ref=f2e161]: Challenge 1
+          - generic [ref=f2e162]: World 1 — Recovered
+          - generic [ref=f2e163]: Hard · Lost World
+          - strong [ref=f2e164]: Ready to play
+          - generic [ref=f2e165]: Exploration and fall recovery.
+        - button "Challenge 2 Map 1 — BallZ 2011 Expert · 2011 Descent Ready to play Precision on a tall legacy map." [ref=f2e166] [cursor=pointer]:
+          - generic [ref=f2e167]: Challenge 2
+          - generic [ref=f2e168]: Map 1 — BallZ 2011
+          - generic [ref=f2e169]: Expert · 2011 Descent
+          - strong [ref=f2e170]: Ready to play
+          - generic [ref=f2e171]: Precision on a tall legacy map.
+        - button "Challenge 3 Piste Ovale — Impreza Medium · Impreza Detour Ready to play Vehicle steering replaces BallZ rolling." [ref=f2e172] [cursor=pointer]:
+          - generic [ref=f2e173]: Challenge 3
+          - generic [ref=f2e174]: Piste Ovale — Impreza
+          - generic [ref=f2e175]: Medium · Impreza Detour
+          - strong [ref=f2e176]: Ready to play
+          - generic [ref=f2e177]: Vehicle steering replaces BallZ rolling.
+    - generic [ref=f2e178]:
+      - generic [ref=f2e179]: Recovered World Queue
+      - list [ref=f2e180]:
+        - listitem [ref=f2e181]:
+          - strong [ref=f2e182]: BallZ 2011 Level0 + Level1
+          - text: — existing geometry, still needs splitting, materials, and visit-mode assembly.
+        - listitem [ref=f2e183]:
+          - strong [ref=f2e184]: Slide / pipe / corridor / track set
+          - text: — convertible obstacle-world pieces, not yet organized into a navigable archive.
+        - listitem [ref=f2e185]:
+          - strong [ref=f2e186]: Common rooms
+          - text: — room.tvm, room2.tvm, sky.tvm, grass and ballcube environment pieces.
+        - listitem [ref=f2e187]:
+          - strong [ref=f2e188]: Dominus village
+          - text: — roughly 60 text-X town, dock, cottage, lighthouse, foliage, prop, and character meshes.
+    - article [ref=f2e189]:
+      - generic [ref=f2e190]: Category Note
+      - strong [ref=f2e191]:
+        - text: World 1 and Map 1 are recovered spaces
+        - generic [ref=f2e192]: Piste Ovale is an Atmel/CubX vehicle experiment; their current ring objectives are prototype visit trials, not claims about the original project design.

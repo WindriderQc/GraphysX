@@ -1,0 +1,336 @@
+{
+  "url": "http://127.0.0.1:4199/",
+  "assertions": [
+    {
+      "pass": true,
+      "message": "ZombieKiller arena is selectable"
+    },
+    {
+      "pass": true,
+      "message": "ZombieKiller arena starts for camera QA"
+    },
+    {
+      "pass": true,
+      "message": "Low chase ray detects the authored boundary wall"
+    },
+    {
+      "pass": true,
+      "message": "Collision telemetry identifies the blocking physics body"
+    },
+    {
+      "pass": true,
+      "message": "Blocked camera resolves before the wall"
+    },
+    {
+      "pass": true,
+      "message": "A close wall resolves to a readable elevated/shoulder distance instead of an extreme BallZ close-up"
+    },
+    {
+      "pass": true,
+      "message": "High chase ray clears the same boundary wall"
+    },
+    {
+      "pass": true,
+      "message": "Unblocked camera retains its requested chase distance"
+    },
+    {
+      "pass": true,
+      "message": "Piste Ovale is selectable for banked-track camera QA"
+    },
+    {
+      "pass": true,
+      "message": "Piste Ovale starts after its vehicle assets load"
+    },
+    {
+      "pass": true,
+      "message": "Impreza moves on the banked Piste during the camera regression probe"
+    },
+    {
+      "pass": true,
+      "message": "Driveable banked track is not misclassified as a chase-camera wall"
+    },
+    {
+      "pass": true,
+      "message": "Vehicle chase camera retains its readable requested distance instead of entering the track underside"
+    },
+    {
+      "pass": true,
+      "message": "Camera collision flow produces no browser errors"
+    }
+  ],
+  "states": {
+    "piste": {
+      "start": {
+        "raceId": "piste-ovale",
+        "raceName": "Piste Ovale — Impreza",
+        "elapsedMs": 1884.0000000000027,
+        "ringsCollected": 0,
+        "ringsTotal": 10,
+        "hasReachedHalfway": false,
+        "playerPosition": {
+          "x": 28.993475291890444,
+          "y": 3.4279399835361963,
+          "z": 4.999897216107118
+        },
+        "archiveChampionMs": 55000,
+        "targetMs": 85000,
+        "zombiesRemaining": 0,
+        "zombiesTotal": 0,
+        "lapsCompleted": 0,
+        "lapsTotal": 1,
+        "nextObjective": "Collect nearest ring",
+        "objectiveDistance": 7.376548401373398,
+        "rival": null,
+        "raceActive": true,
+        "raceFinished": false,
+        "racePaused": false,
+        "countdownRemaining": 0,
+        "countdownAudio": {
+          "source": null,
+          "cue": "idle",
+          "readyPlays": 0,
+          "goPlays": 0
+        },
+        "loadState": {
+          "ready": true,
+          "loading": false,
+          "requiredKeys": [
+            "cars"
+          ]
+        },
+        "remainingRings": [
+          {
+            "x": 35.169,
+            "y": 4.2005,
+            "z": 0.9655
+          },
+          {
+            "x": 31.5875,
+            "y": 4.2005,
+            "z": 21.8585
+          },
+          {
+            "x": 15.439,
+            "y": 4.2005,
+            "z": 43.6625
+          },
+          {
+            "x": -8.102,
+            "y": 4.2005,
+            "z": 47.241
+          },
+          {
+            "x": -27.5005,
+            "y": 4.2005,
+            "z": 30.6845
+          },
+          {
+            "x": -34.309,
+            "y": 4.2005,
+            "z": 11.8565
+          },
+          {
+            "x": -34.309,
+            "y": 4.2005,
+            "z": -9.926
+          },
+          {
+            "x": -27.5005,
+            "y": 4.2005,
+            "z": -28.7535
+          },
+          {
+            "x": -8.102,
+            "y": 4.2005,
+            "z": -45.3105
+          },
+          {
+            "x": 15.439,
+            "y": 4.2005,
+            "z": -41.7315
+          }
+        ],
+        "activeZombies": [],
+        "playerVelocity": {
+          "x": -0.003568018239016689,
+          "y": -8.392564412318393e-7,
+          "z": -0.0000573777720489306
+        },
+        "inputAxis": {
+          "forward": 0,
+          "turn": 0
+        },
+        "controllerVector": {
+          "x": 0,
+          "y": 0,
+          "magnitude": 0
+        },
+        "shellWireRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "arrowHeading": 3.141592653589793,
+        "cameraYaw": 0,
+        "cameraPitch": 0.7,
+        "cameraDistance": 18,
+        "cameraCollision": {
+          "active": false,
+          "hitBodyId": null,
+          "desiredDistance": 18.000428217547075,
+          "resolvedDistance": 18.000428217547075
+        },
+        "canJump": true,
+        "ballPreset": "revival",
+        "ghost": {
+          "hasBest": false,
+          "bestTimeMs": null,
+          "recordingSamples": 12,
+          "playbackVisible": false,
+          "lastLapVisible": false
+        },
+        "flight": null,
+        "forceZone": null,
+        "forceZonesTotal": 0,
+        "suzanne": null,
+        "playerRadius": 0.88
+      },
+      "moved": {
+        "raceId": "piste-ovale",
+        "raceName": "Piste Ovale — Impreza",
+        "elapsedMs": 3916.999999999987,
+        "ringsCollected": 0,
+        "ringsTotal": 10,
+        "hasReachedHalfway": false,
+        "playerPosition": {
+          "x": 29.71394194759948,
+          "y": 3.4430020385124482,
+          "z": 21.11939913995377
+        },
+        "archiveChampionMs": 55000,
+        "targetMs": 85000,
+        "zombiesRemaining": 0,
+        "zombiesTotal": 0,
+        "lapsCompleted": 0,
+        "lapsTotal": 1,
+        "nextObjective": "Collect nearest ring",
+        "objectiveDistance": 2.014072952262628,
+        "rival": null,
+        "raceActive": true,
+        "raceFinished": false,
+        "racePaused": false,
+        "countdownRemaining": 0,
+        "countdownAudio": {
+          "source": null,
+          "cue": "idle",
+          "readyPlays": 0,
+          "goPlays": 0
+        },
+        "loadState": {
+          "ready": true,
+          "loading": false,
+          "requiredKeys": [
+            "cars"
+          ]
+        },
+        "remainingRings": [
+          {
+            "x": 35.169,
+            "y": 4.2005,
+            "z": 0.9655
+          },
+          {
+            "x": 31.5875,
+            "y": 4.2005,
+            "z": 21.8585
+          },
+          {
+            "x": 15.439,
+            "y": 4.2005,
+            "z": 43.6625
+          },
+          {
+            "x": -8.102,
+            "y": 4.2005,
+            "z": 47.241
+          },
+          {
+            "x": -27.5005,
+            "y": 4.2005,
+            "z": 30.6845
+          },
+          {
+            "x": -34.309,
+            "y": 4.2005,
+            "z": 11.8565
+          },
+          {
+            "x": -34.309,
+            "y": 4.2005,
+            "z": -9.926
+          },
+          {
+            "x": -27.5005,
+            "y": 4.2005,
+            "z": -28.7535
+          },
+          {
+            "x": -8.102,
+            "y": 4.2005,
+            "z": -45.3105
+          },
+          {
+            "x": 15.439,
+            "y": 4.2005,
+            "z": -41.7315
+          }
+        ],
+        "activeZombies": [],
+        "playerVelocity": {
+          "x": -3.866088283904557,
+          "y": -0.012614155123617965,
+          "z": 6.488503190245059
+        },
+        "inputAxis": {
+          "forward": 0,
+          "turn": 0
+        },
+        "controllerVector": {
+          "x": 0,
+          "y": 0,
+          "magnitude": 0
+        },
+        "shellWireRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "arrowHeading": 3.141592653589793,
+        "cameraYaw": 0,
+        "cameraPitch": 0.7,
+        "cameraDistance": 18,
+        "cameraCollision": {
+          "active": false,
+          "hitBodyId": null,
+          "desiredDistance": 18.906356054026347,
+          "resolvedDistance": 18.906356054026347
+        },
+        "canJump": true,
+        "ballPreset": "revival",
+        "ghost": {
+          "hasBest": false,
+          "bestTimeMs": null,
+          "recordingSamples": 24,
+          "playbackVisible": false,
+          "lastLapVisible": false
+        },
+        "flight": null,
+        "forceZone": null,
+        "forceZonesTotal": 0,
+        "suzanne": null,
+        "playerRadius": 0.88
+      }
+    }
+  },
+  "errors": []
+}

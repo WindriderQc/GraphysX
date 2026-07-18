@@ -1,0 +1,61 @@
+texture SceneTexture;
+texture DistortTexture;
+
+sampler2D ScreenSampler = sampler_state
+{
+	Texture         = (SceneTexture);
+	MIPFILTER       = LINEAR;
+	MINFILTER       = LINEAR;
+	MAGFILTER       = LINEAR;
+};
+
+sampler2D DistortSampler = sampler_state
+{
+	Texture         = (DistortTexture);
+	MIPFILTER       = LINEAR;
+	MINFILTER       = LINEAR;
+	MAGFILTER       = LINEAR;
+};
+
+struct a2v
+{
+	float4 Position: POSITION;
+	float2 UV      : TEXCOORD0;
+};
+
+struct v2p
+{
+	float4 Position: POSITION;
+	float2 UV      : TEXCOORD0;
+};
+
+struct p2s
+{
+	float4 Colour  : COLOR0;
+};
+
+
+void vs( in a2v IN, out v2p OUT )
+{
+	OUT.Position    = IN.Position;
+	OUT.UV          = IN.UV;
+}
+
+void ps( in v2p IN, out p2s OUT )
+{
+	float4  Dis       = tex2D(DistortSampler, IN.UV);
+	float4	D         = 1-Dis;
+        float4  Scene     = tex2D(ScreenSampler, IN.UV + D);
+
+	OUT.Colour        = Scene;
+	OUT.Colour.a      = 1;
+}
+
+technique null
+{
+   pass Pass0
+   {
+       VertexShader = compile vs_1_1 vs();
+       PixelShader = compile ps_2_0 ps();
+   }
+}

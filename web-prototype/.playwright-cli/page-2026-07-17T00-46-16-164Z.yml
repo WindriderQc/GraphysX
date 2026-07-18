@@ -1,0 +1,33 @@
+- generic [ref=e6]:
+  - generic [ref=e7]:
+    - generic [ref=e8]: GraphysX Web Revival
+    - strong [ref=e9]: v0.1.0
+    - generic [ref=e10]: revival-2026.07.16-r3
+  - heading "FlightX — Pipe Loop" [level=1] [ref=e596]
+  - paragraph [ref=e12]: Collect every ring, cross the amber halfway gate, then return through the cyan finish. Movement follows the camera.
+  - generic [ref=e13]:
+    - button "Restart Race" [active] [ref=e597] [cursor=pointer]
+    - button "Exit To Worlds" [ref=e598] [cursor=pointer]
+  - generic [ref=e16]:
+    - article [ref=e599]:
+      - generic [ref=e600]: Time
+      - strong [ref=e601]: 0.41s
+    - article [ref=e602]:
+      - generic [ref=e603]: Rings
+      - strong [ref=e604]:
+        - text: 0 / 0
+        - generic [ref=e605]: Cross halfway gate · 35m
+    - article [ref=e606]:
+      - generic [ref=e607]: Lap State
+      - strong [ref=e608]: Reach Halfway
+    - article [ref=e609]:
+      - generic [ref=e610]: Camera
+      - strong [ref=e611]:
+        - text: Drag + wheel
+        - generic [ref=e612]: C resets behind the starting direction
+    - article [ref=e613]:
+      - generic [ref=e614]: Archive Champ
+      - strong [ref=e615]: 1:00.00
+    - article [ref=e616]:
+      - generic [ref=e617]: Target
+      - strong [ref=e618]: 1:30.00

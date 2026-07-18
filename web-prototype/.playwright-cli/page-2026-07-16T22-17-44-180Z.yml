@@ -1,0 +1,76 @@
+- generic [ref=e6]:
+  - heading "RECOVERED WORLDS" [level=1] [ref=e221]
+  - paragraph [ref=e8]: Visit playable recovery trials built from worlds and experiments found across BallZ-era and Atmel folders. These are preserved beside BallZ, not relabeled as BallZ races.
+  - generic [ref=e9]:
+    - button "Visit World 1 — Recovered" [ref=e222] [cursor=pointer]
+    - button "Back Home" [ref=e61] [cursor=pointer]
+  - generic [ref=e12]:
+    - generic [ref=e223]:
+      - generic [ref=e224]:
+        - generic [ref=e225]: World recovery trial 1 of 3
+        - generic [ref=e226]: Hard
+      - heading "World 1 — Recovered" [level=2] [ref=e227]
+      - paragraph [ref=e228]: Navigate the recovered World 1 assembly and find a safe line through its vertical spaces.
+      - generic [ref=e229]:
+        - generic [ref=e230]:
+          - generic [ref=e231]: Chapter
+          - strong [ref=e232]: Lost World
+        - generic [ref=e233]:
+          - generic [ref=e234]: Target
+          - strong [ref=e235]: 1:35.00
+        - generic [ref=e236]:
+          - generic [ref=e237]: Status
+          - strong [ref=e238]: Unplayed
+        - generic [ref=e239]:
+          - generic [ref=e240]: Record
+          - strong [ref=e241]: 1:05.00
+    - generic [ref=e242]:
+      - generic [ref=e243]:
+        - generic [ref=e244]:
+          - generic [ref=e245]: Recovered Worlds
+          - strong [ref=e246]: 0 / 3 complete
+        - generic [ref=e247]:
+          - generic [ref=e248]: Career Score
+          - strong [ref=e249]: 0 pts
+      - generic "0% complete" [ref=e250]
+    - generic [ref=e252]:
+      - generic [ref=e253]: Playable Recoveries
+      - generic [ref=e254]:
+        - button "Challenge 1 World 1 — Recovered Hard · Lost World Ready to play Exploration and fall recovery." [ref=e255] [cursor=pointer]:
+          - generic [ref=e256]: Challenge 1
+          - generic [ref=e257]: World 1 — Recovered
+          - generic [ref=e258]: Hard · Lost World
+          - strong [ref=e259]: Ready to play
+          - generic [ref=e260]: Exploration and fall recovery.
+        - button "Challenge 2 Map 1 — BallZ 2011 Expert · 2011 Descent Ready to play Precision on a tall legacy map." [ref=e261] [cursor=pointer]:
+          - generic [ref=e262]: Challenge 2
+          - generic [ref=e263]: Map 1 — BallZ 2011
+          - generic [ref=e264]: Expert · 2011 Descent
+          - strong [ref=e265]: Ready to play
+          - generic [ref=e266]: Precision on a tall legacy map.
+        - button "Challenge 3 Piste Ovale — Impreza Medium · Impreza Detour Ready to play Vehicle steering replaces BallZ rolling." [ref=e267] [cursor=pointer]:
+          - generic [ref=e268]: Challenge 3
+          - generic [ref=e269]: Piste Ovale — Impreza
+          - generic [ref=e270]: Medium · Impreza Detour
+          - strong [ref=e271]: Ready to play
+          - generic [ref=e272]: Vehicle steering replaces BallZ rolling.
+    - generic [ref=e273]:
+      - generic [ref=e274]: Recovered World Queue
+      - list [ref=e275]:
+        - listitem [ref=e276]:
+          - strong [ref=e277]: BallZ 2011 Level0 + Level1
+          - text: — existing geometry, still needs splitting, materials, and visit-mode assembly.
+        - listitem [ref=e278]:
+          - strong [ref=e279]: Slide / pipe / corridor / track set
+          - text: — convertible obstacle-world pieces, not yet organized into a navigable archive.
+        - listitem [ref=e280]:
+          - strong [ref=e281]: Common rooms
+          - text: — room.tvm, room2.tvm, sky.tvm, grass and ballcube environment pieces.
+        - listitem [ref=e282]:
+          - strong [ref=e283]: Dominus village
+          - text: — roughly 60 text-X town, dock, cottage, lighthouse, foliage, prop, and character meshes.
+    - article [ref=e284]:
+      - generic [ref=e285]: Category Note
+      - strong [ref=e286]:
+        - text: World 1 and Map 1 are recovered spaces
+        - generic [ref=e287]: Piste Ovale is an Atmel/CubX vehicle experiment; their current ring objectives are prototype visit trials, not claims about the original project design.

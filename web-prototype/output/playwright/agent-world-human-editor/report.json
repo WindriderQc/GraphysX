@@ -1,0 +1,1686 @@
+{
+  "url": "http://127.0.0.1:4182/",
+  "assertions": [
+    {
+      "pass": true,
+      "message": "Public entry point opens Agent World Studio"
+    },
+    {
+      "pass": true,
+      "message": "Studio exposes the shared World Editor"
+    },
+    {
+      "pass": true,
+      "message": "External agents can discover the versioned tool bridge"
+    },
+    {
+      "pass": true,
+      "message": "Bridge advertises direct and same-origin message transports"
+    },
+    {
+      "pass": true,
+      "message": "Bridge manifest covers world, texture, migration, selection, and multi-level tools"
+    },
+    {
+      "pass": true,
+      "message": "Direct bridge calls return the serializable world state"
+    },
+    {
+      "pass": true,
+      "message": "Bridge reports unknown tools as structured errors"
+    },
+    {
+      "pass": true,
+      "message": "Same-origin postMessage agents can invoke the bridge"
+    },
+    {
+      "pass": true,
+      "message": "Agent discovers the complete compact semantic texture library with stable IDs and usage guidance"
+    },
+    {
+      "pass": true,
+      "message": "Texture discovery includes repeat defaults for physics-readable checker surfaces"
+    },
+    {
+      "pass": true,
+      "message": "Agent converts both archived XML record layouts through one migration tool"
+    },
+    {
+      "pass": true,
+      "message": "Legacy physical primitives preserve mass semantics and known archive textures"
+    },
+    {
+      "pass": true,
+      "message": "Unavailable legacy custom meshes remain honest visible proxies with a migration warning"
+    },
+    {
+      "pass": true,
+      "message": "One call creates the complete editable Physics Sketchbook"
+    },
+    {
+      "pass": true,
+      "message": "Physics Sketchbook exposes four semantic dynamic bodies to agents"
+    },
+    {
+      "pass": true,
+      "message": "Agent state reports the ramp's stable texture ID and transform settings"
+    },
+    {
+      "pass": true,
+      "message": "The same material contract illustrates a textured planetary concept"
+    },
+    {
+      "pass": true,
+      "message": "Visible agent entities expose role, status, perception, and semantic capabilities"
+    },
+    {
+      "pass": true,
+      "message": "Human/agent interaction can apply a real observable impulse to a dynamic body"
+    },
+    {
+      "pass": true,
+      "message": "Agent interaction toggles the same visible coordinate explanation a person can click"
+    },
+    {
+      "pass": true,
+      "message": "Human applies a complete world through the same v2 definition accepted from agents"
+    },
+    {
+      "pass": true,
+      "message": "Complete-world UI reports a useful receipt"
+    },
+    {
+      "pass": true,
+      "message": "Bridge subscribers receive state-change events after human edits"
+    },
+    {
+      "pass": true,
+      "message": "Human pause control reaches the deterministic runtime clock"
+    },
+    {
+      "pass": true,
+      "message": "Friendly editor creates human-crate"
+    },
+    {
+      "pass": true,
+      "message": "Agent query sees the UI-created dynamic primitive and physical mass"
+    },
+    {
+      "pass": true,
+      "message": "Agent query sees the velocity authored in the UI"
+    },
+    {
+      "pass": true,
+      "message": "Agent query sees the texture and repeat authored visually by a person"
+    },
+    {
+      "pass": true,
+      "message": "Agent query immediately sees friendly inspector edits"
+    },
+    {
+      "pass": true,
+      "message": "Human transform edit and agent world coordinates are identical"
+    },
+    {
+      "pass": true,
+      "message": "Visual material-browser edits reach the same textured API state"
+    },
+    {
+      "pass": true,
+      "message": "Friendly editor creates human-cottage"
+    },
+    {
+      "pass": true,
+      "message": "Agent export preserves the recovered model asset and UI-authored collider"
+    },
+    {
+      "pass": true,
+      "message": "Human-created recovered model reaches an agent-observable ready state"
+    },
+    {
+      "pass": true,
+      "message": "Friendly editor creates human-path"
+    },
+    {
+      "pass": true,
+      "message": "Agent export sees the complete UI-authored spline path"
+    },
+    {
+      "pass": true,
+      "message": "Agent query sees a behavior attached in the human inspector"
+    },
+    {
+      "pass": true,
+      "message": "Human behavior removal uses the agent detach path"
+    },
+    {
+      "pass": true,
+      "message": "Friendly editor creates human-lamp"
+    },
+    {
+      "pass": true,
+      "message": "Agent query sees the point light authored by a person"
+    },
+    {
+      "pass": true,
+      "message": "Agent query sees the light intensity and distance authored by a person"
+    },
+    {
+      "pass": true,
+      "message": "Friendly editor creates human-guide"
+    },
+    {
+      "pass": true,
+      "message": "A person creates a visible semantic agent participant without JSON"
+    },
+    {
+      "pass": true,
+      "message": "Agent identity preserves perception and collaboration capabilities"
+    },
+    {
+      "pass": true,
+      "message": "Agent discovers an interaction authored in the human inspector"
+    },
+    {
+      "pass": true,
+      "message": "Friendly interaction composer adds a typed physics impulse without hand-editing JSON"
+    },
+    {
+      "pass": true,
+      "message": "Agent invokes the user-authored impulse and observes the physics result"
+    },
+    {
+      "pass": true,
+      "message": "Accessible human interaction and agent-observed visibility share one action path"
+    },
+    {
+      "pass": true,
+      "message": "Agent can operate the exact interaction created by the person"
+    },
+    {
+      "pass": true,
+      "message": "Human JSON transaction creates an entity visible to agent queries"
+    },
+    {
+      "pass": true,
+      "message": "Agent state attributes a UI commit to its human actor"
+    },
+    {
+      "pass": true,
+      "message": "Revision-guarded UI commit updates the shared query surface"
+    },
+    {
+      "pass": true,
+      "message": "Invalid human JSON displays a clear editor error"
+    },
+    {
+      "pass": true,
+      "message": "Rejected human transaction leaves the shared revision unchanged"
+    },
+    {
+      "pass": true,
+      "message": "Named UI snapshot appears in agent-visible state"
+    },
+    {
+      "pass": true,
+      "message": "Human clear control empties the shared world"
+    },
+    {
+      "pass": true,
+      "message": "UI snapshot load restores the same world agents observe"
+    },
+    {
+      "pass": true,
+      "message": "Portable world download uses a recognizable GraphysX filename"
+    },
+    {
+      "pass": true,
+      "message": "Portable world download produces a readable file"
+    },
+    {
+      "pass": true,
+      "message": "Downloaded JSON contains the complete validated v2 world"
+    },
+    {
+      "pass": true,
+      "message": "File import round-trips the complete world through the runtime validator"
+    },
+    {
+      "pass": true,
+      "message": "File import reports a useful receipt"
+    },
+    {
+      "pass": true,
+      "message": "Human XML file import uses the same migration path and produces an agent-observable v2 world"
+    },
+    {
+      "pass": true,
+      "message": "External agent selection is shared with the editor state"
+    },
+    {
+      "pass": true,
+      "message": "A selected 3D entity exposes compact transform controls"
+    },
+    {
+      "pass": true,
+      "message": "Transform toolbar switches to rotate mode"
+    },
+    {
+      "pass": true,
+      "message": "W shortcut returns the viewport gizmo to move mode"
+    },
+    {
+      "pass": true,
+      "message": "Transform toolbar switches between world and local space"
+    },
+    {
+      "pass": true,
+      "message": "Dragging a colored 3D gizmo handle commits a snapped entity transform"
+    },
+    {
+      "pass": true,
+      "message": "Viewport transform keeps the entity selected for continued editing"
+    },
+    {
+      "pass": true,
+      "message": "render_game_to_text names the exact UI-authored world"
+    },
+    {
+      "pass": true,
+      "message": "Text accessibility state and public API report the same entity count"
+    },
+    {
+      "pass": true,
+      "message": "Human editor flow emits no browser errors"
+    }
+  ],
+  "states": {
+    "light": {
+      "id": "human-lamp",
+      "label": "Shared Cyan Lamp",
+      "type": "point-light",
+      "parentId": null,
+      "position": [
+        3,
+        5,
+        2
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "material": {
+        "color": "#42dcff",
+        "emissive": "#071f23",
+        "emissiveIntensity": 0.3,
+        "roughness": 0.55,
+        "metalness": 0.08,
+        "opacity": 1,
+        "wireframe": false,
+        "texture": null
+      },
+      "geometry": {
+        "width": 1,
+        "height": 1,
+        "depth": 1,
+        "radius": 0.5,
+        "tube": 0.12,
+        "radialSegments": 24
+      },
+      "intensity": 6.5,
+      "distance": 18,
+      "visible": true,
+      "castShadow": true,
+      "receiveShadow": true,
+      "tags": [
+        "human-authored",
+        "lighting",
+        "interactive-target"
+      ],
+      "behaviors": [],
+      "interactions": [],
+      "physics": null,
+      "path": null,
+      "asset": null,
+      "agent": null
+    },
+    "final": {
+      "schema": "graphysx.agent-world-state/v2",
+      "apiVersion": "2.0",
+      "world": {
+        "id": "human-agent-parity",
+        "label": "Human + Agent Workshop"
+      },
+      "revision": 26,
+      "elapsedSeconds": 0,
+      "paused": true,
+      "entityCount": 7,
+      "selectedIds": [
+        "human-transaction-orb"
+      ],
+      "environment": {
+        "background": "#071522",
+        "ground": {
+          "visible": true,
+          "size": 32,
+          "color": "#102d33",
+          "grid": true,
+          "gridColor": "#36bfc4"
+        },
+        "physics": {
+          "gravity": [
+            0,
+            -9.81,
+            0
+          ]
+        }
+      },
+      "bounds": {
+        "minimum": [
+          -5,
+          0,
+          -2
+        ],
+        "maximum": [
+          3,
+          6,
+          4
+        ]
+      },
+      "entities": [
+        {
+          "id": "human-transaction-orb",
+          "label": "Transaction Orb",
+          "type": "sphere",
+          "parentId": null,
+          "position": [
+            0,
+            4,
+            2
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#b08cff",
+            "emissive": "#071f23",
+            "emissiveIntensity": 0.3,
+            "roughness": 0.55,
+            "metalness": 0.08,
+            "opacity": 1,
+            "wireframe": false,
+            "texture": null
+          },
+          "geometry": {
+            "width": 1,
+            "height": 1,
+            "depth": 1,
+            "radius": 0.65,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 1,
+          "distance": 0,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [
+            "human-authored",
+            "json-transaction",
+            "human-reviewed"
+          ],
+          "behaviors": [],
+          "interactions": [],
+          "physics": null,
+          "path": null,
+          "asset": null,
+          "agent": null
+        },
+        {
+          "id": "human-guide",
+          "label": "Shared Spatial Guide",
+          "type": "agent",
+          "parentId": null,
+          "position": [
+            -1,
+            0,
+            4
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#ffffff",
+            "emissive": "#071f23",
+            "emissiveIntensity": 0.3,
+            "roughness": 0.55,
+            "metalness": 0.08,
+            "opacity": 1,
+            "wireframe": false,
+            "texture": {
+              "id": "abstract-cubes",
+              "repeat": [
+                1,
+                1
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "rotationDegrees": 0
+            }
+          },
+          "geometry": {
+            "width": 1,
+            "height": 2.1,
+            "depth": 1,
+            "radius": 0.5,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 1,
+          "distance": 0,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [
+            "human-authored",
+            "agent-avatar",
+            "guide"
+          ],
+          "behaviors": [],
+          "interactions": [],
+          "physics": null,
+          "path": null,
+          "asset": null,
+          "agent": {
+            "role": "spatial interpreter",
+            "status": "ready to collaborate",
+            "perceptionRadius": 9,
+            "capabilities": [
+              "observe",
+              "explain",
+              "interact"
+            ]
+          }
+        },
+        {
+          "id": "human-lamp",
+          "label": "Shared Cyan Lamp",
+          "type": "point-light",
+          "parentId": null,
+          "position": [
+            3,
+            5,
+            2
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#42dcff",
+            "emissive": "#071f23",
+            "emissiveIntensity": 0.3,
+            "roughness": 0.55,
+            "metalness": 0.08,
+            "opacity": 1,
+            "wireframe": false,
+            "texture": null
+          },
+          "geometry": {
+            "width": 1,
+            "height": 1,
+            "depth": 1,
+            "radius": 0.5,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 6.5,
+          "distance": 18,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [
+            "human-authored",
+            "lighting",
+            "interactive-target"
+          ],
+          "behaviors": [],
+          "interactions": [],
+          "physics": null,
+          "path": null,
+          "asset": null,
+          "agent": null
+        },
+        {
+          "id": "human-path",
+          "label": "Shared Flight Path",
+          "type": "spline",
+          "parentId": null,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#78f2c5",
+            "emissive": "#071f23",
+            "emissiveIntensity": 0.3,
+            "roughness": 0.55,
+            "metalness": 0.08,
+            "opacity": 1,
+            "wireframe": false,
+            "texture": null
+          },
+          "geometry": {
+            "width": 1,
+            "height": 1,
+            "depth": 1,
+            "radius": 0.5,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 1,
+          "distance": 0,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [
+            "human-authored",
+            "navigation",
+            "spline"
+          ],
+          "behaviors": [],
+          "interactions": [],
+          "physics": null,
+          "path": {
+            "pointCount": 4,
+            "closed": true
+          },
+          "asset": null,
+          "agent": null
+        },
+        {
+          "id": "human-cottage",
+          "label": "Recovered Cottage",
+          "type": "model",
+          "parentId": null,
+          "position": [
+            -5,
+            0,
+            -2
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#7de6c3",
+            "emissive": "#071f23",
+            "emissiveIntensity": 0.3,
+            "roughness": 0.55,
+            "metalness": 0.08,
+            "opacity": 1,
+            "wireframe": false,
+            "texture": null
+          },
+          "geometry": {
+            "width": 5,
+            "height": 4,
+            "depth": 4,
+            "radius": 0.5,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 1,
+          "distance": 0,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [
+            "human-authored",
+            "archive-model"
+          ],
+          "behaviors": [],
+          "interactions": [],
+          "physics": {
+            "mode": "static",
+            "mass": 0,
+            "material": "wall",
+            "linearVelocity": [
+              0,
+              0,
+              0
+            ],
+            "angularVelocity": [
+              0,
+              0,
+              0
+            ],
+            "sleeping": false
+          },
+          "path": null,
+          "asset": {
+            "id": "port-cottage",
+            "url": "/assets/dominus-gallery/meshes/port_cottage1.json",
+            "format": "graphysx-mesh-json",
+            "fitSize": 5.5,
+            "status": "ready"
+          },
+          "agent": null
+        },
+        {
+          "id": "human-crate",
+          "label": "Shared Physics Crate",
+          "type": "box",
+          "parentId": null,
+          "position": [
+            3,
+            6,
+            -2
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#ffffff",
+            "emissive": "#071f23",
+            "emissiveIntensity": 0.3,
+            "roughness": 0.35,
+            "metalness": 0.7,
+            "opacity": 1,
+            "wireframe": false,
+            "texture": {
+              "id": "eroded-metal",
+              "repeat": [
+                1,
+                1
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "rotationDegrees": 0
+            }
+          },
+          "geometry": {
+            "width": 1.8,
+            "height": 1.2,
+            "depth": 1.4,
+            "radius": 0.5,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 1,
+          "distance": 0,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [
+            "human-authored",
+            "gameplay",
+            "physics",
+            "agent-visible"
+          ],
+          "behaviors": [],
+          "interactions": [
+            {
+              "id": "interaction-001",
+              "label": "Toggle shared lamp",
+              "type": "toggle-visibility",
+              "targetIds": [
+                "human-lamp"
+              ]
+            },
+            {
+              "id": "interaction-002",
+              "label": "Nudge the shared crate",
+              "type": "apply-impulse",
+              "targetIds": [
+                "human-crate"
+              ],
+              "impulse": [
+                2,
+                3,
+                0
+              ]
+            }
+          ],
+          "physics": {
+            "mode": "dynamic",
+            "mass": 2.5,
+            "material": "ball",
+            "linearVelocity": [
+              0.5,
+              1,
+              -0.25
+            ],
+            "angularVelocity": [
+              0,
+              0,
+              0
+            ],
+            "sleeping": false
+          },
+          "path": null,
+          "asset": null,
+          "agent": null
+        },
+        {
+          "id": "workshop-ambient",
+          "label": "workshop-ambient",
+          "type": "ambient-light",
+          "parentId": null,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#b6ddff",
+            "emissive": "#071f23",
+            "emissiveIntensity": 0.3,
+            "roughness": 0.55,
+            "metalness": 0.08,
+            "opacity": 1,
+            "wireframe": false,
+            "texture": null
+          },
+          "geometry": {
+            "width": 1,
+            "height": 1,
+            "depth": 1,
+            "radius": 0.5,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 0.8,
+          "distance": 0,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [
+            "lighting",
+            "human-authored"
+          ],
+          "behaviors": [],
+          "interactions": [],
+          "physics": null,
+          "path": null,
+          "asset": null,
+          "agent": null
+        }
+      ],
+      "recentEvents": [
+        {
+          "revision": 21,
+          "timeSeconds": 0,
+          "type": "transaction.rejected",
+          "message": "Entity id already exists: human-crate"
+        },
+        {
+          "revision": 21,
+          "timeSeconds": 0,
+          "type": "asset.ready",
+          "message": "human-cottage: port-cottage"
+        },
+        {
+          "revision": 21,
+          "timeSeconds": 0,
+          "type": "snapshot.saved",
+          "message": "qa-human-parity-snapshot"
+        },
+        {
+          "revision": 22,
+          "timeSeconds": 0,
+          "type": "world.created",
+          "message": "Created Untitled Agent World"
+        },
+        {
+          "revision": 23,
+          "timeSeconds": 0,
+          "type": "world.created",
+          "message": "Created Human + Agent Workshop"
+        },
+        {
+          "revision": 23,
+          "timeSeconds": 0,
+          "type": "snapshot.loaded",
+          "message": "qa-human-parity-snapshot"
+        },
+        {
+          "revision": 23,
+          "timeSeconds": 0,
+          "type": "asset.ready",
+          "message": "human-cottage: port-cottage"
+        },
+        {
+          "revision": 24,
+          "timeSeconds": 0,
+          "type": "world.created",
+          "message": "Created Human + Agent Workshop"
+        },
+        {
+          "revision": 24,
+          "timeSeconds": 0,
+          "type": "asset.ready",
+          "message": "human-cottage: port-cottage"
+        },
+        {
+          "revision": 25,
+          "timeSeconds": 0,
+          "type": "world.created",
+          "message": "Created qa-legacy-ui (Legacy Import)"
+        },
+        {
+          "revision": 26,
+          "timeSeconds": 0,
+          "type": "world.created",
+          "message": "Created Human + Agent Workshop"
+        },
+        {
+          "revision": 26,
+          "timeSeconds": 0,
+          "type": "asset.ready",
+          "message": "human-cottage: port-cottage"
+        }
+      ],
+      "recentCommits": [
+        {
+          "id": "human-reviewed-change",
+          "worldId": "human-agent-parity",
+          "actor": {
+            "id": "studio-human",
+            "label": "Studio Human",
+            "kind": "human"
+          },
+          "intent": "Mark the transaction orb as reviewed in the shared world",
+          "revision": 21,
+          "commandCount": 1,
+          "timeSeconds": 0
+        }
+      ],
+      "savedWorlds": [
+        "qa-human-parity-snapshot"
+      ],
+      "capabilities": [
+        "world.create",
+        "world.clear",
+        "entity.spawn",
+        "entity.update",
+        "entity.remove",
+        "entity.model",
+        "entity.agent-avatar",
+        "asset.list",
+        "material.texture",
+        "texture.list",
+        "physics.rigid-body",
+        "spline.path",
+        "behavior.follow-spline",
+        "behavior.attach",
+        "behavior.detach",
+        "interaction.trigger",
+        "interaction.impulse",
+        "prefab.list",
+        "prefab.spawn",
+        "starter.list",
+        "starter.load",
+        "scene.query",
+        "scene.observe",
+        "scene.select",
+        "transaction.atomic",
+        "transaction.undo",
+        "collaboration.commit",
+        "collaboration.history",
+        "time.pause",
+        "time.step",
+        "snapshot.export",
+        "snapshot.save",
+        "snapshot.load",
+        "level.tiles",
+        "level.list",
+        "level.create",
+        "level.remove",
+        "level.open",
+        "level.query-region",
+        "level.patch",
+        "level.fill",
+        "level.resize",
+        "level.transaction",
+        "level.undo",
+        "level.ascii.import",
+        "level.ascii.export",
+        "level.play"
+      ]
+    },
+    "text": {
+      "schema": "graphysx.agent-world-state/v2",
+      "apiVersion": "2.0",
+      "world": {
+        "id": "human-agent-parity",
+        "label": "Human + Agent Workshop"
+      },
+      "revision": 27,
+      "elapsedSeconds": 0,
+      "paused": true,
+      "entityCount": 7,
+      "selectedIds": [
+        "human-crate"
+      ],
+      "environment": {
+        "background": "#071522",
+        "ground": {
+          "visible": true,
+          "size": 32,
+          "color": "#102d33",
+          "grid": true,
+          "gridColor": "#36bfc4"
+        },
+        "physics": {
+          "gravity": [
+            0,
+            -9.81,
+            0
+          ]
+        }
+      },
+      "bounds": {
+        "minimum": [
+          -5,
+          0,
+          -2
+        ],
+        "maximum": [
+          4.5,
+          6,
+          4
+        ]
+      },
+      "entities": [
+        {
+          "id": "human-transaction-orb",
+          "label": "Transaction Orb",
+          "type": "sphere",
+          "parentId": null,
+          "position": [
+            0,
+            4,
+            2
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#b08cff",
+            "emissive": "#071f23",
+            "emissiveIntensity": 0.3,
+            "roughness": 0.55,
+            "metalness": 0.08,
+            "opacity": 1,
+            "wireframe": false,
+            "texture": null
+          },
+          "geometry": {
+            "width": 1,
+            "height": 1,
+            "depth": 1,
+            "radius": 0.65,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 1,
+          "distance": 0,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [
+            "human-authored",
+            "json-transaction",
+            "human-reviewed"
+          ],
+          "behaviors": [],
+          "interactions": [],
+          "physics": null,
+          "path": null,
+          "asset": null,
+          "agent": null
+        },
+        {
+          "id": "human-guide",
+          "label": "Shared Spatial Guide",
+          "type": "agent",
+          "parentId": null,
+          "position": [
+            -1,
+            0,
+            4
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#ffffff",
+            "emissive": "#071f23",
+            "emissiveIntensity": 0.3,
+            "roughness": 0.55,
+            "metalness": 0.08,
+            "opacity": 1,
+            "wireframe": false,
+            "texture": {
+              "id": "abstract-cubes",
+              "repeat": [
+                1,
+                1
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "rotationDegrees": 0
+            }
+          },
+          "geometry": {
+            "width": 1,
+            "height": 2.1,
+            "depth": 1,
+            "radius": 0.5,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 1,
+          "distance": 0,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [
+            "human-authored",
+            "agent-avatar",
+            "guide"
+          ],
+          "behaviors": [],
+          "interactions": [],
+          "physics": null,
+          "path": null,
+          "asset": null,
+          "agent": {
+            "role": "spatial interpreter",
+            "status": "ready to collaborate",
+            "perceptionRadius": 9,
+            "capabilities": [
+              "observe",
+              "explain",
+              "interact"
+            ]
+          }
+        },
+        {
+          "id": "human-lamp",
+          "label": "Shared Cyan Lamp",
+          "type": "point-light",
+          "parentId": null,
+          "position": [
+            3,
+            5,
+            2
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#42dcff",
+            "emissive": "#071f23",
+            "emissiveIntensity": 0.3,
+            "roughness": 0.55,
+            "metalness": 0.08,
+            "opacity": 1,
+            "wireframe": false,
+            "texture": null
+          },
+          "geometry": {
+            "width": 1,
+            "height": 1,
+            "depth": 1,
+            "radius": 0.5,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 6.5,
+          "distance": 18,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [
+            "human-authored",
+            "lighting",
+            "interactive-target"
+          ],
+          "behaviors": [],
+          "interactions": [],
+          "physics": null,
+          "path": null,
+          "asset": null,
+          "agent": null
+        },
+        {
+          "id": "human-path",
+          "label": "Shared Flight Path",
+          "type": "spline",
+          "parentId": null,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#78f2c5",
+            "emissive": "#071f23",
+            "emissiveIntensity": 0.3,
+            "roughness": 0.55,
+            "metalness": 0.08,
+            "opacity": 1,
+            "wireframe": false,
+            "texture": null
+          },
+          "geometry": {
+            "width": 1,
+            "height": 1,
+            "depth": 1,
+            "radius": 0.5,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 1,
+          "distance": 0,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [
+            "human-authored",
+            "navigation",
+            "spline"
+          ],
+          "behaviors": [],
+          "interactions": [],
+          "physics": null,
+          "path": {
+            "pointCount": 4,
+            "closed": true
+          },
+          "asset": null,
+          "agent": null
+        },
+        {
+          "id": "human-cottage",
+          "label": "Recovered Cottage",
+          "type": "model",
+          "parentId": null,
+          "position": [
+            -5,
+            0,
+            -2
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#7de6c3",
+            "emissive": "#071f23",
+            "emissiveIntensity": 0.3,
+            "roughness": 0.55,
+            "metalness": 0.08,
+            "opacity": 1,
+            "wireframe": false,
+            "texture": null
+          },
+          "geometry": {
+            "width": 5,
+            "height": 4,
+            "depth": 4,
+            "radius": 0.5,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 1,
+          "distance": 0,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [
+            "human-authored",
+            "archive-model"
+          ],
+          "behaviors": [],
+          "interactions": [],
+          "physics": {
+            "mode": "static",
+            "mass": 0,
+            "material": "wall",
+            "linearVelocity": [
+              0,
+              0,
+              0
+            ],
+            "angularVelocity": [
+              0,
+              0,
+              0
+            ],
+            "sleeping": false
+          },
+          "path": null,
+          "asset": {
+            "id": "port-cottage",
+            "url": "/assets/dominus-gallery/meshes/port_cottage1.json",
+            "format": "graphysx-mesh-json",
+            "fitSize": 5.5,
+            "status": "ready"
+          },
+          "agent": null
+        },
+        {
+          "id": "human-crate",
+          "label": "Shared Physics Crate",
+          "type": "box",
+          "parentId": null,
+          "position": [
+            4.5,
+            6,
+            -2
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#ffffff",
+            "emissive": "#071f23",
+            "emissiveIntensity": 0.3,
+            "roughness": 0.35,
+            "metalness": 0.7,
+            "opacity": 1,
+            "wireframe": false,
+            "texture": {
+              "id": "eroded-metal",
+              "repeat": [
+                1,
+                1
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "rotationDegrees": 0
+            }
+          },
+          "geometry": {
+            "width": 1.8,
+            "height": 1.2,
+            "depth": 1.4,
+            "radius": 0.5,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 1,
+          "distance": 0,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [
+            "human-authored",
+            "gameplay",
+            "physics",
+            "agent-visible"
+          ],
+          "behaviors": [],
+          "interactions": [
+            {
+              "id": "interaction-001",
+              "label": "Toggle shared lamp",
+              "type": "toggle-visibility",
+              "targetIds": [
+                "human-lamp"
+              ]
+            },
+            {
+              "id": "interaction-002",
+              "label": "Nudge the shared crate",
+              "type": "apply-impulse",
+              "targetIds": [
+                "human-crate"
+              ],
+              "impulse": [
+                2,
+                3,
+                0
+              ]
+            }
+          ],
+          "physics": {
+            "mode": "dynamic",
+            "mass": 2.5,
+            "material": "ball",
+            "linearVelocity": [
+              0.5,
+              1,
+              -0.25
+            ],
+            "angularVelocity": [
+              0,
+              0,
+              0
+            ],
+            "sleeping": false
+          },
+          "path": null,
+          "asset": null,
+          "agent": null
+        },
+        {
+          "id": "workshop-ambient",
+          "label": "workshop-ambient",
+          "type": "ambient-light",
+          "parentId": null,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#b6ddff",
+            "emissive": "#071f23",
+            "emissiveIntensity": 0.3,
+            "roughness": 0.55,
+            "metalness": 0.08,
+            "opacity": 1,
+            "wireframe": false,
+            "texture": null
+          },
+          "geometry": {
+            "width": 1,
+            "height": 1,
+            "depth": 1,
+            "radius": 0.5,
+            "tube": 0.12,
+            "radialSegments": 24
+          },
+          "intensity": 0.8,
+          "distance": 0,
+          "visible": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "tags": [
+            "lighting",
+            "human-authored"
+          ],
+          "behaviors": [],
+          "interactions": [],
+          "physics": null,
+          "path": null,
+          "asset": null,
+          "agent": null
+        }
+      ],
+      "recentEvents": [
+        {
+          "revision": 21,
+          "timeSeconds": 0,
+          "type": "asset.ready",
+          "message": "human-cottage: port-cottage"
+        },
+        {
+          "revision": 21,
+          "timeSeconds": 0,
+          "type": "snapshot.saved",
+          "message": "qa-human-parity-snapshot"
+        },
+        {
+          "revision": 22,
+          "timeSeconds": 0,
+          "type": "world.created",
+          "message": "Created Untitled Agent World"
+        },
+        {
+          "revision": 23,
+          "timeSeconds": 0,
+          "type": "world.created",
+          "message": "Created Human + Agent Workshop"
+        },
+        {
+          "revision": 23,
+          "timeSeconds": 0,
+          "type": "snapshot.loaded",
+          "message": "qa-human-parity-snapshot"
+        },
+        {
+          "revision": 23,
+          "timeSeconds": 0,
+          "type": "asset.ready",
+          "message": "human-cottage: port-cottage"
+        },
+        {
+          "revision": 24,
+          "timeSeconds": 0,
+          "type": "world.created",
+          "message": "Created Human + Agent Workshop"
+        },
+        {
+          "revision": 24,
+          "timeSeconds": 0,
+          "type": "asset.ready",
+          "message": "human-cottage: port-cottage"
+        },
+        {
+          "revision": 25,
+          "timeSeconds": 0,
+          "type": "world.created",
+          "message": "Created qa-legacy-ui (Legacy Import)"
+        },
+        {
+          "revision": 26,
+          "timeSeconds": 0,
+          "type": "world.created",
+          "message": "Created Human + Agent Workshop"
+        },
+        {
+          "revision": 26,
+          "timeSeconds": 0,
+          "type": "asset.ready",
+          "message": "human-cottage: port-cottage"
+        },
+        {
+          "revision": 27,
+          "timeSeconds": 0,
+          "type": "transaction.committed",
+          "message": "1 command"
+        }
+      ],
+      "recentCommits": [
+        {
+          "id": "human-reviewed-change",
+          "worldId": "human-agent-parity",
+          "actor": {
+            "id": "studio-human",
+            "label": "Studio Human",
+            "kind": "human"
+          },
+          "intent": "Mark the transaction orb as reviewed in the shared world",
+          "revision": 21,
+          "commandCount": 1,
+          "timeSeconds": 0
+        }
+      ],
+      "savedWorlds": [
+        "qa-human-parity-snapshot"
+      ],
+      "capabilities": [
+        "world.create",
+        "world.clear",
+        "entity.spawn",
+        "entity.update",
+        "entity.remove",
+        "entity.model",
+        "entity.agent-avatar",
+        "asset.list",
+        "material.texture",
+        "texture.list",
+        "physics.rigid-body",
+        "spline.path",
+        "behavior.follow-spline",
+        "behavior.attach",
+        "behavior.detach",
+        "interaction.trigger",
+        "interaction.impulse",
+        "prefab.list",
+        "prefab.spawn",
+        "starter.list",
+        "starter.load",
+        "scene.query",
+        "scene.observe",
+        "scene.select",
+        "transaction.atomic",
+        "transaction.undo",
+        "collaboration.commit",
+        "collaboration.history",
+        "time.pause",
+        "time.step",
+        "snapshot.export",
+        "snapshot.save",
+        "snapshot.load",
+        "level.tiles",
+        "level.list",
+        "level.create",
+        "level.remove",
+        "level.open",
+        "level.query-region",
+        "level.patch",
+        "level.fill",
+        "level.resize",
+        "level.transaction",
+        "level.undo",
+        "level.ascii.import",
+        "level.ascii.export",
+        "level.play"
+      ]
+    }
+  },
+  "errors": [],
+  "summary": {
+    "passed": 73,
+    "failed": 0,
+    "errors": 0
+  }
+}

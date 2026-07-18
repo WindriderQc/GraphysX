@@ -1,0 +1,2079 @@
+{
+  "url": "http://127.0.0.1:4184/dominus-asset-gallery-preview.html",
+  "assertions": [
+    {
+      "pass": true,
+      "message": "Gallery exposes 65 unique assets with the exact 63/2 recovery boundary"
+    },
+    {
+      "pass": true,
+      "message": "All seven proven family counts are exact"
+    },
+    {
+      "pass": true,
+      "message": "Gallery states that no authored composition survives"
+    },
+    {
+      "pass": true,
+      "message": "Gallery explicitly rejects a village/world interpretation"
+    },
+    {
+      "pass": true,
+      "message": "Structured state keeps local coordinates separate from composition"
+    },
+    {
+      "pass": true,
+      "message": "bush_01 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "bush_01 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "bush_01 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "bush_01 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "bush_02 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "bush_02 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "bush_02 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "bush_02 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "bush_03 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "bush_03 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "bush_03 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "bush_03 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "bush_04 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "bush_04 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "bush_04 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "bush_04 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "camp1_post is selectable"
+    },
+    {
+      "pass": true,
+      "message": "camp1_post loads without error"
+    },
+    {
+      "pass": true,
+      "message": "camp1_post renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "camp1_post browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "camp1_tent1 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "camp1_tent1 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "camp1_tent1 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "camp1_tent1 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "camp1_tent2 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "camp1_tent2 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "camp1_tent2 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "camp1_tent2 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "camp1_tent3 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "camp1_tent3 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "camp1_tent3 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "camp1_tent3 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "doman_m is selectable"
+    },
+    {
+      "pass": true,
+      "message": "doman_m loads without error"
+    },
+    {
+      "pass": true,
+      "message": "doman_m renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "doman_m browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "grass_flower01 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "grass_flower01 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "grass_flower01 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "grass_flower01 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "grass_flower02 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "grass_flower02 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "grass_flower02 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "grass_flower02 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "grass_reed01 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "grass_reed01 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "grass_reed01 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "grass_reed01 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "grass_reed02 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "grass_reed02 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "grass_reed02 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "grass_reed02 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "grass_reed03 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "grass_reed03 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "grass_reed03 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "grass_reed03 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "ishad_f is selectable"
+    },
+    {
+      "pass": true,
+      "message": "ishad_f loads without error"
+    },
+    {
+      "pass": true,
+      "message": "ishad_f renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "ishad_f browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_const1 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_const1 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_const1 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_const1 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_const2 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_const2 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_const2 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_const2 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_cottage1 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_cottage1 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_cottage1 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_cottage1 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_cottage2 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_cottage2 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_cottage2 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_cottage2 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_cottage4 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_cottage4 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_cottage4 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_cottage4 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_cottage5 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_cottage5 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_cottage5 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_cottage5 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_crateshed is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_crateshed loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_crateshed receives an inspection label and no proxy geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_fishhouse is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_fishhouse loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_fishhouse renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_fishhouse browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_house01 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_house01 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_house01 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_house01 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_hut is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_hut loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_hut renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_hut browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_hut01 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_hut01 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_hut01 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_hut01 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_hut02 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_hut02 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_hut02 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_hut02 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_hut03 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_hut03 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_hut03 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_hut03 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_hut04 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_hut04 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_hut04 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_hut04 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_hut05 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_hut05 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_hut05 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_hut05 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_inn01 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_inn01 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_inn01 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_inn01 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_lighthouse is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_lighthouse loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_lighthouse renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_lighthouse browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_maindocks is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_maindocks loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_maindocks renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_maindocks browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_market is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_market loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_market renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_market browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_minidock is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_minidock loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_minidock renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_minidock browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_pub1 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_pub1 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_pub1 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_pub1 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_shed1 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_shed1 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_shed1 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_shed1 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_shippiece is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_shippiece loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_shippiece renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_shippiece browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_shipyard is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_shipyard loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_shipyard renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_shipyard browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_smalldocks is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_smalldocks loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_smalldocks renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_smalldocks browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_sunkship is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_sunkship loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_sunkship renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_sunkship browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_weathervain is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_weathervain loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_weathervain renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_weathervain browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "port_windmill is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_windmill loads without error"
+    },
+    {
+      "pass": true,
+      "message": "port_windmill renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_windmill browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "renzok_m is selectable"
+    },
+    {
+      "pass": true,
+      "message": "renzok_m loads without error"
+    },
+    {
+      "pass": true,
+      "message": "renzok_m renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "renzok_m browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "renzok is selectable"
+    },
+    {
+      "pass": true,
+      "message": "renzok loads without error"
+    },
+    {
+      "pass": true,
+      "message": "renzok renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "renzok browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "renzok1 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "renzok1 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "renzok1 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "renzok1 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "renzokscale is selectable"
+    },
+    {
+      "pass": true,
+      "message": "renzokscale loads without error"
+    },
+    {
+      "pass": true,
+      "message": "renzokscale receives an inspection label and no proxy geometry"
+    },
+    {
+      "pass": true,
+      "message": "scale_renzok is selectable"
+    },
+    {
+      "pass": true,
+      "message": "scale_renzok loads without error"
+    },
+    {
+      "pass": true,
+      "message": "scale_renzok renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "scale_renzok browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "scale_renzok1 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "scale_renzok1 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "scale_renzok1 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "scale_renzok1 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "shield is selectable"
+    },
+    {
+      "pass": true,
+      "message": "shield loads without error"
+    },
+    {
+      "pass": true,
+      "message": "shield renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "shield browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "shield1 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "shield1 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "shield1 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "shield1 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "sword is selectable"
+    },
+    {
+      "pass": true,
+      "message": "sword loads without error"
+    },
+    {
+      "pass": true,
+      "message": "sword renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "sword browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "sword1 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "sword1 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "sword1 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "sword1 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "tree_dead01 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "tree_dead01 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "tree_dead01 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "tree_dead01 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "tree_dead02 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "tree_dead02 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "tree_dead02 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "tree_dead02 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "tree_dead03 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "tree_dead03 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "tree_dead03 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "tree_dead03 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "tree_green01 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "tree_green01 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "tree_green01 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "tree_green01 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "tree_green02 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "tree_green02 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "tree_green02 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "tree_green02 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "tree_green03 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "tree_green03 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "tree_green03 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "tree_green03 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "tree_green04 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "tree_green04 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "tree_green04 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "tree_green04 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "tree_green05 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "tree_green05 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "tree_green05 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "tree_green05 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "tree_green06 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "tree_green06 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "tree_green06 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "tree_green06 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "tree_green07 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "tree_green07 loads without error"
+    },
+    {
+      "pass": true,
+      "message": "tree_green07 renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "tree_green07 browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "zokshield is selectable"
+    },
+    {
+      "pass": true,
+      "message": "zokshield loads without error"
+    },
+    {
+      "pass": true,
+      "message": "zokshield renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "zokshield browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "zoksword is selectable"
+    },
+    {
+      "pass": true,
+      "message": "zoksword loads without error"
+    },
+    {
+      "pass": true,
+      "message": "zoksword renders its decoded source geometry"
+    },
+    {
+      "pass": true,
+      "message": "zoksword browser counts match its manifest"
+    },
+    {
+      "pass": true,
+      "message": "bush filter is accepted"
+    },
+    {
+      "pass": true,
+      "message": "bush filter exposes exactly 4 assets"
+    },
+    {
+      "pass": true,
+      "message": "camp filter is accepted"
+    },
+    {
+      "pass": true,
+      "message": "camp filter exposes exactly 4 assets"
+    },
+    {
+      "pass": true,
+      "message": "character filter is accepted"
+    },
+    {
+      "pass": true,
+      "message": "character filter exposes exactly 8 assets"
+    },
+    {
+      "pass": true,
+      "message": "grass filter is accepted"
+    },
+    {
+      "pass": true,
+      "message": "grass filter exposes exactly 5 assets"
+    },
+    {
+      "pass": true,
+      "message": "port filter is accepted"
+    },
+    {
+      "pass": true,
+      "message": "port filter exposes exactly 28 assets"
+    },
+    {
+      "pass": true,
+      "message": "weapon filter is accepted"
+    },
+    {
+      "pass": true,
+      "message": "weapon filter exposes exactly 6 assets"
+    },
+    {
+      "pass": true,
+      "message": "tree filter is accepted"
+    },
+    {
+      "pass": true,
+      "message": "tree filter exposes exactly 10 assets"
+    },
+    {
+      "pass": true,
+      "message": "Binary-only status filter is accepted"
+    },
+    {
+      "pass": true,
+      "message": "Binary filter contains exactly two label-only records"
+    },
+    {
+      "pass": true,
+      "message": "renzokscale binary record is selectable"
+    },
+    {
+      "pass": true,
+      "message": "renzokscale remains label-only"
+    },
+    {
+      "pass": true,
+      "message": "port_crateshed binary record is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_crateshed remains label-only"
+    },
+    {
+      "pass": true,
+      "message": "A family with no unsupported entries remains selectable"
+    },
+    {
+      "pass": true,
+      "message": "Impossible family/status combinations fall back to the selected family instead of showing stale geometry"
+    },
+    {
+      "pass": true,
+      "message": "Unsupported can be selected again from a recovered-only family"
+    },
+    {
+      "pass": true,
+      "message": "Impossible status/family combinations fall back to all families instead of showing stale geometry"
+    },
+    {
+      "pass": true,
+      "message": "port_maindocks exact text-X payload is selectable"
+    },
+    {
+      "pass": true,
+      "message": "port_maindocks exact geometry/material counts are preserved"
+    },
+    {
+      "pass": true,
+      "message": "doman_m character is selectable"
+    },
+    {
+      "pass": true,
+      "message": "Character family renders as a local asset, not a placed actor"
+    },
+    {
+      "pass": true,
+      "message": "tree_green02 is selectable"
+    },
+    {
+      "pass": true,
+      "message": "Tree uses both decoded source texture groups"
+    },
+    {
+      "pass": true,
+      "message": "Deterministic orbit API changes the inspection camera"
+    },
+    {
+      "pass": true,
+      "message": "Deterministic zoom API changes the inspection camera"
+    },
+    {
+      "pass": true,
+      "message": "Deterministic time advance does not mutate asset selection"
+    },
+    {
+      "pass": true,
+      "message": "Reset restores the complete gallery"
+    },
+    {
+      "pass": true,
+      "message": "Gallery browser console and page errors remain clean"
+    }
+  ],
+  "states": {
+    "final": {
+      "id": "dominus-asset-gallery",
+      "classification": "source asset family only; no authored composition survives",
+      "ready": true,
+      "loadStatus": "ready",
+      "loadError": null,
+      "disposed": false,
+      "assetCount": 65,
+      "recoveredCount": 63,
+      "unsupportedCount": 2,
+      "familyCounts": {
+        "bush": 4,
+        "camp": 4,
+        "character": 8,
+        "grass": 5,
+        "port": 28,
+        "weapon": 6,
+        "tree": 10
+      },
+      "familyFilter": "all",
+      "statusFilter": "all",
+      "matchingCount": 65,
+      "selectedIndex": 0,
+      "selectedId": "bush_01",
+      "selectedName": "bush_01.x",
+      "selectedFamily": "bush",
+      "selectedStatus": "recovered-text-x",
+      "selectedSource": "Yanik C++ BCKUP/Media/Models/Dominus Art/bush_01.x",
+      "selectedSha256": "373FB0495DF59489FB913B45241FD814C8F5EAD98FDF165E3F32C345E964BA79",
+      "sourceFormat": "xof 0302txt 0032",
+      "sourceBounds": {
+        "min": [
+          -36.744211,
+          -2.932872,
+          -28.024242
+        ],
+        "max": [
+          34.334459,
+          46.97108,
+          36.92145
+        ],
+        "size": [
+          71.07867,
+          49.903952,
+          64.945692
+        ]
+      },
+      "sourceMeshCount": 1,
+      "sourceVertexCount": 20,
+      "sourceTriangleCount": 10,
+      "sourceMaterialGroupCount": 1,
+      "textureReferences": [
+        "bush1.tga"
+      ],
+      "renderedGeometry": true,
+      "inspectionMarkerOnly": false,
+      "displayNormalization": {
+        "inspectionOnly": true,
+        "sourceCenter": [
+          -1.2048759999999987,
+          22.019104,
+          4.448604
+        ],
+        "uniformScale": 0.11958580541813739,
+        "handedness": "source +Z displayed as web -Z"
+      },
+      "orbitAngleRadians": 0.48869219055841207,
+      "zoom": 1,
+      "cameraPosition": [
+        6.197024628773756,
+        4.4,
+        11.654908225737836
+      ],
+      "lookAt": [
+        0,
+        0,
+        0
+      ],
+      "coordinateSystem": "Exact local DirectX model coordinates are centered and uniformly scaled for inspection; no inter-asset coordinate system survives.",
+      "assets": [
+        {
+          "index": 0,
+          "id": "bush_01",
+          "name": "bush_01.x",
+          "family": "bush",
+          "status": "recovered-text-x",
+          "vertices": 20,
+          "triangles": 10,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": true
+        },
+        {
+          "index": 1,
+          "id": "bush_02",
+          "name": "bush_02.x",
+          "family": "bush",
+          "status": "recovered-text-x",
+          "vertices": 20,
+          "triangles": 10,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 2,
+          "id": "bush_03",
+          "name": "bush_03.x",
+          "family": "bush",
+          "status": "recovered-text-x",
+          "vertices": 20,
+          "triangles": 10,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 3,
+          "id": "bush_04",
+          "name": "bush_04.x",
+          "family": "bush",
+          "status": "recovered-text-x",
+          "vertices": 32,
+          "triangles": 16,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 4,
+          "id": "camp1_post",
+          "name": "camp1_post.x",
+          "family": "camp",
+          "status": "recovered-text-x",
+          "vertices": 1932,
+          "triangles": 1264,
+          "materialGroups": 69,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 5,
+          "id": "camp1_tent1",
+          "name": "camp1_tent1.x",
+          "family": "camp",
+          "status": "recovered-text-x",
+          "vertices": 624,
+          "triangles": 360,
+          "materialGroups": 10,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 6,
+          "id": "camp1_tent2",
+          "name": "camp1_tent2.x",
+          "family": "camp",
+          "status": "recovered-text-x",
+          "vertices": 365,
+          "triangles": 224,
+          "materialGroups": 13,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 7,
+          "id": "camp1_tent3",
+          "name": "camp1_tent3.x",
+          "family": "camp",
+          "status": "recovered-text-x",
+          "vertices": 798,
+          "triangles": 540,
+          "materialGroups": 31,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 8,
+          "id": "doman_m",
+          "name": "doman_m.x",
+          "family": "character",
+          "status": "recovered-text-x",
+          "vertices": 2006,
+          "triangles": 1754,
+          "materialGroups": 8,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 9,
+          "id": "grass_flower01",
+          "name": "grass_flower01.x",
+          "family": "grass",
+          "status": "recovered-text-x",
+          "vertices": 28,
+          "triangles": 18,
+          "materialGroups": 2,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 10,
+          "id": "grass_flower02",
+          "name": "grass_flower02.x",
+          "family": "grass",
+          "status": "recovered-text-x",
+          "vertices": 28,
+          "triangles": 18,
+          "materialGroups": 2,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 11,
+          "id": "grass_reed01",
+          "name": "grass_reed01.x",
+          "family": "grass",
+          "status": "recovered-text-x",
+          "vertices": 36,
+          "triangles": 24,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 12,
+          "id": "grass_reed02",
+          "name": "grass_reed02.x",
+          "family": "grass",
+          "status": "recovered-text-x",
+          "vertices": 52,
+          "triangles": 32,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 13,
+          "id": "grass_reed03",
+          "name": "grass_reed03.x",
+          "family": "grass",
+          "status": "recovered-text-x",
+          "vertices": 16,
+          "triangles": 8,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 14,
+          "id": "ishad_f",
+          "name": "ishad_F.X",
+          "family": "character",
+          "status": "recovered-text-x",
+          "vertices": 1879,
+          "triangles": 1616,
+          "materialGroups": 4,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 15,
+          "id": "port_const1",
+          "name": "port_const1.x",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 446,
+          "triangles": 228,
+          "materialGroups": 18,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 16,
+          "id": "port_const2",
+          "name": "port_const2.x",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 688,
+          "triangles": 352,
+          "materialGroups": 27,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 17,
+          "id": "port_cottage1",
+          "name": "port_cottage1.x",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 197,
+          "triangles": 138,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 18,
+          "id": "port_cottage2",
+          "name": "port_cottage2.x",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 205,
+          "triangles": 132,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 19,
+          "id": "port_cottage4",
+          "name": "port_cottage4.x",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 315,
+          "triangles": 170,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 20,
+          "id": "port_cottage5",
+          "name": "port_cottage5.x",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 252,
+          "triangles": 138,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 21,
+          "id": "port_crateshed",
+          "name": "port_crateshed.X",
+          "family": "port",
+          "status": "unsupported-binary-x",
+          "vertices": 0,
+          "triangles": 0,
+          "materialGroups": 0,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 22,
+          "id": "port_fishhouse",
+          "name": "port_fishhouse.x",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 394,
+          "triangles": 222,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 23,
+          "id": "port_house01",
+          "name": "port_house01.x",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 384,
+          "triangles": 228,
+          "materialGroups": 2,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 24,
+          "id": "port_hut",
+          "name": "port_hut.x",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 333,
+          "triangles": 190,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 25,
+          "id": "port_hut01",
+          "name": "port_hut01.X",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 345,
+          "triangles": 190,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 26,
+          "id": "port_hut02",
+          "name": "port_hut02.X",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 202,
+          "triangles": 138,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 27,
+          "id": "port_hut03",
+          "name": "port_hut03.X",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 246,
+          "triangles": 144,
+          "materialGroups": 2,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 28,
+          "id": "port_hut04",
+          "name": "port_hut04.X",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 390,
+          "triangles": 182,
+          "materialGroups": 2,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 29,
+          "id": "port_hut05",
+          "name": "port_hut05.X",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 302,
+          "triangles": 132,
+          "materialGroups": 2,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 30,
+          "id": "port_inn01",
+          "name": "port_inn01.x",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 1071,
+          "triangles": 600,
+          "materialGroups": 3,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 31,
+          "id": "port_lighthouse",
+          "name": "port_lighthouse.x",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 514,
+          "triangles": 296,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 32,
+          "id": "port_maindocks",
+          "name": "port_maindocks.X",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 6384,
+          "triangles": 3840,
+          "materialGroups": 15,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 33,
+          "id": "port_market",
+          "name": "port_market.X",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 684,
+          "triangles": 517,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 34,
+          "id": "port_minidock",
+          "name": "port_MiniDock.x",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 712,
+          "triangles": 496,
+          "materialGroups": 16,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 35,
+          "id": "port_pub1",
+          "name": "port_pub1.X",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 1500,
+          "triangles": 1138,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 36,
+          "id": "port_shed1",
+          "name": "port_shed1.x",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 290,
+          "triangles": 176,
+          "materialGroups": 4,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 37,
+          "id": "port_shippiece",
+          "name": "port_shippiece.x",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 509,
+          "triangles": 262,
+          "materialGroups": 2,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 38,
+          "id": "port_shipyard",
+          "name": "port_shipyard.x",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 3846,
+          "triangles": 2442,
+          "materialGroups": 18,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 39,
+          "id": "port_smalldocks",
+          "name": "port_smalldocks.x",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 1144,
+          "triangles": 460,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 40,
+          "id": "port_sunkship",
+          "name": "port_sunkship.X",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 566,
+          "triangles": 262,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 41,
+          "id": "port_weathervain",
+          "name": "port_weathervain.x",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 798,
+          "triangles": 377,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 42,
+          "id": "port_windmill",
+          "name": "port_windmill.x",
+          "family": "port",
+          "status": "recovered-text-x",
+          "vertices": 877,
+          "triangles": 410,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 43,
+          "id": "renzok_m",
+          "name": "renzok_m.x",
+          "family": "character",
+          "status": "recovered-text-x",
+          "vertices": 1508,
+          "triangles": 1134,
+          "materialGroups": 3,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 44,
+          "id": "renzok",
+          "name": "renzok.x",
+          "family": "character",
+          "status": "recovered-text-x",
+          "vertices": 1508,
+          "triangles": 1134,
+          "materialGroups": 3,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 45,
+          "id": "renzok1",
+          "name": "renzok1.x",
+          "family": "character",
+          "status": "recovered-text-x",
+          "vertices": 1595,
+          "triangles": 1134,
+          "materialGroups": 3,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 46,
+          "id": "renzokscale",
+          "name": "renzokscale.X",
+          "family": "character",
+          "status": "unsupported-binary-x",
+          "vertices": 0,
+          "triangles": 0,
+          "materialGroups": 0,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 47,
+          "id": "scale_renzok",
+          "name": "scale_Renzok.x",
+          "family": "character",
+          "status": "recovered-text-x",
+          "vertices": 1480,
+          "triangles": 1118,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 48,
+          "id": "scale_renzok1",
+          "name": "scale_renzok1.x",
+          "family": "character",
+          "status": "recovered-text-x",
+          "vertices": 1510,
+          "triangles": 1134,
+          "materialGroups": 3,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 49,
+          "id": "shield",
+          "name": "shield.x",
+          "family": "weapon",
+          "status": "recovered-text-x",
+          "vertices": 98,
+          "triangles": 52,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 50,
+          "id": "shield1",
+          "name": "shield1.x",
+          "family": "weapon",
+          "status": "recovered-text-x",
+          "vertices": 125,
+          "triangles": 52,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 51,
+          "id": "sword",
+          "name": "sword.x",
+          "family": "weapon",
+          "status": "recovered-text-x",
+          "vertices": 153,
+          "triangles": 93,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 52,
+          "id": "sword1",
+          "name": "sword1.x",
+          "family": "weapon",
+          "status": "recovered-text-x",
+          "vertices": 208,
+          "triangles": 93,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 53,
+          "id": "tree_dead01",
+          "name": "tree_dead01.x",
+          "family": "tree",
+          "status": "recovered-text-x",
+          "vertices": 130,
+          "triangles": 54,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 54,
+          "id": "tree_dead02",
+          "name": "tree_dead02.x",
+          "family": "tree",
+          "status": "recovered-text-x",
+          "vertices": 70,
+          "triangles": 36,
+          "materialGroups": 2,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 55,
+          "id": "tree_dead03",
+          "name": "tree_dead03.x",
+          "family": "tree",
+          "status": "recovered-text-x",
+          "vertices": 94,
+          "triangles": 54,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 56,
+          "id": "tree_green01",
+          "name": "tree_green01.x",
+          "family": "tree",
+          "status": "recovered-text-x",
+          "vertices": 130,
+          "triangles": 54,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 57,
+          "id": "tree_green02",
+          "name": "tree_green02.x",
+          "family": "tree",
+          "status": "recovered-text-x",
+          "vertices": 38,
+          "triangles": 21,
+          "materialGroups": 2,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 58,
+          "id": "tree_green03",
+          "name": "tree_green03.x",
+          "family": "tree",
+          "status": "recovered-text-x",
+          "vertices": 76,
+          "triangles": 48,
+          "materialGroups": 2,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 59,
+          "id": "tree_green04",
+          "name": "tree_green04.x",
+          "family": "tree",
+          "status": "recovered-text-x",
+          "vertices": 76,
+          "triangles": 48,
+          "materialGroups": 2,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 60,
+          "id": "tree_green05",
+          "name": "tree_green05.x",
+          "family": "tree",
+          "status": "recovered-text-x",
+          "vertices": 76,
+          "triangles": 48,
+          "materialGroups": 2,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 61,
+          "id": "tree_green06",
+          "name": "tree_green06.x",
+          "family": "tree",
+          "status": "recovered-text-x",
+          "vertices": 102,
+          "triangles": 53,
+          "materialGroups": 2,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 62,
+          "id": "tree_green07",
+          "name": "tree_green07.x",
+          "family": "tree",
+          "status": "recovered-text-x",
+          "vertices": 76,
+          "triangles": 48,
+          "materialGroups": 2,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 63,
+          "id": "zokshield",
+          "name": "zokshield.x",
+          "family": "weapon",
+          "status": "recovered-text-x",
+          "vertices": 125,
+          "triangles": 52,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        },
+        {
+          "index": 64,
+          "id": "zoksword",
+          "name": "zoksword.x",
+          "family": "weapon",
+          "status": "recovered-text-x",
+          "vertices": 208,
+          "triangles": 93,
+          "materialGroups": 1,
+          "matchesFilter": true,
+          "selected": false
+        }
+      ],
+      "evidence": {
+        "exact": [
+          "All 65 source mesh names, family classifications, byte counts and SHA-256 hashes come from the full Dominus forensic audit.",
+          "Sixty-three text X payloads preserve local frame transforms, vertices, UVs, face-material assignment and every decoded material group.",
+          "All 83 referenced texture filenames resolve; JPG/PNG outputs are byte-identical and TGA files are losslessly decoded to PNG."
+        ],
+        "inspectionOnly": [
+          "The browser centers and uniformly scales one selected local model at a time; that display normalization, camera and lighting are gallery inspection aids.",
+          "Text-X normals are derived at runtime from exact transformed vertices and triangulated faces because source per-face normals are not remapped.",
+          "Textures with at least 5% exact pure RGB magenta use a shader-side compatibility color key while source/output image bytes remain unchanged."
+        ],
+        "absent": [
+          "port_crateshed.X and renzokscale.X are binary DirectX files and receive no decoded or proxy geometry.",
+          "No authored scene composition, inter-asset transforms, camera, spawn, navigation, water, terrain or interaction rules survive.",
+          "This gallery is not a village, port environment, world or gameplay restoration."
+        ]
+      }
+    }
+  },
+  "errors": []
+}

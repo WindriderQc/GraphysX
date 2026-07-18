@@ -1,0 +1,53 @@
+# Lady NightHawk's Enviroboxes! 
+# The skybox object itself is free from AW's Megapath. The textures
+# were made by me, Lady NightHawk, and are copyright by me (Deb Murtagh)
+# all rights reserved. They were made in Terragen 0.9 on June 3, 2004. 
+# They are free for your enjoyment! Contact me at dmurtagh27@hotmail.com 
+# if you need assistance. Please, these comment (#) lines MUST remain! 
+# Thanks to Kathryn Delanuit, FaeLinn, & Insanity for input on skyboxes!
+# This envirobox has no top or bottom as they are not needed.
+
+ModelBegin
+ ProtoBegin cube_0_0
+  Lightsampling Vertex
+  TextureModes Lit Foreshorten
+  Surface 5 1 0
+  Transform 1. 0. 0. 0. 0. 1. 0. 0. 0. 0. 1. 0. 0. 0. 1. 1.
+  Vertex 1. -1. 1. UV 1. 0. Prelight 1 1 1
+  Vertex -1. -1. 1. UV 0. 0. Prelight 1 1 1
+  Vertex -1. -1. -1. UV 0. 1. Prelight 1 1 1
+  Vertex 1. -1. -1. UV 1. 1. Prelight 1 1 1
+  Vertex 1. 1. -1. UV 0. 0. Prelight 1 1 1
+  Vertex 1. -1. -1. UV 0. 1. Prelight 1 1 1
+  Vertex -1. -1. -1. UV 1. 1. Prelight 1 1 1
+  Vertex -1. 1. -1. UV 1. 0. Prelight 1 1 1
+  Vertex 1. 1. 1. UV 1. 0. Prelight 1 1 1
+  Vertex 1. -1. 1. UV 0. 0. Prelight 1 1 1
+  Vertex 1. 1. -1. UV 1. 1. Prelight 1 1 1
+  Vertex -1. 1. 1. UV 1. 1. Prelight 1 1 1
+  Vertex -1. -1. 1. UV 1. 0. Prelight 1 1 1
+  Vertex 1. 1. 1. UV 0. 1. Prelight 1 1 1
+  Vertex -1. 1. 1. UV 1. 0. Prelight 1 1 1
+  Vertex 1. 1. 1. UV 0. 0. Prelight 1 1 1
+  Vertex 1. 1. -1. UV 0. 1. Prelight 1 1 1
+  Vertex -1. 1. -1. UV 1. 1. Prelight 1 1 1
+  Vertex -1. 1. 1. UV 0. 0. Prelight 1 1 1
+  Vertex -1. 1. -1. UV 0. 1. Prelight 1 1 1
+  Color 1. 1. 1.
+  Opacity 1.
+  Textureaddressmode clamp
+  Texture lnhenvfrs6 mask lnhenvfrs6m
+  Quad 7 20 19 13
+  Texture lnhenvrts6 mask lnhenvrts6m
+  Quad 18 17 16 15
+  Texture lnhenvbks6 mask lnhenvbks6m
+  Quad 11 6 10 9
+  Texture lnhenvlts6 mask lnhenvlts6m
+  Quad 4 3 2 1
+ ProtoEnd # cube_0_0
+ ClumpBegin
+  Rotate 1 0 0 -90
+  Scale .1 .1 .1
+  ProtoInstance cube_0_0
+ ClumpEnd
+ModelEnd

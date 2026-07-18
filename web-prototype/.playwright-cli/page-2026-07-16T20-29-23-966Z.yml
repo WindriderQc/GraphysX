@@ -1,0 +1,38 @@
+- generic [ref=e6]:
+  - heading "GRAPHYSX" [level=1] [ref=e7]
+  - paragraph [ref=e8]: "Choose a clear path: play the BallZ tour, explore the recovered experiments, or build a map. Every race is available; progression now tracks mastery instead of blocking content."
+  - generic [ref=e9]:
+    - button "Play BallZ" [ref=e10] [cursor=pointer]
+    - button "Explore Labs" [ref=e11] [cursor=pointer]
+  - generic [ref=e12]:
+    - generic [ref=e13]:
+      - generic [ref=e14]: Choose A Path
+      - generic [ref=e15]:
+        - button "Play BallZ Tour Nine open challenges, medals, records, and a recommended learning path." [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: Play BallZ Tour
+          - generic [ref=e18]: Nine open challenges, medals, records, and a recommended learning path.
+        - button "Explore Archive Labs Scenes, physics, Math Game, CubX, assets, and recovered experiments." [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: Explore Archive Labs
+          - generic [ref=e21]: Scenes, physics, Math Game, CubX, assets, and recovered experiments.
+        - button "Build A BallZ Map Paint a tile map, preview it in 3D, then play the result immediately." [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: Build A BallZ Map
+          - generic [ref=e24]: Paint a tile map, preview it in 3D, then play the result immediately.
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: Tour Progress
+          - strong [ref=e29]: 0 / 9 complete
+        - generic [ref=e30]:
+          - generic [ref=e31]: Career Score
+          - strong [ref=e32]: 0 pts
+      - generic "0% complete" [ref=e33]
+    - article [ref=e35]:
+      - generic [ref=e36]: Recommended Challenge
+      - strong [ref=e37]:
+        - text: Archive Level 1
+        - generic [ref=e38]: Learn camera-relative rolling, jumping, and the two-gate lap.
+    - article [ref=e39]:
+      - generic [ref=e40]: BallZ Controls
+      - strong [ref=e41]:
+        - text: WASD / arrows
+        - generic [ref=e42]: camera-relative roll · drag to orbit · wheel zoom · Space jump

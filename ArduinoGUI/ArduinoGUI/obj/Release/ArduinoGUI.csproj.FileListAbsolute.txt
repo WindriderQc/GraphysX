@@ -1,0 +1,5 @@
+C:\Users\Beayani2\Source\Workspaces\BallZ\BallZ2015\ArduinoGUI\ArduinoGUI\obj\Release\ArduinoGUI.csprojResolveAssemblyReference.cache
+C:\Users\Beayani2\Source\Workspaces\BallZ\BallZ2015\ArduinoGUI\ArduinoGUI\obj\Release\ArduinoGUI.ArduinoGUI.resources
+C:\Users\Beayani2\Source\Workspaces\BallZ\BallZ2015\ArduinoGUI\ArduinoGUI\obj\Release\ArduinoGUI.Properties.Resources.resources
+C:\Users\Beayani2\Source\Workspaces\BallZ\BallZ2015\ArduinoGUI\ArduinoGUI\obj\Release\ArduinoGUI.csproj.GenerateResource.Cache
+C:\Users\Beayani2\Source\Workspaces\BallZ\BallZ2015\ArduinoGUI\ArduinoGUI\bin\Release\ArduinoGUI.exe.config

@@ -1,0 +1,6 @@
+[
+  {
+    "type": "console.error",
+    "text": "THREE.WebGLState: MultiplyBlending requires material.premultipliedAlpha = true"
+  }
+]

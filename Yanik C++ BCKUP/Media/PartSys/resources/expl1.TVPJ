@@ -1,0 +1,9 @@
+<particle-system>
+  <emitter type="billboard" max-particles="100" id="0" size="1" location="0/0/0" direction="0/0/0" directional="True" randomdirectionfactor="1/1/1" power="1" lifetime="1" shape="0" texture="F:\VS.Projects\Machina\MachinaClient\particles\clumpy_blurry.dds" color="1,1,0,1" speed="10" usegravity="False" gravity="0/0/0" alphachange="1" alphablending="4" alphatest="True" alpharef="0" alphadepthwrite="False" boxsize="5/20/5" sphereradius="6" looping="True">
+    <particle-keyframes>
+      <keyframe id="0" key="0" size="0.05/0.05/0.05" color="1,1,0,0" />
+      <keyframe id="1" key="0.4" size="0.05/0.05/0.05" color="1,0,0,1" />
+      <keyframe id="2" key="0.75" size="0.05/0.05/0.05" color="0,0,1,0" />
+    </particle-keyframes>
+  </emitter>
+</particle-system>
